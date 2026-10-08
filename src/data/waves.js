@@ -86,9 +86,9 @@ export const WAVES = [
   // ---- Boss 出场后（相对出场 +4.5 / +8.5 / +12.5 秒，和上一版一样）
   // 掘地虫 28 / 24 / 18（全线压上那波 6）：挂机不躲破土预警，靠它把 idle 胜率压在 70%~90%（seed 1..10 与 11..20 都是 8/10）；
   // good bot 会躲，损失只多 1~2 人。12 / 11 / 8 时 idle 仍 10/10
-  W(88.5, 1040, 1.4, { burster: 40, spitter: 6, crusher: 16, hulk: 2, wing: 13, digger: 20, warden: 3, shieldbug: 8, leaper: 17 }, 'herald.breach'),
-  W(92.5, 1080, 1.5, { burster: 36, crusher: 16, hulk: 2, wing: 14, digger: 17, warden: 3, shieldbug: 8, leaper: 22 }, 'herald.last'),
-  W(96.5, 1224, 3, { burster: 14, spitter: 6, crusher: 12, hulk: 2, wing: 14, digger: 13, warden: 2, shieldbug: 6, leaper: 22 }),
+  W(88.5, 1040, 1.4, { burster: 40, spitter: 6, crusher: 16, hulk: 2, wing: 13, digger: 24, warden: 3, shieldbug: 8, leaper: 17 }, 'herald.breach'),
+  W(92.5, 1080, 1.5, { burster: 36, crusher: 16, hulk: 2, wing: 14, digger: 20, warden: 3, shieldbug: 8, leaper: 22 }, 'herald.last'),
+  W(96.5, 1224, 3, { burster: 14, spitter: 6, crusher: 12, hulk: 2, wing: 14, digger: 15, warden: 2, shieldbug: 6, leaper: 22 }),
 ]
 export const BASE_WAVE_COUNT = WAVES.length
 

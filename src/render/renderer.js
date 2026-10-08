@@ -8,7 +8,7 @@ import { Pass, FullScreenQuad } from 'three/addons/postprocessing/Pass.js'
 import { UnrealBloomPass } from 'three/addons/postprocessing/UnrealBloomPass.js'
 import { ShaderPass } from 'three/addons/postprocessing/ShaderPass.js'
 import { OutputPass } from 'three/addons/postprocessing/OutputPass.js'
-import { buildEnvironment, LANES } from './env.js'
+import { buildEnvironment, LANES, loadTexSafe } from './env.js'
 import { createFX } from './fx.js'
 import { createCameraRig } from './camera.js'
 import { createThemes, THEMES, THEME_IDS } from './themes.js'
@@ -21,7 +21,10 @@ import { createCompanionView } from './companionview.js'
 import { createInspector } from './inspect.js'
 import { createPortraits } from './portrait.js'
 import * as assets from './assets.js'
-import { ASSET_ROOT, assetUrl } from './base.js'
+import { ASSET_ROOT, assetUrl, liteUrl, MOBILE } from './base.js'
+
+// 所有 three 加载器（贴图 / glb / HDRI）都过这里：手机上换成 assets/lite/ 的小尺寸替换件；顺便数一下下载进度给加载页
+THREE.DefaultLoadingManager.setURLModifier(liteUrl)
 
 export const QUALITY = { high: 2.5, mid: 1.6, low: 1.0 }   // 三档只改像素比上限
 // 每档的绘制缓冲像素预算（宽 × 高 × dpr²）：4K 全屏 + 高 dpr 时把像素比往下压，不让 MSAA 半浮点目标涨到几百 MB
@@ -30,6 +33,7 @@ const PIXEL_BUDGET = { high: 2304 * 1296, mid: 1920 * 1080, low: 1280 * 720 }
 const ORDER = ['high', 'mid', 'low']
 const STEP = 1 / 60                                        // 模拟步长（ARCHITECTURE §6）：render(alpha) 的位置插值按它回退
 const MAX_SHOCK = 6
+const COMPILE_TIMEOUT_MS = 6000                             // 一批着色器并行编译最多等这么久（见 compileAll）
 const SHADOW_SIDE = { [THREE.FrontSide]: THREE.BackSide, [THREE.BackSide]: THREE.FrontSide, [THREE.DoubleSide]: THREE.DoubleSide }
 
 function mulberry(a) { return () => { a |= 0; a = (a + 0x6d2b79f5) | 0; let t = Math.imul(a ^ (a >>> 15), 1 | a); t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t; return ((t ^ (t >>> 14)) >>> 0) / 4294967296 } }
@@ -99,12 +103,18 @@ const GradeShader = {
 }
 
 /**
- * opts: { canvas, quality = 'high', theme = 'ash', msaa(默认桌面 4、手机 0), preload(name => bool，默认全部), prewarm(默认 true：预建实例池并预编译着色器), seed, width, height(固定逻辑尺寸；不给就跟随画布的 CSS 尺寸) }
+ * opts: { canvas, quality = 'high', theme = 'ash', msaa(默认桌面 4、手机 0), preload(name => bool，默认全部), prewarm(默认 true：预建实例池并预编译着色器), seed, width, height(固定逻辑尺寸；不给就跟随画布的 CSS 尺寸),
+ *         onProgress({ loaded, total, url }) 下载进度（文件个数）, onStage(名字) 当前在做哪一步（加载页显示用） }
  */
 export async function createRenderer(opts = {}) {
   const canvas = opts.canvas
   const T0 = performance.now(), bootT = { start: Math.round(T0) }, mark = (k) => { bootT[k] = Math.round(performance.now() - T0) }   // 启动各阶段耗时（view.bootTimings，毫秒，相对 createRenderer 开始）
-  const mobile = /Mobi|Android|iPhone|iPad/i.test(navigator.userAgent)
+  const mobile = MOBILE
+  const stage = (k) => { if (opts.onStage) try { opts.onStage(k) } catch (e) { /* 界面的事 */ } }
+  {
+    const M = THREE.DefaultLoadingManager
+    M.onProgress = (url, loaded, total) => { if (opts.onProgress) try { opts.onProgress({ loaded, total, url }) } catch (e) { /* 界面的事 */ } }
+  }
   const renderer = new THREE.WebGLRenderer({ canvas, antialias: false, alpha: false, powerPreference: 'high-performance', stencil: false })
   renderer.toneMapping = THREE.ACESFilmicToneMapping; renderer.toneMappingExposure = 1.0
   renderer.outputColorSpace = THREE.SRGBColorSpace
@@ -157,13 +167,16 @@ export async function createRenderer(opts = {}) {
 
   // ---------------- 场景内容 ----------------
   // 冷启动：首屏模型的下载 / 烘焙和场景搭建并行（原来是先等场景、再一个个烘模型，串行 ≈ 0.4 秒白等）
+  // 粒子图集 / 布防格贴图要等场景搭完才用，但下载先发出去（原来要排在场景素材后面再下，慢网上白等 1~2 秒）；之后的加载走浏览器缓存
+  for (const f of ['ui/tex/particles_atlas_1024.jpg', 'ui/tex/generated/hexgrid_512.png']) { const im = new Image(); im.src = liteUrl(ASSET_ROOT + f) }
   const lazy = !opts.preload && opts.lazy !== false
   const preloadNow = opts.preload || (lazy ? (n) => !LAZY.test(n) : null)
   const assetsP = assets.preloadAll(preloadNow)
-  const env = await buildEnvironment(scene, renderer)
+  stage('env')
+  // 手机：阴影图 1024（2048 的深度图在手机上又占显存又慢）、程序甲板贴图半分辨率
+  const env = await buildEnvironment(scene, renderer, { shadowSize: mobile ? 1024 : 2048, deckRes: mobile ? 0.5 : 1 })
   mark('env')
-  const texLoader = new THREE.TextureLoader()
-  const [noise, hex] = await Promise.all([texLoader.loadAsync(ASSET_ROOT + 'ui/tex/generated/noise_fbm_512.png'), texLoader.loadAsync(ASSET_ROOT + 'ui/tex/generated/hexgrid_512.png')])
+  const [noise, hex] = await Promise.all([loadTexSafe(ASSET_ROOT + 'ui/tex/generated/noise_fbm_512.png'), loadTexSafe(ASSET_ROOT + 'ui/tex/generated/hexgrid_512.png', [0, 0, 0])])
   noise.wrapS = noise.wrapT = hex.wrapS = hex.wrapT = THREE.RepeatWrapping
   const ctx = {
     scene, envMap: null, uTime: { value: 0 }, noise, hex, frame: 0, back: 0, materials: [],
@@ -178,6 +191,7 @@ export async function createRenderer(opts = {}) {
   // 首屏只等菜单背景要用的步兵 / 小虫 / 装置 / 场景；其余在 createRenderer 返回之后逐个后台加载（每个之间让出主线程），
   // 加载完一个就建好它的实例池，全部到齐再补编一次着色器。离 Boss 登场（≈ 158 秒）还早得很；万一没到，各 view 的 poolOf 每帧会重试，到了就出现。
   // opts.lazy = false：全部同步加载（旧行为）。opts.preload 给了就完全按调用方的来
+  stage('models')
   await assetsP
   mark('assets')
   // 预建实例池：第一次用到某个模型才建池的话，它的着色器要在那一帧现编译（Boss 的 detail 材质要一两百毫秒 = 登场时卡一下）。
@@ -212,6 +226,7 @@ export async function createRenderer(opts = {}) {
     appliedW = W; appliedH = H; appliedDpr = dpr; appliedRaw = window.devicePixelRatio || 1
     renderer.setPixelRatio(dpr); renderer.setSize(W, H, false)          // 绘制缓冲 + 视口
     composer.setPixelRatio(dpr); composer.setSize(W, H)                 // 合成器的两个缓冲 + 每个 pass（场景 MSAA 目标、Bloom 金字塔）
+    if (mobile) bloom.setSize(Math.max(1, Math.round(W * dpr * 0.5)), Math.max(1, Math.round(H * dpr * 0.5)))   // 手机：Bloom 金字塔再降一半分辨率（光晕本来就是糊的，看不出差别，省一半填充率和显存）
     rig.resize(W, H); env.setViewportHeight(H * dpr)                    // 相机宽高比 / 窄屏 FOV；灯晕的点大小
     if (view && view.onResize) view.onResize(W, H, dpr)
   }
@@ -253,8 +268,9 @@ export async function createRenderer(opts = {}) {
       const t = world ? world.time : 0
       fx.consume(events, world); squad.consume(events, t); boss.consume(events); gate.consume(events, t, realT); companion.consume(events, t)
     },
-    /** 每帧。alpha = 模拟步之间的插值系数（0..1：这一帧落在「上一步 → 最新一步」的哪里；不传 = 1，直接画最新位置）；dtReal = 真实秒 */
-    render(alpha, dtReal) {
+    /** 每帧。alpha = 模拟步之间的插值系数（0..1：这一帧落在「上一步 → 最新一步」的哪里；不传 = 1，直接画最新位置）；dtReal = 真实秒。
+     *  noDraw = true：只推进表现（特效 / 动画 / 相机），不往屏幕画（加载页底下快进首页背景用：手机上画一帧几十毫秒） */
+    render(alpha, dtReal, noDraw = false) {
       if (lost) return
       dtReal = Math.min(0.1, Math.max(0, dtReal || 0))
       realT += dtReal; ctx.frame++
@@ -292,6 +308,7 @@ export async function createRenderer(opts = {}) {
       const hz = fx.flameHaze
       if (hz) { pv.copy(hz).project(camera); pv2.copy(hz); pv2.x += 6.5; pv2.project(camera); const rx = Math.abs(pv2.x - pv.x) * 0.5; U.uHaze.value.set(pv.x * 0.5 + 0.5, pv.y * 0.5 + 0.5 + rx * 0.12, rx * 1.1, rx * 0.3); U.uHazeAmp.value = 1 } else U.uHazeAmp.value = 0
 
+      if (noDraw) return
       renderer.info.reset()
       if (gpuOn && timerExt && !gpuQuery) { gpuQuery = gl.createQuery(); gl.beginQuery(timerExt.TIME_ELAPSED_EXT, gpuQuery); composer.render(); gl.endQuery(timerExt.TIME_ELAPSED_EXT); gpuQuery._age = 0 }
       else {
@@ -432,6 +449,7 @@ export async function createRenderer(opts = {}) {
 
   view.resize(opts.width, opts.height)
   rig.setMode('battle', true)
+  stage('shaders')
   await compileAll()
   warmDraw()
   if (gate.endWarm) gate.endWarm()
@@ -445,7 +463,8 @@ export async function createRenderer(opts = {}) {
   //   · Boss 最后补（第一只 Boss 两分半以后才出场）：开局时还没补完的，战斗头 view.lazyHoldSec（默认 25）秒先停着，之后每帧只做一小步
   let hurry = false
   lazyBusy = lazy
-  view.hurry = (on = true) => { hurry = !!on }
+  // hurry(true)：每帧预算 24ms（加载页盖着时）；hurry(数字)：指定每帧预算毫秒数（强制开局后战斗里还在补模型时用中间档）；hurry(false)：恢复 6ms
+  view.hurry = (on = true) => { hurry = typeof on === 'number' ? on : !!on }
   view.lazyHold = null                 // main 注入：() => true 时暂停后台补加载（开局头几秒）
   view.bossHold = null                 // main 注入：() => true 时先别开始补 Boss
   const nextFrame = () => new Promise((r) => { let done = false; const go = () => { if (!done) { done = true; r() } }; requestAnimationFrame(() => setTimeout(go, 0)); setTimeout(go, 120) })   // 后台标签页 rAF 停了也别卡死
@@ -463,7 +482,7 @@ export async function createRenderer(opts = {}) {
   function kick() { if (!pumping) { pumping = true; nextFrame().then(pump) } }
   function pump() {
     pumping = false
-    const t0 = performance.now(), budget = hurry ? 24 : 6, held = !!(view.lazyHold && view.lazyHold())
+    const t0 = performance.now(), budget = typeof hurry === 'number' ? hurry : hurry ? 24 : 6, held = !!(view.lazyHold && view.lazyHold())
     let done = 0
     for (let i = 0; i < jobs.length;) {
       const j = jobs[i]
@@ -537,11 +556,15 @@ export async function createRenderer(opts = {}) {
   view.heroesReady = new Promise((r) => { heroesDone = r })
   view.lazyReady = lazy ? (async () => {
     const rest = assets.list('').filter((n) => { const d = assets.REGISTRY.get(n); return d && d.preload !== false && LAZY.test(n) })
-    const pri = (n) => (/^unit\.hero_/.test(n) ? 0 : /^enemy\./.test(n) ? 1 : /^unit\./.test(n) ? 2 : 3)   // 指挥官最先（玩家可能一进首页就点部署），Boss 最后
+    const pri = (n) => (/^unit\.hero_/.test(n) ? 0 : /^enemy\./.test(n) ? 1 : /^unit\./.test(n) ? 2 : /^boss\./.test(n) ? 4 : 3)   // 指挥官最先（玩家可能一进首页就点部署），Boss 最后
     rest.sort((a, b) => pri(a) - pri(b))
     assets.setDefaultRunner(lazyRun)     // 头像出图时顺手要的模型也分步烘
     let battleSent = false
-    const sendBattle = async () => { await Promise.all(pending); battleSent = true; battleDone(rest.length) }
+    const sendBattle = async () => {
+      await Promise.all(pending); battleSent = true; battleDone(rest.length)
+      // 远景大件（战舰剪影）：开局要用的都到齐以后再下载；建好以后跟新实例池一样先藏起来、并行编译、预热了再亮
+      if (env.loadExtras) env.loadExtras().then((objs) => { if (objs.length && ctx.onPoolCreated) ctx.onPoolCreated(objs, 'env-extras') }).catch(() => {})
+    }
     for (const n of rest) {
       if (!battleSent && /^boss\./.test(n)) {
         await sendBattle()
@@ -561,6 +584,7 @@ export async function createRenderer(opts = {}) {
     lazyBusy = false; ftN = 0; ftI = 0
     return rest.length
   })() : (battleDone(0), heroesDone(), Promise.resolve(0))
+  if (!lazy && env.loadExtras) env.loadExtras().then((objs) => { if (objs.length && ctx.onPoolCreated) ctx.onPoolCreated(objs, 'env-extras') }).catch(() => {})
   return view
 
   /**
@@ -614,7 +638,9 @@ export async function createRenderer(opts = {}) {
       p = Promise.all(list)
     } finally { scene.fog = fog; renderer.setRenderTarget(prev) }
     compiling++
-    return p.catch(() => {}).then(() => { compiling-- })
+    let left = true
+    const done = () => { if (left) { left = false; compiling-- } }
+    return Promise.race([p.catch(() => {}), new Promise((r) => setTimeout(r, COMPILE_TIMEOUT_MS))]).then(done)
   }
   /**
    * 预热绘制：把场景里所有网格（包括暂时隐藏的特效 / 门 / 装置虚影、实例数为 0 的池子）临时亮出来，
@@ -660,5 +686,7 @@ export async function createRenderer(opts = {}) {
 }
 /** 首屏不加载、进首页以后后台补的资源：Boss、雇佣兵变体、开局没有的重装兵种、指挥官、中大型虫（加载顺序 = 注册顺序） */
 // 指挥官 / 中大型虫也放后台：首页背景里它们晚一两秒出现不碍事，开局前早就到齐了（菜单里的指挥官头像本来就是 loadPortraits 异步出的）
-const LAZY = /^boss\.|^unit\.(goliath|merc_|reaper|lancer|skyhook|titan|psion|hero_)|^enemy\.(hulk|warden|digger|shieldbug|spitter|wing|egg)/
+const LAZY_DESKTOP = /^boss\.|^unit\.(goliath|merc_|reaper|lancer|skyhook|titan|psion|hero_)|^enemy\.(hulk|warden|digger|shieldbug|spitter|wing|egg)/
+// 手机再多挪几样到首页之后补（首页背景里它们晚几秒出现）：甲壳兽、焚化兵、伙伴无人机、召唤物、空投舱。手机 CPU 慢 4~6 倍，这几样在加载页里要烘 2~3 秒
+const LAZY = MOBILE ? new RegExp(LAZY_DESKTOP.source + /|^enemy\.crusher|^unit\.flamer|^companion\.|^summon\.|^prop\.pod/.source) : LAZY_DESKTOP
 export { THEMES, THEME_IDS }

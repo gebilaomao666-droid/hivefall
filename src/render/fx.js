@@ -9,6 +9,7 @@
 import * as THREE from 'three'
 import { ENEMY_KINDS } from '../data/enemies.js'
 import { ASSET_ROOT, assetUrl } from './base.js'
+import { loadTexSafe } from './env.js'
 
 const PB = ASSET_ROOT + 'ui/tex/particles_black/'
 export const CELL = { DOT: 0, SMOKE_A: 1, SMOKE_B: 2, SMOKE_C: 3, FIRE: 4, BURST: 5, WISP: 6, MUZZLE: 7, DIRT_A: 8, DIRT_B: 9, STAR: 10, STREAK: 11, RING: 12, SHOCK: 13, SCORCH: 14, FLARE: 15 }
@@ -35,12 +36,14 @@ export const WEAPON_FX = {
 export const DEATH_DELAY = { rifle: 0.08, mortar: 0.13, titan: 0.13, lancer: 0.05, skyhook: 0.05, sentry: 0.05, cryo: 0.08, mortarpit: 0.32 }
 const EXPLOSION_SIZE = { s: 0.55, m: 0.8, l: 1.0, xl: 1.7 }
 
+const loadImg = (src) => new Promise((res) => { const im = new Image(); im.onload = () => res(im); im.onerror = () => res(null); im.src = src })
 async function buildAtlas() {
   const S = 256, c = document.createElement('canvas'); c.width = c.height = S * 4; const g = c.getContext('2d')
   g.fillStyle = '#000'; g.fillRect(0, 0, S * 4, S * 4)
-  await Promise.all(CELL_FILES.map((f, i) => new Promise((res) => {
-    const im = new Image(); im.onload = () => { g.drawImage(im, (i % 4) * S + 4, Math.floor(i / 4) * S + 4, S - 8, S - 8); res() }; im.onerror = res; im.src = PB + f + '.png'
-  })))
+  // 离线画好的图集（tools/make-lite-assets.py：同样的 4x4 排布，一个请求）；拿不到再退回逐张画（16 个请求）
+  const pre = await loadImg(ASSET_ROOT + 'ui/tex/particles_atlas_1024.jpg')
+  if (pre && pre.width === S * 4) g.drawImage(pre, 0, 0)
+  else await Promise.all(CELL_FILES.map((f, i) => loadImg(PB + f + '.png').then((im) => { if (im) g.drawImage(im, (i % 4) * S + 4, Math.floor(i / 4) * S + 4, S - 8, S - 8) })))
   const d = g.getImageData(0, 0, S * 4, S * 4)
   const t = new THREE.DataTexture(new Uint8Array(d.data.buffer.slice(0)), S * 4, S * 4, THREE.RGBAFormat)   // DataTexture：上下文丢失后能重传
   t.flipY = false; t.generateMipmaps = true; t.minFilter = THREE.LinearMipmapLinearFilter; t.magFilter = THREE.LinearFilter; t.anisotropy = 4; t.needsUpdate = true
@@ -199,7 +202,7 @@ void main() {
 export async function createFX(ctx) {
   const { scene } = ctx
   const rng = ctx.rng || Math.random
-  const [atlas, noise] = await Promise.all([buildAtlas(), new THREE.TextureLoader().loadAsync(ASSET_ROOT + 'ui/tex/generated/noise_fbm_512.png')])
+  const [atlas, noise] = await Promise.all([buildAtlas(), loadTexSafe(ASSET_ROOT + 'ui/tex/generated/noise_fbm_512.png')])
   noise.wrapS = noise.wrapT = THREE.RepeatWrapping
   const uTime = { value: 0 }, uAmbient = { value: new THREE.Color(1, 1, 1) }
   const group = new THREE.Group(); group.name = 'fx'; scene.add(group)

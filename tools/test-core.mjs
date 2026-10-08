@@ -376,5 +376,18 @@ const f1 = v => Math.round(v * 10) / 10
   check('模拟层没有引用 DOM / three / 时钟 / Math.random', hits.length === 0, hits.join(', '))
 }
 
+// ---- 发布物检查（手机加载优化）：modulepreload 清单、轻量素材、字体子集 ----
+{
+  const { preloadUpToDate } = await import('./gen-modulepreload.mjs')
+  check('index.html 的 modulepreload 清单是最新的（不是就跑 node tools/gen-modulepreload.mjs）', preloadUpToDate())
+  const { LITE_FILES } = await import('../src/render/lite-manifest.js')
+  const miss = [...LITE_FILES].filter(f => !fs.existsSync(path.join(root, 'assets/lite', f)))
+  check('轻量素材清单里的文件都在 assets/lite/（python tools/make-lite-assets.py）', LITE_FILES.size > 0 && miss.length === 0, miss.slice(0, 5).join(', '))
+  const ui = new Set(fs.readFileSync(path.join(root, 'assets/ui/fonts/charset-ui.txt'), 'utf8'))
+  const lost = new Set()
+  for (const tab of [zh, en]) for (const v of Object.values(tab)) for (const ch of String(v)) if (ch.codePointAt(0) > 0x7f && !/\s/.test(ch) && !ui.has(ch)) lost.add(ch)
+  check('文案用到的字都在 -ui 字体子集里（不是就跑 python tools/subset-fonts.py）', lost.size === 0, [...lost].slice(0, 20).join(''))
+}
+
 console.log(failed === 0 ? '\n全部通过.' : `\n${failed} 项未通过.`)
 process.exitCode = failed === 0 ? 0 : 1

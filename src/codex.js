@@ -9,6 +9,8 @@ import { BOSSES } from './data/bosses.js'
 import { DEVICES, DEVICE_KINDS } from './data/devices.js'
 import { COMMANDERS, COMMANDER_IDS } from './data/commanders.js'
 import { UNIT_ICON, ENEMY_ICON, BOSS_ICON, DEVICE_ICON, COMMANDER_ICON, POWER_ICON, PASSIVE_ICON } from './ui/icons.js'
+import { loadLateFonts } from './ui/fonts-late.js'
+loadLateFonts()     // 军械库一打开就要粗体 / 标题字体（fonts.css 里只有 Medium）
 
 const ICONS = new URL('../assets/ui/icons/', import.meta.url).href
 const ASSETS = new URL('../assets/', import.meta.url).href

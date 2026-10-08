@@ -115,23 +115,29 @@ export function createAudio({ basePath = 'assets/audio/', deps = {} } = {}) {
     if (!enabled || !doFetch) return Promise.resolve(null)
     if (buffers.has(name)) return Promise.resolve(buffers.get(name))
     if (loading.has(name)) return loading.get(name)
-    const p = doFetch(`${basePath}sfx/${name}.ogg`)
+    const get = () => doFetch(`${basePath}sfx/${name}.ogg`)
       .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.arrayBuffer() })
+    const p = get()
+      .catch(() => new Promise(r => setTimer(r, 1200)).then(get))     // 手机网络抖一下：隔一会儿再要一次
       .then(decode)
       .then(buf => { buffers.set(name, buf); loading.delete(name); return buf })
       .catch(() => { failed.add(name); loading.delete(name); return null })
     loading.set(name, p)
     return p
   }
-  function preload(onProgress) {
-    const files = usedSfxFiles()
-    const total = files.length
+  /**
+   * 取回并解码音效。opts.files：只取这几个（默认 soundmap 用到的全部）；opts.concurrency：同时几个请求（默认 6）。
+   * 启动时只预载界面音（几个小文件），其余进首页后在后台慢慢取（main.js）：手机首屏不再先下 2.5MB 的音效
+   */
+  function preload(onProgress, opts = {}) {
+    const files = opts.files || usedSfxFiles()
+    const total = files.length, width = opts.concurrency || 6
     if (!enabled || !total) { if (onProgress) onProgress(1); return Promise.resolve({ total, loaded: 0, failed: total }) }
     let done = 0, next = 0
     return new Promise(resolve => {
       const pump = () => {
         if (done >= total) { resolve({ total, loaded: total - failed.size, failed: failed.size }); return }
-        while (next < total && next - done < 6) {
+        while (next < total && next - done < width) {
           const name = files[next++]
           loadFile(name).then(() => { done++; if (onProgress) onProgress(done / total, name); pump() })
         }
@@ -462,6 +468,8 @@ export function createAudio({ basePath = 'assets/audio/', deps = {} } = {}) {
   const noMusic = { setState() {}, playTrack() {}, stop() {}, info: () => null, state: null }
   return Object.assign(api, {
     unlock, consume, update, setVolume, setMuted, preload,
+    /** 界面音（按钮 / 部署 / 暂停……）用到的文件：加载页里先取这些 */
+    uiFiles: () => [...new Set(Object.values(uiRules).flat().filter(Boolean).flatMap(r => (r.dense ? r.files.concat(r.dense.files) : r.files)))],
     music: enabled ? { setState: n => music.setState(n), playTrack: id => music.playTrack(id, null), stop: f => music.stop(f), info: () => music.info(), get state() { return music.state } } : noMusic,
     // 规格之外的补充
     ui, setPaused, setHidden, playFile, stats, dispose,

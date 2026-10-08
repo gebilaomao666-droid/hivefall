@@ -24,7 +24,132 @@
   #fatal { position: fixed; left: 50%; bottom: 12%; transform: translateX(-50%); z-index: 120; max-width: 80vw; padding: 12px 18px; font: 14px/1.5 Consolas, monospace; color: #ff4d3d; background: #121a23; border: 1px solid #ff4d3d; }
   noscript { position: fixed; inset: 0; z-index: 200; display: flex; align-items: center; justify-content: center; background: #0b1016; color: #ffb02e; font: 16px sans-serif; }
 </style>
-<script type="importmap">{"imports":{"three":"./vendor/three/build/three.module.js","three/addons/":"./vendor/three/examples/jsm/"}}</script>
+<script type="importmap">{"imports":{"three":"./vendor/three/build/three.module.min.js","three/addons/":"./vendor/three/examples/jsm/"}}</script>
+<!-- modulepreload:begin（tools/gen-modulepreload.mjs 生成，别手改） -->
+<link rel="modulepreload" href="src/audio/audio.js">
+<link rel="modulepreload" href="src/core/i18n.js">
+<link rel="modulepreload" href="src/core/save.js">
+<link rel="modulepreload" href="src/data/bosses.js">
+<link rel="modulepreload" href="src/data/devices.js">
+<link rel="modulepreload" href="src/data/units.js">
+<link rel="modulepreload" href="src/data/unlocks.js">
+<link rel="modulepreload" href="src/input.js">
+<link rel="modulepreload" href="src/render/base.js">
+<link rel="modulepreload" href="src/render/renderer.js">
+<link rel="modulepreload" href="src/sim/bot.js">
+<link rel="modulepreload" href="src/sim/daily.js">
+<link rel="modulepreload" href="src/sim/world.js">
+<link rel="modulepreload" href="src/ui/ui.js">
+<link rel="modulepreload" href="src/audio/music.js">
+<link rel="modulepreload" href="src/audio/soundmap.js">
+<link rel="modulepreload" href="src/core/events.js">
+<link rel="modulepreload" href="src/core/rng.js">
+<link rel="modulepreload" href="src/core/util.js">
+<link rel="modulepreload" href="src/data/achievements.js">
+<link rel="modulepreload" href="src/data/commanders.js">
+<link rel="modulepreload" href="src/data/companion.js">
+<link rel="modulepreload" href="src/data/contracts.js">
+<link rel="modulepreload" href="src/data/enemies.js">
+<link rel="modulepreload" href="src/data/mutators.js">
+<link rel="modulepreload" href="src/data/strings.en.js">
+<link rel="modulepreload" href="src/data/strings.zh.js">
+<link rel="modulepreload" href="src/data/waves.js">
+<link rel="modulepreload" href="src/render/assets.js">
+<link rel="modulepreload" href="src/render/bossview.js">
+<link rel="modulepreload" href="src/render/camera.js">
+<link rel="modulepreload" href="src/render/companionview.js">
+<link rel="modulepreload" href="src/render/env.js">
+<link rel="modulepreload" href="src/render/fx.js">
+<link rel="modulepreload" href="src/render/gateview.js">
+<link rel="modulepreload" href="src/render/groundview.js">
+<link rel="modulepreload" href="src/render/inspect.js">
+<link rel="modulepreload" href="src/render/lite-manifest.js">
+<link rel="modulepreload" href="src/render/portrait.js">
+<link rel="modulepreload" href="src/render/squadview.js">
+<link rel="modulepreload" href="src/render/swarmview.js">
+<link rel="modulepreload" href="src/render/themes.js">
+<link rel="modulepreload" href="src/sim/boss.js">
+<link rel="modulepreload" href="src/sim/combat.js">
+<link rel="modulepreload" href="src/sim/companion.js">
+<link rel="modulepreload" href="src/sim/contracts.js">
+<link rel="modulepreload" href="src/sim/devices.js">
+<link rel="modulepreload" href="src/sim/director.js">
+<link rel="modulepreload" href="src/sim/endless.js">
+<link rel="modulepreload" href="src/sim/gates.js">
+<link rel="modulepreload" href="src/sim/grid.js">
+<link rel="modulepreload" href="src/sim/mutators.js">
+<link rel="modulepreload" href="src/sim/powers.js">
+<link rel="modulepreload" href="src/sim/progression.js">
+<link rel="modulepreload" href="src/sim/result.js">
+<link rel="modulepreload" href="src/sim/squad.js">
+<link rel="modulepreload" href="src/sim/stats.js">
+<link rel="modulepreload" href="src/sim/swarm.js">
+<link rel="modulepreload" href="src/ui/banners.js">
+<link rel="modulepreload" href="src/ui/dom.js">
+<link rel="modulepreload" href="src/ui/hud.js">
+<link rel="modulepreload" href="src/ui/levelup.js">
+<link rel="modulepreload" href="src/ui/menu.js">
+<link rel="modulepreload" href="src/ui/overlays.js">
+<link rel="modulepreload" href="src/ui/result.js">
+<link rel="modulepreload" href="src/ui/squadpanel.js">
+<link rel="modulepreload" href="vendor/three/build/three.module.min.js">
+<link rel="modulepreload" href="vendor/three/examples/jsm/postprocessing/EffectComposer.js">
+<link rel="modulepreload" href="vendor/three/examples/jsm/postprocessing/OutputPass.js">
+<link rel="modulepreload" href="vendor/three/examples/jsm/postprocessing/Pass.js">
+<link rel="modulepreload" href="vendor/three/examples/jsm/postprocessing/ShaderPass.js">
+<link rel="modulepreload" href="vendor/three/examples/jsm/postprocessing/UnrealBloomPass.js">
+<link rel="modulepreload" href="src/data/combos.js">
+<link rel="modulepreload" href="src/data/endless.js">
+<link rel="modulepreload" href="src/data/gates.js">
+<link rel="modulepreload" href="src/data/modules.js">
+<link rel="modulepreload" href="src/data/names.js">
+<link rel="modulepreload" href="src/data/ranks.js">
+<link rel="modulepreload" href="src/render/deviceview.js">
+<link rel="modulepreload" href="src/render/gpuanim.js">
+<link rel="modulepreload" href="src/render/materials.js">
+<link rel="modulepreload" href="src/render/models/ai/register.js">
+<link rel="modulepreload" href="src/render/models/aliens/index.js">
+<link rel="modulepreload" href="src/render/models/humans/register.js">
+<link rel="modulepreload" href="src/render/models/world/devices.js">
+<link rel="modulepreload" href="src/render/models/world/kitbash.js">
+<link rel="modulepreload" href="src/render/powersfx.js">
+<link rel="modulepreload" href="src/render/proc/deform.js">
+<link rel="modulepreload" href="src/render/proc/props.js">
+<link rel="modulepreload" href="src/render/proc/troops.js">
+<link rel="modulepreload" href="src/sim/weapons/index.js">
+<link rel="modulepreload" href="src/ui/credits.js">
+<link rel="modulepreload" href="src/ui/icons.js">
+<link rel="modulepreload" href="src/ui/minimap.js">
+<link rel="modulepreload" href="vendor/three/examples/jsm/loaders/GLTFLoader.js">
+<link rel="modulepreload" href="vendor/three/examples/jsm/loaders/RGBELoader.js">
+<link rel="modulepreload" href="vendor/three/examples/jsm/postprocessing/MaskPass.js">
+<link rel="modulepreload" href="vendor/three/examples/jsm/shaders/CopyShader.js">
+<link rel="modulepreload" href="vendor/three/examples/jsm/shaders/LuminosityHighPassShader.js">
+<link rel="modulepreload" href="vendor/three/examples/jsm/shaders/OutputShader.js">
+<link rel="modulepreload" href="vendor/three/examples/jsm/utils/BufferGeometryUtils.js">
+<link rel="modulepreload" href="src/render/models/ai/allies.js">
+<link rel="modulepreload" href="src/render/models/ai/poses.js">
+<link rel="modulepreload" href="src/render/models/aliens/bosses.js">
+<link rel="modulepreload" href="src/render/models/aliens/brutes.js">
+<link rel="modulepreload" href="src/render/models/aliens/kit.js">
+<link rel="modulepreload" href="src/render/models/aliens/swarm.js">
+<link rel="modulepreload" href="src/render/models/humans/drones.js">
+<link rel="modulepreload" href="src/render/models/humans/infantry.js">
+<link rel="modulepreload" href="src/render/models/humans/mechs.js">
+<link rel="modulepreload" href="src/render/models/humans/psion.js">
+<link rel="modulepreload" href="src/render/models/humans/vehicles.js">
+<link rel="modulepreload" href="src/render/proc/kit.js">
+<link rel="modulepreload" href="src/sim/weapons/beam.js">
+<link rel="modulepreload" href="src/sim/weapons/cone.js">
+<link rel="modulepreload" href="src/sim/weapons/drill.js">
+<link rel="modulepreload" href="src/sim/weapons/drones.js">
+<link rel="modulepreload" href="src/sim/weapons/hitscan.js">
+<link rel="modulepreload" href="src/sim/weapons/lock.js">
+<link rel="modulepreload" href="src/sim/weapons/melee.js">
+<link rel="modulepreload" href="src/sim/weapons/shell.js">
+<link rel="modulepreload" href="src/sim/weapons/storm.js">
+<link rel="modulepreload" href="src/render/models/humans/hkit.js">
+<!-- modulepreload:end -->
 </head>
 <body>
 <div id="app"><canvas id="c" tabindex="-1"></canvas></div>
@@ -36,5 +161,14 @@
   if (location.protocol === 'file:') document.getElementById('boot-msg').textContent = 'Please run start.bat (or: node tools/serve.js 5173) and open http://127.0.0.1:5173/'
 </script>
 <script type="module" src="src/main.js"></script>
+<script>
+  // 离线缓存（sw.js）：二次打开时素材直接从本地取。本机开发服务器（localhost / 127.0.0.1）默认不开，免得改了素材刷新看不到：?sw=1 打开、?sw=0 注销
+  (function () {
+    if (!('serviceWorker' in navigator) || location.protocol === 'file:') return
+    var q = /[?&]sw=([01])/.exec(location.search), local = /^(localhost|127\.|\[::1\])/.test(location.hostname)
+    if ((q && q[1] === '0') || (local && !q)) { if (q) navigator.serviceWorker.getRegistrations().then(function (rs) { rs.forEach(function (r) { r.unregister() }) }); return }
+    navigator.serviceWorker.register('sw.js').catch(function () {})
+  })()
+</script>
 </body>
 </html>

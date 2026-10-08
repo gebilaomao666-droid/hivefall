@@ -20,6 +20,7 @@ import { DEVICE_KINDS } from './data/devices.js'
 import { UNLOCK_IDS } from './data/unlocks.js'
 import { CAMPAIGN_BOSS } from './data/bosses.js'
 import { createInput } from './input.js'
+import { MOBILE } from './render/base.js'
 
 const VERSION = 'v0.1'
 const Q = new URLSearchParams(location.search)
@@ -30,6 +31,7 @@ const bootMsg = document.getElementById('boot-msg')
 const fpsEl = Q.get('fps') === '1' ? document.getElementById('fps') : null
 if (fpsEl) fpsEl.hidden = false
 const OVER = { won: 1, lost: 1, retreated: 1 }
+try { performance.setResourceTimingBufferSize(3000) } catch (e) { /* 老浏览器 */ }   // 默认只记 250 条：离线缓存要拿这份清单（见 primeSW）
 const clamp = (v, a, b) => (v < a ? a : v > b ? b : v)
 const nextFrame = () => new Promise(r => requestAnimationFrame(() => r()))
 const sleep0 = () => new Promise(r => setTimeout(r, 0))
@@ -41,8 +43,12 @@ const firstRun = !storage || storage.getItem(SAVE_KEY) === null
 const save = loadSave(storage)
 if (firstRun) save.settings.lang = /^zh/i.test(navigator.language || 'zh') ? 'zh' : 'en'
 if (Q.get('lang') === 'zh' || Q.get('lang') === 'en') save.settings.lang = Q.get('lang')
-if (!save.settings.qv2) { save.settings.quality = 'high'; save.settings.qv2 = true }   // 一次性：旧版本会把偶发卡顿造成的自动降档永久存下来，这里统一恢复到高画质
-if (save.settings.qualityAuto) { save.settings.quality = 'high'; save.settings.qualityAuto = false }
+// 默认画质：电脑「高」；手机「中」（像素比上限 1.6、关 MSAA、阴影图 1024、Bloom 半分辨率，见 renderer.js）
+const DEFAULT_QUALITY = MOBILE ? 'mid' : 'high'
+if (firstRun) save.settings.quality = DEFAULT_QUALITY
+if (!save.settings.qv2) { save.settings.quality = DEFAULT_QUALITY; save.settings.qv2 = true }   // 一次性：旧版本会把偶发卡顿造成的自动降档永久存下来，这里统一恢复到默认画质
+if (MOBILE && !save.settings.qv3) { if (save.settings.quality === 'high') save.settings.quality = DEFAULT_QUALITY; save.settings.qv3 = true }   // 一次性：上一版在手机上也默认「高」，统一降到「中」（之后玩家自己选的照存）
+if (save.settings.qualityAuto) { save.settings.quality = DEFAULT_QUALITY; save.settings.qualityAuto = false }
 if (['high', 'mid', 'low'].includes(Q.get('quality'))) save.settings.quality = Q.get('quality')
 const forceMute = Q.get('mute') === '1'      // 只管这一次启动，不写进存档
 if (Q.get('unlock') === '1') { for (const id of UNLOCK_IDS) if (!save.unlocks.includes(id)) save.unlocks.push(id); save.companion.unlocked = true }
@@ -68,9 +74,13 @@ let theme = 'ash'
 const frames = new Float32Array(600); let frameI = 0, frameN = 0
 const errors = []
 let bootMs = 0                    // 从打开页面到进首页用了多少毫秒
+const bootPhases = {}             // 启动各阶段完成时刻（毫秒，相对页面打开）：__hf.bootPhases
+const phase = k => { bootPhases[k] = Math.round(performance.now()) }
 // 首页阶段后台补加载的模型（烘焙一个 100~400ms）和头像（离屏出图）全部到齐、并预热绘制过才算「可以开打」。
 // 原来玩家进首页几秒内就点部署的话，这些都落在开局头几秒里做，画面一卡一卡的
 let readyP = null, ready = false, startPending = null
+const readyState = { battle: false, portraits: false }      // 开局门槛的两项各自好了没有（排查「卡在正在部署」用：__hf.readyState）
+const readyLog = {}
 
 // ------------------------------------------------------------ 界面回调（UI 不改 world，意图全从这里过）
 const callbacks = {
@@ -111,6 +121,9 @@ const BG_COMMANDERS = ['hawk', 'ysera', 'joe']
 // 首页背景预演到哪一秒、何时换下一场：按战役 Boss 出场时刻折算（原来 101 秒出场时是 48 / 88）
 const BG_WARM = Math.round(CAMPAIGN_BOSS.at * 0.47), BG_SWAP = CAMPAIGN_BOSS.at - 10
 const LAZY_HOLD_SEC = 25            // 开局后多少秒（模拟时间）之内不做后台补加载（Boss 的分片烘焙）
+// 点了部署、后台还没补完：最多在「正在部署」加载页等这么久就强制开局（没到的模型战斗里接着补，头像缺的用图标占位）。
+// 上一版无条件等「全部到齐」：手机上某一项（模型下载挂住 / 着色器并行编译查询不回 / 上下文丢失）永远不完成，就卡死在 97%
+const START_WAIT_MS = MOBILE ? 5000 : 3000
 const BOSS_MENU_HOLD_MS = 15000     // 首页出来后多少毫秒之内不开始补 Boss（首页前十几秒留给开局要用的模型和头像）
 let menuAt = 0
 const PORTRAIT_SIZE = 144
@@ -166,16 +179,28 @@ function requestStart(cfg) {
   startPending = cfg || {}
   if (!first) return
   if (view.hurry) view.hurry(true)
-  ui.setScreen('loading', { progress: 0.97, textKey: 'ui.load.deploy' })
+  ui.setScreen('loading', { progress: 0.97, text: null, textKey: 'ui.load.deploy' })
   audio.ui('deploy')
-  readyP.then(async () => {
+  const t0 = performance.now()
+  let fired = false
+  const go = async (why) => {
+    if (fired) return
+    fired = true
+    clearInterval(tickT)
     const c = startPending; startPending = null
-    if (mode !== 'menu') return
+    if (mode !== 'menu' || !c) return
+    if (why === 'timeout') { readyLog.forced = (readyLog.forced || 0) + 1; console.warn('[boot] 开局准备超时，先开局（没好的后台接着补）：', JSON.stringify(readyState)) }
     ui.cover(true)                     // 加载页再盖 4 帧：战斗界面第一次上色、开局最初几帧在盖着的时候过去
     startRun(c, true)
+    // 强制开局：后台补模型的预算从 6ms 提到 10~12ms/帧（帧率掉一点，换没到的模型尽快出现），补齐了再恢复
+    if (why === 'timeout' && view.hurry) { view.hurry(MOBILE ? 12 : 10); readyP.then(() => { if (view.hurry) view.hurry(false) }) }
     for (let i = 0; i < 4; i++) await nextFrame()
     ui.cover(false)
-  })
+  }
+  // 进度条在等待期间从 97% 往 100% 走（按超时折算），玩家能看出来没卡死
+  const tickT = setInterval(() => { if (!fired && mode === 'menu') ui.setScreen('loading', { progress: 0.97 + 0.03 * Math.min(1, (performance.now() - t0) / START_WAIT_MS), textKey: 'ui.load.deploy' }) }, 250)
+  setTimeout(() => go('timeout'), START_WAIT_MS)
+  readyP.then(() => go('ready'))
 }
 function startRun(cfg, quiet) {
   cfg = Object.assign({ commander: 'none', mutators: [], difficulty: 'normal', draft: 'script', companion: false, daily: false }, cfg || {})
@@ -386,11 +411,33 @@ async function loadPortraits(want) {
   return map
 }
 
+// ------------------------------------------------------------ 离线缓存
+// sw.js 是在页面开始加载之后才接管的：这之前下的素材没经过它。进首页后把「这次下过的素材」清单发给它，它从 HTTP 缓存里取一份存起来，
+// 下次打开就全部走本地（sw.js 的 message 处理）。没注册 Service Worker（本机开发）时什么也不做
+function primeSW() {
+  const sw = navigator.serviceWorker
+  if (!sw || !sw.controller) return
+  try {
+    const urls = [...new Set(performance.getEntriesByType('resource').map(r => r.name).filter(u => /\/assets\//.test(u)))]
+    sw.controller.postMessage({ type: 'cache', urls })
+  } catch (e) { /* 没关系 */ }
+}
+
 // ------------------------------------------------------------ 启动
 async function boot() {
+  phase('modules')
   ui = createUI({ root: app, t, callbacks, portraits: {}, project: (x, y, z) => (view ? view.project(x, y, z) : null), energyOrbs: false, lang: getLang() })
-  let pAudio = 0, pView = 0, pBg = 0, tip = (Math.random() * 4) | 0
-  const showLoad = () => ui.setScreen('loading', { save, progress: 0.04 + pAudio * 0.16 + pView * 0.62 + pBg * 0.18, tip })
+  // 进度：下载（按文件个数，three 的加载管理器报上来）占大头，其后是搭场景 / 编译 / 预演首页战场 / 指挥官头像。只增不减
+  let pAudio = 0, pView = 0, pBg = 0, pHero = 0, tip = (Math.random() * 4) | 0, shown = 0, stageKey = 'ui.load.stage.net', net = { loaded: 0, total: 0 }, slow = false
+  const showLoad = () => {
+    if (mode !== 'boot') return          // 进首页以后后台补加载还会报下载进度：别再把加载页翻出来
+    shown = Math.max(shown, Math.min(0.99, 0.03 + pAudio * 0.04 + pView * 0.6 + pBg * 0.23 + pHero * 0.09))
+    let text = t(stageKey, { n: net.loaded, m: net.total })
+    if (net.total > net.loaded && stageKey !== 'ui.load.stage.net') text += ' · ' + t('ui.load.stage.net', { n: net.loaded, m: net.total })
+    if (slow) text += ' · ' + t('ui.load.slow')
+    ui.setScreen('loading', { save, progress: shown, tip, text })
+  }
+  const slowT = setTimeout(() => { slow = true; showLoad() }, 25000)
   showLoad()
   if (bootEl) bootEl.remove()
 
@@ -398,15 +445,21 @@ async function boot() {
   for (const ch of Object.keys(save.settings.volume)) audio.setVolume(ch, save.settings.volume[ch])
   audio.setMuted(forceMute || !!save.settings.muted)
   audio.music.setState('menu')
-  const audioReady = audio.preload(p => { pAudio = p; showLoad() }).catch(() => {}).then(() => { pAudio = 1 })
+  // 音效一个都不在加载页里下（界面音要等玩家第一次点击才响得了）：进首页后先取界面音，再在后台取其余的（见 boot 末尾）
+  pAudio = 1
 
-  // 渲染器：一个大 await（下载模型 + 烘焙顶点动画贴图 + 编译着色器）。中间拿不到进度，让进度条自己慢慢爬
-  const creep = setInterval(() => { pView += (0.92 - pView) * 0.035; showLoad() }, 120)
+  // 渲染器：下载素材 → 搭场景 → 烘焙模型 → 编译着色器。下载按文件个数算进度，后面几步按阶段走
+  const STAGES = { env: 0.62, models: 0.8, shaders: 0.9 }
+  let netFrac = 0, stageFrac = 0
+  const viewProg = () => { pView = Math.max(pView, Math.min(0.98, netFrac * 0.7 + stageFrac * 0.3)) }
   const tipTimer = setInterval(() => { tip++; showLoad() }, 3600)
-  try {
-    view = await createRenderer({ canvas, quality: save.settings.quality, theme: 'ash' })
-  } finally { clearInterval(creep) }
-  pView = 1; showLoad()
+  view = await createRenderer({
+    canvas, quality: save.settings.quality, theme: 'ash',
+    onProgress: ({ loaded, total }) => { net.loaded = loaded; net.total = total; netFrac = Math.max(netFrac, total ? loaded / total : 0); viewProg(); showLoad() },
+    onStage: k => { stageKey = 'ui.load.stage.' + k; stageFrac = STAGES[k] || stageFrac; viewProg(); showLoad() },
+  })
+  phase('renderer')
+  pView = 1; stageKey = 'ui.load.stage.bg'; showLoad()
   view.setTranslator(t)
   view.onQualityChange = q => { save.settings.quality = q; save.settings.qualityAuto = true; ui.setLocale(); persistSoon() }   // 自动降的档只在本次有效：下次打开从高画质重新判断，避免偶发卡顿把画质永久压低     // 自动降档：把界面上的画质字样也刷掉
   view.onResize = () => syncEnergyTarget()
@@ -436,46 +489,62 @@ async function boot() {
   if (Q.get('bg') !== '0') {
     bg = makeBg((Date.now() % 9973) + 1)
     const target = BG_WARM       // 时间轴又 ×0.92/1.3，按 Boss 出场时刻的比例算（≈34 秒）。原注：时间轴压成 1.3 倍后，原来的 72 秒 ≈ 现在的 48 秒：队伍 40 多人、第一波大的压上来。预演少跑三分之一，冷启动也快一截
-    const prog = setInterval(() => { pBg = clamp(bg.world.time / target, 0, 1); showLoad() }, 100)
+    const prog = setInterval(() => { pBg = clamp(bg.world.time / target, 0, 1); showLoad() }, 150)
     const grab = { events: [], seen: {}, gates: null, levelup: null }
     await warmBg(bg, target, 240, grab)
     clearInterval(prog)
+    phase('bgWarm')
     if (view.warmPortraits) view.warmPortraits(PORTRAIT_SIZE)
     ui.warm({ world: bg.world, ...grab, menu: { save, selection: save.menuSel || null, daily: dailyConfig(todayKey()), version: VERSION } })     // 战斗界面 / 首页先在加载页底下排一次版
   }
-  pBg = 1; showLoad()
+  pBg = 1; stageKey = 'ui.load.stage.heroes'; showLoad()
   // 三位指挥官的模型和首页卡片上的头像在加载页里做完（首页一出来就要显示；放到首页里做，首页头一秒会卡几下）。
   // 后台补加载的预算在加载页里放大；最多等 1.5 秒，没做完就留给首页接着做
-  if (view.hurry) {
+  // 手机上不在加载页里等（指挥官模型要先下载约 1MB 再烘，等 1.5 秒也常常等不完）：首页卡片先显示图标，头像出好了自动换上
+  if (view.hurry && !MOBILE) {
     view.hurry(true)
     const heads = view.heroesReady ? view.heroesReady.then(() => loadPortraits(COMMANDER_PORTRAITS)) : loadPortraits(COMMANDER_PORTRAITS)
+    const heroT = setInterval(() => { pHero = Math.min(0.95, pHero + 0.08); showLoad() }, 150)
     await Promise.race([heads.catch(() => {}), new Promise(r => setTimeout(r, 1500))])
+    clearInterval(heroT); pHero = 1
     view.hurry(false)
   }
-  await Promise.race([audioReady, new Promise(r => setTimeout(r, 4000))])     // 音效没解码完也不等了，边玩边到
-  clearInterval(tipTimer)
+  phase('heroes')
+  clearInterval(tipTimer); clearTimeout(slowT)
+  phase('audio')
 
   ui.cover(true)
   goMenu()
   view.setCameraMode('menu', true)
   // 首页背景先走半秒表现（特效池里有东西），再把画面交出去
-  for (let i = 0; i < 30 && bg; i++) { stepBgWorld(bg); view.consume(bg.world.events); view.render(1, DT) }
+  // 只有最后一帧真画（前面的只推进特效 / 动画）：原来 30 帧每帧都画，手机上光这一段两秒多
+  for (let i = 0; i < 30 && bg; i++) { stepBgWorld(bg); view.consume(bg.world.events); view.render(1, DT, i < 29) }
   last = performance.now()
   requestAnimationFrame(frame)
   // 加载页再盖 6 帧：首页界面第一次上色 / 栅格化、3D 首页最初几帧（显卡那边第一次画这些东西最慢）都在盖着的时候过去
-  for (let i = 0; i < 6; i++) await nextFrame()
+  for (let i = 0, n = MOBILE ? 3 : 6; i < n; i++) await nextFrame()
   ui.cover(false)
   bootMs = Math.round(performance.now())
   // 开局前要齐的：除 Boss 外的后台模型（view.battleReady）+ 头像。Boss 在后台接着补；开局头 25 秒先停着别跟战斗抢主线程
-  view.lazyHold = () => mode === 'play' && !!world && !OVER[world.status] && world.time < LAZY_HOLD_SEC
+  // 开局要用的还没补完就被强制开了局（见 requestStart）：不能再停 25 秒，否则场上的甲壳兽之类一直隐形——照常补（预算见 go()）
+  view.lazyHold = () => ready && mode === 'play' && !!world && !OVER[world.status] && world.time < LAZY_HOLD_SEC
   view.bossHold = () => (mode === 'menu' && performance.now() - menuAt < BOSS_MENU_HOLD_MS) || view.lazyHold()
-  readyP = Promise.all([(view.battleReady || view.lazyReady).catch(() => {}), loadPortraits().catch(() => {})]).then(() => { ready = true })
+  readyP = Promise.all([
+    (view.battleReady || view.lazyReady).catch(() => {}).then(() => { readyState.battle = true }),
+    loadPortraits().catch(() => {}).then(() => { readyState.portraits = true }),
+  ]).then(() => { ready = true; primeSW() })
+  // 其余音效（约 2.5MB）进首页以后在后台取：一次两个，不跟开局要用的模型抢带宽太多
+  audio.preload(null, { files: audio.uiFiles(), concurrency: 3 }).catch(() => {})
+  setTimeout(() => { if (audio) audio.preload(null, { concurrency: 2 }).catch(() => {}).then(primeSW) }, MOBILE ? 2500 : 800)
+  setTimeout(primeSW, 1000)
+  // 粗体 / 特粗 / 标题字体：首屏只用了 Medium 一款（粗体先由浏览器合成），开局要用的模型到齐后（最多等 6 秒）再下这几款
+  Promise.race([readyP, new Promise(r => setTimeout(r, 6000))]).then(() => import('./ui/fonts-late.js')).then(m => m.loadLateFonts()).catch(() => {})   // 字表 80KB：动态导入，不进首屏
 }
 
 // ------------------------------------------------------------ 调试 / 自测接口（控制台：__hf）
 window.__hf = {
   get world() { return world }, get view() { return view }, get ui() { return ui }, get audio() { return audio }, get input() { return input },
-  get mode() { return mode }, get paused() { return paused }, get bg() { return bg }, get bootMs() { return bootMs }, get ready() { return ready }, save, errors,
+  get mode() { return mode }, get paused() { return paused }, get bg() { return bg }, get bootMs() { return bootMs }, bootPhases, readyState, readyLog, get ready() { return ready }, save, errors,
   /** 最近 n 帧的帧率统计 */
   perf(n = 300) {
     n = Math.min(n, frameN)
@@ -497,6 +566,11 @@ boot().catch(err => {
   if (bootMsg) bootMsg.textContent = 'ERROR: ' + (err && err.message || err)
   const box = document.createElement('div')
   box.id = 'fatal'
-  box.textContent = 'HIVEFALL failed to start: ' + (err && err.message || err)
+  box.textContent = (getLang() === 'en' ? 'HIVEFALL failed to start: ' : '加载失败：') + (err && err.message || err) + ' '
+  const btn = document.createElement('button')
+  btn.textContent = getLang() === 'en' ? 'RELOAD' : '重新加载'
+  btn.style.cssText = 'margin-left:10px;font:inherit;padding:4px 12px;background:#ffb02e;color:#1a1204;border:0;cursor:pointer'
+  btn.onclick = () => location.reload()
+  box.appendChild(btn)
   document.body.appendChild(box)
 })

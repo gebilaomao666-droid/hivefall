@@ -20,7 +20,17 @@ import { DEVICE_BUILDERS, buildDropPod } from './models/world/devices.js'
 import { registerHumans } from './models/humans/register.js'
 import { registerAI } from './models/ai/register.js'
 import { presetClips, breathe, collapse } from './proc/deform.js'
-import { ASSET_ROOT, assetUrl } from './base.js'
+import { ASSET_ROOT, assetUrl, loadWithRetry, MOBILE } from './base.js'
+
+// 手机：带帧间插值（lerp）的模型烘焙帧数 ×0.6 —— 烘焙 CPU 时间、顶点动画贴图的内存 / 显存都少 40%，插值后动作看不出差别。
+// 不插值的（海量小虫）保持原帧数，免得动作一顿一顿。?frames=1 强制满帧
+const FRAME_SCALE = MOBILE && !/[?&]frames=1/.test(typeof location !== 'undefined' ? location.search : '') ? 0.6 : 1
+function scaledClips(clips, def) {
+  if (FRAME_SCALE === 1 || !def.lerp || !Array.isArray(clips)) return clips
+  return clips.map((c) => ((c.frames | 0) > 6 ? { ...c, frames: Math.max(6, Math.round(c.frames * FRAME_SCALE)) } : c))
+}
+function bakeRigOf(def) { const rig = def.source.rig(); if (rig && rig.clips) rig.clips = scaledClips(rig.clips, def); return rig }
+function bakeOptsOf(def) { const b = def.source.bake || {}; return b.clips ? { ...b, clips: scaledClips(b.clips, def) } : b }
 
 // ------------------------------------------------------------------ 调色方案
 // 每行 [r, g, b（线性空间）, metalness, roughness, emissive]，行号 = zone id（materials.js 的 AZ / CZ）。
@@ -94,7 +104,12 @@ export const REGISTRY = new Map()
  */
 const baked = new Map()      // name -> { def, asset, meta } | Promise（烘焙结果的缓存）
 /** 登记 / 覆盖一个逻辑名。后登记的覆盖先登记的；已经烘焙过的同名资源会作废，下次用到时按新的定义重新烘（已经建好的实例池不受影响） */
-export function register(name, def) { REGISTRY.set(name, { name, ...def }); baked.delete(name); return def }
+// 覆盖登记时，被覆盖的程序化定义留作 fallback：glb（AI 模型）下载 / 解析彻底失败时用它顶上，而不是黄黑占位体
+export function register(name, def) {
+  const prev = REGISTRY.get(name)
+  const fallback = def.fallback !== undefined ? def.fallback : prev ? (prev.source && prev.source.rig ? prev : prev.fallback || null) : null
+  REGISTRY.set(name, { name, ...def, fallback }); baked.delete(name); return def
+}
 export function has(name) { return REGISTRY.has(name) }
 export function list(prefix = '') { return [...REGISTRY.keys()].filter((k) => k.startsWith(prefix)) }
 
@@ -248,7 +263,7 @@ export function getBaked(name) {
   const def = REGISTRY.get(name)
   if (def.source.rig) {
     const t0 = performance.now()
-    const rig = def.source.rig()
+    const rig = bakeRigOf(def)
     const rec = { def, asset: bakeRig(rig), meta: rig.meta || {}, ms: 0 }
     rec.ms = performance.now() - t0
     baked.set(name, rec)
@@ -273,7 +288,7 @@ export function loadAsset(name, runner) {
     // 程序化来源也分步烘：搭骨架 / 几何（rig()）是一整步，逐帧采样和写贴图按帧切
     let ms = 0, meta = {}
     const timed = (it) => (function* () { for (;;) { const a = performance.now(); const r = it.next(); ms += performance.now() - a; if (r.done) return r.value; yield r.value } })()
-    const p = runner(timed((function* () { const rig = def.source.rig(); meta = rig.meta || {}; yield; return yield* bakeRigGen(rig) })())).then((asset) => {
+    const p = runner(timed((function* () { const rig = bakeRigOf(def); meta = rig.meta || {}; yield; return yield* bakeRigGen(rig) })())).then((asset) => {
       const rec = { def, asset, meta, ms }
       baked.set(name, rec)
       return rec
@@ -281,16 +296,27 @@ export function loadAsset(name, runner) {
     baked.set(name, p)
     return p
   }
-  const p = gltfLoader.loadAsync(assetUrl(def.source.gltf)).then(async (gltf) => {
+  // 下载带超时 + 重试（手机网络一个请求挂住不回，不能让开局永远等下去）
+  const p = loadWithRetry((onP) => gltfLoader.loadAsync(assetUrl(def.source.gltf), onP), { name, stall: 25000 }).then(async (gltf) => {
     const t0 = performance.now()
     let ms = 0
     const timed = (it) => (function* () { for (;;) { const a = performance.now(); const r = it.next(); ms += performance.now() - a; if (r.done) return r.value; yield r.value } })()
-    const asset = runner ? await runner(timed(bakeGLTFGen(gltf, def.source.bake))) : bakeGLTF(gltf, def.source.bake)
+    const asset = runner ? await runner(timed(bakeGLTFGen(gltf, bakeOptsOf(def)))) : bakeGLTF(gltf, bakeOptsOf(def))
     const rec = { def, asset, meta: def.meta || {}, ms: runner ? ms : performance.now() - t0 }     // 分步时只算真正干活的时间
     baked.set(name, rec)
     return rec
   }).catch((err) => {
-    console.warn(`[assets] "${name}" 加载失败，改用占位体：`, err.message || err)
+    const fb = def.fallback
+    if (fb && fb.source && fb.source.rig) {     // 有程序化版本：用它顶上（烘焙一次几十到几百毫秒，只在失败时发生）
+      console.warn(`[assets] "${name}" 加载失败，改用程序化模型：`, err && (err.message || err))
+      try {
+        const rig = bakeRigOf(fb)
+        const rec = { def: { ...fb, name }, asset: bakeRig(rig), meta: rig.meta || {}, ms: 0 }
+        baked.set(name, rec)
+        return rec
+      } catch (e) { /* 再不行就占位 */ }
+    }
+    console.warn(`[assets] "${name}" 加载失败，改用占位体：`, err && (err.message || err))
     const rec = { ...getBaked('placeholder'), def: { ...REGISTRY.get('placeholder'), name } }
     baked.set(name, rec)
     return rec

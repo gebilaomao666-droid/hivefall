@@ -5,7 +5,7 @@
 //   const mesh = assemble(kit, [{ part: 'container', x, y, z, ry, s | sx/sy/sz, tint: [r,g,b], sat }], material)   // 全部焊成一个 Mesh（一次 draw call）
 import * as THREE from 'three'
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js'
-import { ASSET_ROOT, assetUrl } from '../../base.js'
+import { ASSET_ROOT, assetUrl, loadWithRetry } from '../../base.js'
 
 const loader = new GLTFLoader()
 const cache = new Map()
@@ -29,7 +29,7 @@ const _c = new THREE.Color(), _v = new THREE.Vector3(), _n = new THREE.Vector3()
 /** 读一个 glb，返回 { geo, size: Vector3, tris }。失败返回 null（调用方跳过这个零件，不报错） */
 export function loadPart(file) {
   if (cache.has(file)) return cache.get(file)
-  const p = loader.loadAsync(BASE + file + '.glb').then((gltf) => {
+  const p = loadWithRetry((onP) => loader.loadAsync(BASE + file + '.glb', onP), { name: file }).then((gltf) => {
     const pos = [], nor = [], col = []
     gltf.scene.updateMatrixWorld(true)
     gltf.scene.traverse((m) => {

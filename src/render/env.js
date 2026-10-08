@@ -4,7 +4,7 @@
 import * as THREE from 'three'
 import { RGBELoader } from 'three/addons/loaders/RGBELoader.js'
 import { loadKit, loadPart, assemble } from './models/world/kitbash.js'
-import { ASSET_ROOT, assetUrl } from './base.js'
+import { ASSET_ROOT, assetUrl, loadWithRetry } from './base.js'
 
 export const BRIDGE = { halfW: 6.5, z0: -38, z1: 30 }
 export const LANES = { centers: [-5.12, -2.56, 0, 2.56, 5.12], width: 2.56, rows: [4.5, 1.5, -1.5, -4.5], depth: 3 }
@@ -13,8 +13,16 @@ const ENV = ASSET_ROOT + 'env/'
 function mulberry(a) { return () => { a |= 0; a = (a + 0x6d2b79f5) | 0; let t = Math.imul(a ^ (a >>> 15), 1 | a); t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t; return ((t ^ (t >>> 14)) >>> 0) / 4294967296 } }
 
 const texLoader = new THREE.TextureLoader()
+/** 一张纯色的小贴图（贴图下载彻底失败时顶上：画面素一点，但游戏照样能进） */
+function flatTex(r, g, b) { const t = new THREE.DataTexture(new Uint8Array([r, g, b, 255]), 1, 1, THREE.RGBAFormat); t.needsUpdate = true; return t }
+/** 带超时 / 重试的贴图加载；最终失败给一张纯色贴图 */
+export function loadTexSafe(url, fallback = [128, 128, 128]) {
+  return loadWithRetry(() => texLoader.loadAsync(url), { name: url.slice(url.lastIndexOf('/') + 1), stall: 30000 })
+    .catch((e) => { console.warn('[env] 贴图加载失败，用纯色代替：', url, e && e.message); return flatTex(...fallback) })
+}
 function loadTex(name, srgb) {
-  return texLoader.loadAsync(ENV + name).then((t) => {
+  const fb = /_nor/.test(name) ? [128, 128, 255] : /_arm/.test(name) ? [255, 170, 200] : [110, 110, 110]
+  return loadTexSafe(ENV + name, fb).then((t) => {
     t.wrapS = t.wrapT = THREE.RepeatWrapping; t.anisotropy = 8
     if (srgb) t.colorSpace = THREE.SRGBColorSpace; return t
   })
@@ -91,11 +99,13 @@ const BOX = new THREE.BoxGeometry(1, 1, 1)
 // 甲板：Poly Haven 金属板做微观细节 + 程序绘制的「整桥唯一」面板 / 格栅 / 铆钉 / 涂装
 // 面板拼缝对齐 5 条车道（车道宽 2.56），布防区的排线（z = 6, 3, 0, -3, -6）画成刻度
 // ------------------------------------------------------------------
-function paintDeck() {
+// res：分辨率倍数（1 = 1024x4096；手机用 0.5 = 512x2048，CPU 时间和内存都是 1/4）。画法全在逻辑坐标里，只是画布缩了
+function paintDeck(res = 1) {
   const W = 1024, H = 4096, { halfW, z0, z1 } = BRIDGE
   const PX = W / (halfW * 2), PZ = H / (z1 - z0)
   const X = (x) => (x + halfW) * PX, Z = (z) => (z - z0) * PZ
-  const mk = () => { const c = document.createElement('canvas'); c.width = W; c.height = H; return c.getContext('2d', { willReadFrequently: true }) }
+  const RW = Math.round(W * res), RH = Math.round(H * res)
+  const mk = () => { const c = document.createElement('canvas'); c.width = RW; c.height = RH; const g = c.getContext('2d', { willReadFrequently: true }); g.setTransform(res, 0, 0, res, 0, 0); return g }
   const cA = mk(), cR = mk(), cH = mk(), cP = mk()
   const rnd = mulberry(7)
   const g = (v) => `rgb(${v},${v},${v})`
@@ -181,27 +191,47 @@ function paintDeck() {
   cP.globalCompositeOperation = 'source-over'
 
   // ---- 合成数据贴图 ----
-  const a = cA.getImageData(0, 0, W, H).data, r = cR.getImageData(0, 0, W, H).data, h = cH.getImageData(0, 0, W, H).data
-  const d1 = new Uint8Array(W * H * 4), d2 = new Uint8Array(W * H * 4)
-  const hh = (x, y) => h[(Math.min(H - 1, Math.max(0, y)) * W + Math.min(W - 1, Math.max(0, x))) * 4]
-  for (let y = 0; y < H; y++) for (let x = 0; x < W; x++) {
-    const o = (y * W + x) * 4
+  const a = cA.getImageData(0, 0, RW, RH).data, r = cR.getImageData(0, 0, RW, RH).data, h = cH.getImageData(0, 0, RW, RH).data
+  const d1 = new Uint8Array(RW * RH * 4), d2 = new Uint8Array(RW * RH * 4)
+  const hh = (x, y) => h[(Math.min(RH - 1, Math.max(0, y)) * RW + Math.min(RW - 1, Math.max(0, x))) * 4]
+  const ns = 1.6 * res      // 低分辨率时相邻像素的高差变大：法线强度按比例收，凹凸看起来一样深
+  for (let y = 0; y < RH; y++) for (let x = 0; x < RW; x++) {
+    const o = (y * RW + x) * 4
     d1[o] = a[o]; d1[o + 1] = r[o]; d1[o + 2] = h[o]; d1[o + 3] = 255
     const dx = (hh(x + 1, y) - hh(x - 1, y)) / 255, dz = (hh(x, y + 1) - hh(x, y - 1)) / 255
-    d2[o] = 128 - dx * 127 * 1.6; d2[o + 1] = 128 - dz * 127 * 1.6; d2[o + 2] = 255; d2[o + 3] = 255
+    d2[o] = 128 - dx * 127 * ns; d2[o + 1] = 128 - dz * 127 * ns; d2[o + 2] = 255; d2[o + 3] = 255
   }
-  const mkTex = (data, srgb) => { const t = new THREE.DataTexture(data, W, H, THREE.RGBAFormat); t.generateMipmaps = true; t.minFilter = THREE.LinearMipmapLinearFilter; t.magFilter = THREE.LinearFilter; t.anisotropy = 8; if (srgb) t.colorSpace = THREE.SRGBColorSpace; t.needsUpdate = true; return t }
-  const pd = cP.getImageData(0, 0, W, H).data   // 用 DataTexture 而不是 CanvasTexture：上下文丢失后能原样重传
+  const mkTex = (data, srgb) => { const t = new THREE.DataTexture(data, RW, RH, THREE.RGBAFormat); t.generateMipmaps = true; t.minFilter = THREE.LinearMipmapLinearFilter; t.magFilter = THREE.LinearFilter; t.anisotropy = 8; if (srgb) t.colorSpace = THREE.SRGBColorSpace; t.needsUpdate = true; return t }
+  const pd = cP.getImageData(0, 0, RW, RH).data   // 用 DataTexture 而不是 CanvasTexture：上下文丢失后能原样重传
   const paint = mkTex(new Uint8Array(pd.buffer.slice(0)), true)
   return { data: mkTex(d1), normal: mkTex(d2), paint }
 }
 
-export async function buildEnvironment(scene, renderer) {
-  const [plate, grid, corr, rust, shutter, hdr, glowTex, nz] = await Promise.all([
+/**
+ * opts: { shadowSize = 2048（主光阴影图边长；手机 1024）, deckRes = 1（程序甲板贴图分辨率倍数；手机 0.5） }
+ * 返回的 env.loadExtras()：远景里可有可无的大件（远处的战舰剪影，2MB）由调用方在进首页之后再叫它下载
+ */
+export async function buildEnvironment(scene, renderer, opts = {}) {
+  // 下载全部同时发出去（原来是先等贴图到齐、再下模块件，串行白等）；等下载的这段时间里先在 CPU 上把甲板画了
+  const filesP = Promise.all([
     loadSet('metal_plate_02'), loadSet('rusty_metal_grid'), loadSet('corrugated_iron'), loadSet('rusty_metal_02'), loadSet('painted_metal_shutter'),
-    new RGBELoader().loadAsync(ENV + 'hdri_industrial_sunset_02_puresky_1k.hdr'),
-    texLoader.loadAsync(ASSET_ROOT + 'ui/tex/generated/glow_soft_256.png'), texLoader.loadAsync(ASSET_ROOT + 'ui/tex/generated/noise_fbm_512.png'),
+    loadWithRetry((onP) => new RGBELoader().loadAsync(ENV + 'hdri_industrial_sunset_02_puresky_1k.hdr', onP), { name: 'hdri', stall: 30000 }).catch((e) => {
+      console.warn('[env] HDRI 加载失败，用纯色天空光代替：', e && e.message)
+      const t = new THREE.DataTexture(new Float32Array([0.05, 0.05, 0.07, 1, 0.05, 0.05, 0.07, 1, 0.3, 0.2, 0.15, 1, 0.3, 0.2, 0.15, 1]), 2, 2, THREE.RGBAFormat, THREE.FloatType)
+      t.needsUpdate = true; return t
+    }),
+    loadTexSafe(ASSET_ROOT + 'ui/tex/generated/glow_soft_256.png', [0, 0, 0]), loadTexSafe(ASSET_ROOT + 'ui/tex/generated/noise_fbm_512.png'),
   ])
+  const kitP = loadKit({
+    contA: 'env/kenney-industrial_shipping-container-a', contB: 'env/kenney-industrial_shipping-container-b', contC: 'env/kenney-industrial_shipping-container-c',
+    pad: 'env/kaylousberg_landing-pad_qpdg', tankL: 'env/kenney-industrial_detail-tank-large', tankS: 'env/kenney-industrial_detail-tank', chimney: 'env/kenney-industrial_chimney-large',
+    hangar: 'env/kenney-space_hangar-largea', dish: 'env/kenney-space_satellitedish-large', gen: 'env/kenney-space_machine-generatorlarge', barrels: 'env/kenney-space_barrels-rail',
+    craft: 'vehicles/kenney-space_craft-cargoa', lander: 'vehicles/kaylousberg_lander-a_tvas', truck: 'vehicles/kaylousberg_space-truck_jjka', crate: 'vehicles/quaternius_scifi-crate_bpex',
+    trainF: 'vehicles/kenney-space_monorail-trainfront', trainC: 'vehicles/kenney-space_monorail-traincargo', trainE: 'vehicles/kenney-space_monorail-trainend',
+  })
+  await new Promise((r) => setTimeout(r, 0))       // 让请求先真正发出去
+  const deckTex = paintDeck(opts.deckRes || 1)
+  const [plate, grid, corr, rust, shutter, hdr, glowTex, nz] = await filesP
   nz.wrapS = nz.wrapT = THREE.RepeatWrapping
   hdr.mapping = THREE.EquirectangularReflectionMapping
   const envRT = { current: null }
@@ -215,13 +245,7 @@ export async function buildEnvironment(scene, renderer) {
   }
   const envMap = bakeEnvMap()
   // CC0 模块件（Kenney / KayKit）：读成顶点色零件，稍后按摆放表焊成一个 Mesh。读不到的零件自动跳过
-  const kit = await loadKit({
-    contA: 'env/kenney-industrial_shipping-container-a', contB: 'env/kenney-industrial_shipping-container-b', contC: 'env/kenney-industrial_shipping-container-c',
-    pad: 'env/kaylousberg_landing-pad_qpdg', tankL: 'env/kenney-industrial_detail-tank-large', tankS: 'env/kenney-industrial_detail-tank', chimney: 'env/kenney-industrial_chimney-large',
-    hangar: 'env/kenney-space_hangar-largea', dish: 'env/kenney-space_satellitedish-large', gen: 'env/kenney-space_machine-generatorlarge', barrels: 'env/kenney-space_barrels-rail',
-    craft: 'vehicles/kenney-space_craft-cargoa', lander: 'vehicles/kaylousberg_lander-a_tvas', truck: 'vehicles/kaylousberg_space-truck_jjka', crate: 'vehicles/quaternius_scifi-crate_bpex',
-    trainF: 'vehicles/kenney-space_monorail-trainfront', trainC: 'vehicles/kenney-space_monorail-traincargo', trainE: 'vehicles/kenney-space_monorail-trainend',
-  })
+  const kit = await kitP
 
   const { halfW, z0, z1 } = BRIDGE, LEN = z1 - z0, ZC = (z0 + z1) / 2
   const root = new THREE.Group(); root.name = 'env'; scene.add(root)
@@ -236,9 +260,9 @@ export async function buildEnvironment(scene, renderer) {
     uPlanetA: { value: new THREE.Color(0.22, 0.10, 0.06) }, uPlanetB: { value: new THREE.Color(1.0, 0.35, 0.08) }, uSilBase: { value: new THREE.Color(0.02, 0.02, 0.03) }, uSilRim: { value: new THREE.Color(0.3, 0.1, 0.03) },
   }
   const stdMats = []
+  const extras = []          // 进首页以后才下载的远景大件（见 loadExtras）
 
   // ---------------- 甲板 ----------------
-  const deckTex = paintDeck()
   const clone = (t, rx, ry) => { const c = t.clone(); c.repeat.set(rx, ry); c.needsUpdate = true; return c }
   const deckMat = new THREE.MeshStandardMaterial({
     map: clone(plate.diff, 3, LEN / 4.33), normalMap: clone(plate.nor, 3, LEN / 4.33), roughnessMap: clone(plate.arm, 3, LEN / 4.33),
@@ -649,10 +673,11 @@ export async function buildEnvironment(scene, renderer) {
     const list = [], r3 = mulberry(31)
     for (const [cx, cz, n] of [[150, -300, 7], [-230, -250, 5], [60, -420, 6]]) for (let i = 0; i < n; i++) { const h = 70 + r3() * 130, w = 9 + r3() * 16; list.push({ x: cx + (r3() - 0.5) * 110, y: -50, z: cz + (r3() - 0.5) * 80, sx: w, sy: h + 50, sz: w, ry: r3() * 6, rz: (r3() - 0.5) * 0.16 }) }
     const hive = inst(list, silMat, { geo: spire, receive: false }); hive.name = 'hive-spires'; root.add(hive)
-    loadPart('vehicles/jakersh_spaceship-warship_2le6').then((ship) => {
+    extras.push(() => loadPart('vehicles/jakersh_spaceship-warship_2le6').then((ship) => {
       if (!ship) return
       const im = inst([{ x: -120, y: 92, z: -300, sx: 22, sy: 22, sz: 22, ry: 1.9, rz: 0.05 }, { x: 150, y: 120, z: -400, sx: 15, sy: 15, sz: 15, ry: -1.2 }, { x: 40, y: 150, z: -470, sx: 10, sy: 10, sz: 10, ry: -1.3 }], silMat, { geo: ship.geo, receive: false }); im.name = 'warships'; root.add(im)
-    })
+      return im
+    }))
   }
   // ---------------- 单轨货运列车：两侧轨道梁上各一列，来回跑 ----------------
   const trains = []
@@ -670,7 +695,7 @@ export async function buildEnvironment(scene, renderer) {
   const hemi = new THREE.HemisphereLight(0x86a8e6, 0x16100e, 1.0); scene.add(hemi)
   const key = new THREE.DirectionalLight(0xffe6c8, 3.3)
   key.target.position.set(0, 0, 1.5); scene.add(key, key.target)
-  key.castShadow = true; key.shadow.mapSize.set(2048, 2048)
+  key.castShadow = true; key.shadow.mapSize.set(opts.shadowSize || 2048, opts.shadowSize || 2048)
   key.shadow.bias = -0.0004; key.shadow.normalBias = 0.04; key.shadow.radius = 2.2
   const fill = new THREE.DirectionalLight(0x5f95ff, 1.15); fill.position.set(14, 12, 22); scene.add(fill)
   const rim = new THREE.DirectionalLight(0xff6a3c, 0.85); rim.position.set(3, 7, -30); scene.add(rim)
@@ -697,6 +722,8 @@ export async function buildEnvironment(scene, renderer) {
   return {
     envMap, uniforms: U, lights: { hemi, key, fill, rim }, root, deckMat, stdMats, accentMats: { a: mA, b: mB, red: mRed, white: mWhite },
     setKeyDirection, bakeEnvMap,
+    /** 远景大件（战舰剪影）：首屏不等它，进首页后调一次开始下载 → Promise<新加进场景的网格[]>（新网格的着色器由调用方编） */
+    loadExtras() { return Promise.all(extras.splice(0).map((f) => f().catch(() => null))).then((a) => a.filter(Boolean)) },
     update(t) { U.uTime.value = t; updateShafts(t); updateTrains(t) },
     setShaftsVisible(v) { for (const b of shafts) b.mesh.visible = v },
     setViewportHeight(h) { U.glowMat.uniforms.uH.value = h },

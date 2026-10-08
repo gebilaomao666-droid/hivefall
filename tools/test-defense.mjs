@@ -890,8 +890,9 @@ const lastEvents = (world, type) => world.events.filter(e => e.type === type)
   // 期望变更（第 4 轮测试）：门从出现到结算 2 秒 → 约 3.75 秒（不超过 4.5 秒），结算时刻不变（旧表出现时刻 + 2 秒），出现时刻提前；同一时刻最多一组门：
   // 下一道门出现时上一道至少已经结算 1 秒。理由：用户实玩「门来得太快，还没反应过来就被迫选了，慢一点就行，太慢了也不好」
   const resolveOld = [2, 7.1, 12.2, 17.3, 22.4, 27.5, 32.6, 37.7, 44, 50.5, 57.5, 65].map(t => t + 2)
-  check('⑫ 门：路上 3.5~4.5 秒、结算时刻和上一版一样、前期 5.1 秒一道、同一时刻最多一组门（间隔 ≥ 1 秒）、Boss 出场前全部过完',
-    GATE_TRAVEL >= 3.5 && GATE_TRAVEL <= 4.5 && GATE.times.length === 12 && GATE.resolve.every((t, i) => near(t, resolveOld[i], 1e-9)) && GATE.times.every((t, i) => near(t + GATE_TRAVEL, GATE.resolve[i], 0.01)) &&
+  // 期望变更（公测反馈「门有点慢，开局怪都到脸上了门才过来」）：路上 3.75 → 约 2.8 秒，介于最初的 2 秒和上一版之间
+  check('⑫ 门：路上 2.5~3.2 秒、结算时刻和上一版一样、前期 5.1 秒一道、同一时刻最多一组门（间隔 ≥ 1 秒）、Boss 出场前全部过完',
+    GATE_TRAVEL >= 2.5 && GATE_TRAVEL <= 3.2 && GATE.times.length === 12 && GATE.resolve.every((t, i) => near(t, resolveOld[i], 1e-9)) && GATE.times.every((t, i) => near(t + GATE_TRAVEL, GATE.resolve[i], 0.01)) &&
     GATE.times.slice(1, 8).every((t, i) => near(t - GATE.times[i], 5.1, 0.011)) && GATE.times.every((t, i) => i === 0 || t >= GATE.resolve[i - 1] + 1) && GATE.times[0] >= 0 && GATE.resolve[GATE.resolve.length - 1] < CAMPAIGN_BOSS.at && GATE.endlessSpeed === 10.7,
     `路上 ${r2(GATE_TRAVEL)} 秒  出现 ${GATE.times.join(' ')}  结算 ${GATE.resolve.join(' ')}`)
   // 期望变更（第 4 轮测试）：「18 个正波 × 0.92 + 回声波、峰值 1728」→ 26 波渐进表、峰值 2000（Boss 前的「全线压上」）。理由同上：
