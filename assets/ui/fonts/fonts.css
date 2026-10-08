@@ -1,0 +1,15 @@
+/* HIVEFALL fonts - all OFL-1.1 */
+@font-face{font-family:'Orbitron';src:url('Orbitron-VF.woff2') format('woff2');font-weight:400 900;font-display:swap}
+@font-face{font-family:'Oxanium';src:url('Oxanium-VF.woff2') format('woff2');font-weight:200 800;font-display:swap}
+@font-face{font-family:'Rajdhani';src:url('Rajdhani-Medium.woff2') format('woff2');font-weight:500;font-display:swap}
+@font-face{font-family:'Rajdhani';src:url('Rajdhani-SemiBold.woff2') format('woff2');font-weight:600;font-display:swap}
+@font-face{font-family:'Rajdhani';src:url('Rajdhani-Bold.woff2') format('woff2');font-weight:700;font-display:swap}
+@font-face{font-family:'Chakra Petch';src:url('ChakraPetch-Regular.woff2') format('woff2');font-weight:400;font-display:swap}
+@font-face{font-family:'Chakra Petch';src:url('ChakraPetch-SemiBold.woff2') format('woff2');font-weight:600;font-display:swap}
+@font-face{font-family:'Chakra Petch';src:url('ChakraPetch-Bold.woff2') format('woff2');font-weight:700;font-display:swap}
+@font-face{font-family:'Share Tech Mono';src:url('ShareTechMono-Regular.woff2') format('woff2');font-weight:400;font-display:swap}
+@font-face{font-family:'ZCOOL QingKe HuangYou';src:url('ZCOOLQingKeHuangYou-subset.woff2') format('woff2');font-weight:400;font-display:swap}
+@font-face{font-family:'Noto Sans SC';src:url('NotoSansSC-Medium-subset.woff2') format('woff2');font-weight:500;font-display:swap}
+@font-face{font-family:'Noto Sans SC';src:url('NotoSansSC-Bold-subset.woff2') format('woff2');font-weight:700;font-display:swap}
+@font-face{font-family:'Noto Sans SC';src:url('NotoSansSC-Black-subset.woff2') format('woff2');font-weight:900;font-display:swap}
+:root{--font-title:'Orbitron','ZCOOL QingKe HuangYou','Noto Sans SC',sans-serif;--font-num:'Oxanium','Noto Sans SC',sans-serif;--font-ui:'Rajdhani','Noto Sans SC',sans-serif;--font-mono:'Share Tech Mono',monospace}

@@ -1,0 +1,506 @@
+{
+ "character_soldier_PpLF4rt4ah.glb": {
+  "title": "Character Soldier",
+  "page": "https://poly.pizza/m/PpLF4rt4ah",
+  "url": "https://static.poly.pizza/1083c1d3-d1d4-4682-adf6-bc516d06ac84.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "tris": 7929
+ },
+ "character_hazmat_z3TSQYx1Kn.glb": {
+  "title": "Character Hazmat",
+  "page": "https://poly.pizza/m/z3TSQYx1Kn",
+  "url": "https://static.poly.pizza/484450a4-b76c-4e76-95d2-352337bb41e8.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "tris": 12118
+ },
+ "character_enemy_mdGe4IN31v.glb": {
+  "title": "Character Enemy",
+  "page": "https://poly.pizza/m/mdGe4IN31v",
+  "url": "https://static.poly.pizza/6d2fe602-2adf-43d2-aa20-00e68165497d.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "tris": 12096
+ },
+ "swat_Btfn3G5Xv4.glb": {
+  "title": "SWAT",
+  "page": "https://poly.pizza/m/Btfn3G5Xv4",
+  "url": "https://static.poly.pizza/713f6535-f4f3-4367-a4c6-ced126ae0936.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "tris": 5444
+ },
+ "astronaut_3hC2i0CTuO.glb": {
+  "title": "Astronaut",
+  "page": "https://poly.pizza/m/3hC2i0CTuO",
+  "url": "https://static.poly.pizza/0076345b-bbea-42d5-931c-4a5ad2050b18.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "tris": 5324
+ },
+ "astronaut_0D54W8yfrA.glb": {
+  "title": "Astronaut",
+  "page": "https://poly.pizza/m/0D54W8yfrA",
+  "url": "https://static.poly.pizza/f06659f2-e505-43df-a3db-84faec811a57.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "tris": 8606
+ },
+ "astronaut_zbtPq4dOJL.glb": {
+  "title": "Astronaut",
+  "page": "https://poly.pizza/m/zbtPq4dOJL",
+  "url": "https://static.poly.pizza/9cd2d5d8-953d-4aee-8e46-f72b12ff5855.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "tris": 7938
+ },
+ "astronaut_OgeSH89Nmx.glb": {
+  "title": "Astronaut",
+  "page": "https://poly.pizza/m/OgeSH89Nmx",
+  "url": "https://static.poly.pizza/29010dcf-84c9-4eaf-a874-c44ef3166f55.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "tris": 8562
+ },
+ "mech_o3Ps8z8ByP.glb": {
+  "title": "Mech",
+  "page": "https://poly.pizza/m/o3Ps8z8ByP",
+  "url": "https://static.poly.pizza/a242e73b-6a40-4bd9-bfa9-ed1d8e49ea21.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "tris": 5846
+ },
+ "mech_D5wW2jDO42.glb": {
+  "title": "Mech",
+  "page": "https://poly.pizza/m/D5wW2jDO42",
+  "url": "https://static.poly.pizza/750173d2-53aa-4318-95dc-5f8e6d2dcad2.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "tris": 4008
+ },
+ "mech_4UvIHxnoSR.glb": {
+  "title": "Mech",
+  "page": "https://poly.pizza/m/4UvIHxnoSR",
+  "url": "https://static.poly.pizza/dab7180d-5393-4cb1-aa8f-b56154b0d724.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "tris": 6756
+ },
+ "mech_tLs9mFVCSU.glb": {
+  "title": "Mech",
+  "page": "https://poly.pizza/m/tLs9mFVCSU",
+  "url": "https://static.poly.pizza/6f884100-f3e8-4302-b74a-10965c14956a.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "tris": 4086
+ },
+ "animated_robot_QCm7qe9uNJ.glb": {
+  "title": "Animated Robot",
+  "page": "https://poly.pizza/m/QCm7qe9uNJ",
+  "url": "https://static.poly.pizza/7d95dbce-8c73-489b-8298-f430b1f0dbdf.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "tris": 1425
+ },
+ "robot_enemy_flying_lF3jeRJwiH.glb": {
+  "title": "Robot Enemy Flying",
+  "page": "https://poly.pizza/m/lF3jeRJwiH",
+  "url": "https://static.poly.pizza/abb31ff6-3e2d-43a6-bf13-dba39b0c596d.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "tris": 4544
+ },
+ "robot_enemy_flying_gun_UDTM6X1y9a.glb": {
+  "title": "Robot Enemy Flying Gun",
+  "page": "https://poly.pizza/m/UDTM6X1y9a",
+  "url": "https://static.poly.pizza/6d0889f1-0c3f-4f98-b011-fbcf6c79a93b.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "tris": 4582
+ },
+ "robot_enemy_legs_gun_lFZfDh2hzP.glb": {
+  "title": "Robot Enemy Legs Gun",
+  "page": "https://poly.pizza/m/lFZfDh2hzP",
+  "url": "https://static.poly.pizza/c320ce4a-25be-4704-bda9-b67e1aa97a70.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "tris": 4702
+ },
+ "robot_enemy_1gNo5ezvmr.glb": {
+  "title": "Robot Enemy",
+  "page": "https://poly.pizza/m/1gNo5ezvmr",
+  "url": "https://static.poly.pizza/9c45ab2b-c46a-4319-bc2a-88d6dbbc8e42.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "tris": 4380
+ },
+ "robot_enemy_large_mPDR0L5uKx.glb": {
+  "title": "Robot Enemy Large",
+  "page": "https://poly.pizza/m/mPDR0L5uKx",
+  "url": "https://static.poly.pizza/86da7c34-9196-43b3-975d-db2325c83a65.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "tris": 4256
+ },
+ "robot_enemy_large_gun_mWojM4i2IH.glb": {
+  "title": "Robot Enemy Large Gun",
+  "page": "https://poly.pizza/m/mWojM4i2IH",
+  "url": "https://static.poly.pizza/78e23275-cb6a-4ba3-ae5e-48a9b4ee2e65.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "tris": 6902
+ },
+ "character_animated_DgOCW9ZCRJ.glb": {
+  "title": "Character Animated",
+  "page": "https://poly.pizza/m/DgOCW9ZCRJ",
+  "url": "https://static.poly.pizza/1a8a9d55-9aa9-43c4-a031-d926e251d80a.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "tris": 1246
+ },
+ "adventurer_5EGWBMpuXq.glb": {
+  "title": "Adventurer",
+  "page": "https://poly.pizza/m/5EGWBMpuXq",
+  "url": "https://static.poly.pizza/bbe369ee-a686-42c7-adad-14356f5f2f15.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "tris": 3388
+ },
+ "adventurer_ZwF0K7WBmu.glb": {
+  "title": "Adventurer",
+  "page": "https://poly.pizza/m/ZwF0K7WBmu",
+  "url": "https://static.poly.pizza/69689495-028d-4b81-8678-792338a5693e.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "tris": 3452
+ },
+ "wizard_tabnmuxQBl.glb": {
+  "title": "Wizard",
+  "page": "https://poly.pizza/m/tabnmuxQBl",
+  "url": "https://static.poly.pizza/3df4bc4f-54a7-43e4-a35d-35d05610d0eb.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "tris": 6227
+ },
+ "wizard_o87Upt5uHX.glb": {
+  "title": "Wizard",
+  "page": "https://poly.pizza/m/o87Upt5uHX",
+  "url": "https://static.poly.pizza/d206c071-7934-40eb-9091-35ebdf93c317.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "tris": 1674
+ },
+ "lightning_wizard_ZCGVHzSvQD.glb": {
+  "title": "Lightning Wizard",
+  "page": "https://poly.pizza/m/ZCGVHzSvQD",
+  "url": "https://static.poly.pizza/a036ff10-fca1-4117-be30-fb8ea593daf7.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "tris": 11290
+ },
+ "sci_fi_character_4pUXv5V8kq.glb": {
+  "title": "Sci Fi Character",
+  "page": "https://poly.pizza/m/4pUXv5V8kq",
+  "url": "https://static.poly.pizza/a8624e73-27bd-4878-a17b-f5d9af209c85.glb",
+  "author": "Quaternius",
+  "license": "CC-BY 3.0",
+  "tris": 3824
+ },
+ "soldier_oAArCNHjFB.glb": {
+  "title": "Soldier",
+  "page": "https://poly.pizza/m/oAArCNHjFB",
+  "url": "https://static.poly.pizza/66a55d04-4286-44a3-b289-0d774c27db5b.glb",
+  "author": "Quaternius",
+  "license": "CC-BY 3.0",
+  "tris": 4400
+ },
+ "animated_woman_9kF7eTDbhO.glb": {
+  "title": "Animated Woman",
+  "page": "https://poly.pizza/m/9kF7eTDbhO",
+  "url": "https://static.poly.pizza/cf08b740-dd48-443e-9fde-6d3d54abf119.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "tris": 1908
+ },
+ "animated_woman_nIItLV9nxS.glb": {
+  "title": "Animated Woman",
+  "page": "https://poly.pizza/m/nIItLV9nxS",
+  "url": "https://static.poly.pizza/46d6db5a-3c9f-4238-8cdf-8eb7194498dc.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "tris": 3282
+ },
+ "animated_woman_qJ2gsTUBHL.glb": {
+  "title": "Animated Woman",
+  "page": "https://poly.pizza/m/qJ2gsTUBHL",
+  "url": "https://static.poly.pizza/ba7a1955-ea51-4cb9-a561-188bdef0a6c7.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "tris": 3410
+ },
+ "ninja_mCNoqcqpvC.glb": {
+  "title": "Ninja",
+  "page": "https://poly.pizza/m/mCNoqcqpvC",
+  "url": "https://static.poly.pizza/42162a27-0aaa-40be-b50e-919776021a11.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "tris": 2112
+ },
+ "ninja_xGYmeDpfTu.glb": {
+  "title": "Ninja",
+  "page": "https://poly.pizza/m/xGYmeDpfTu",
+  "url": "https://static.poly.pizza/2ed11876-720e-457a-8a69-4a14ba7234dc.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "tris": 5780
+ },
+ "animated_human_c3Ibh9I3udk.glb": {
+  "title": "Animated Human",
+  "page": "https://poly.pizza/m/c3Ibh9I3udk",
+  "url": "https://static.poly.pizza/170235d2-cdeb-4cb2-a82f-4828585138fe.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "tris": 1578
+ },
+ "worker_Yg2bQZO6Hj.glb": {
+  "title": "Worker",
+  "page": "https://poly.pizza/m/Yg2bQZO6Hj",
+  "url": "https://static.poly.pizza/3a5f3056-ffe6-42eb-bd52-122afcbd22b2.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "tris": 3350
+ },
+ "punk_BTALZymknF.glb": {
+  "title": "Punk",
+  "page": "https://poly.pizza/m/BTALZymknF",
+  "url": "https://static.poly.pizza/e56f23b5-3270-406f-8924-f77cad980c43.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "tris": 3530
+ },
+ "punk_djXoqejw6w.glb": {
+  "title": "Punk",
+  "page": "https://poly.pizza/m/djXoqejw6w",
+  "url": "https://static.poly.pizza/1d368679-1d9a-4d5c-9095-877144b02d00.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "tris": 3850
+ },
+ "animated_wizard_kttbFvCl2C.glb": {
+  "title": "Animated Wizard",
+  "page": "https://poly.pizza/m/kttbFvCl2C",
+  "url": "https://static.poly.pizza/7e77cc7a-eff9-4ebd-90a6-7728c265b092.glb",
+  "author": "Quaternius",
+  "license": "CC-BY 3.0",
+  "tris": 2527
+ },
+ "witch_QBEOV9ZUT8.glb": {
+  "title": "Witch",
+  "page": "https://poly.pizza/m/QBEOV9ZUT8",
+  "url": "https://static.poly.pizza/a43d6661-8a89-4818-a7eb-40e1e8430a4c.glb",
+  "author": "Quaternius",
+  "license": "CC-BY 3.0",
+  "tris": 3892
+ },
+ "turret_gun_hThPXDCbwl.glb": {
+  "title": "Turret Gun",
+  "page": "https://poly.pizza/m/hThPXDCbwl",
+  "url": "https://static.poly.pizza/730a54af-3785-4d23-8efc-1560ed61e0d3.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "tris": 1504
+ },
+ "turret_cannon_mNJ6poH7Cp.glb": {
+  "title": "Turret Cannon",
+  "page": "https://poly.pizza/m/mNJ6poH7Cp",
+  "url": "https://static.poly.pizza/5669a490-372e-41a6-ac5f-b8ca5b69e4a5.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "tris": 1318
+ },
+ "giant_mech_5l-n7PyvqOu.glb": {
+  "title": "Giant Mech \ud83e\udd16",
+  "page": "https://poly.pizza/m/5l-n7PyvqOu",
+  "url": "https://static.poly.pizza/1c157119-ea4b-4c72-8fe0-51b2ef1430f0.glb",
+  "author": "Chris Ross",
+  "license": "CC-BY 3.0",
+  "tris": 19100
+ },
+ "sentinel_mech_aGSpAN8ONud.glb": {
+  "title": "Sentinel Mech",
+  "page": "https://poly.pizza/m/aGSpAN8ONud",
+  "url": "https://static.poly.pizza/40d7525e-237c-448b-8b1d-8260bd0b1885.glb",
+  "author": "Tekano Bob",
+  "license": "CC-BY 3.0",
+  "tris": 21612
+ },
+ "mech_assault_walker_6s3_n8xzzvo.glb": {
+  "title": "Mech Assault Walker",
+  "page": "https://poly.pizza/m/6s3_n8xzzvo",
+  "url": "https://static.poly.pizza/0f7c451a-e402-4429-b581-9d423de22c8b.glb",
+  "author": "Alimayo Arango",
+  "license": "CC-BY 3.0",
+  "tris": 21770
+ },
+ "mechquadruped_5x1hRpbmdfo.glb": {
+  "title": "MechQuadruped",
+  "page": "https://poly.pizza/m/5x1hRpbmdfo",
+  "url": "https://static.poly.pizza/fa9c5ab6-2241-4769-8378-8906735567f4.glb",
+  "author": "3Donimus",
+  "license": "CC-BY 3.0",
+  "tris": 59644
+ },
+ "mechsuit_cQFoSfuK7Tf.glb": {
+  "title": "Mechsuit",
+  "page": "https://poly.pizza/m/cQFoSfuK7Tf",
+  "url": "https://static.poly.pizza/81a2061f-08f5-4ed8-8463-d57bc58333da.glb",
+  "author": "Pepper Media",
+  "license": "CC-BY 3.0",
+  "tris": 30789
+ },
+ "omega_hunter_bot_6IjSbZC5i5v.glb": {
+  "title": "Omega Hunter Bot",
+  "page": "https://poly.pizza/m/6IjSbZC5i5v",
+  "url": "https://static.poly.pizza/8fc0fac3-decb-4ed2-8b6d-150faf088ca2.glb",
+  "author": "Aaron Clifford",
+  "license": "CC-BY 3.0",
+  "tris": 1744
+ },
+ "giant_robot_1kbGZOnhOwf.glb": {
+  "title": "Giant Robot",
+  "page": "https://poly.pizza/m/1kbGZOnhOwf",
+  "url": "https://static.poly.pizza/2db3d598-a711-48ea-ac66-45165e37ee87.glb",
+  "author": "Dann Beeson",
+  "license": "CC-BY 3.0",
+  "tris": 12336
+ },
+ "mech_concept_51h2ELk0o6n.glb": {
+  "title": "Mech concept",
+  "page": "https://poly.pizza/m/51h2ELk0o6n",
+  "url": "https://static.poly.pizza/b5086706-1bcc-4a80-947d-6fe62521809c.glb",
+  "author": "Raul Yo",
+  "license": "CC-BY 3.0",
+  "tris": 38192
+ },
+ "little_mech_7ysTwVKOiMp.glb": {
+  "title": "Little Mech",
+  "page": "https://poly.pizza/m/7ysTwVKOiMp",
+  "url": "https://static.poly.pizza/890d3844-666b-4ac1-b5a7-b18ee7eacb51.glb",
+  "author": "Riley Florence",
+  "license": "CC-BY 3.0",
+  "tris": 3012
+ },
+ "big_arm_KaVJET0WHx.glb": {
+  "title": "Big arm",
+  "page": "https://poly.pizza/m/KaVJET0WHx",
+  "url": "https://static.poly.pizza/02774147-cf49-4915-a70f-81ac5a8d625b.glb",
+  "author": "Quaternius",
+  "license": "CC-BY 3.0",
+  "tris": 5670
+ },
+ "giant_BldaiPtyJa.glb": {
+  "title": "Giant",
+  "page": "https://poly.pizza/m/BldaiPtyJa",
+  "url": "https://static.poly.pizza/260aff73-1409-4a45-9746-b078229d8cf3.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "tris": 3812
+ },
+ "characters_matt_66kQ4dBBC7.glb": {
+  "title": "Characters Matt",
+  "page": "https://poly.pizza/m/66kQ4dBBC7",
+  "url": "https://static.poly.pizza/1e87091b-7202-4906-bd14-22881d9b945c.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "tris": 7070
+ },
+ "rigged_astronaut_0oBRDJ9Zl9.glb": {
+  "title": "Rigged Astronaut",
+  "page": "https://poly.pizza/m/0oBRDJ9Zl9",
+  "url": "https://static.poly.pizza/d25085f1-dac6-462e-92b6-752c5af534bd.glb",
+  "author": "J-Toastie",
+  "license": "CC-BY 3.0",
+  "tris": 3076
+ },
+ "android_bot_AcvyAnBBrQ.glb": {
+  "title": "Android bot",
+  "page": "https://poly.pizza/m/AcvyAnBBrQ",
+  "url": "https://static.poly.pizza/32361a96-8f80-4a84-b122-d9683489d51c.glb",
+  "author": "Armory_3D",
+  "license": "CC0 1.0",
+  "tris": 654
+ },
+ "clanker_ZTktQcKNX7.glb": {
+  "title": "Clanker",
+  "page": "https://poly.pizza/m/ZTktQcKNX7",
+  "url": "https://static.poly.pizza/c8c7d52b-bdda-49ed-96c0-26f1d6ecc080.glb",
+  "author": "J-Toastie",
+  "license": "CC-BY 3.0",
+  "tris": null
+ },
+ "machine_man_mWLnPxLY6X.glb": {
+  "title": "Machine Man",
+  "page": "https://poly.pizza/m/mWLnPxLY6X",
+  "url": "https://static.poly.pizza/8eebf68c-02eb-4b69-9633-36fdfb99ede0.glb",
+  "author": "Vaporworks",
+  "license": "CC-BY 3.0",
+  "tris": 2248
+ },
+ "robot_ItRrw5zy2L.glb": {
+  "title": "Robot",
+  "page": "https://poly.pizza/m/ItRrw5zy2L",
+  "url": "https://static.poly.pizza/b279f45f-65e0-4430-9c48-23051620e95f.glb",
+  "author": "Rendercore",
+  "license": "CC-BY 3.0",
+  "tris": 13824
+ },
+ "suit_sOUciDsoVV.glb": {
+  "title": "Suit",
+  "page": "https://poly.pizza/m/sOUciDsoVV",
+  "url": "https://static.poly.pizza/1bd7759c-ab76-4178-8fe6-7706dffa7d5f.glb",
+  "author": "Quaternius",
+  "license": "CC-BY 3.0",
+  "tris": 3956
+ },
+ "hooded_adventurer_y9KWOVG21R.glb": {
+  "title": "Hooded Adventurer",
+  "page": "https://poly.pizza/m/y9KWOVG21R",
+  "url": "https://static.poly.pizza/3186b8e9-afd5-4d48-846c-b2b530cd23e2.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "tris": 3412
+ },
+ "monk_P5FzFYgG5z.glb": {
+  "title": "Monk",
+  "page": "https://poly.pizza/m/P5FzFYgG5z",
+  "url": "https://static.poly.pizza/eb331582-3a64-4a5a-8b46-75b9c1243830.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "tris": 11456
+ },
+ "characters_sam_UcLErL2W37.glb": {
+  "title": "Characters Sam",
+  "page": "https://poly.pizza/m/UcLErL2W37",
+  "url": "https://static.poly.pizza/2d0ad9ee-2e86-4b0c-b20e-cfc8c80c8c78.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "tris": 9636
+ },
+ "characters_shaun_eJFT9MxzOM.glb": {
+  "title": "Characters Shaun",
+  "page": "https://poly.pizza/m/eJFT9MxzOM",
+  "url": "https://static.poly.pizza/c8ecc219-6a19-4fd1-ae1a-6ceeda529eaf.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "tris": 10758
+ },
+ "worker_E8079Ahx7k.glb": {
+  "title": "Worker",
+  "page": "https://poly.pizza/m/E8079Ahx7k",
+  "url": "https://static.poly.pizza/c0253218-85f2-4d67-b3f2-a4611a7901fe.glb",
+  "author": "Quaternius",
+  "license": "CC-BY 3.0",
+  "tris": 3422
+ }
+}

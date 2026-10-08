@@ -1,0 +1,180 @@
+/* HIVEFALL UI — 手机竖屏（.hf-m；设计稿 390 宽）。门卡变顶部扁卡、升级卡纵向堆叠、HUD 压成两行、砍小地图与歼敌速度。 */
+.hf.hf-m { font-size: 14px; }
+.hf-m .m-hide { display: none !important; } .hf-m .m-show { display: inline; }
+
+/* ---- HUD 顶部 ---- */
+.hf-m .hud-tl { left: 10px; top: 10px; gap: 7px; }
+.hf-m .logo { padding-left: 8px; gap: 3px; border-left-width: 2px; } .hf-m .logo b { font-size: 17px; } .hf-m .logo-sub { font-size: 8.5px; letter-spacing: 0.12em; }
+.hf-m .chip { height: 28px; padding: 0 10px 0 8px; gap: 6px; } .hf-m .chip-k { font-size: 12px; } .hf-m .chip-v { font-size: 15px; min-width: 28px; } .hf-m .chip .ic { font-size: 14px; }
+.hf-m .hud-tr { right: 10px; top: 10px; width: auto; gap: 6px; }
+.hf-m .sq-row > :nth-child(1), .hf-m .sq-row > :nth-child(2) { display: none; }
+.hf-m .sq { height: 40px; padding: 0 12px; } .hf-m .sq.only-ic { padding: 0 13px; }
+.hf-m .rate { display: none; }
+.hf-m .comms { position: absolute; right: 0; top: 214px; width: 370px; padding: 6px 10px 7px 6px; } .hf-m .comms-pt { width: 38px; height: 38px; } .hf-m .comms-text { font-size: 13.5px; }
+.hf-m .hud-tc { left: 10px; right: 10px; top: 150px; width: auto; margin: 0; gap: 6px; }
+.hf-m .hud-tc:has(.bossbar:not([hidden])) { top: 150px; gap: 6px; }
+.hf-m .mission { display: none; }
+.hf-m .boss-name { font-size: 17px; } .hf-m .boss-hp { font-size: 12px; } .hf-m .boss-track { height: 10px; } .hf-m .boss-head { margin-bottom: 4px; gap: 7px; }
+.hf-m .herald { width: 100%; padding: 6px 12px 9px; gap: 10px; } .hf-m .herald-mid { display: block; } .hf-m .herald-comp { flex-wrap: wrap; white-space: normal; margin-top: 3px; max-height: 34px; } .hf-m .herald-name { font-size: 17px; } .hf-m .herald-comp { font-size: 12.5px; gap: 1px 10px; } .hf-m .herald-tag span { display: none; }
+
+/* 技能：右侧拇指区一列方钮 */
+.hf-m .hud-tl { right: 10px; width: auto; pointer-events: none; }
+/* 技能列贴着装置卡条上沿往上排（原来从 top: 330 往下排：屏幕矮一点第 4 个就被装置卡条盖住，只露 3 个） */
+.hf-m .hud-tl { bottom: 228px; }   /* 装置卡条回到一排横滑：技能列跟着落回卡条上沿 */
+.hf-m .powers { position: absolute; right: 0; top: auto; bottom: 0; margin: 0; gap: 6px; }
+.hf-m .pw { width: 50px; height: 50px; padding: 0; justify-content: center; } .hf-m .pw-face { width: 42px; height: 42px; } .hf-m .pw-txt .pw-name { display: none; } .hf-m .pw-key { display: none; }
+.hf-m .pw-txt { position: absolute; left: 0; right: 0; bottom: 2px; align-items: center; } .hf-m .pw-pips i { width: 7px; }
+.hf-m .comp { width: 160px; padding: 4px 8px 4px 4px; } .hf-m .comp-pt { width: 24px; height: 24px; } .hf-m .comp-form { display: none; }
+
+/* ---- 门卡：顶部两张扁卡 ---- */
+.hf-m .gates { top: 58px; left: 10px; right: 10px; height: auto; display: grid; grid-template-columns: 1fr 1fr; gap: 6px; }
+.hf-m .gates-head { display: none; }
+.hf-m .gate, .hf-m .gate.left, .hf-m .gate.right { position: relative; left: auto; right: auto; width: auto; display: grid; grid-template-columns: 40px 1fr; grid-template-rows: auto auto; column-gap: 8px; padding: 7px 9px 11px; --c: 8px; text-align: left; }
+.hf-m .gate-hint { display: none; }
+.hf-m .gate-face, .hf-m .gate.right .gate-face { width: 40px; height: 40px; margin: 0; grid-row: 1 / 3; align-self: center; } .hf-m .gate-ic { font-size: 23px; }
+.hf-m .gate-body, .hf-m .gate.right .gate-body { text-align: left; min-width: 0; grid-row: 1 / 3; }
+.hf-m .gate-title { font-size: 14.5px; text-wrap: wrap; } .hf-m .gate-sub { font-size: 11.5px; margin-top: 3px; padding-top: 3px; min-height: 0; }
+.hf-m .gate-tags, .hf-m .gate.right .gate-tags { justify-content: flex-start; margin-top: 4px; gap: 3px; } .hf-m .tag { height: 16px; padding: 0 5px; font-size: 11px; }
+.hf-m .gate-bar { left: 8px; right: 8px; bottom: 4px; height: 2px; }
+
+/* ---- 横幅 / 事件 / 飘字 ---- */
+/* 竖屏顶中列（Boss 血条 / 预告 / 横幅）和通讯条会落在同一段：横幅只亮 2 秒左右，亮着时先把通讯条让开 */
+.hf-m .hud:has(.bn:not([hidden])) .comms { visibility: hidden; }
+.hf-m .bn { max-width: 100%; padding: 0 16px; column-gap: 9px; } .hf-m .bn-ic { font-size: 20px; } .hf-m .bn-title { font-size: 18px; } .hf-m .bn-sub { font-size: 12px; }
+.hf-m .flank { top: 274px; font-size: 13px; padding: 6px 10px; }
+.hf-m .hud:has(.gates:not([hidden])) .hud-tl .chip { visibility: hidden; }   /* 门卡出来时正好盖在补给铭牌上：露半截不如先收起来 */
+/* 竖屏事件卡搬到顶部（补给铭牌下面）、只露最新一张、压成一行：原来两三张叠在方阵正上方，兵几乎看不见。门卡出来时让位 */
+.hf-m .ev-stack { left: 10px; top: 88px; bottom: auto; width: 62%; gap: 0; }
+.hf-m .ev { padding: 4px 10px 4px 4px; gap: 8px; opacity: 0.94; } .hf-m .ev::after { top: 6px; bottom: 6px; } .hf-m .ev-pt { width: 28px; height: 28px; }
+.hf-m .ev-body { display: flex; align-items: baseline; gap: 7px; min-width: 0; } .hf-m .ev-eb { flex: none; font-size: 9.5px; } .hf-m .ev-title { margin: 0; font-size: 13.5px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-width: 0; } .hf-m .ev-sub { display: none; }
+.hf-m .ev-stack .ev:not(.newest) { display: none; }
+.hf-m .hud:has(.gates:not([hidden])) .ev-stack { display: none; }
+.hf-m .aim { bottom: 250px; font-size: 13.5px; padding: 7px 12px 10px; }
+.hf-m .fl { font-size: 15px; } .hf-m .fl.crit { font-size: 21px; }
+
+/* ---- 底部：装置卡 + 两行 HUD ---- */
+.hf-m .devrow { left: 6px; right: 6px; bottom: 150px; transform: none; gap: 4px; }
+.hf-m .energy { min-width: 0; width: 62px; padding: 0 4px; flex-direction: column; justify-content: center; gap: 2px; --c: 6px; } .hf-m .energy-ic { font-size: 17px; } .hf-m .energy-k { display: none; } .hf-m .energy-v { font-size: 17px; }
+.hf-m .energy-body { align-items: center; }
+/* 装置卡条：九张卡放不下就横向滑（原来九张硬挤成九条细缝，图标 / 价格 / 快捷键都看不清）。右沿渐隐提示还能往右滑 */
+.hf-m .dcards-wrap { flex: 1; padding: 4px 0 4px 4px; --c: 6px; min-width: 0; overflow-x: auto; overflow-y: hidden; overscroll-behavior-x: contain; scroll-snap-type: x proximity; -webkit-overflow-scrolling: touch; scrollbar-width: none; touch-action: pan-x;
+  -webkit-mask: linear-gradient(90deg, #000 calc(100% - 22px), transparent); mask: linear-gradient(90deg, #000 calc(100% - 22px), transparent); }
+.hf-m .dcards-wrap::-webkit-scrollbar { display: none; }
+.hf-m .dcards-wrap.at-end { -webkit-mask: none; mask: none; }
+.hf-m .dcards { gap: 4px; width: max-content; padding: 5px 4px 0 0; }
+.hf-m .dc-msg { bottom: auto; top: 50%; transform: translate(-50%, -50%); width: 100%; padding: 3px 2px; font-size: 10px; line-height: 1.1; white-space: normal; text-align: center; z-index: 4; }   /* 卡条会横向滚动（溢出裁掉）：拒绝提示改成盖在卡面上，不往卡上方飘 */
+.hf-m .dc { flex: none; width: 52px; min-width: 0; height: 56px; padding-bottom: 3px; scroll-snap-align: start; clip-path: polygon(5px 0, 100% 0, 100% calc(100% - 5px), calc(100% - 5px) 100%, 0 100%, 0 5px); }
+.hf-m .dc-ic { font-size: 23px; margin-left: -11.5px; top: 8px; } .hf-m .dc-key { width: 14px; height: 14px; font-size: 9.5px; } .hf-m .dc-cost { font-size: 12.5px; } .hf-m .dc-costrow { gap: 2px; } .hf-m .dc-costrow .ic { font-size: 9px; }
+.hf-m .dc-cdt { top: 10px; font-size: 16px; } .hf-m .dc-lock { font-size: 18px; margin-left: -9px; top: 12px; }
+.hf-m .dc.rm { width: 48px; margin-left: 2px; flex: none; } .hf-m .dc.rm .dc-ic { font-size: 21px; margin-left: -10.5px; top: 8px; } .hf-m .dc.rm .dc-cost { font-size: 10px; }
+.hf-m .dc.sel { transform: translateY(-4px); }
+.hf-m .dev-hint { font-size: 12px; bottom: calc(100% + 6px); }
+/* 竖屏装置卡回到一排横向滑动（两排网格把战场再压矮 44px，技能列也被顶到半屏）：
+   每张卡保留图标 + 价格 + 快捷键；「铲除」用 sticky 钉在卡条右端永远看得见，卡片从它下面滑过去——它左沿的阴影就是「右边还有」的提示；
+   右沿渐隐改到铲除键左侧。新解锁的卡由 hud.js 自动滚进视野 */
+.hf-m .dcards-wrap { -webkit-mask: none; mask: none; padding-right: 0; scroll-snap-type: none; }   /* 吸附会把自动滚到位的卡又吸回卡片起点、半张压在铲除键下面 */
+.hf-m .dcards { padding-right: 0; }
+.hf-m .dc.rm { position: sticky; right: 0; z-index: 5; margin-left: 4px; clip-path: none; background: #1a0f10; box-shadow: -10px 0 12px 2px rgba(5, 8, 11, 0.9), inset 0 0 0 1px rgba(255, 77, 61, 0.55); }
+.hf-m .dcards-wrap:not(.at-end) .dc.rm::before { content: '‹'; position: absolute; left: -15px; top: 50%; transform: translateY(-50%); font: 700 16px/1 var(--f-num); color: var(--cyan); text-shadow: 0 0 6px #000; pointer-events: none; animation: hf-blink 1.4s steps(2) infinite; }
+
+.hf-m .pills { display: none; }
+.hf-m .xpbar { bottom: 124px; height: 18px; padding: 0 8px; gap: 8px; } .hf-m .xp-lv { height: 18px; font-size: 12px; padding: 0 8px; } .hf-m .xp-track { height: 6px; } .hf-m .xp-txt { display: none; }
+.hf-m .xp-rate { display: inline-flex; align-items: baseline; justify-content: flex-end; gap: 2px; min-width: 62px; white-space: nowrap; } .hf-m .xp-rate-v { font: 700 16px/1 var(--f-num); color: var(--amber-2); text-shadow: 0 0 8px rgba(255, 176, 46, 0.4), 0 1px 2px #000; } .hf-m .xp-rate-u { font-size: 10px; color: #b9c6d2; }
+.hf-m .console { height: 120px; grid-template-columns: 1fr auto; grid-template-rows: 1fr auto; gap: 5px 6px; padding: 7px 8px 8px; }
+.hf-m .console-rail { background: linear-gradient(90deg, var(--amber) 0 40px, transparent 40px calc(100% - 40px), var(--amber) calc(100% - 40px)); }
+.hf-m .c-left { grid-column: 1 / 3; grid-row: 2; padding: 0; } .hf-m .c-left::before { display: none; }
+.hf-m .mm { display: none; }
+.hf-m .c-stats { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; padding: 0 4px; }
+.hf-m .st { flex-direction: row; align-items: baseline; gap: 6px; } .hf-m .st-k { font-size: 10px; letter-spacing: 0.08em; }
+.hf-m .st-main { order: 2; } .hf-m .st-kills { font-size: 18px; text-shadow: none; } .hf-m .st-v { font-size: 15px; }
+.hf-m .st-time { order: 1; } .hf-m .st-line { order: 3; } .hf-m .st-line .bar { display: none; } .hf-m .st-fence { order: 4; margin: 0; gap: 4px; } .hf-m .st-fence .st-k { display: none; } .hf-m .st-fences i { width: 9px; height: 5px; }
+.hf-m .c-mid { grid-column: 1; grid-row: 1; padding: 5px 9px 5px 5px; gap: 8px; --c: 7px; }
+.hf-m .c-pt { width: 54px; height: 54px; } .hf-m .c-midbody { gap: 5px; }
+.hf-m .c-midhead { display: none; }
+.hf-m .c-counts { gap: 10px; } .hf-m .cn { gap: 4px; } .hf-m .cn-k { font-size: 11.5px; letter-spacing: 0; } .hf-m .cn-v { font-size: 19px; } .hf-m .cn-cap { display: none; } .hf-m .cn.losses .cn-v { font-size: 17px; }
+.hf-m .c-hp .bar { height: 6px; } .hf-m .c-hpt { width: 34px; font-size: 12px; }
+.hf-m .c-right { grid-column: 2; grid-row: 1; padding: 5px; --c: 7px; }
+.hf-m .c-cells { grid-template-columns: repeat(3, 40px); grid-auto-rows: 1fr; gap: 3px; }
+.hf-m .uc { flex-direction: column; justify-content: center; gap: 0; padding: 0; } .hf-m .uc-pt { width: 26px; height: 26px; background-color: transparent; box-shadow: none; }   /* 别写 background: none——那会把 background-size 也清掉，头像只露出左上角一块空白，三格只剩数字 */ .hf-m .uc-pt::after { display: none; } .hf-m .uc-n { font-size: 13px; } .hf-m .uc-name { display: none; }
+.hf-m .c-cells .uc:not([hidden]) ~ .uc:not([hidden]) ~ .uc:not([hidden]) ~ .uc:not([hidden]) ~ .uc:not([hidden]) ~ .uc:not([hidden]) ~ .uc:not([hidden]) { display: none; }
+.hf-m .hud-vignette { background: linear-gradient(180deg, rgba(7, 10, 14, 0.7), transparent 18%), linear-gradient(0deg, rgba(7, 10, 14, 0.9), transparent 36%); }
+
+/* ---- 首页 ---- */
+.hf-m .menu::before { background: linear-gradient(0deg, rgba(7, 10, 14, 0.96) 0, rgba(7, 10, 14, 0.85) 56%, rgba(7, 10, 14, 0) 76%); }
+.hf-m .menu-top { right: 8px; top: 8px; gap: 4px; } .hf-m .menu-top .sq { height: 34px; padding: 0 9px; } .hf-m .menu-top .sq .sq-k { font-size: 12px; } .hf-m .menu-top .seg { height: 34px; } .hf-m .menu-top .seg-b { padding: 0 8px; height: 26px; font-size: 13px; }
+.hf-m .menu-top > :nth-child(3) { display: none; }
+.hf-m .menu-panel { left: 8px; right: 8px; top: 26%; bottom: 8px; width: auto; padding: 16px 14px 12px; gap: 11px; --c: 12px; }
+.hf-m .menu-brand { gap: 10px; } .hf-m .brand-mark { width: 28px; height: 31px; } .hf-m .brand-name { font-size: 22px; } .hf-m .brand-sub { font-size: 9.5px; letter-spacing: 0.14em; }
+.hf-m .menu-brief { padding-top: 9px; } .hf-m .menu-title { font-size: 28px; margin-top: 6px; } .hf-m .menu-text { font-size: 13px; margin-top: 4px; }
+.hf-m .cmd { height: 80px; } .hf-m .cmd-pt { height: 52px; } .hf-m .cmd-pt .pt-ic { width: 30px; height: 30px; } .hf-m .cmd-name { font-size: 12.5px; }
+.hf-m .cmd-info { padding: 8px 10px; gap: 9px; } .hf-m .cmd-info-pt { width: 42px; height: 42px; } .hf-m .cmd-title b { font-size: 15px; } .hf-m .cmd-desc { font-size: 12.5px; }
+.hf-m .kit { width: 28px; height: 28px; font-size: 17px; } .hf-m .kit.unit { width: 24px; height: 24px; font-size: 14px; }
+.hf-m .mut-row { grid-template-columns: repeat(2, 1fr); gap: 5px; } .hf-m .mutb { height: 34px; font-size: 13px; }
+.hf-m .menu-opts { gap: 7px 12px; } .hf-m .seg-b { padding: 0 10px; font-size: 13px; }
+.hf-m .menu-go { position: sticky; bottom: -12px; margin: 0 -14px -12px; padding: 10px 14px 12px; background: linear-gradient(0deg, #0b1118 70%, rgba(11, 17, 24, 0)); z-index: 3; }
+.hf-m .cta { height: 54px; font-size: 22px; } .hf-m .keys { display: none; } .hf-m .cta kbd { display: none; }
+.hf-m .menu-rec { flex-direction: column; } .hf-m .rec { grid-template-columns: auto auto 1fr; } .hf-m .rec-k { grid-column: 1; margin: 0; align-self: center; } .hf-m .rec-v { font-size: 22px; } .hf-m .lnk { flex-direction: row; height: 38px; gap: 6px; font-size: 12.5px; }
+.hf-m .menu-rec { order: 9; } .hf-m .menu-go { order: 10; }
+.hf-m .menu-foot { display: none; }
+
+/* ---- 升级：三张横卡纵向堆叠 ---- */
+.hf-m .lu { gap: 12px; padding: 0 10px 40px; justify-content: center; }
+.hf-m .lu-rule { width: 40px; } .hf-m .lu-eb { font-size: 14px; letter-spacing: 0.3em; } .hf-m .lu-lv { font-size: 24px; }
+.hf-m .lu-cards { flex-direction: column; align-self: stretch; gap: 8px; }
+.hf-m .luc, .hf-m .lu-cards.four .luc { width: 100%; min-height: 0; display: grid; grid-template-columns: 70px 1fr; grid-auto-rows: auto; column-gap: 11px; row-gap: 3px; align-items: start; padding: 9px 12px 10px 9px; text-align: left; --c: 10px; }
+.hf-m .luc::after { left: 10px; right: auto; top: 10px; bottom: 10px; width: 2px; height: auto; }
+.hf-m .luc-face { grid-column: 1; grid-row: 1 / 8; width: 70px; height: 70px; margin: 0; align-self: center; } .hf-m .luc-ic { font-size: 36px; }
+.hf-m .luc-top { grid-column: 2; height: 20px; } .hf-m .luc-key { width: 18px; height: 18px; font-size: 11px; } .hf-m .luc-own { font-size: 12.5px; } .hf-m .luc-rar { font-size: 11px; padding: 2px 5px; }
+.hf-m .luc-name { grid-column: 2; font-size: 19px; } .hf-m .luc-name b { font-size: 15px; }
+.hf-m .luc-val { grid-column: 2; justify-self: start; margin-top: 2px; padding: 3px 8px; font-size: 13.5px; } .hf-m .luc-to { font-size: 15px; }
+.hf-m .luc-desc { grid-column: 2; margin-top: 2px; font-size: 12.5px; line-height: 1.35; }
+.hf-m .luc-badges { grid-column: 2; padding-top: 3px; margin: 0; } .hf-m .luc-badge { height: 20px; font-size: 12px; justify-content: flex-start; padding: 0 7px; }
+.hf-m .luc-pips { grid-column: 2; margin-top: 3px; } .hf-m .luc-pips i { width: 16px; height: 3px; }
+.hf-m .luc.sel { transform: none; } .hf-m .luc:not(.sel) { filter: none; } .hf-m .luc.picked { animation: none; filter: brightness(1.4); }
+.hf-m .lu-foot { flex-direction: column; gap: 10px; } .hf-m .lu-hint { display: none; }
+.hf-m .lu-rr { padding: 8px 16px 9px; font-size: 14.5px; } .hf-m .lu-rr kbd { display: none; } .hf-m .lu-rr { grid-template-columns: auto auto auto; } .hf-m .lu-rr-note { grid-column: 1 / 4; }
+
+/* ---- 结算 / 部队 / 对话框 ---- */
+.hf-m .ov { align-items: stretch; padding: 8px; }
+.hf-m .res-panel { display: block; width: 100%; max-width: none; height: 100%; max-height: none; overflow-y: auto; --c: 12px; }
+.hf-m .res-left { padding: 20px 16px 14px 18px; border-right: 0; overflow: visible; } .hf-m .res-right { padding: 6px 16px 22px 18px; overflow: visible; gap: 18px; }
+.hf-m .res-title { font-size: 27px; } .hf-m .res-text { font-size: 13.5px; }
+.hf-m .big-c { padding: 9px 10px; } .hf-m .big-v { font-size: 23px; } .hf-m .big-c.main .big-v { font-size: 36px; } .hf-m .peak-c { padding: 8px 9px; } .hf-m .peak-c b { font-size: 16px; }
+.hf-m .res-btns { margin-top: 14px; }
+.hf-m .rep-pt { width: 34px; height: 34px; } .hf-m .rep-name { font-size: 14.5px; } .hf-m .rep-dmg { font-size: 15.5px; } .hf-m .rep-meta { font-size: 11.5px; white-space: normal; }
+.hf-m .modrep { grid-template-columns: 1fr 1fr; } .hf-m .board-r { grid-template-columns: 22px 1fr 62px 30px 48px; padding: 0 4px; font-size: 13px; }
+.hf-m .layer-r { grid-template-columns: 30px 1fr 60px 40px 46px; padding: 0 4px; font-size: 12.5px; }
+.hf-m .sqp-panel { width: 100%; max-width: none; height: 100%; max-height: none; padding: 18px 14px 0; --c: 12px; }
+.hf-m .ov-title { font-size: 25px; margin-top: 6px; }
+.hf-m .sqp-sum { grid-template-columns: repeat(3, 1fr); gap: 4px; } .hf-m .sum-c { padding: 7px 9px; } .hf-m .sum-c b { font-size: 17px; }
+.hf-m .sqp-grid { grid-template-columns: 1fr; } .hf-m .squ { padding: 8px 9px; gap: 9px; } .hf-m .squ-pt { width: 48px; height: 48px; } .hf-m .squ-name { font-size: 15px; } .hf-m .squ-bars { grid-template-columns: 1fr; gap: 5px; }
+.hf-m .sqp-dev { grid-template-columns: 1fr 1fr; }
+.hf-m .dlg { align-self: center; width: 100% !important; max-height: 100%; padding: 20px 18px 18px; --c: 12px; }
+.hf-m .vols { grid-template-columns: 1fr; } .hf-m .dlg-btns.row { flex-direction: column; } .hf-m .set-row { flex-wrap: wrap; }
+.hf-m .ach-grid { grid-template-columns: 1fr; } .hf-m .dlg-stats b { font-size: 18px; }
+.hf-m .tip { max-width: 260px; }
+.hf-m .sqp-muts { grid-template-columns: 1fr; }
+.hf-m .creditsov .dlg { height: 100%; } .hf-m .cr-by-r { grid-template-columns: 1fr; gap: 2px; } .hf-m .dlg-credit-row { flex-direction: column; align-items: stretch; }
+.hf-m .menu-top .cr-btn .sq-k { display: none; }
+.hf-m .uc-n { margin-bottom: 0; }
+.hf-m .cmd-name { gap: 2px; } .hf-m .cmd-real { font-size: 9.5px; }
+
+/* 测试（竖屏）：
+   ① 底栏没有炮兵计数（场上 3 台自行炮显示「步兵 53、重装 00」）→ 炮兵一项放回来，四项字号略收以放得下
+   ② Boss 战顶部 Boss 血条 + 阶段说明 + 电网事件卡三条叠起来占上三分之一 → Boss 在场时：血条贴到 logo 下面（top 64），
+      事件卡从顶部挪到装置卡条上方左侧（只露最新一张、一行），阶段横幅的说明压成一行 */
+.hf-m .c-pt { width: 42px; height: 42px; } .hf-m .c-mid { gap: 6px; }
+.hf-m .c-counts { gap: 5px; flex-wrap: nowrap; } .hf-m .cn { gap: 2px; } .hf-m .cn-k { font-size: 10px; white-space: nowrap; } .hf-m .cn-v { font-size: 16px; } .hf-m .cn.losses .cn-v { font-size: 16px; }
+.hf-m .hud-tc:has(.bossbar:not([hidden])) { top: 64px; }
+.hf-m .hud:has(.bossbar:not([hidden])) .ev-stack { top: auto; bottom: 232px; width: 60%; }
+.hf-m .hud:has(.bossbar:not([hidden])) .bn-sub { display: -webkit-box; -webkit-line-clamp: 1; -webkit-box-orient: vertical; overflow: hidden; }
+
+/* 测试：竖屏 Boss 站在屏幕 35%~50% 高度，「作战室」通讯卡（top 214）和「侧翼来袭」红条（top 274）
+   正好横在它身上。Boss 在场时两条都收到 Boss 血条下面、桥的远端那一段（那里只有刚刷出来的虫）：通讯卡压成一行、红条更扁 */
+.hf-m .hud:has(.bossbar:not([hidden])) .comms { top: 110px; padding: 4px 8px 5px 5px; }
+.hf-m .hud:has(.bossbar:not([hidden])) .comms-pt { width: 28px; height: 28px; }
+.hf-m .hud:has(.bossbar:not([hidden])) .comms-text { font-size: 12.5px; display: -webkit-box; -webkit-line-clamp: 1; -webkit-box-orient: vertical; overflow: hidden; }
+.hf-m .hud:has(.bossbar:not([hidden])) .flank { top: 174px; padding-top: 4px; padding-bottom: 4px; font-size: 12px; }
+/* 波次预告（「决口」等）也落在 Boss 血条下面这一段：它亮着时通讯卡先让开（和阶段横幅同一个处理） */
+.hf-m .hud:has(.bossbar:not([hidden])):has(.herald:not([hidden])) .comms { visibility: hidden; }
+.hf-m .hud:has(.bossbar:not([hidden])):has(.herald:not([hidden])) .flank { top: 196px; }

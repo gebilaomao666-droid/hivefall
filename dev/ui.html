@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
+<title>HIVEFALL UI dev</title>
+<link rel="stylesheet" href="/assets/ui/fonts/fonts.css" data-hf-ui>
+<link rel="stylesheet" href="/src/ui/css/base.css" data-hf-ui>
+<link rel="stylesheet" href="/src/ui/css/hud.css" data-hf-ui>
+<link rel="stylesheet" href="/src/ui/css/screens.css" data-hf-ui>
+<link rel="stylesheet" href="/src/ui/css/mobile.css" data-hf-ui>
+<style>
+  html, body { margin: 0; height: 100%; background: #05080b; overflow: hidden; }
+  #app { position: fixed; inset: 0; overflow: hidden; }
+  #bg { position: absolute; inset: 0; background: #0b1016 center / cover no-repeat; }
+</style>
+</head>
+<body>
+<!--
+  界面开发页：不依赖渲染层。背景是一张静态战斗截图，HUD 由真实 world + bot 驱动。
+  ?screen=menu|hud|levelup|result|paused|squad|settings|loading|board|achievements|daily   直接进某个界面（默认 hud）
+  ?mobile=1        强制竖屏布局（不管窗口多宽）
+  ?lang=zh|en      语言
+  ?seed=3 ?commander=hawk|ysera|joe|none ?mutators=swift,acidrain ?bot=good|builder|idle
+  ?t=70            先无头快进到第几秒（默认 70）；?freeze=1 快进后定格；?speed=1 倍速
+  ?endless=3       result / hud：打进无尽第几层
+  ?outcome=lost    result：看失败结算（idle bot + 老兵难度）
+  ?unlock=0        首页按「没通关过」的存档显示（默认全解锁）
+  ?demo=1          hud：把预告 / 横幅 / 通讯 / 事件卡 / 门卡一次全摆出来（截图用）
+  ?boss=1          hud：快进到 Boss 出场
+  ?bg=<docs/art 下的文件名>
+  控制台：__ui / __world / __dev.step(n) / __dev.demo()
+-->
+<div id="app"><div id="bg"></div></div>
+<script type="module">
+import { createUI } from '/src/ui/ui.js'
+import { createWorld, DT } from '/src/sim/world.js'
+import { createBot } from '/src/sim/bot.js'
+import { createI18n } from '/src/core/i18n.js'
+import { defaultSave, applyResult } from '/src/core/save.js'
+import { dailyConfig } from '/src/sim/daily.js'
+import { UNLOCK_IDS } from '/src/data/unlocks.js'
+import { GRID, LANE } from '/src/data/devices.js'
+
+const Q = new URLSearchParams(location.search)
+const screen = Q.get('screen') || 'hud'
+const forceMobile = Q.get('mobile') === '1'
+const app = document.getElementById('app'), bg = document.getElementById('bg')
+const portraitView = forceMobile || innerWidth < 760
+bg.style.backgroundImage = `url(/docs/art/${Q.get('bg') || (portraitView ? 'g-32-resize-900x1400.jpg' : 'ai2-20-sim-swarm.jpg')})`
+
+const i18n = createI18n(Q.get('lang') || 'zh')
+const seed = +(Q.get('seed') || 3)
+const commander = Q.get('commander') || 'hawk'
+const mutators = (Q.get('mutators') || 'swift').split(',').filter(Boolean)
+
+// ---- 存档（假的，只在内存里）
+const save = defaultSave()
+save.settings.lang = i18n.getLang()
+if (Q.get('unlock') !== '0') {
+  save.unlocks = UNLOCK_IDS.slice()
+  save.best = { score: 76382, layer: 14, campaignSeconds: 151.2 }
+  save.stats = { runs: 23, wins: 17, kills: 612480, losses: 310, seconds: 5200, bestLayer: 14, bossKills: 31, winsBy: { hawk: 7, ysera: 5, none: 5 }, dailyDays: 4 }
+  save.achievements = { first_bridge: 1, clean_sheet: 1, combo_trio: 1, named_squad: 1, paid_in_full: 1, deep_five: 1, deep_ten: 1, meat_grinder: 1, regular: 0 || undefined }
+  delete save.achievements.regular
+  save.board = [
+    { name: '', score: 76382, layer: 14, seconds: 610, commander: 'hawk', mutators: [], difficulty: 'normal', daily: null, at: 1 },
+    { name: 'Mark', score: 58120, layer: 11, seconds: 498, commander: 'ysera', mutators: ['swift'], difficulty: 'normal', daily: null, at: 2 },
+    { name: '', score: 40277, layer: 8, seconds: 402, commander: 'joe', mutators: [], difficulty: 'veteran', daily: null, at: 3 },
+    { name: '', score: 22910, layer: 0, seconds: 151.2, commander: 'none', mutators: [], difficulty: 'normal', daily: null, at: 4 },
+  ]
+  save.companion.unlocked = true
+}
+const daily = dailyConfig('2026-09-30')
+
+// ---- 世界
+let world = null, bot = null
+const input = { moveX: null, targetX: null, powers: [], aim: null, pick: null, reroll: false, continueEndless: false, retreat: false, place: null, remove: null }
+let manual = { pick: null, reroll: false, powers: [], place: null, remove: null, retreat: false, cont: false }
+let running = screen === 'hud' || screen === 'levelup', paused = false
+const autoPick = screen !== 'levelup'
+const speed = +(Q.get('speed') || 1)
+
+function newWorld(opts) {
+  world = createWorld(Object.assign({ seed, commander, mutators, companion: Q.get('companion') === '1' }, opts || {}))
+  bot = createBot(Q.get('bot') || 'good', seed)
+  window.__world = world
+}
+function stepOnce(feedUi) {
+  const levelup = world.status === 'levelup'
+  let inp = bot(world)
+  if (levelup && !autoPick) { inp.pick = manual.pick; inp.reroll = manual.reroll; manual.pick = null; manual.reroll = false }
+  else { if (manual.pick !== null) { inp.pick = manual.pick; manual.pick = null } if (manual.reroll) { inp.reroll = true; manual.reroll = false } else inp.reroll = false }
+  if (manual.powers.length) { for (const k of manual.powers) if (inp.powers.indexOf(k) < 0) inp.powers.push(k); manual.powers.length = 0 }
+  if (manual.place) { inp.place = manual.place; manual.place = null }
+  inp.remove = manual.remove; manual.remove = null
+  inp.retreat = manual.retreat; manual.retreat = false
+  inp.continueEndless = manual.cont; manual.cont = false
+  world.step(inp)
+  if (feedUi) ui.consume(world.events)
+}
+/** 无头快进到 until(world) 为真；最后 tailSec 秒的事件喂给 UI（让卡片 / 横幅有东西可看） */
+function fastForward(until, tailSec = 0, guard = 60 * 900) {
+  const saved = autoPick
+  let n = 0
+  while (!until(world) && n++ < guard && world.status !== 'lost' && world.status !== 'retreated') {
+    if (world.status === 'won') { if (wantEndless > 0 && world.phase !== 'endless') manual.cont = true; else break }
+    if (world.status === 'levelup' && !saved) manual.pick = pickBest()
+    stepOnce(false)
+  }
+}
+const pickBest = () => 0
+const wantEndless = +(Q.get('endless') || 0)
+
+// ---- 假投影：把世界坐标大致对到背景截图上（只为让飘字 / 晶能光点有地方出现）
+function project(x, y, z) {
+  const W = app.clientWidth, H = app.clientHeight
+  const k = (z + 21) / 38.2                                  // 0 远端 → 1 防线
+  if (portraitView) return { x: W * (0.49 + x / 12.8 * (0.42 + 0.22 * k)), y: H * (0.1 + 0.57 * k) - y * 14, visible: true }
+  return { x: W * (0.5 + x / 12.8 * (0.18 + 0.09 * k)), y: H * (0.02 + 0.71 * k * (0.6 + 0.4 * k)) - y * 16, visible: true }
+}
+
+// ---- UI
+const callbacks = {
+  start(cfg) { log('start', cfg); newWorld(cfg && cfg.daily ? { daily: true, dateKey: cfg.dateKey } : cfg); running = true; paused = false; ui.setScreen('hud', { reset: true }) },
+  pause(why) { log('pause', why); paused = true },
+  resume(why) { log('resume', why); paused = false },
+  pickCard(i) { log('pickCard', i); manual.pick = i; if (!running) { stepOnce(true); ui.update(world) } },
+  reroll() { log('reroll'); manual.reroll = true; if (!running) { stepOnce(true); ui.update(world) } },
+  power(key) { log('power', key); manual.powers.push(key) },
+  selectDeviceCard(kind) { log('selectDeviceCard', kind) },
+  retreat() { log('retreat'); manual.retreat = true; paused = false; stepOnce(true); showResult() },
+  continueEndless() { log('continueEndless'); manual.cont = true; stepOnce(true); running = true; paused = false; ui.setScreen('hud') },
+  again() { log('again'); callbacks.start(ui.menuSelection()) },
+  home() { log('home'); running = false; ui.setScreen('menu', { save, daily }) },
+  setQuality(q) { log('setQuality', q) },
+  setVolume(ch, v) { log('setVolume', ch, v) },
+  setMuted(m) { log('setMuted', m) },
+  setLocale(l) { log('setLocale', l); i18n.setLang(l) },
+  fullscreen() { log('fullscreen'); (document.fullscreenElement ? document.exitFullscreen() : document.documentElement.requestFullscreen()).catch(() => {}) },
+  codex() { log('codex') },
+}
+function log(...a) { console.log('[ui ->]', ...a); (window.__log = window.__log || []).push(a) }
+const ui = createUI({ root: app, t: i18n.t, callbacks, portraits: {}, project, energyOrbs: true, mobile: forceMobile ? true : 'auto', lang: i18n.getLang() })
+window.__ui = ui
+
+function showResult() {
+  running = false
+  const result = world.result()
+  const outcome = applyResult(save, result, { name: '', now: 5 })
+  ui.setScreen('result', { result, outcome, save })
+}
+
+// 在背景上点一下：选了装置卡就往那一格放（把屏幕坐标大致换算回格子）
+bg.addEventListener('pointerdown', e => {
+  const kind = ui.selectedDevice()
+  if (!kind || !world) return
+  const W = app.clientWidth, H = app.clientHeight
+  let best = null, bd = 1e9
+  for (let l = 0; l < GRID.lanes; l++) for (let r = 0; r < GRID.rows; r++) {
+    const p = project(LANE.centers[l], 0, GRID.rowZ[r]), d = Math.hypot(p.x - e.clientX, p.y - e.clientY)
+    if (d < bd) { bd = d; best = { lane: l, row: r } }
+  }
+  if (kind === 'remove') manual.remove = best; else manual.place = { kind, lane: best.lane, row: best.row }
+})
+bg.addEventListener('contextmenu', e => { e.preventDefault(); ui.selectDevice(null) })
+
+function demo() {
+  const t0 = world.time
+  world.wave.herald = { nameKey: 'herald.armor', comp: [{ kind: 'ling', count: 1360, nameKey: 'enemy.ling.name' }, { kind: 'crusher', count: 15, nameKey: 'enemy.crusher.name' }, { kind: 'shieldbug', count: 6, nameKey: 'enemy.shieldbug.name' }], t0: t0 - 1, t1: t0 + 600, lane: -2.2, side: 0 }
+  if (!world.gates) world.gates = { index: 5, total: 10, z: -2, kind: 'supply', resolveT: t0 + 1,
+    left: { type: 'unit', unit: 'titan', count: 1, extra: { unit: 'rifle', count: 4 }, tags: ['aoe', 'anti_heavy', 'anti_air'], titleKey: 'gate.unit_escort', params: { count: 1, unitKey: 'unit.titan.name', extraCount: 4, extraKey: 'unit.rifle.name' } },
+    right: { type: 'unit', unit: 'rifle', count: 10, extra: null, tags: ['versatile', 'anti_air'], titleKey: 'gate.unit', params: { count: 10, unitKey: 'unit.rifle.name' } } }
+  ui.consume([
+    { type: 'comms', speaker: commander !== 'none' ? commander : 'ops', textKey: commander !== 'none' ? `comms.${commander}.ready` : 'comms.first_levelup' },
+    { type: 'gateResolve', index: 4, side: 'left', option: { type: 'unit', unit: 'rifle', count: 10, tags: ['versatile', 'anti_air'], titleKey: 'gate.unit', params: { count: 10, unitKey: 'unit.rifle.name' } }, granted: 10, fallback: null },
+    { type: 'cardPicked', card: { id: 'rifle_frag', kind: 'module', unit: 'rifle', moduleId: 'rifle_frag', level: 1, maxLevel: 1, rarity: 'elite', equip: true, from: 'off', to: 'on', nameKey: 'module.rifle_frag.name', descKey: 'module.rifle_frag.desc' } },
+    { type: Q.get('banner') === 'combo' ? 'combo' : 'heroic', id: Q.get('banner') === 'combo' ? 'combo_rifle_frag' : 'heroic_rifle', unit: 'rifle', squadName: 'squadname.rifle.1' },
+    { type: 'bigHit', x: -1.5, z: -6, dmg: 75 }, { type: 'bigHit', x: 2, z: -9, dmg: 950 }, { type: 'bigHit', x: 0.5, z: -3, dmg: 110 },
+    { type: 'flankWarn', side: 1, count: 480, t: 600 },
+  ])
+}
+window.__dev = { step(n = 1) { for (let i = 0; i < n; i++) stepOnce(true); ui.update(world) }, demo, showResult, save, get paused() { return paused }, set paused(v) { paused = v }, get running() { return running }, set running(v) { running = v } }
+
+// ---- 按 ?screen 进界面
+const T0 = +(Q.get('t') || 70)
+if (screen === 'loading') {
+  let p = 0
+  ui.setScreen('loading', { progress: 0.42, tip: 1 })
+  if (Q.get('freeze') !== '1') setInterval(() => { p = (p + 0.004) % 1.1; ui.setScreen('loading', { progress: Math.min(1, p), tip: (p * 4) | 0 }) }, 50)
+} else if (screen === 'menu' || screen === 'board' || screen === 'achievements' || screen === 'daily') {
+  ui.setScreen('menu', { save, daily, version: 'v0.1 dev', selection: { commander: Q.get('unlock') === '0' ? 'none' : commander, mutators: Q.get('unlock') === '0' ? [] : mutators } })
+  if (screen !== 'menu') ui.setScreen(screen, daily)
+} else if (screen === 'settings' && Q.get('from') !== 'hud') {
+  ui.setScreen('menu', { save, daily, version: 'v0.1 dev' })
+  ui.setScreen('settings')
+} else {
+  if (screen === 'result' && Q.get('outcome') === 'lost') { newWorld({ difficulty: 'veteran', commander: 'none' }); bot = createBot('idle', seed) } else newWorld()
+  ui.setScreen('hud', { save, reset: true })
+  if (screen === 'result') {
+    if (wantEndless > 0) { fastForward(w => w.endless && w.endless.layer > wantEndless); if (world.status === 'running' || world.status === 'levelup') { manual.retreat = true; stepOnce(false) } }
+    else fastForward(w => w.status === 'won' || w.status === 'lost')
+    ui.update(world); showResult()
+  } else {
+    if (screen === 'levelup') {
+      const lv = +(Q.get('level') || 5)
+      fastForward(w => w.status === 'levelup' && w.levelup.level >= lv)
+    } else if (Q.get('boss') === '1') fastForward(w => !!w.boss && w.boss.hp < w.boss.hpMax * 0.62)
+    else if (wantEndless > 0) fastForward(w => w.endless && w.endless.layer >= wantEndless && w.endless.layerT > 6)
+    else fastForward(w => w.time >= T0 - 3)
+    // 最后 3 秒带着 UI 一起走：事件卡片 / 横幅有东西可看
+    if (screen !== 'levelup') for (let i = 0; i < 180 && world.status !== 'won' && world.status !== 'lost'; i++) { stepOnce(true); if (i % 6 === 0) ui.update(world) }
+    ui.update(world)
+    if (Q.get('demo') === '1') demo()
+    if (screen === 'paused') { paused = true; ui.setScreen('paused') }
+    else if (screen === 'squad') { paused = true; ui.setScreen('squad') }
+    else if (screen === 'settings') { paused = true; ui.setScreen('paused'); ui.setScreen('settings') }
+    if (Q.get('freeze') === '1') running = false
+  }
+}
+
+// ---- 主循环：固定步长
+let last = performance.now(), acc = 0
+function frame(now) {
+  requestAnimationFrame(frame)
+  const dt = Math.min(0.05, (now - last) / 1000); last = now
+  if (world && running && !paused) {
+    if (world.status === 'levelup') { if (autoPick) stepOnce(true); else if (manual.pick !== null || manual.reroll) stepOnce(true) }
+    else {
+      acc += dt * speed * (world.timeScale || 1)
+      let n = 0
+      while (acc >= DT && n++ < 8) { stepOnce(true); acc -= DT; if (world.status === 'levelup') break }
+      if (acc > DT * 8) acc = 0
+    }
+    if ((world.status === 'won' && Q.get('stay') !== '1') || world.status === 'lost' || world.status === 'retreated') showResult()
+  }
+  if (world) ui.update(world)
+}
+requestAnimationFrame(frame)
+</script>
+</body>
+</html>

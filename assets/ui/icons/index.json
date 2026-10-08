@@ -1,0 +1,2684 @@
+[
+ {
+  "name": "weapon_rifle",
+  "file": "weapon_rifle.svg",
+  "use": "步枪/主武器",
+  "original": "machine-gun",
+  "author": "skoll",
+  "source_url": "https://github.com/game-icons/icons/blob/master/skoll/machine-gun.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "weapon_smg",
+  "file": "weapon_smg.svg",
+  "use": "冲锋枪",
+  "original": "mp5",
+  "author": "delapouite",
+  "source_url": "https://github.com/game-icons/icons/blob/master/delapouite/mp5.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "weapon_assault_rifle",
+  "file": "weapon_assault_rifle.svg",
+  "use": "突击步枪",
+  "original": "ak47",
+  "author": "skoll",
+  "source_url": "https://github.com/game-icons/icons/blob/master/skoll/ak47.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "weapon_pdw",
+  "file": "weapon_pdw.svg",
+  "use": "速射武器",
+  "original": "p90",
+  "author": "skoll",
+  "source_url": "https://github.com/game-icons/icons/blob/master/skoll/p90.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "weapon_pistol",
+  "file": "weapon_pistol.svg",
+  "use": "手枪",
+  "original": "desert-eagle",
+  "author": "skoll",
+  "source_url": "https://github.com/game-icons/icons/blob/master/skoll/desert-eagle.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "weapon_shotgun",
+  "file": "weapon_shotgun.svg",
+  "use": "霰弹枪",
+  "original": "sawed-off-shotgun",
+  "author": "delapouite",
+  "source_url": "https://github.com/game-icons/icons/blob/master/delapouite/sawed-off-shotgun.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "weapon_sniper",
+  "file": "weapon_sniper.svg",
+  "use": "狙击/穿透",
+  "original": "winchester-rifle",
+  "author": "skoll",
+  "source_url": "https://github.com/game-icons/icons/blob/master/skoll/winchester-rifle.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "weapon_minigun",
+  "file": "weapon_minigun.svg",
+  "use": "加特林",
+  "original": "minigun",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/minigun.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "weapon_bolter",
+  "file": "weapon_bolter.svg",
+  "use": "重型爆弹枪",
+  "original": "bolter-gun",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/bolter-gun.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "weapon_flamethrower",
+  "file": "weapon_flamethrower.svg",
+  "use": "喷火兵",
+  "original": "flamethrower",
+  "author": "delapouite",
+  "source_url": "https://github.com/game-icons/icons/blob/master/delapouite/flamethrower.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "fire_flame",
+  "file": "fire_flame.svg",
+  "use": "火焰伤害",
+  "original": "flamer",
+  "author": "sbed",
+  "source_url": "https://github.com/game-icons/icons/blob/master/sbed/flamer.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "fire_basic",
+  "file": "fire_basic.svg",
+  "use": "燃烧",
+  "original": "fire",
+  "author": "badges",
+  "source_url": "https://github.com/game-icons/icons/blob/master/badges/fire.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "fire_small",
+  "file": "fire_small.svg",
+  "use": "点燃",
+  "original": "small-fire",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/small-fire.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "fire_zone",
+  "file": "fire_zone.svg",
+  "use": "燃烧地带",
+  "original": "fire-zone",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/fire-zone.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "ammo_bullets",
+  "file": "ammo_bullets.svg",
+  "use": "弹药/射速",
+  "original": "bullets",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/bullets.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "ammo_heavy",
+  "file": "ammo_heavy.svg",
+  "use": "重弹/伤害",
+  "original": "heavy-bullets",
+  "author": "delapouite",
+  "source_url": "https://github.com/game-icons/icons/blob/master/delapouite/heavy-bullets.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "bullet_supersonic",
+  "file": "bullet_supersonic.svg",
+  "use": "子弹速度",
+  "original": "supersonic-bullet",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/supersonic-bullet.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "bullet_impacts",
+  "file": "bullet_impacts.svg",
+  "use": "命中",
+  "original": "bullet-impacts",
+  "author": "delapouite",
+  "source_url": "https://github.com/game-icons/icons/blob/master/delapouite/bullet-impacts.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "ammo_shells",
+  "file": "ammo_shells.svg",
+  "use": "霰弹",
+  "original": "shotgun-rounds",
+  "author": "delapouite",
+  "source_url": "https://github.com/game-icons/icons/blob/master/delapouite/shotgun-rounds.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "ammo_magazine",
+  "file": "ammo_magazine.svg",
+  "use": "弹匣",
+  "original": "machine-gun-magazine",
+  "author": "delapouite",
+  "source_url": "https://github.com/game-icons/icons/blob/master/delapouite/machine-gun-magazine.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "cannon",
+  "file": "cannon.svg",
+  "use": "火炮",
+  "original": "cannon",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/cannon.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "cannon_shot",
+  "file": "cannon_shot.svg",
+  "use": "炮击",
+  "original": "cannon-shot",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/cannon-shot.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "cannon_ball",
+  "file": "cannon_ball.svg",
+  "use": "炮弹",
+  "original": "cannon-ball",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/cannon-ball.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "artillery_shell",
+  "file": "artillery_shell.svg",
+  "use": "榴弹炮弹",
+  "original": "artillery-shell",
+  "author": "quoting",
+  "source_url": "https://github.com/game-icons/icons/blob/master/quoting/artillery-shell.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "mortar",
+  "file": "mortar.svg",
+  "use": "迫击炮",
+  "original": "mortar",
+  "author": "delapouite",
+  "source_url": "https://github.com/game-icons/icons/blob/master/delapouite/mortar.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "rocket",
+  "file": "rocket.svg",
+  "use": "火箭",
+  "original": "rocket",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/rocket.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "missile_swarm",
+  "file": "missile_swarm.svg",
+  "use": "导弹齐射",
+  "original": "missile-swarm",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/missile-swarm.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "missile_launcher",
+  "file": "missile_launcher.svg",
+  "use": "导弹兵",
+  "original": "missile-launcher",
+  "author": "delapouite",
+  "source_url": "https://github.com/game-icons/icons/blob/master/delapouite/missile-launcher.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "rocket_flight",
+  "file": "rocket_flight.svg",
+  "use": "导弹",
+  "original": "rocket-flight",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/rocket-flight.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "missile_pod",
+  "file": "missile_pod.svg",
+  "use": "导弹巢",
+  "original": "missile-pod",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/missile-pod.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "bombing_run",
+  "file": "bombing_run.svg",
+  "use": "空袭",
+  "original": "bombing-run",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/bombing-run.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "carpet_bombing",
+  "file": "carpet_bombing.svg",
+  "use": "地毯轰炸",
+  "original": "carpet-bombing",
+  "author": "skoll",
+  "source_url": "https://github.com/game-icons/icons/blob/master/skoll/carpet-bombing.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "laser_blast",
+  "file": "laser_blast.svg",
+  "use": "激光",
+  "original": "laser-blast",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/laser-blast.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "laser_gun",
+  "file": "laser_gun.svg",
+  "use": "激光枪",
+  "original": "laser-gun",
+  "author": "sbed",
+  "source_url": "https://github.com/game-icons/icons/blob/master/sbed/laser-gun.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "laser_precision",
+  "file": "laser_precision.svg",
+  "use": "精准",
+  "original": "laser-precision",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/laser-precision.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "laser_burst",
+  "file": "laser_burst.svg",
+  "use": "激光爆发",
+  "original": "laser-burst",
+  "author": "skoll",
+  "source_url": "https://github.com/game-icons/icons/blob/master/skoll/laser-burst.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "laser_turret",
+  "file": "laser_turret.svg",
+  "use": "激光炮塔",
+  "original": "laser-turret",
+  "author": "delapouite",
+  "source_url": "https://github.com/game-icons/icons/blob/master/delapouite/laser-turret.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "ray_gun",
+  "file": "ray_gun.svg",
+  "use": "射线枪",
+  "original": "ray-gun",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/ray-gun.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "laser_warning",
+  "file": "laser_warning.svg",
+  "use": "警告",
+  "original": "laser-warning",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/laser-warning.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "laser_sparks",
+  "file": "laser_sparks.svg",
+  "use": "激光火花",
+  "original": "laser-sparks",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/laser-sparks.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "grenade",
+  "file": "grenade.svg",
+  "use": "手雷",
+  "original": "grenade",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/grenade.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "grenade_stun",
+  "file": "grenade_stun.svg",
+  "use": "震撼弹",
+  "original": "stun-grenade",
+  "author": "delapouite",
+  "source_url": "https://github.com/game-icons/icons/blob/master/delapouite/stun-grenade.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "land_mine",
+  "file": "land_mine.svg",
+  "use": "地雷",
+  "original": "land-mine",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/land-mine.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "bomb",
+  "file": "bomb.svg",
+  "use": "炸弹",
+  "original": "rolling-bomb",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/rolling-bomb.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "time_bomb",
+  "file": "time_bomb.svg",
+  "use": "定时炸弹",
+  "original": "time-bomb",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/time-bomb.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "dynamite",
+  "file": "dynamite.svg",
+  "use": "爆破",
+  "original": "dynamite",
+  "author": "delapouite",
+  "source_url": "https://github.com/game-icons/icons/blob/master/delapouite/dynamite.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "bomb_round",
+  "file": "bomb_round.svg",
+  "use": "炸弹",
+  "original": "unlit-bomb",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/unlit-bomb.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "cluster_bomb",
+  "file": "cluster_bomb.svg",
+  "use": "集束炸弹",
+  "original": "cluster-bomb",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/cluster-bomb.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "armor_vest",
+  "file": "armor_vest.svg",
+  "use": "护甲",
+  "original": "armor-vest",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/armor-vest.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "armor_kevlar",
+  "file": "armor_kevlar.svg",
+  "use": "防弹衣",
+  "original": "kevlar-vest",
+  "author": "skoll",
+  "source_url": "https://github.com/game-icons/icons/blob/master/skoll/kevlar-vest.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "kevlar",
+  "file": "kevlar.svg",
+  "use": "护甲升级",
+  "original": "kevlar",
+  "author": "sbed",
+  "source_url": "https://github.com/game-icons/icons/blob/master/sbed/kevlar.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "shield",
+  "file": "shield.svg",
+  "use": "护盾",
+  "original": "shield",
+  "author": "badges",
+  "source_url": "https://github.com/game-icons/icons/blob/master/badges/shield.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "shield_energy",
+  "file": "shield_energy.svg",
+  "use": "能量护盾",
+  "original": "energy-shield",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/energy-shield.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "shield_bolt",
+  "file": "shield_bolt.svg",
+  "use": "电磁护盾",
+  "original": "bolt-shield",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/bolt-shield.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "shield_reflect",
+  "file": "shield_reflect.svg",
+  "use": "反伤",
+  "original": "shield-reflect",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/shield-reflect.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "shield_bounce",
+  "file": "shield_bounce.svg",
+  "use": "格挡",
+  "original": "shield-bounces",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/shield-bounces.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "shield_heavy",
+  "file": "shield_heavy.svg",
+  "use": "重盾",
+  "original": "rosa-shield",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/rosa-shield.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "shield_pulse",
+  "file": "shield_pulse.svg",
+  "use": "护盾脉冲",
+  "original": "shield-echoes",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/shield-echoes.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "armor_upgrade",
+  "file": "armor_upgrade.svg",
+  "use": "护甲升级",
+  "original": "armor-upgrade",
+  "author": "delapouite",
+  "source_url": "https://github.com/game-icons/icons/blob/master/delapouite/armor-upgrade.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "armor_break",
+  "file": "armor_break.svg",
+  "use": "破甲",
+  "original": "armor-downgrade",
+  "author": "delapouite",
+  "source_url": "https://github.com/game-icons/icons/blob/master/delapouite/armor-downgrade.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "health",
+  "file": "health.svg",
+  "use": "生命",
+  "original": "health-normal",
+  "author": "sbed",
+  "source_url": "https://github.com/game-icons/icons/blob/master/sbed/health-normal.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "health_up",
+  "file": "health_up.svg",
+  "use": "生命上限",
+  "original": "health-increase",
+  "author": "sbed",
+  "source_url": "https://github.com/game-icons/icons/blob/master/sbed/health-increase.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "heart_plus",
+  "file": "heart_plus.svg",
+  "use": "治疗",
+  "original": "heart-plus",
+  "author": "zeromancer",
+  "source_url": "https://github.com/game-icons/icons/blob/master/zeromancer/heart-plus.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "hearts",
+  "file": "hearts.svg",
+  "use": "生命值",
+  "original": "hearts",
+  "author": "skoll",
+  "source_url": "https://github.com/game-icons/icons/blob/master/skoll/hearts.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "medkit",
+  "file": "medkit.svg",
+  "use": "医疗包",
+  "original": "medical-pack",
+  "author": "sbed",
+  "source_url": "https://github.com/game-icons/icons/blob/master/sbed/medical-pack.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "first_aid",
+  "file": "first_aid.svg",
+  "use": "急救",
+  "original": "first-aid-kit",
+  "author": "delapouite",
+  "source_url": "https://github.com/game-icons/icons/blob/master/delapouite/first-aid-kit.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "healing",
+  "file": "healing.svg",
+  "use": "治疗",
+  "original": "healing",
+  "author": "delapouite",
+  "source_url": "https://github.com/game-icons/icons/blob/master/delapouite/healing.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "medkit_alt",
+  "file": "medkit_alt.svg",
+  "use": "医疗",
+  "original": "medical-pack-alt",
+  "author": "sbed",
+  "source_url": "https://github.com/game-icons/icons/blob/master/sbed/medical-pack-alt.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "medic_cross",
+  "file": "medic_cross.svg",
+  "use": "医疗兵",
+  "original": "hospital-cross",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/hospital-cross.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "syringe",
+  "file": "syringe.svg",
+  "use": "兴奋剂",
+  "original": "syringe",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/syringe.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "pill",
+  "file": "pill.svg",
+  "use": "药剂",
+  "original": "pill",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/pill.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "speed_run",
+  "file": "speed_run.svg",
+  "use": "移动速度",
+  "original": "run",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/run.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "sprint",
+  "file": "sprint.svg",
+  "use": "冲刺",
+  "original": "sprint",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/sprint.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "speedometer",
+  "file": "speedometer.svg",
+  "use": "速度",
+  "original": "speedometer",
+  "author": "delapouite",
+  "source_url": "https://github.com/game-icons/icons/blob/master/delapouite/speedometer.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "fast_forward",
+  "file": "fast_forward.svg",
+  "use": "加速/倍速",
+  "original": "fast-forward-button",
+  "author": "delapouite",
+  "source_url": "https://github.com/game-icons/icons/blob/master/delapouite/fast-forward-button.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "wingfoot",
+  "file": "wingfoot.svg",
+  "use": "移速",
+  "original": "wingfoot",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/wingfoot.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "fire_rate",
+  "file": "fire_rate.svg",
+  "use": "射速",
+  "original": "lightning-frequency",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/lightning-frequency.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "crit_target",
+  "file": "crit_target.svg",
+  "use": "暴击",
+  "original": "targeting",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/targeting.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "crosshair",
+  "file": "crosshair.svg",
+  "use": "准星/精准",
+  "original": "crosshair",
+  "author": "badges",
+  "source_url": "https://github.com/game-icons/icons/blob/master/badges/crosshair.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "on_target",
+  "file": "on_target.svg",
+  "use": "命中",
+  "original": "on-target",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/on-target.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "headshot",
+  "file": "headshot.svg",
+  "use": "爆头/暴击",
+  "original": "headshot",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/headshot.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "bullseye",
+  "file": "bullseye.svg",
+  "use": "暴击率",
+  "original": "bullseye",
+  "author": "skoll",
+  "source_url": "https://github.com/game-icons/icons/blob/master/skoll/bullseye.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "target_shot",
+  "file": "target_shot.svg",
+  "use": "暴击伤害",
+  "original": "target-shot",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/target-shot.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "target_lock",
+  "file": "target_lock.svg",
+  "use": "锁定",
+  "original": "convergence-target",
+  "author": "delapouite",
+  "source_url": "https://github.com/game-icons/icons/blob/master/delapouite/convergence-target.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "pierce_body",
+  "file": "pierce_body.svg",
+  "use": "穿透",
+  "original": "pierced-body",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/pierced-body.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "pierce_arrow",
+  "file": "pierce_arrow.svg",
+  "use": "穿透",
+  "original": "arrow-scope",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/arrow-scope.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "pierce",
+  "file": "pierce.svg",
+  "use": "穿甲",
+  "original": "piercing-sword",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/piercing-sword.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "chain_lightning",
+  "file": "chain_lightning.svg",
+  "use": "连锁闪电",
+  "original": "chain-lightning",
+  "author": "willdabeast",
+  "source_url": "https://github.com/game-icons/icons/blob/master/willdabeast/chain-lightning.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "lightning_arc",
+  "file": "lightning_arc.svg",
+  "use": "电弧",
+  "original": "lightning-arc",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/lightning-arc.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "electric",
+  "file": "electric.svg",
+  "use": "电击",
+  "original": "electric",
+  "author": "sbed",
+  "source_url": "https://github.com/game-icons/icons/blob/master/sbed/electric.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "lightning_storm",
+  "file": "lightning_storm.svg",
+  "use": "雷暴",
+  "original": "lightning-storm",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/lightning-storm.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "tesla_coil",
+  "file": "tesla_coil.svg",
+  "use": "特斯拉",
+  "original": "tesla-coil",
+  "author": "caro-asercion",
+  "source_url": "https://github.com/game-icons/icons/blob/master/caro-asercion/tesla-coil.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "tesla_turret",
+  "file": "tesla_turret.svg",
+  "use": "电磁炮塔",
+  "original": "tesla-turret",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/tesla-turret.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "lightning_tree",
+  "file": "lightning_tree.svg",
+  "use": "连锁",
+  "original": "lightning-tree",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/lightning-tree.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "explosion",
+  "file": "explosion.svg",
+  "use": "爆炸",
+  "original": "explosion-rays",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/explosion-rays.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "mushroom_cloud",
+  "file": "mushroom_cloud.svg",
+  "use": "核爆",
+  "original": "mushroom-cloud",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/mushroom-cloud.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "nuke",
+  "file": "nuke.svg",
+  "use": "核弹",
+  "original": "nuclear-bomb",
+  "author": "skoll",
+  "source_url": "https://github.com/game-icons/icons/blob/master/skoll/nuclear-bomb.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "radioactive",
+  "file": "radioactive.svg",
+  "use": "辐射",
+  "original": "radioactive",
+  "author": "badges",
+  "source_url": "https://github.com/game-icons/icons/blob/master/badges/radioactive.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "nuclear",
+  "file": "nuclear.svg",
+  "use": "核能",
+  "original": "nuclear",
+  "author": "sbed",
+  "source_url": "https://github.com/game-icons/icons/blob/master/sbed/nuclear.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "explosion_bright",
+  "file": "explosion_bright.svg",
+  "use": "爆炸",
+  "original": "bright-explosion",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/bright-explosion.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "fire_bomb",
+  "file": "fire_bomb.svg",
+  "use": "燃烧弹",
+  "original": "fire-bomb",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/fire-bomb.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "incoming_rocket",
+  "file": "incoming_rocket.svg",
+  "use": "来袭",
+  "original": "incoming-rocket",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/incoming-rocket.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "poison_bottle",
+  "file": "poison_bottle.svg",
+  "use": "毒",
+  "original": "poison-bottle",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/poison-bottle.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "poison_gas",
+  "file": "poison_gas.svg",
+  "use": "毒气",
+  "original": "poison-gas",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/poison-gas.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "poison",
+  "file": "poison.svg",
+  "use": "中毒",
+  "original": "poison",
+  "author": "sbed",
+  "source_url": "https://github.com/game-icons/icons/blob/master/sbed/poison.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "acid",
+  "file": "acid.svg",
+  "use": "酸液",
+  "original": "acid",
+  "author": "sbed",
+  "source_url": "https://github.com/game-icons/icons/blob/master/sbed/acid.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "acid_blob",
+  "file": "acid_blob.svg",
+  "use": "酸液球",
+  "original": "acid-blob",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/acid-blob.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "biohazard",
+  "file": "biohazard.svg",
+  "use": "生化",
+  "original": "biohazard",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/biohazard.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "ice_snowflake",
+  "file": "ice_snowflake.svg",
+  "use": "冰冻",
+  "original": "snowflake-1",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/snowflake-1.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "ice_bolt",
+  "file": "ice_bolt.svg",
+  "use": "冰弹",
+  "original": "ice-bolt",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/ice-bolt.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "frozen_orb",
+  "file": "frozen_orb.svg",
+  "use": "冰球",
+  "original": "frozen-orb",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/frozen-orb.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "ice_cube",
+  "file": "ice_cube.svg",
+  "use": "冻结",
+  "original": "ice-cube",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/ice-cube.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "frostfire",
+  "file": "frostfire.svg",
+  "use": "冰火",
+  "original": "frostfire",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/frostfire.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "drone",
+  "file": "drone.svg",
+  "use": "无人机",
+  "original": "delivery-drone",
+  "author": "delapouite",
+  "source_url": "https://github.com/game-icons/icons/blob/master/delapouite/delivery-drone.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "mech_golem",
+  "file": "mech_golem.svg",
+  "use": "机甲",
+  "original": "robot-golem",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/robot-golem.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "mech_head",
+  "file": "mech_head.svg",
+  "use": "机甲头",
+  "original": "mecha-head",
+  "author": "delapouite",
+  "source_url": "https://github.com/game-icons/icons/blob/master/delapouite/mecha-head.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "mech_mask",
+  "file": "mech_mask.svg",
+  "use": "机甲",
+  "original": "mecha-mask",
+  "author": "delapouite",
+  "source_url": "https://github.com/game-icons/icons/blob/master/delapouite/mecha-mask.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "mech_battle",
+  "file": "mech_battle.svg",
+  "use": "战斗机甲",
+  "original": "battle-mech",
+  "author": "delapouite",
+  "source_url": "https://github.com/game-icons/icons/blob/master/delapouite/battle-mech.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "megabot",
+  "file": "megabot.svg",
+  "use": "巨型机甲",
+  "original": "megabot",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/megabot.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "robot_leg",
+  "file": "robot_leg.svg",
+  "use": "机甲腿",
+  "original": "robot-leg",
+  "author": "delapouite",
+  "source_url": "https://github.com/game-icons/icons/blob/master/delapouite/robot-leg.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "tank",
+  "file": "tank.svg",
+  "use": "坦克",
+  "original": "tank",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/tank.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "tank_battle",
+  "file": "tank_battle.svg",
+  "use": "主战坦克",
+  "original": "battle-tank",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/battle-tank.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "tank_top",
+  "file": "tank_top.svg",
+  "use": "坦克",
+  "original": "tank-top",
+  "author": "delapouite",
+  "source_url": "https://github.com/game-icons/icons/blob/master/delapouite/tank-top.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "apc",
+  "file": "apc.svg",
+  "use": "装甲车",
+  "original": "apc",
+  "author": "skoll",
+  "source_url": "https://github.com/game-icons/icons/blob/master/skoll/apc.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "battleship",
+  "file": "battleship.svg",
+  "use": "战舰",
+  "original": "battleship",
+  "author": "cathelineau",
+  "source_url": "https://github.com/game-icons/icons/blob/master/cathelineau/battleship.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "spaceship",
+  "file": "spaceship.svg",
+  "use": "飞船",
+  "original": "spaceship",
+  "author": "delapouite",
+  "source_url": "https://github.com/game-icons/icons/blob/master/delapouite/spaceship.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "starfighter",
+  "file": "starfighter.svg",
+  "use": "战机",
+  "original": "starfighter",
+  "author": "delapouite",
+  "source_url": "https://github.com/game-icons/icons/blob/master/delapouite/starfighter.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "shuttle",
+  "file": "shuttle.svg",
+  "use": "运输机",
+  "original": "space-shuttle",
+  "author": "delapouite",
+  "source_url": "https://github.com/game-icons/icons/blob/master/delapouite/space-shuttle.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "interceptor",
+  "file": "interceptor.svg",
+  "use": "截击机",
+  "original": "interceptor-ship",
+  "author": "delapouite",
+  "source_url": "https://github.com/game-icons/icons/blob/master/delapouite/interceptor-ship.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "scout_ship",
+  "file": "scout_ship.svg",
+  "use": "侦察舰",
+  "original": "scout-ship",
+  "author": "delapouite",
+  "source_url": "https://github.com/game-icons/icons/blob/master/delapouite/scout-ship.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "jet_fighter",
+  "file": "jet_fighter.svg",
+  "use": "战斗机",
+  "original": "jet-fighter",
+  "author": "delapouite",
+  "source_url": "https://github.com/game-icons/icons/blob/master/delapouite/jet-fighter.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "bomber",
+  "file": "bomber.svg",
+  "use": "轰炸机",
+  "original": "bomber",
+  "author": "lord-berandas",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lord-berandas/bomber.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "helicopter",
+  "file": "helicopter.svg",
+  "use": "直升机",
+  "original": "helicopter",
+  "author": "delapouite",
+  "source_url": "https://github.com/game-icons/icons/blob/master/delapouite/helicopter.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "orbital_strike",
+  "file": "orbital_strike.svg",
+  "use": "轨道打击",
+  "original": "orbital-rays",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/orbital-rays.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "parachute",
+  "file": "parachute.svg",
+  "use": "空投",
+  "original": "parachute",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/parachute.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "crate",
+  "file": "crate.svg",
+  "use": "补给箱",
+  "original": "wooden-crate",
+  "author": "delapouite",
+  "source_url": "https://github.com/game-icons/icons/blob/master/delapouite/wooden-crate.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "ammo_box",
+  "file": "ammo_box.svg",
+  "use": "弹药箱",
+  "original": "ammo-box",
+  "author": "sbed",
+  "source_url": "https://github.com/game-icons/icons/blob/master/sbed/ammo-box.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "radar",
+  "file": "radar.svg",
+  "use": "雷达",
+  "original": "radar-sweep",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/radar-sweep.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "radar_dish",
+  "file": "radar_dish.svg",
+  "use": "雷达站",
+  "original": "radar-dish",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/radar-dish.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "satellite",
+  "file": "satellite.svg",
+  "use": "卫星",
+  "original": "satellite-communication",
+  "author": "delapouite",
+  "source_url": "https://github.com/game-icons/icons/blob/master/delapouite/satellite-communication.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "radio",
+  "file": "radio.svg",
+  "use": "呼叫增援",
+  "original": "walkie-talkie",
+  "author": "delapouite",
+  "source_url": "https://github.com/game-icons/icons/blob/master/delapouite/walkie-talkie.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "team_upgrade",
+  "file": "team_upgrade.svg",
+  "use": "增援/小队升级",
+  "original": "team-upgrade",
+  "author": "delapouite",
+  "source_url": "https://github.com/game-icons/icons/blob/master/delapouite/team-upgrade.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "team",
+  "file": "team.svg",
+  "use": "小队",
+  "original": "team-idea",
+  "author": "delapouite",
+  "source_url": "https://github.com/game-icons/icons/blob/master/delapouite/team-idea.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "backup",
+  "file": "backup.svg",
+  "use": "增援",
+  "original": "backup",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/backup.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "squad",
+  "file": "squad.svg",
+  "use": "队伍人数",
+  "original": "three-friends",
+  "author": "delapouite",
+  "source_url": "https://github.com/game-icons/icons/blob/master/delapouite/three-friends.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "person",
+  "file": "person.svg",
+  "use": "士兵",
+  "original": "person",
+  "author": "delapouite",
+  "source_url": "https://github.com/game-icons/icons/blob/master/delapouite/person.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "unit_heavy",
+  "file": "unit_heavy.svg",
+  "use": "精英",
+  "original": "mounted-knight",
+  "author": "skoll",
+  "source_url": "https://github.com/game-icons/icons/blob/master/skoll/mounted-knight.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "rank_1",
+  "file": "rank_1.svg",
+  "use": "军衔1",
+  "original": "rank-1",
+  "author": "skoll",
+  "source_url": "https://github.com/game-icons/icons/blob/master/skoll/rank-1.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "rank_2",
+  "file": "rank_2.svg",
+  "use": "军衔2",
+  "original": "rank-2",
+  "author": "skoll",
+  "source_url": "https://github.com/game-icons/icons/blob/master/skoll/rank-2.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "rank_3",
+  "file": "rank_3.svg",
+  "use": "军衔3",
+  "original": "rank-3",
+  "author": "skoll",
+  "source_url": "https://github.com/game-icons/icons/blob/master/skoll/rank-3.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "sergeant",
+  "file": "sergeant.svg",
+  "use": "军士",
+  "original": "sergeant",
+  "author": "badges",
+  "source_url": "https://github.com/game-icons/icons/blob/master/badges/sergeant.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "commander",
+  "file": "commander.svg",
+  "use": "指挥官",
+  "original": "captain-hat-profile",
+  "author": "delapouite",
+  "source_url": "https://github.com/game-icons/icons/blob/master/delapouite/captain-hat-profile.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "ambulance",
+  "file": "ambulance.svg",
+  "use": "医疗车",
+  "original": "military-ambulance",
+  "author": "quoting",
+  "source_url": "https://github.com/game-icons/icons/blob/master/quoting/military-ambulance.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "barracks",
+  "file": "barracks.svg",
+  "use": "兵营",
+  "original": "barracks",
+  "author": "delapouite",
+  "source_url": "https://github.com/game-icons/icons/blob/master/delapouite/barracks.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "barracks_tent",
+  "file": "barracks_tent.svg",
+  "use": "营地",
+  "original": "barracks-tent",
+  "author": "delapouite",
+  "source_url": "https://github.com/game-icons/icons/blob/master/delapouite/barracks-tent.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "skull_crossbones",
+  "file": "skull_crossbones.svg",
+  "use": "死亡",
+  "original": "skull-crossed-bones",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/skull-crossed-bones.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "death_skull",
+  "file": "death_skull.svg",
+  "use": "击杀",
+  "original": "death-skull",
+  "author": "sbed",
+  "source_url": "https://github.com/game-icons/icons/blob/master/sbed/death-skull.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "skull",
+  "file": "skull.svg",
+  "use": "骷髅",
+  "original": "skull",
+  "author": "badges",
+  "source_url": "https://github.com/game-icons/icons/blob/master/badges/skull.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "skull_broken",
+  "file": "skull_broken.svg",
+  "use": "击杀",
+  "original": "broken-skull",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/broken-skull.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "alien_skull",
+  "file": "alien_skull.svg",
+  "use": "虫族击杀",
+  "original": "alien-skull",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/alien-skull.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "alien_bug",
+  "file": "alien_bug.svg",
+  "use": "虫",
+  "original": "alien-bug",
+  "author": "delapouite",
+  "source_url": "https://github.com/game-icons/icons/blob/master/delapouite/alien-bug.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "alien",
+  "file": "alien.svg",
+  "use": "外星",
+  "original": "alien-stare",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/alien-stare.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "alien_egg",
+  "file": "alien_egg.svg",
+  "use": "卵",
+  "original": "alien-egg",
+  "author": "delapouite",
+  "source_url": "https://github.com/game-icons/icons/blob/master/delapouite/alien-egg.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "egg_clutch",
+  "file": "egg_clutch.svg",
+  "use": "虫卵",
+  "original": "egg-clutch",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/egg-clutch.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "spider",
+  "file": "spider.svg",
+  "use": "虫",
+  "original": "spider-alt",
+  "author": "carl-olsen",
+  "source_url": "https://github.com/game-icons/icons/blob/master/carl-olsen/spider-alt.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "spider_face",
+  "file": "spider_face.svg",
+  "use": "虫",
+  "original": "spider-face",
+  "author": "carl-olsen",
+  "source_url": "https://github.com/game-icons/icons/blob/master/carl-olsen/spider-face.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "maggot",
+  "file": "maggot.svg",
+  "use": "幼虫",
+  "original": "maggot",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/maggot.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "worm_mouth",
+  "file": "worm_mouth.svg",
+  "use": "巨口虫",
+  "original": "worm-mouth",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/worm-mouth.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "scorpion",
+  "file": "scorpion.svg",
+  "use": "蝎虫",
+  "original": "scorpion",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/scorpion.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "scorpion_tail",
+  "file": "scorpion_tail.svg",
+  "use": "毒刺",
+  "original": "scorpion-tail",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/scorpion-tail.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "wasp_sting",
+  "file": "wasp_sting.svg",
+  "use": "蜂刺",
+  "original": "wasp-sting",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/wasp-sting.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "bee",
+  "file": "bee.svg",
+  "use": "飞虫",
+  "original": "bee",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/bee.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "hive",
+  "file": "hive.svg",
+  "use": "蜂巢",
+  "original": "hive",
+  "author": "sbed",
+  "source_url": "https://github.com/game-icons/icons/blob/master/sbed/hive.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "beehive",
+  "file": "beehive.svg",
+  "use": "巢",
+  "original": "beehive",
+  "author": "delapouite",
+  "source_url": "https://github.com/game-icons/icons/blob/master/delapouite/beehive.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "tick",
+  "file": "tick.svg",
+  "use": "寄生虫",
+  "original": "tick",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/tick.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "insect_jaws",
+  "file": "insect_jaws.svg",
+  "use": "虫颚",
+  "original": "insect-jaws",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/insect-jaws.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "claw_slashes",
+  "file": "claw_slashes.svg",
+  "use": "爪击",
+  "original": "claw-slashes",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/claw-slashes.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "claws",
+  "file": "claws.svg",
+  "use": "爪",
+  "original": "claws",
+  "author": "delapouite",
+  "source_url": "https://github.com/game-icons/icons/blob/master/delapouite/claws.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "claws_triple",
+  "file": "claws_triple.svg",
+  "use": "爪",
+  "original": "triple-claws",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/triple-claws.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "claw",
+  "file": "claw.svg",
+  "use": "爪",
+  "original": "claw",
+  "author": "sbed",
+  "source_url": "https://github.com/game-icons/icons/blob/master/sbed/claw.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "fangs",
+  "file": "fangs.svg",
+  "use": "牙",
+  "original": "fangs",
+  "author": "skoll",
+  "source_url": "https://github.com/game-icons/icons/blob/master/skoll/fangs.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "fangs_circle",
+  "file": "fangs_circle.svg",
+  "use": "撕咬",
+  "original": "fangs-circle",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/fangs-circle.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "teeth",
+  "file": "teeth.svg",
+  "use": "牙",
+  "original": "sharp-smile",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/sharp-smile.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "tentacle_strike",
+  "file": "tentacle_strike.svg",
+  "use": "触手",
+  "original": "tentacle-strike",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/tentacle-strike.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "tentacles_skull",
+  "file": "tentacles_skull.svg",
+  "use": "触手Boss",
+  "original": "tentacles-skull",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/tentacles-skull.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "tentacle",
+  "file": "tentacle.svg",
+  "use": "触手",
+  "original": "tentacurl",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/tentacurl.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "octopus",
+  "file": "octopus.svg",
+  "use": "触手怪",
+  "original": "octopus",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/octopus.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "spiked_shell",
+  "file": "spiked_shell.svg",
+  "use": "甲壳",
+  "original": "spiked-shell",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/spiked-shell.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "blob_monster",
+  "file": "blob_monster.svg",
+  "use": "Boss",
+  "original": "gooey-daemon",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/gooey-daemon.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "minion",
+  "file": "minion.svg",
+  "use": "小怪",
+  "original": "evil-minion",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/evil-minion.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "beast_eye",
+  "file": "beast_eye.svg",
+  "use": "Boss眼",
+  "original": "beast-eye",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/beast-eye.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "boss_skull",
+  "file": "boss_skull.svg",
+  "use": "Boss",
+  "original": "daemon-skull",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/daemon-skull.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "stars",
+  "file": "stars.svg",
+  "use": "星级",
+  "original": "star-formation",
+  "author": "delapouite",
+  "source_url": "https://github.com/game-icons/icons/blob/master/delapouite/star-formation.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "star_round",
+  "file": "star_round.svg",
+  "use": "星级",
+  "original": "round-star",
+  "author": "delapouite",
+  "source_url": "https://github.com/game-icons/icons/blob/master/delapouite/round-star.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "stars_stack",
+  "file": "stars_stack.svg",
+  "use": "升星",
+  "original": "stars-stack",
+  "author": "delapouite",
+  "source_url": "https://github.com/game-icons/icons/blob/master/delapouite/stars-stack.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "polar_star",
+  "file": "polar_star.svg",
+  "use": "稀有",
+  "original": "polar-star",
+  "author": "delapouite",
+  "source_url": "https://github.com/game-icons/icons/blob/master/delapouite/polar-star.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "flag",
+  "file": "flag.svg",
+  "use": "关卡",
+  "original": "level-end-flag",
+  "author": "delapouite",
+  "source_url": "https://github.com/game-icons/icons/blob/master/delapouite/level-end-flag.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "upgrade",
+  "file": "upgrade.svg",
+  "use": "升级",
+  "original": "upgrade",
+  "author": "delapouite",
+  "source_url": "https://github.com/game-icons/icons/blob/master/delapouite/upgrade.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "level",
+  "file": "level.svg",
+  "use": "等级",
+  "original": "level-four",
+  "author": "sbed",
+  "source_url": "https://github.com/game-icons/icons/blob/master/sbed/level-four.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "xp_progress",
+  "file": "xp_progress.svg",
+  "use": "经验",
+  "original": "progression",
+  "author": "delapouite",
+  "source_url": "https://github.com/game-icons/icons/blob/master/delapouite/progression.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "gears",
+  "file": "gears.svg",
+  "use": "齿轮/设置",
+  "original": "gears",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/gears.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "cog",
+  "file": "cog.svg",
+  "use": "设置",
+  "original": "cog",
+  "author": "badges",
+  "source_url": "https://github.com/game-icons/icons/blob/master/badges/cog.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "auto_repair",
+  "file": "auto_repair.svg",
+  "use": "修理",
+  "original": "auto-repair",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/auto-repair.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "battery",
+  "file": "battery.svg",
+  "use": "能量",
+  "original": "battery-pack",
+  "author": "sbed",
+  "source_url": "https://github.com/game-icons/icons/blob/master/sbed/battery-pack.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "energise",
+  "file": "energise.svg",
+  "use": "能量",
+  "original": "energise",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/energise.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "power",
+  "file": "power.svg",
+  "use": "能量",
+  "original": "power-lightning",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/power-lightning.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "atom",
+  "file": "atom.svg",
+  "use": "科技",
+  "original": "atom",
+  "author": "skoll",
+  "source_url": "https://github.com/game-icons/icons/blob/master/skoll/atom.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "hourglass",
+  "file": "hourglass.svg",
+  "use": "时间",
+  "original": "hourglass",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/hourglass.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "stopwatch",
+  "file": "stopwatch.svg",
+  "use": "计时",
+  "original": "stopwatch",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/stopwatch.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "time_slow",
+  "file": "time_slow.svg",
+  "use": "减速",
+  "original": "time-trap",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/time-trap.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "time_sands",
+  "file": "time_sands.svg",
+  "use": "时间",
+  "original": "sands-of-time",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/sands-of-time.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "reroll_dice",
+  "file": "reroll_dice.svg",
+  "use": "重抽",
+  "original": "rolling-dices",
+  "author": "delapouite",
+  "source_url": "https://github.com/game-icons/icons/blob/master/delapouite/rolling-dices.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "dice",
+  "file": "dice.svg",
+  "use": "随机",
+  "original": "perspective-dice-six-faces-random",
+  "author": "delapouite",
+  "source_url": "https://github.com/game-icons/icons/blob/master/delapouite/perspective-dice-six-faces-random.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "cycle",
+  "file": "cycle.svg",
+  "use": "刷新",
+  "original": "cycle",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/cycle.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "lock",
+  "file": "lock.svg",
+  "use": "锁",
+  "original": "padlock",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/padlock.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "unlock",
+  "file": "unlock.svg",
+  "use": "解锁",
+  "original": "padlock-open",
+  "author": "delapouite",
+  "source_url": "https://github.com/game-icons/icons/blob/master/delapouite/padlock-open.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "trophy",
+  "file": "trophy.svg",
+  "use": "奖杯",
+  "original": "trophy",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/trophy.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "trophy_cup",
+  "file": "trophy_cup.svg",
+  "use": "奖杯",
+  "original": "trophy-cup",
+  "author": "delapouite",
+  "source_url": "https://github.com/game-icons/icons/blob/master/delapouite/trophy-cup.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "laurel",
+  "file": "laurel.svg",
+  "use": "荣誉",
+  "original": "laurel-crown",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/laurel-crown.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "podium",
+  "file": "podium.svg",
+  "use": "排行榜",
+  "original": "podium",
+  "author": "delapouite",
+  "source_url": "https://github.com/game-icons/icons/blob/master/delapouite/podium.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "medal",
+  "file": "medal.svg",
+  "use": "勋章",
+  "original": "medal",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/medal.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "settings",
+  "file": "settings.svg",
+  "use": "设置",
+  "original": "settings-knobs",
+  "author": "delapouite",
+  "source_url": "https://github.com/game-icons/icons/blob/master/delapouite/settings-knobs.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "sound_on",
+  "file": "sound_on.svg",
+  "use": "声音",
+  "original": "speaker",
+  "author": "delapouite",
+  "source_url": "https://github.com/game-icons/icons/blob/master/delapouite/speaker.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "sound_off",
+  "file": "sound_off.svg",
+  "use": "静音",
+  "original": "speaker-off",
+  "author": "delapouite",
+  "source_url": "https://github.com/game-icons/icons/blob/master/delapouite/speaker-off.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "music",
+  "file": "music.svg",
+  "use": "音乐",
+  "original": "musical-notes",
+  "author": "delapouite",
+  "source_url": "https://github.com/game-icons/icons/blob/master/delapouite/musical-notes.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "pause",
+  "file": "pause.svg",
+  "use": "暂停",
+  "original": "pause-button",
+  "author": "guard13007",
+  "source_url": "https://github.com/game-icons/icons/blob/master/guard13007/pause-button.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "play",
+  "file": "play.svg",
+  "use": "开始",
+  "original": "play-button",
+  "author": "guard13007",
+  "source_url": "https://github.com/game-icons/icons/blob/master/guard13007/play-button.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "exit",
+  "file": "exit.svg",
+  "use": "退出",
+  "original": "exit-door",
+  "author": "delapouite",
+  "source_url": "https://github.com/game-icons/icons/blob/master/delapouite/exit-door.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "home",
+  "file": "home.svg",
+  "use": "主页",
+  "original": "house",
+  "author": "delapouite",
+  "source_url": "https://github.com/game-icons/icons/blob/master/delapouite/house.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "cancel",
+  "file": "cancel.svg",
+  "use": "关闭",
+  "original": "cancel",
+  "author": "sbed",
+  "source_url": "https://github.com/game-icons/icons/blob/master/sbed/cancel.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "check",
+  "file": "check.svg",
+  "use": "确认",
+  "original": "check-mark",
+  "author": "delapouite",
+  "source_url": "https://github.com/game-icons/icons/blob/master/delapouite/check-mark.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "info",
+  "file": "info.svg",
+  "use": "信息",
+  "original": "info",
+  "author": "delapouite",
+  "source_url": "https://github.com/game-icons/icons/blob/master/delapouite/info.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "help",
+  "file": "help.svg",
+  "use": "帮助",
+  "original": "help",
+  "author": "sbed",
+  "source_url": "https://github.com/game-icons/icons/blob/master/sbed/help.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "save",
+  "file": "save.svg",
+  "use": "保存",
+  "original": "save",
+  "author": "delapouite",
+  "source_url": "https://github.com/game-icons/icons/blob/master/delapouite/save.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "fullscreen_exit",
+  "file": "fullscreen_exit.svg",
+  "use": "退出全屏",
+  "original": "contract",
+  "author": "delapouite",
+  "source_url": "https://github.com/game-icons/icons/blob/master/delapouite/contract.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "fullscreen",
+  "file": "fullscreen.svg",
+  "use": "全屏",
+  "original": "expand",
+  "author": "delapouite",
+  "source_url": "https://github.com/game-icons/icons/blob/master/delapouite/expand.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "coins",
+  "file": "coins.svg",
+  "use": "金币",
+  "original": "coins",
+  "author": "badges",
+  "source_url": "https://github.com/game-icons/icons/blob/master/badges/coins.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "coins_two",
+  "file": "coins_two.svg",
+  "use": "货币",
+  "original": "two-coins",
+  "author": "delapouite",
+  "source_url": "https://github.com/game-icons/icons/blob/master/delapouite/two-coins.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "crystal",
+  "file": "crystal.svg",
+  "use": "晶体资源",
+  "original": "crystal-growth",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/crystal-growth.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "minerals",
+  "file": "minerals.svg",
+  "use": "矿物",
+  "original": "minerals",
+  "author": "faithtoken",
+  "source_url": "https://github.com/game-icons/icons/blob/master/faithtoken/minerals.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "gems",
+  "file": "gems.svg",
+  "use": "宝石",
+  "original": "gems",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/gems.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "cash",
+  "file": "cash.svg",
+  "use": "资金",
+  "original": "cash",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/cash.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "double_shot",
+  "file": "double_shot.svg",
+  "use": "双发",
+  "original": "double-shot",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/double-shot.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "multishot",
+  "file": "multishot.svg",
+  "use": "多重射击",
+  "original": "striking-arrows",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/striking-arrows.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "split_shot",
+  "file": "split_shot.svg",
+  "use": "分裂",
+  "original": "split-arrows",
+  "author": "delapouite",
+  "source_url": "https://github.com/game-icons/icons/blob/master/delapouite/split-arrows.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "ricochet",
+  "file": "ricochet.svg",
+  "use": "弹射",
+  "original": "ricochet",
+  "author": "caro-asercion",
+  "source_url": "https://github.com/game-icons/icons/blob/master/caro-asercion/ricochet.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "bounce",
+  "file": "bounce.svg",
+  "use": "弹射",
+  "original": "bouncing-spring",
+  "author": "delapouite",
+  "source_url": "https://github.com/game-icons/icons/blob/master/delapouite/bouncing-spring.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "sentry_gun",
+  "file": "sentry_gun.svg",
+  "use": "哨戒炮",
+  "original": "sentry-gun",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/sentry-gun.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "turret",
+  "file": "turret.svg",
+  "use": "炮塔",
+  "original": "turret",
+  "author": "sbed",
+  "source_url": "https://github.com/game-icons/icons/blob/master/sbed/turret.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "gun_rose",
+  "file": "gun_rose.svg",
+  "use": "火力",
+  "original": "gun-rose",
+  "author": "delapouite",
+  "source_url": "https://github.com/game-icons/icons/blob/master/delapouite/gun-rose.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "barbed_wire",
+  "file": "barbed_wire.svg",
+  "use": "路障",
+  "original": "barbed-wire",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/barbed-wire.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "wall",
+  "file": "wall.svg",
+  "use": "掩体",
+  "original": "brick-wall",
+  "author": "delapouite",
+  "source_url": "https://github.com/game-icons/icons/blob/master/delapouite/brick-wall.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "barrier",
+  "file": "barrier.svg",
+  "use": "屏障",
+  "original": "stone-wall",
+  "author": "delapouite",
+  "source_url": "https://github.com/game-icons/icons/blob/master/delapouite/stone-wall.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "magnet",
+  "file": "magnet.svg",
+  "use": "拾取",
+  "original": "magnet",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/magnet.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "vortex",
+  "file": "vortex.svg",
+  "use": "黑洞",
+  "original": "vortex",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/vortex.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "black_hole",
+  "file": "black_hole.svg",
+  "use": "引力",
+  "original": "black-hole-bolas",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/black-hole-bolas.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "sonic_boom",
+  "file": "sonic_boom.svg",
+  "use": "音爆",
+  "original": "sonic-boom",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/sonic-boom.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "wave",
+  "file": "wave.svg",
+  "use": "波次",
+  "original": "wave-strike",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/wave-strike.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "melee",
+  "file": "melee.svg",
+  "use": "近战",
+  "original": "fist",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/fist.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "battle",
+  "file": "battle.svg",
+  "use": "战斗",
+  "original": "sword-clash",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/sword-clash.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "versus",
+  "file": "versus.svg",
+  "use": "对战",
+  "original": "crossed-swords",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/crossed-swords.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "strength",
+  "file": "strength.svg",
+  "use": "力量",
+  "original": "strong",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/strong.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "damage_up",
+  "file": "damage_up.svg",
+  "use": "伤害",
+  "original": "biceps",
+  "author": "delapouite",
+  "source_url": "https://github.com/game-icons/icons/blob/master/delapouite/biceps.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "burn_skull",
+  "file": "burn_skull.svg",
+  "use": "燃烧击杀",
+  "original": "burning-skull",
+  "author": "skoll",
+  "source_url": "https://github.com/game-icons/icons/blob/master/skoll/burning-skull.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "bleed",
+  "file": "bleed.svg",
+  "use": "流血",
+  "original": "bleeding-wound",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/bleeding-wound.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "eye_target",
+  "file": "eye_target.svg",
+  "use": "侦测",
+  "original": "eye-target",
+  "author": "delapouite",
+  "source_url": "https://github.com/game-icons/icons/blob/master/delapouite/eye-target.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "dna",
+  "file": "dna.svg",
+  "use": "变异",
+  "original": "dna1",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/dna1.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "mutation",
+  "file": "mutation.svg",
+  "use": "变异",
+  "original": "dna2",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/dna2.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "infested",
+  "file": "infested.svg",
+  "use": "感染",
+  "original": "infested-mass",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/infested-mass.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "virus",
+  "file": "virus.svg",
+  "use": "病毒",
+  "original": "virus",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/virus.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "move_arrows",
+  "file": "move_arrows.svg",
+  "use": "左右移动提示",
+  "original": "move",
+  "author": "delapouite",
+  "source_url": "https://github.com/game-icons/icons/blob/master/delapouite/move.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "restart",
+  "file": "restart.svg",
+  "use": "重开",
+  "original": "clockwise-rotation",
+  "author": "delapouite",
+  "source_url": "https://github.com/game-icons/icons/blob/master/delapouite/clockwise-rotation.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "back",
+  "file": "back.svg",
+  "use": "返回",
+  "original": "return-arrow",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/return-arrow.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "arrow",
+  "file": "arrow.svg",
+  "use": "箭头",
+  "original": "plain-arrow",
+  "author": "delapouite",
+  "source_url": "https://github.com/game-icons/icons/blob/master/delapouite/plain-arrow.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "plus",
+  "file": "plus.svg",
+  "use": "加号/增援门正向",
+  "original": "plus",
+  "author": "badges",
+  "source_url": "https://github.com/game-icons/icons/blob/master/badges/plus.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "hazard",
+  "file": "hazard.svg",
+  "use": "警告",
+  "original": "hazard-sign",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/hazard-sign.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "soldier_flamethrower",
+  "file": "soldier_flamethrower.svg",
+  "use": "喷火兵单位",
+  "original": "flamethrower-soldier",
+  "author": "delapouite",
+  "source_url": "https://github.com/game-icons/icons/blob/master/delapouite/flamethrower-soldier.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "mech_missile",
+  "file": "mech_missile.svg",
+  "use": "导弹机甲",
+  "original": "missile-mech",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/missile-mech.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "robot_tracked",
+  "file": "robot_tracked.svg",
+  "use": "履带机器人/炮台",
+  "original": "tracked-robot",
+  "author": "delapouite",
+  "source_url": "https://github.com/game-icons/icons/blob/master/delapouite/tracked-robot.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "supply_crate",
+  "file": "supply_crate.svg",
+  "use": "空投补给",
+  "original": "cargo-crate",
+  "author": "delapouite",
+  "source_url": "https://github.com/game-icons/icons/blob/master/delapouite/cargo-crate.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "rally_troops",
+  "file": "rally_troops.svg",
+  "use": "增援/集结",
+  "original": "rally-the-troops",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/rally-the-troops.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "squad_dark",
+  "file": "squad_dark.svg",
+  "use": "小队/士兵",
+  "original": "dark-squad",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/dark-squad.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "egg_pod",
+  "file": "egg_pod.svg",
+  "use": "虫卵",
+  "original": "egg-pod",
+  "author": "sbed",
+  "source_url": "https://github.com/game-icons/icons/blob/master/sbed/egg-pod.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "egg_defense",
+  "file": "egg_defense.svg",
+  "use": "卵/孵化",
+  "original": "egg-defense",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/egg-defense.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "podium_winner",
+  "file": "podium_winner.svg",
+  "use": "排行榜第一",
+  "original": "podium-winner",
+  "author": "delapouite",
+  "source_url": "https://github.com/game-icons/icons/blob/master/delapouite/podium-winner.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "hive_mind",
+  "file": "hive_mind.svg",
+  "use": "虫群主脑/Boss",
+  "original": "hive-mind",
+  "author": "delapouite",
+  "source_url": "https://github.com/game-icons/icons/blob/master/delapouite/hive-mind.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "hive_artificial",
+  "file": "hive_artificial.svg",
+  "use": "蜂巢",
+  "original": "artificial-hive",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/artificial-hive.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "tentacle_spiked",
+  "file": "tentacle_spiked.svg",
+  "use": "触手",
+  "original": "spiked-tentacle",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/spiked-tentacle.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "mine_teller",
+  "file": "mine_teller.svg",
+  "use": "反坦克雷",
+  "original": "teller-mine",
+  "author": "skoll",
+  "source_url": "https://github.com/game-icons/icons/blob/master/skoll/teller-mine.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "alien_skull_cracked",
+  "file": "alien_skull_cracked.svg",
+  "use": "击杀虫族",
+  "original": "cracked-alien-skull",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/cracked-alien-skull.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "bug_antennae",
+  "file": "bug_antennae.svg",
+  "use": "虫",
+  "original": "long-antennae-bug",
+  "author": "lorc",
+  "source_url": "https://github.com/game-icons/icons/blob/master/lorc/long-antennae-bug.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "bug_spotted",
+  "file": "bug_spotted.svg",
+  "use": "虫",
+  "original": "spotted-bug",
+  "author": "skoll",
+  "source_url": "https://github.com/game-icons/icons/blob/master/skoll/spotted-bug.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "ice_cast",
+  "file": "ice_cast.svg",
+  "use": "冰冻技能",
+  "original": "ice-spell-cast",
+  "author": "delapouite",
+  "source_url": "https://github.com/game-icons/icons/blob/master/delapouite/ice-spell-cast.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "audio_on",
+  "file": "audio_on.svg",
+  "use": "声音开",
+  "original": "sound-on",
+  "author": "delapouite",
+  "source_url": "https://github.com/game-icons/icons/blob/master/delapouite/sound-on.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "audio_off",
+  "file": "audio_off.svg",
+  "use": "声音关",
+  "original": "sound-off",
+  "author": "delapouite",
+  "source_url": "https://github.com/game-icons/icons/blob/master/delapouite/sound-off.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "helmet_robot",
+  "file": "helmet_robot.svg",
+  "use": "士兵头盔",
+  "original": "robot-helmet",
+  "author": "delapouite",
+  "source_url": "https://github.com/game-icons/icons/blob/master/delapouite/robot-helmet.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "health_capsule",
+  "file": "health_capsule.svg",
+  "use": "治疗胶囊",
+  "original": "health-capsule",
+  "author": "delapouite",
+  "source_url": "https://github.com/game-icons/icons/blob/master/delapouite/health-capsule.svg",
+  "license": "CC-BY 3.0"
+ },
+ {
+  "name": "shield_heal",
+  "file": "shield_heal.svg",
+  "use": "护盾回复",
+  "original": "healing-shield",
+  "author": "delapouite",
+  "source_url": "https://github.com/game-icons/icons/blob/master/delapouite/healing-shield.svg",
+  "license": "CC-BY 3.0"
+ }
+]

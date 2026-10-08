@@ -1,0 +1,10 @@
+{
+  "name": "hivefall",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "serve": "node tools/serve.js 5173",
+    "sim": "node tools/sim-run.mjs"
+  }
+}

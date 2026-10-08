@@ -1,0 +1,13 @@
+node_modules/
+.playwright-mcp/
+*.log
+
+# 开发过程资料，不发布
+docs/
+lookdev/
+tools/_*
+tools/ai-models/.venv/
+assets/models/ai/raw/
+assets/audio/_unused/
+**/NOTES.md
+**/_preview_sheet*.png

@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
+<meta name="theme-color" content="#0b1016">
+<title>HIVEFALL 蜂巢陨落</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%230b1016'/%3E%3Cpath d='M16 4l10 6v12l-10 6-10-6V10z' fill='none' stroke='%23ffb02e' stroke-width='2.5'/%3E%3Cpath d='M16 11v10M11 14v4M21 14v4' stroke='%235fe0ff' stroke-width='2.5'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="assets/ui/fonts/fonts.css" data-hf-ui>
+<link rel="stylesheet" href="src/ui/css/base.css" data-hf-ui>
+<link rel="stylesheet" href="src/ui/css/hud.css" data-hf-ui>
+<link rel="stylesheet" href="src/ui/css/screens.css" data-hf-ui>
+<link rel="stylesheet" href="src/ui/css/mobile.css" data-hf-ui>
+<style>
+  /* 画布与界面都铺满整个视口：任意缩放 / 全屏都不留黑边。画布的显示尺寸归 CSS，绘制缓冲归渲染器自己管 */
+  html, body { margin: 0; width: 100%; height: 100%; background: #05080b; overflow: hidden; overscroll-behavior: none; }
+  body { -webkit-user-select: none; user-select: none; -webkit-touch-callout: none; -webkit-tap-highlight-color: transparent; }
+  #app { position: fixed; inset: 0; overflow: hidden; background: #05080b; }
+  #c { position: absolute; left: 0; top: 0; width: 100%; height: 100%; display: block; touch-action: none; outline: none; }
+  /* 模块还没下到之前的占位（界面层起来后立刻换成正式加载页） */
+  #boot { position: fixed; inset: 0; z-index: 100; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 14px; background: #0b1016; color: #ffb02e; font: 700 30px/1 Orbitron, "Segoe UI", sans-serif; letter-spacing: 0.32em; text-indent: 0.32em; }
+  #boot small { font: 400 12px/1.4 Consolas, monospace; letter-spacing: 0.18em; text-indent: 0.18em; color: #5f7486; max-width: 80vw; text-align: center; }
+  #fps { position: fixed; left: 310px; top: 4px; opacity: 0.85; z-index: 90; padding: 3px 7px; font: 12px/1.3 Consolas, monospace; color: #8dffd0; background: rgba(4, 10, 16, 0.7); pointer-events: none; }
+  #fatal { position: fixed; left: 50%; bottom: 12%; transform: translateX(-50%); z-index: 120; max-width: 80vw; padding: 12px 18px; font: 14px/1.5 Consolas, monospace; color: #ff4d3d; background: #121a23; border: 1px solid #ff4d3d; }
+  noscript { position: fixed; inset: 0; z-index: 200; display: flex; align-items: center; justify-content: center; background: #0b1016; color: #ffb02e; font: 16px sans-serif; }
+</style>
+<script type="importmap">{"imports":{"three":"./vendor/three/build/three.module.js","three/addons/":"./vendor/three/examples/jsm/"}}</script>
+</head>
+<body>
+<div id="app"><canvas id="c" tabindex="-1"></canvas></div>
+<div id="boot">HIVEFALL<small id="boot-msg">LOADING</small></div>
+<div id="fps" hidden></div>
+<noscript>HIVEFALL needs JavaScript. / 本游戏需要启用 JavaScript。</noscript>
+<script>
+  // 直接双击打开 index.html（file://）时 ES module 加载不了：给一句人话
+  if (location.protocol === 'file:') document.getElementById('boot-msg').textContent = 'Please run start.bat (or: node tools/serve.js 5173) and open http://127.0.0.1:5173/'
+</script>
+<script type="module" src="src/main.js"></script>
+</body>
+</html>

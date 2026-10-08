@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>HIVEFALL · 渲染开发页</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="/assets/ui/fonts/fonts.css">
+<style>
+  html,body{margin:0;height:100%;background:#020305;overflow:hidden}
+  canvas{display:block;width:100vw;height:100vh;touch-action:none}
+  #hud{position:fixed;left:14px;top:12px;font:12px/1.55 "Share Tech Mono",ui-monospace,Consolas,monospace;color:#9fe8ff;background:rgba(4,10,16,.62);border:1px solid rgba(90,200,255,.28);padding:8px 12px;border-radius:3px;white-space:pre;pointer-events:none;letter-spacing:.3px}
+  #hud b{color:#ffd27a;font-weight:400}
+  #load{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;color:#7fd8ff;font:15px "Share Tech Mono",Consolas,monospace;letter-spacing:3px;background:#020305;z-index:9}
+  #keys{position:fixed;right:14px;top:12px;font:11px/1.6 "Share Tech Mono",Consolas,monospace;color:#6f8a9a;text-align:right;pointer-events:none}
+  #layer{position:fixed;inset:0;pointer-events:none;overflow:hidden}
+  .tag{position:absolute;transform:translate(-50%,-100%);font:700 11px/1.2 "Chakra Petch","Noto Sans SC",sans-serif;color:#bff3ff;text-shadow:0 0 4px #000,0 1px 2px #000;white-space:nowrap;letter-spacing:.5px}
+  .tag.elite{color:#ffb454}.tag.hero{color:#ffe08a;font-size:12px}.tag.boss{color:#ff7a4a;font-size:14px}
+  .clip{position:absolute;transform:translate(-50%,-100%);font:12px/1.3 "Share Tech Mono",Consolas,monospace;color:#ffd27a;text-align:center;text-shadow:0 0 4px #000,0 1px 2px #000;white-space:nowrap}
+  .clip small{color:#8fb6c6}
+  .fl{position:absolute;transform:translate(-50%,-50%);font:700 15px "Chakra Petch",sans-serif;color:#ffe9a8;text-shadow:0 0 6px rgba(0,0,0,.9),0 2px 2px #000;animation:fl .9s ease-out forwards;white-space:nowrap}
+  .fl.boss{color:#ffb38a;font-size:18px}.fl.crit{color:#fff;font-size:21px}.fl.xp{color:#7fe3ff;font-size:12px}.fl.energy{color:#8dffd0;font-size:11px}
+  @keyframes fl{0%{opacity:0;margin-top:6px}12%{opacity:1}100%{opacity:0;margin-top:-46px}}
+  #energy{position:fixed;left:18%;bottom:9%;font:700 20px "Oxanium","Share Tech Mono",Consolas,monospace;color:#8dffd0;text-shadow:0 0 8px rgba(0,0,0,.9);pointer-events:none;transform-origin:left center;transition:transform .18s ease-out}
+  #energy.bump{transform:scale(1.28);transition:none;color:#eafff6}
+  #energy small{font-size:11px;color:#6fae9c;margin-left:8px;font-weight:400}
+  #portraits{position:fixed;inset:0;z-index:8;background:#0b1016;overflow:auto;padding:16px;display:none;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px;align-content:start}
+  #portraits figure{margin:0;background:#121a23;border:1px solid #2a3a4a;clip-path:polygon(10px 0,100% 0,100% calc(100% - 10px),calc(100% - 10px) 100%,0 100%,0 10px);padding:6px;text-align:center;font:11px "Share Tech Mono",Consolas,monospace;color:#9fe8ff}
+  #portraits img{display:block;width:100%;aspect-ratio:1;background:radial-gradient(circle at 50% 38%,#24364a,#0c131b 72%)}
+  .shot #hud,.shot #keys{display:none}
+  .clean #layer{display:none}
+</style>
+<script type="importmap">{"imports":{"three":"/vendor/three/build/three.module.js","three/addons/":"/vendor/three/examples/jsm/"}}</script>
+</head>
+<body>
+<canvas id="c"></canvas>
+<div id="layer"></div>
+<div id="load">HIVEFALL // 烘焙顶点动画贴图…</div>
+<div id="hud"></div>
+<div id="energy" style="display:none"></div>
+<div id="portraits"></div>
+<div id="keys">1 灰烬黄昏 · 2 深空寒夜 · 3 巢穴侵蚀 · Q 画质 · C 机位 · P 暂停 · ←→ 移动 · [ ] 上/下一个检视对象<br>布防：Shift+1~8 选装置 → 鼠标指格子 → 左键放 / 右键铲除 / Esc 取消 · ?bot=builder|good|idle · ?unlock=1 · ?energy=500 · ?portraits=1<br>?world=sim|mock · ?focus=unit.rifle · ?lineup=unit.* · ?theme= · ?quality= · ?cam= · ?t=40&amp;pause=1 · ?shot=1 · ?clean=1 · ?companion=1 · ?lang=en · ?i18n=0</div>
+<script type="module">
+import { createRenderer } from '/src/render/renderer.js'
+import * as assets from '/src/render/assets.js'
+import { createMockWorld } from './mockworld.js'
+import { t as T, setLang } from '/src/core/i18n.js'   // 文案由宿主注入渲染层（view.setTranslator），渲染层自己不 import 文案表
+import * as demoApi from './worlddemo.js'   // ?demo=gates|pod|devices|place|fence|power.<id>|bossdie|env：场景 / 门 / 装置 / 技能特效的单项演示
+
+const Q = new URLSearchParams(location.search)
+const num = (k, d) => (Q.has(k) ? Number(Q.get(k)) : d)
+if (Q.get('shot') === '1') document.body.classList.add('shot')
+if (Q.get('clean') === '1') document.body.classList.add('clean')
+const hud = document.getElementById('hud'), layer = document.getElementById('layer'), canvas = document.getElementById('c')
+const DT = 1 / 60
+const LINEUP = Q.get('lineup')
+const FOCUS = Q.get('focus') || LINEUP
+
+// ---------------- 世界：真模拟（src/sim + bot）或假数据（dev/mockworld.js）----------------
+let simApi = null, simErr = null
+try { const [w, b] = await Promise.all([import('/src/sim/world.js'), import('/src/sim/bot.js')]); if (w.createWorld && b.createBot) simApi = { createWorld: w.createWorld, createBot: b.createBot } } catch (e) { simErr = e }
+let mode = Q.get('world') || (simApi ? 'sim' : 'mock')
+if (mode === 'sim' && !simApi) { console.info('[dev] src/sim 不可用，改用 mock：', simErr && simErr.message); mode = 'mock' }
+let seed = num('seed', 1), world = null, bot = null
+function simBroken(e) { console.info('[dev] src/sim 现在跑不起来（' + (e && e.message) + '），改用 mock 假数据'); mode = 'mock' }
+function newWorld() {
+  if (FOCUS) { world = null; return }
+  if (Q.get('demo')) { const d = demoApi.createDemo(Q.get('demo'), Q); if (d) { world = d.world; bot = d.bot || null; mode = 'demo'; return } }
+  if (mode === 'sim') {
+    // 模拟层还在并行开发，随时可能跑不起来：建世界并试跑几步，失败就退回 mock
+    try {
+      world = simApi.createWorld({ seed, commander: Q.get('commander') || 'none', difficulty: Q.get('difficulty') || 'normal', boss: Q.get('boss') || undefined, companion: Q.get('companion') === '1' ? true : undefined })
+      bot = simApi.createBot(Q.get('bot') || 'good', seed)
+      if (Q.get('unlock') === '1') for (const c of world.cards) { c.unlocked = true; world._dev.unlocked[c.kind] = true }   // 开发用：八种装置全解锁（正常要靠装置门 / 图纸牌）
+      if (Q.has('energy')) world.energy = num('energy', 100)
+      const probe = simApi.createWorld({ seed }), pb = simApi.createBot('good', seed)
+      for (let i = 0; i < 300; i++) probe.step(pb(probe))
+    } catch (e) { simBroken(e) }
+  }
+  if (mode !== 'sim') {
+    world = createMockWorld({ seed, companion: Q.get('companion') !== '0', bugs: num('bugs', 3400), boss: Q.get('boss') || 'ravager', bossAt: num('bossAt', 6), bossLife: num('bossLife', 24), rifles: num('rifles', 60), extraHeroes: Q.get('heroes') === '1', devices: Q.get('devices') !== '0', still: Q.get('still') === '1' })
+    bot = null
+  }
+}
+newWorld()
+
+// ---------------- 渲染器 ----------------
+const view = await createRenderer({ canvas, quality: Q.get('quality') || 'high', theme: Q.get('theme') || 'ash', msaa: Q.has('msaa') ? num('msaa', 4) : undefined })
+if (Q.get('lang')) { setLang(Q.get('lang')); document.documentElement.lang = Q.get('lang') === 'en' ? 'en' : 'zh-CN' }
+if (Q.get('i18n') !== '0') view.setTranslator(T)     // ?i18n=0：不注入，看门牌的兜底文字
+view.gpuTimer(Q.get('gpu') !== '0')
+view.setWorld(world)
+if (Q.get('cam')) view.setCameraMode(Q.get('cam'), true)
+if (Q.get('cp')) view.debug.rig.setCustom(Q.get('cp').split(',').map(Number), (Q.get('cl') || '0,0,0').split(',').map(Number), num('fov', 0) || undefined)
+
+// ---------------- 检视模式：?focus=逻辑名 ----------------
+let focusInfo = null, focusList = [], focusIdx = 0
+async function focus(name) {
+  focusInfo = await view.inspect(name.includes(',') || LINEUP ? name.split(',').flatMap((n) => (n.endsWith('*') ? assets.list(n.slice(0, -1)) : [n])) : name, { clip: Q.get('clip') || undefined, gap: num('gap', 0.35), yaw: num('yaw', 0), pitch: num('pitch', 0.38), spin: num('spin', 0.2), dist: num('dist', 0) || undefined, angle: num('angle', 0.5) })
+  layer.querySelectorAll('.clip').forEach((n) => n.remove())
+  if (focusInfo) for (const c of focusInfo.clips) { const d = document.createElement('div'); d.className = 'clip'; d.innerHTML = LINEUP ? c.name : `${c.name}<br><small>${c.frames} 帧 · ${c.duration.toFixed(2)}s${c.loop ? ' · 循环' : ''}</small>`; layer.appendChild(d); c.el = d }
+}
+if (FOCUS) { focusList = assets.list(''); focusIdx = Math.max(0, focusList.indexOf(FOCUS)); await focus(FOCUS) }
+
+// ---------------- 主循环（ARCHITECTURE §6）----------------
+let paused = Q.get('pause') === '1', acc = 0, hitstop = 0, endT = 0, moveX = 0, speed = num('speed', 1)
+const input = { moveX: null, targetX: null, powers: [], aim: null, pick: null, reroll: false, continueEndless: false, retreat: false, place: null, remove: null }
+const manual = { kind: null, place: null, remove: null, cell: null }   // 手动布防（Shift+1~8）：点出来的放置 / 铲除意图，下一个模拟步塞进 input
+function stepOnce(render) {
+  if (!world) return
+  if (!bot) { input.moveX = moveX || null; input.place = null; input.remove = null }
+  const inp = bot ? bot(world) : input
+  const injP = manual.place, injR = manual.remove
+  if (injP) { inp.place = injP; manual.place = null }
+  if (injR) { inp.remove = injR; manual.remove = null }
+  try { world.step(inp) } catch (e) { if (mode !== 'sim') throw e; simBroken(e); newWorld(); view.setWorld(world); return }
+  if (injP && inp.place === injP) inp.place = null        // 模拟层不替你清这两个字段；不清的话同一个放置请求每步都会再来一遍
+  if (injR && inp.remove === injR) inp.remove = null
+  const ev = world.events
+  view.consume(ev)
+  for (let i = 0; i < ev.length; i++) if (ev[i].type === 'hitstop') hitstop = Math.max(hitstop, ev[i].ms / 1000)
+  if (render) view.render(0, DT)
+}
+// 预演到指定模拟时间（截图用）：前面只跑模拟，最后 2.5 秒连表现一起跑，让特效池里有东西
+const T0 = num('t', 0)
+if (world && T0 > 0) {
+  let guard = 0
+  try { while (world.time < T0 - 2.5 && world.status !== 'won' && world.status !== 'lost' && guard++ < 60 * 400) { world.step(bot ? bot(world) : input) } } catch (e) { if (mode !== 'sim') throw e; simBroken(e); newWorld(); while (world.time < T0 - 2.5) world.step(input) }
+  view.setWorld(world)
+  guard = 0
+  while (world.time < T0 && world.status !== 'won' && world.status !== 'lost' && guard++ < 600) stepOnce(true)
+}
+document.getElementById('load').remove()
+
+// 注意：这里故意不监听 resize —— 渲染器自己跟踪画布尺寸 / devicePixelRatio（renderer.js 的 syncSize），宿主页面不用管
+addEventListener('keydown', (e) => {
+  if (e.key === '1') view.setTheme('ash'); else if (e.key === '2') view.setTheme('night'); else if (e.key === '3') view.setTheme('hive')
+  else if (e.key === 'q' || e.key === 'Q') view.setQuality({ high: 'mid', mid: 'low', low: 'high' }[view.quality])
+  else if (e.key === 'c' || e.key === 'C') view.setCameraMode({ battle: 'menu', menu: 'battle', codex: 'battle' }[view.debug.rig.mode])
+  else if (e.key === 'p' || e.key === 'P') paused = !paused
+  else if (e.key === 'ArrowLeft' || e.key === 'a') moveX = -1; else if (e.key === 'ArrowRight' || e.key === 'd') moveX = 1
+  else if (FOCUS && (e.key === ']' || e.key === '[')) { focusIdx = (focusIdx + (e.key === ']' ? 1 : focusList.length - 1)) % focusList.length; focus(focusList[focusIdx]) }
+})
+addEventListener('keyup', (e) => { if (['ArrowLeft', 'ArrowRight', 'a', 'd'].includes(e.key)) moveX = 0 })
+// ---- 手动布防：验证 view.pickCell / view.setPlacement({ kind, lane, row, valid }) / input.place / input.remove 这条链 ----
+const DEVICE_KEYS = ['collector', 'sentry', 'barricade', 'mine', 'cryo', 'scorcher', 'mortarpit', 'nova']
+const refreshPlacement = () => {
+  if (!manual.kind || !world) { view.setPlacement(null); return }
+  const c = manual.cell, card = (world.cards || []).find((k) => k.kind === manual.kind)
+  const free = c && world.grid && world.grid.cells[c.lane] && !world.grid.cells[c.lane][c.row]
+  view.setPlacement({ kind: manual.kind, lane: c ? c.lane : null, row: c ? c.row : null, valid: !!free && (!card || card.ready) })
+}
+addEventListener('keydown', (e) => {
+  if (e.key === 'Escape') { manual.kind = null; refreshPlacement(); return }
+  const m = /^Digit([1-8])$/.exec(e.code || '')
+  if (m && e.shiftKey) { manual.kind = DEVICE_KEYS[+m[1] - 1]; refreshPlacement(); e.stopImmediatePropagation(); e.preventDefault() }
+}, true)
+canvas.addEventListener('pointermove', (e) => { if (!manual.kind) return; manual.cell = view.pickCell(e.clientX, e.clientY); refreshPlacement() })
+canvas.addEventListener('contextmenu', (e) => { e.preventDefault(); const c = view.pickCell(e.clientX, e.clientY); if (c) manual.remove = { lane: c.lane, row: c.row } })
+canvas.addEventListener('pointerdown', (e) => {
+  const p = view.pickGround(e.clientX, e.clientY); window.__dev.lastPick = p
+  if (manual.kind && e.button === 0) { const c = view.pickCell(e.clientX, e.clientY); if (c) manual.place = { kind: manual.kind, lane: c.lane, row: c.row }; return }
+  if (p && world && !bot && e.button === 0) input.targetX = Math.max(-4.3, Math.min(4.3, p.x))
+})
+// ---- 晶能计数器（验证 view.setEnergyTarget / onEnergyFly / onEnergyArrive / anchors().energy）：光点飞到了数字才跳 ----
+const energyEl = document.getElementById('energy')
+const energyStat = { fly: 0, arrive: 0, bySource: {}, last: null }
+view.onEnergyFly = (e) => { energyStat.fly++; energyStat.last = e }
+view.onEnergyArrive = (e) => { energyStat.arrive++; energyStat.bySource[e.source] = (energyStat.bySource[e.source] || 0) + e.amount; energyEl.classList.add('bump'); requestAnimationFrame(() => requestAnimationFrame(() => energyEl.classList.remove('bump'))) }
+const placeEnergyTarget = () => { const r = energyEl.getBoundingClientRect(), c = canvas.getBoundingClientRect(); if (r.width) view.setEnergyTarget(r.left - c.left + 10, r.top - c.top + r.height / 2) }
+view.onQualityChange = (q, why) => console.info('[dev] 画质 →', q, why)
+view.onContextLost = () => console.info('[dev] WebGL 上下文丢失'); view.onContextRestored = () => console.info('[dev] WebGL 上下文已恢复')
+
+const tags = new Map()
+let last = performance.now(), hudT = 0, flT = 0
+const frameTimes = []
+function frame(now) {
+  requestAnimationFrame(frame)
+if (Q.get('portraits') === '1') setTimeout(() => window.__dev.portraits(), 50)
+  const dtReal = Math.max(0, Math.min(0.1, (now - last) / 1000)); last = now   // 第一帧 rAF 的时间戳可能比 performance.now() 早：别让它变成负数
+  frameTimes.push(dtReal); if (frameTimes.length > 600) frameTimes.shift()
+  if (world && !paused) {
+    if (hitstop > 0) hitstop -= dtReal
+    else {
+      acc += Math.min(dtReal, 0.05) * (world.timeScale ?? 1) * speed
+      let n = 0
+      while (acc >= DT && n++ < 5) { stepOnce(false); acc -= DT }
+      if (n >= 5) acc = 0
+    }
+    if (world.status === 'won' || world.status === 'lost') { endT += dtReal; if (endT > 3.5) { endT = 0; seed++; newWorld(); view.setWorld(world) } }
+  }
+  view.render(acc / DT, dtReal)
+
+  // 头顶标记 / 飘字（验证 view.anchors / view.pollFloaters / view.project）
+  if (!document.body.classList.contains('clean')) {
+    const A = view.anchors(), seen = new Set()
+    const put = (key, cls, text, a) => { let el = tags.get(key); if (!el) { el = document.createElement('div'); layer.appendChild(el); tags.set(key, el) } el.className = 'tag ' + cls; el.textContent = text; el.style.display = a.visible ? '' : 'none'; el.style.left = a.sx + 'px'; el.style.top = a.sy + 'px'; seen.add(key) }
+    for (const a of A.units) put('u' + a.id, a.hero ? 'hero' : a.elite ? 'elite' : '', a.hero ? '★ ' + view.debug.assets.REGISTRY.get('unit.' + a.kind).label : a.elite ? '◆ ' + a.elite : '▸ ' + String(a.name).replace('name.', ''), a)
+    if (A.boss) put('boss', 'boss', '☠ ' + A.boss.kind.toUpperCase(), A.boss)
+    if (A.companion) put('seven', '', '◈ ' + T('companion.name') + ' · ' + T('companion.form.' + A.companion.form), A.companion)
+    for (const [k, el] of tags) if (!seen.has(k)) { el.remove(); tags.delete(k) }
+    flT += dtReal
+    if (flT > 0.1) { flT = 0; for (const f of view.pollFloaters()) { if (!f.visible) continue; const d = document.createElement('div'); d.className = 'fl ' + f.kind + (f.crit ? ' crit' : ''); d.textContent = (f.kind === 'xp' ? '+' : f.kind === 'energy' ? '◇' : '') + Math.round(f.value) + (f.kind === 'xp' ? ' XP' : ''); d.style.left = f.x + 'px'; d.style.top = f.y + 'px'; layer.appendChild(d); setTimeout(() => d.remove(), 900) } }
+    if (focusInfo) for (const c of focusInfo.clips) { const p = view.project(c.x, c.y, c.z); c.el.style.left = p.x + 'px'; c.el.style.top = p.y + 'px' }
+  } else view.pollFloaters()
+
+  hudT += dtReal
+  if (hudT > 0.25) {
+    hudT = 0
+    const s = view.stats()
+    let txt = `HIVEFALL · 渲染开发页  <b>${FOCUS ? '检视 ' + (focusInfo ? focusInfo.name : FOCUS) : mode === 'sim' ? '真模拟 + bot' : 'mock 假数据'}</b>\nFPS <b>${s.fps.toFixed(1)}</b>   GPU ${s.gpuMs == null ? '—' : s.gpuMs.toFixed(2) + ' ms'}   draw calls <b>${s.calls}</b>   tris ${(s.tris / 1e6).toFixed(2)} M\n画质 ${s.quality} (dpr ${s.dpr.toFixed(2)}, MSAA ${s.msaa})   画布 ${s.width}×${s.height} → ${canvas.width}×${canvas.height}   主题 ${view.theme}   机位 ${view.debug.rig.mode}`
+    if (world && world.cards && world.cards.length && world.fences) {
+      energyEl.style.display = document.body.classList.contains('clean') ? 'none' : ''
+      energyEl.innerHTML = `◇ ${Math.floor(world.energy)}<small>${world.cards.filter((c) => c.unlocked).map((c) => c.key + (c.ready ? '●' : '○')).join(' ')}</small>`
+      placeEnergyTarget()
+      txt += `\n晶能 <b>${Math.floor(world.energy)}</b>  装置 <b>${world.devices.length}</b>（${Object.entries(world.devices.reduce((a, d) => (a[d.kind] = (a[d.kind] || 0) + 1, a), {})).map(([k, n]) => k + '×' + n).join(' ') || '无'}）  电网 ${world.fences.map((f) => (f === true || (f && f.ready) ? '■' : '□')).join('')}${manual.kind ? '  布防中: ' + manual.kind : ''}`
+    }
+    if (world) txt += `\n虫 <b>${s.swarm}</b>（在场 ${world.swarm.living ?? '?'}）  我方 <b>${s.units}</b>  地面标记 ${s.marks}\n时间 ${world.time.toFixed(1)}s  状态 ${world.status}${world.boss ? '  Boss ' + world.boss.kind + ':' + world.boss.state : ''}  歼敌 ${world.stats.kills}\n特效 延迟队列 ${s.fx.pending} · 持续 ${s.fx.sustained} · 喷火 ${s.fx.flames} · 节流丢弃 ${s.fx.dropped}${paused ? '   [PAUSED]' : ''}`
+    if (focusInfo) txt += `\n${focusInfo.label}  ${focusInfo.resolved !== focusInfo.name ? '<b>未注册 → 占位体</b>  ' : ''}${focusInfo.tris} 三角形 · ${focusInfo.verts} 顶点 · ${focusInfo.frames} 帧\n尺寸 高 ${focusInfo.height} 宽 ${focusInfo.width} 长 ${focusInfo.length}   烘焙 ${focusInfo.bakeMs} ms`
+    hud.innerHTML = txt
+  }
+}
+requestAnimationFrame(frame)
+
+// 调试接口（控制台 / 自动化用）
+window.__view = view
+demoApi.install({ view, canvas, get world() { return world } })
+window.__dev = {
+  get world() { return world }, get mode() { return mode }, view, assets, frameTimes, lastPick: null, manual, energyStat,
+  /** 头像墙：把 names（默认：三位指挥官 + 全部兵种 / 装置 / 虫 / Boss / 伙伴形态）各渲一张铺在页面上，返回 { name: 是否出图 } */
+  async portraits(names, size = 160) {
+    names = names || ['commander.hawk', 'commander.ysera', 'commander.joe', ...assets.list('unit.').filter((n) => !/hero_/.test(n)), ...assets.list('device.'), ...assets.list('enemy.').filter((n) => !/_glb$|@far$/.test(n)), ...assets.list('boss.'), ...assets.list('companion.')]
+    const box = document.getElementById('portraits'); box.innerHTML = ''; box.style.display = 'grid'
+    const out = {}, t0 = performance.now()
+    for (const n of names) { const url = await view.loadPortrait(n, size); out[n] = !!url; const f = document.createElement('figure'); f.innerHTML = (url ? `<img src="${url}">` : '<div style="aspect-ratio:1;color:#ff4d3d">无</div>') + n; box.appendChild(f) }
+    out._ms = Math.round(performance.now() - t0)
+    return out
+  },
+  set paused(v) { paused = v }, get paused() { return paused },
+  /** 手动推进 n 个模拟步（带渲染），标签页在后台 rAF 不跑时也能出图 */
+  advance(sec) { const n = Math.round(sec / DT); for (let i = 0; i < n; i++) stepOnce(true) },
+  focus, newWorld() { seed++; newWorld(); view.setWorld(world) },
+  /** 帧耗时统计：最近 n 帧的平均 fps / 中位数 / 1% low */
+  perf(n = 300) { const a = frameTimes.slice(-n).sort((x, y) => x - y); const avg = a.reduce((p, c) => p + c, 0) / a.length; return { frames: a.length, avgFps: +(1 / avg).toFixed(1), medianMs: +(a[a.length >> 1] * 1000).toFixed(2), p99Ms: +(a[Math.floor(a.length * 0.99)] * 1000).toFixed(2), ...view.stats() } },
+}
+</script>
+</body>
+</html>

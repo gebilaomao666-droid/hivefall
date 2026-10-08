@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>AI 模型检视</title>
+<style>
+  html, body { margin: 0; height: 100%; background: #14161a; overflow: hidden; font: 13px/1.4 system-ui, sans-serif; color: #cfd6dd; }
+  canvas { display: block; width: 100vw; height: 100vh; }
+  #info { position: fixed; left: 10px; top: 8px; white-space: pre; text-shadow: 0 1px 2px #000; }
+  #lbl { position: fixed; left: 0; right: 0; bottom: 6px; display: flex; justify-content: space-around; opacity: .7; }
+</style>
+<script type="importmap">
+{ "imports": { "three": "/vendor/three/build/three.module.js", "three/addons/": "/vendor/three/examples/jsm/" } }
+</script>
+</head>
+<body>
+<div id="info">加载中…</div>
+<div id="lbl"><span>正面（相机在 +z）</span><span>3/4 视角（?spin=1 转台）</span><span>侧面（相机在 +x）</span></div>
+<script type="module">
+// 用法：/tools/ai-models/view.html?m=boss_ravager[&raw=1][&spin=1][&flat=1]
+//   px=0.2 低分辨率渲染（模拟远景像素量）
+//   raw=1  加载 raw/ 下的原始模型做对比；spin=1 中间视口转台；flat=1 去掉环境光只留方向光（模拟游戏里没有 envMap 的情况）
+import * as THREE from 'three';
+import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+import { RoomEnvironment } from 'three/addons/environments/RoomEnvironment.js';
+
+const q = new URLSearchParams(location.search);
+const name = q.get('m') || 'boss_ravager';
+const raw = q.get('raw') === '1';
+const spin = q.get('spin') === '1';
+const flat = q.get('flat') === '1';
+
+const renderer = new THREE.WebGLRenderer({ antialias: true, preserveDrawingBuffer: true });
+renderer.setPixelRatio(+q.get('px') || 1);   // px=0.2 之类：低分辨率渲染再放大，模拟主机位远景下单位只有几十像素高时认不认得出
+renderer.toneMapping = THREE.ACESFilmicToneMapping;
+renderer.toneMappingExposure = 1.15;
+document.body.appendChild(renderer.domElement);
+
+const scene = new THREE.Scene();
+scene.background = new THREE.Color(0x14161a);
+if (!flat) {
+  const pm = new THREE.PMREMGenerator(renderer);
+  scene.environment = pm.fromScene(new RoomEnvironment(), 0.04).texture;
+  scene.environmentIntensity = 0.55;
+} else {
+  scene.add(new THREE.HemisphereLight(0x8fa3c0, 0x2a2018, 1.2));
+}
+const key = new THREE.DirectionalLight(0xfff0e0, 2.6); key.position.set(2.5, 4, 3); scene.add(key);
+const rim = new THREE.DirectionalLight(0x6f8cff, 1.4); rim.position.set(-3, 2.5, -3); scene.add(rim);
+
+const grid = new THREE.GridHelper(4, 16, 0x3a4450, 0x242a31); scene.add(grid);
+// +z 方向标记（蓝色箭头贴地）：模型正面应当朝这个箭头
+scene.add(new THREE.ArrowHelper(new THREE.Vector3(0, 0, 1), new THREE.Vector3(0, 0.005, 0), 1.6, 0x3f8cff, 0.18, 0.1));
+scene.add(new THREE.ArrowHelper(new THREE.Vector3(1, 0, 0), new THREE.Vector3(0, 0.005, 0), 1.0, 0xff5040, 0.12, 0.07));
+
+const pivot = new THREE.Group(); scene.add(pivot);
+const cams = [0, 1, 2].map(() => new THREE.PerspectiveCamera(30, 1, 0.05, 50));
+let R = 1.2, cy = 0.5, placedAspect = 0;
+// 相机距离按视口宽高比取：窄视口（浏览器窗口只有 1024 宽时每格才 341 像素）按水平视场算，模型不会被裁掉
+function placeCams(aspect) {
+  placedAspect = aspect;
+  const half = Math.min(Math.tan(THREE.MathUtils.degToRad(15)), Math.tan(THREE.MathUtils.degToRad(15)) * aspect);
+  const dist = R / half * 1.25;
+  cams[0].position.set(0, cy + R * 0.15, dist);
+  cams[1].position.set(dist * 0.62, cy + dist * 0.38, dist * 0.68);
+  cams[2].position.set(dist, cy + R * 0.15, 0);
+  cams.forEach((cam) => cam.lookAt(0, cy, 0));
+}
+
+const url = raw ? `/assets/models/ai/raw/${name}.glb` : `/assets/models/ai/${name}.glb`;
+new GLTFLoader().load(url, (gltf) => {
+  const obj = gltf.scene;
+  pivot.add(obj);
+  const box = new THREE.Box3().setFromObject(obj);
+  const size = box.getSize(new THREE.Vector3()), c = box.getCenter(new THREE.Vector3());
+  let tris = 0, texInfo = [];
+  obj.traverse((o) => {
+    if (!o.isMesh) return;
+    tris += (o.geometry.index ? o.geometry.index.count : o.geometry.attributes.position.count) / 3;
+    const m = o.material;
+    for (const k of ['map', 'normalMap', 'metalnessMap', 'emissiveMap']) if (m[k]) texInfo.push(`${k}:${m[k].image.width}`);
+  });
+  R = Math.max(size.x, size.y, size.z) * 0.5; cy = c.y;
+  placeCams(1);
+  document.getElementById('info').textContent =
+    `${name}${raw ? ' (raw)' : ''}\n${tris} tris\nbbox w=${size.x.toFixed(3)} h=${size.y.toFixed(3)} d=${size.z.toFixed(3)}  minY=${box.min.y.toFixed(3)}\n${texInfo.join('  ')}`;
+  window.__ready = true;
+}, undefined, (e) => { document.getElementById('info').textContent = '加载失败: ' + e.message; window.__ready = 'error'; });
+
+function frame(t) {
+  const w = innerWidth, h = innerHeight;
+  if (renderer.domElement.width !== w || renderer.domElement.height !== h) renderer.setSize(w, h, false);
+  if (spin) pivot.rotation.y = t * 0.0006;
+  renderer.setScissorTest(true);
+  const vw = Math.floor(w / 3);
+  if (window.__ready && Math.abs(placedAspect - vw / h) > 1e-3) placeCams(vw / h);
+  cams.forEach((cam, i) => {
+    cam.aspect = vw / h; cam.updateProjectionMatrix();
+    renderer.setViewport(i * vw, 0, vw, h); renderer.setScissor(i * vw, 0, vw, h);
+    renderer.render(scene, cam);
+  });
+  requestAnimationFrame(frame);
+}
+requestAnimationFrame(frame);
+</script>
+</body>
+</html>

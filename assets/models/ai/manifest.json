@@ -1,0 +1,1079 @@
+[
+  {
+    "name": "boss_ravager",
+    "file": "boss_ravager.glb",
+    "tris": 12000,
+    "verts": 14304,
+    "size_kb": 1237.8,
+    "bbox": {
+      "w": 1.2385,
+      "h": 1.0,
+      "d": 1.5262
+    },
+    "raw": {
+      "tris": 50000,
+      "verts": 38579,
+      "size_kb": 38819.2,
+      "w": 0.9384,
+      "h": 0.7577,
+      "d": 1.1564
+    },
+    "textures": {
+      "base": 619.1,
+      "normal": 87.0,
+      "mr": 5.4,
+      "emissive": 7.1
+    },
+    "base_tex": 2048,
+    "emissive_coverage": 0.01671,
+    "mr_stats": {
+      "roughness_mean": 0.194,
+      "metallic_mean": 0.03
+    },
+    "front": "+z",
+    "origin": "脚底中心 (y=0)，高度归一化为 1",
+    "source": "Tencent Hunyuan3D 文生3D",
+    "prompt": "巨型外星虫族怪兽，四足巨兽，背部厚重的暗红褐色几丁质甲壳分节带尖刺，头部两侧一对巨大的骨质镰刀前肢，多只发光的橙色眼睛，张开的獠牙巨口，湿润的甲壳质感，写实科幻恐怖风格，游戏Boss，全身站立姿态",
+    "suggested_logical": "boss.ravager"
+  },
+  {
+    "name": "boss_matriarch",
+    "file": "boss_matriarch.glb",
+    "tris": 12000,
+    "verts": 14311,
+    "size_kb": 1178.2,
+    "bbox": {
+      "w": 1.1171,
+      "h": 1.0,
+      "d": 0.8401
+    },
+    "raw": {
+      "tris": 49968,
+      "verts": 38573,
+      "size_kb": 42705.4,
+      "w": 0.9251,
+      "h": 0.8281,
+      "d": 0.6957
+    },
+    "textures": {
+      "base": 535.7,
+      "normal": 71.7,
+      "mr": 44.1,
+      "emissive": 7.3
+    },
+    "base_tex": 2048,
+    "emissive_coverage": 0.02667,
+    "mr_stats": {
+      "roughness_mean": 0.269,
+      "metallic_mean": 0.077
+    },
+    "front": "+z",
+    "origin": "脚底中心 (y=0)，高度归一化为 1",
+    "source": "Tencent Hunyuan3D 文生3D",
+    "prompt": "巨型外星虫族产卵母体，臃肿庞大，肥大的半透明卵囊腹部内有发光的橙色虫卵，上身竖直挺起，多条细长节肢，头部有冠状骨板，暗红褐与紫黑色几丁质甲壳，湿润质感，写实科幻恐怖风格，游戏Boss，单个主体全身姿态",
+    "suggested_logical": "boss.matriarch"
+  },
+  {
+    "name": "boss_leviathan",
+    "file": "boss_leviathan.glb",
+    "tris": 12000,
+    "verts": 13615,
+    "size_kb": 1112.1,
+    "bbox": {
+      "w": 0.763,
+      "h": 1.0,
+      "d": 0.9975
+    },
+    "raw": {
+      "tris": 50000,
+      "verts": 37684,
+      "size_kb": 39393.8,
+      "w": 0.6365,
+      "h": 0.8341,
+      "d": 0.832
+    },
+    "textures": {
+      "base": 554.8,
+      "normal": 47.4,
+      "mr": 4.3,
+      "emissive": 7.9
+    },
+    "base_tex": 2048,
+    "emissive_coverage": 0.01793,
+    "mr_stats": {
+      "roughness_mean": 0.131,
+      "metallic_mean": 0.008
+    },
+    "front": "+z",
+    "origin": "脚底中心 (y=0)，高度归一化为 1",
+    "source": "Tencent Hunyuan3D 文生3D",
+    "prompt": "巨型外星分节蠕虫从地面竖直钻出的上半身，竖直柱状姿态，顶端环形巨口内多圈利齿，身体由一节节厚重的暗红褐色几丁质甲环组成并带尖刺，甲环缝隙有橙色发光腺体，湿润质感，写实科幻恐怖风格，游戏Boss，单个主体",
+    "suggested_logical": "boss.leviathan"
+  },
+  {
+    "name": "enemy_hulk",
+    "file": "enemy_hulk.glb",
+    "tris": 5000,
+    "verts": 7053,
+    "size_kb": 513.5,
+    "bbox": {
+      "w": 1.0065,
+      "h": 1.0,
+      "d": 0.6817
+    },
+    "raw": {
+      "tris": 50000,
+      "verts": 37594,
+      "size_kb": 37000.1,
+      "w": 0.9867,
+      "h": 0.9803,
+      "d": 0.6683
+    },
+    "textures": {
+      "base": 190.4,
+      "normal": 63.4,
+      "mr": 5.2,
+      "emissive": 2.8
+    },
+    "base_tex": 1024,
+    "emissive_coverage": 0.00434,
+    "mr_stats": {
+      "roughness_mean": 0.212,
+      "metallic_mean": 0.02
+    },
+    "front": "+z",
+    "origin": "脚底中心 (y=0)，高度归一化为 1",
+    "source": "Tencent Hunyuan3D 文生3D",
+    "prompt": "直立行走的巨型外星虫族肉盾怪物，驼背，头部很小，双臂异常粗壮，前臂末端是巨大的骨质甲壳拳头，没有武器，肩背覆盖厚重的暗红褐色几丁质甲壳板，肌肉与甲壳混合，橙色发光腺体，湿润质感，写实科幻恐怖风格，单个主体全身站立",
+    "suggested_logical": "enemy.hulk"
+  },
+  {
+    "name": "enemy_crusher",
+    "file": "enemy_crusher.glb",
+    "tris": 5000,
+    "verts": 6892,
+    "size_kb": 542.9,
+    "bbox": {
+      "w": 0.9334,
+      "h": 1.0,
+      "d": 1.4538
+    },
+    "raw": {
+      "tris": 50000,
+      "verts": 36769,
+      "size_kb": 41505.5,
+      "w": 0.6717,
+      "h": 0.7197,
+      "d": 1.0463
+    },
+    "textures": {
+      "base": 191.4,
+      "normal": 73.6,
+      "mr": 29.1,
+      "emissive": 2.3
+    },
+    "base_tex": 1024,
+    "emissive_coverage": 0.00152,
+    "mr_stats": {
+      "roughness_mean": 0.196,
+      "metallic_mean": 0.03
+    },
+    "front": "+z",
+    "origin": "脚底中心 (y=0)，高度归一化为 1",
+    "source": "Tencent Hunyuan3D 文生3D",
+    "prompt": "低矮宽扁的重甲甲虫状外星虫族怪物，六条粗短的腿，背部像坦克一样覆盖厚重分片的暗红褐色几丁质甲壳，头部前端一对短钳，橙色发光眼睛，湿润质感，写实科幻恐怖风格，游戏怪物，单个主体全身",
+    "suggested_logical": "enemy.crusher"
+  },
+  {
+    "name": "enemy_warden",
+    "file": "enemy_warden.glb",
+    "tris": 2500,
+    "verts": 4211,
+    "size_kb": 524.7,
+    "bbox": {
+      "w": 0.5338,
+      "h": 1.0,
+      "d": 0.7221
+    },
+    "raw": {
+      "tris": 50000,
+      "verts": 37808,
+      "size_kb": 37095.7,
+      "w": 0.5565,
+      "h": 1.0425,
+      "d": 0.7527
+    },
+    "textures": {
+      "base": 235.0,
+      "normal": 102.8,
+      "mr": 6.3,
+      "emissive": 32.5
+    },
+    "base_tex": 1024,
+    "emissive_coverage": 0.20967,
+    "mr_stats": {
+      "roughness_mean": 0.188,
+      "metallic_mean": 0.037
+    },
+    "front": "+z",
+    "origin": "脚底中心 (y=0)，高度归一化为 1",
+    "source": "Tencent Hunyuan3D 文生3D",
+    "prompt": "高瘦直立的外星虫族怪物，细长的肢体，背上长着一丛发光的橙色晶体状器官像天线阵列，暗紫黑色几丁质甲壳，湿润质感，写实科幻恐怖风格，游戏怪物，单个主体全身站立姿态",
+    "suggested_logical": "enemy.warden"
+  },
+  {
+    "name": "enemy_spitter",
+    "file": "enemy_spitter.glb",
+    "tris": 2500,
+    "verts": 3743,
+    "size_kb": 424.3,
+    "bbox": {
+      "w": 0.9859,
+      "h": 1.0,
+      "d": 0.988
+    },
+    "raw": {
+      "tris": 49940,
+      "verts": 35931,
+      "size_kb": 39791.5,
+      "w": 0.8693,
+      "h": 0.8817,
+      "d": 0.8711
+    },
+    "textures": {
+      "base": 196.0,
+      "normal": 77.5,
+      "mr": 13.1,
+      "emissive": 4.2
+    },
+    "base_tex": 1024,
+    "emissive_coverage": 0.00901,
+    "mr_stats": {
+      "roughness_mean": 0.181,
+      "metallic_mean": 0.096
+    },
+    "front": "+z",
+    "origin": "脚底中心 (y=0)，高度归一化为 1",
+    "source": "Tencent Hunyuan3D 文生3D",
+    "prompt": "蛇形下身盘在地面、上身高高昂起的外星虫族怪物，背部一排长长的尖刺，头部两侧有展开的颈盾，张开大口喷吐姿态，暗红褐与紫黑色几丁质甲壳，橙色发光腺体，湿润质感，写实科幻恐怖风格，游戏怪物，单个主体全身",
+    "suggested_logical": "enemy.spitter"
+  },
+  {
+    "name": "enemy_shieldbug",
+    "file": "enemy_shieldbug.glb",
+    "tris": 2500,
+    "verts": 3719,
+    "size_kb": 349.9,
+    "bbox": {
+      "w": 0.9809,
+      "h": 1.0,
+      "d": 1.0499
+    },
+    "raw": {
+      "tris": 50000,
+      "verts": 35223,
+      "size_kb": 36300.4,
+      "w": 0.8488,
+      "h": 0.8653,
+      "d": 0.9085
+    },
+    "textures": {
+      "base": 149.4,
+      "normal": 45.9,
+      "mr": 19.6,
+      "emissive": 2.2
+    },
+    "base_tex": 1024,
+    "emissive_coverage": 0.00203,
+    "mr_stats": {
+      "roughness_mean": 0.185,
+      "metallic_mean": 0.071
+    },
+    "front": "+z",
+    "origin": "脚底中心 (y=0)，高度归一化为 1",
+    "source": "Tencent Hunyuan3D 文生3D",
+    "prompt": "甲虫状外星虫族怪物，头部正面顶着一块巨大的弧形骨质盾板，盾板厚重带划痕，身体躲在盾板后面，六条腿，暗红褐色几丁质甲壳，橙色发光眼睛，湿润质感，写实科幻恐怖风格，游戏怪物，单个主体全身",
+    "suggested_logical": "enemy.shieldbug"
+  },
+  {
+    "name": "enemy_shieldbug_alt",
+    "file": "enemy_shieldbug_alt.glb",
+    "tris": 2500,
+    "verts": 3918,
+    "size_kb": 433.4,
+    "bbox": {
+      "w": 1.1044,
+      "h": 1.0,
+      "d": 1.0265
+    },
+    "raw": {
+      "tris": 50000,
+      "verts": 37030,
+      "size_kb": 39291.0,
+      "w": 0.8026,
+      "h": 0.7268,
+      "d": 0.7461
+    },
+    "textures": {
+      "base": 193.1,
+      "normal": 76.5,
+      "mr": 22.0,
+      "emissive": 2.7
+    },
+    "base_tex": 1024,
+    "emissive_coverage": 0.004,
+    "mr_stats": {
+      "roughness_mean": 0.275,
+      "metallic_mean": 0.037
+    },
+    "front": "+z",
+    "origin": "脚底中心 (y=0)，高度归一化为 1",
+    "source": "Tencent Hunyuan3D 文生3D",
+    "prompt": "外星虫族甲虫怪物，头部前方竖立一面比身体还大的巨型弧形骨白色盾牌，像门板一样完全挡住头和身体正面，盾面厚重布满划痕和裂纹，盾后是低矮的六足甲虫身体，暗红褐色几丁质甲壳，橙色发光眼睛，写实科幻恐怖风格，单个主体全身",
+    "suggested_logical": "enemy.shieldbug (备选)"
+  },
+  {
+    "name": "enemy_digger",
+    "file": "enemy_digger.glb",
+    "tris": 2500,
+    "verts": 4005,
+    "size_kb": 385.3,
+    "bbox": {
+      "w": 1.0519,
+      "h": 1.0,
+      "d": 0.8434
+    },
+    "raw": {
+      "tris": 49982,
+      "verts": 36880,
+      "size_kb": 35722.5,
+      "w": 0.9533,
+      "h": 0.9063,
+      "d": 0.7644
+    },
+    "textures": {
+      "base": 162.0,
+      "normal": 56.9,
+      "mr": 19.4,
+      "emissive": 5.3
+    },
+    "base_tex": 1024,
+    "emissive_coverage": 0.01334,
+    "mr_stats": {
+      "roughness_mean": 0.146,
+      "metallic_mean": 0.021
+    },
+    "front": "+z",
+    "origin": "脚底中心 (y=0)，高度归一化为 1",
+    "source": "Tencent Hunyuan3D 文生3D",
+    "prompt": "钻地的外星虫族怪物，一对巨大的铲状挖掘前爪，圆筒形分节身体，楔形头部，暗红褐色几丁质甲壳，橙色发光腺体，湿润质感，写实科幻恐怖风格，游戏怪物，单个主体全身",
+    "suggested_logical": "enemy.digger"
+  },
+  {
+    "name": "enemy_egg",
+    "file": "enemy_egg.glb",
+    "tris": 1500,
+    "verts": 2350,
+    "size_kb": 240.6,
+    "bbox": {
+      "w": 0.7978,
+      "h": 1.0,
+      "d": 0.8202
+    },
+    "raw": {
+      "tris": 50000,
+      "verts": 33598,
+      "size_kb": 26107.0,
+      "w": 0.7277,
+      "h": 0.9121,
+      "d": 0.7481
+    },
+    "textures": {
+      "base": 121.0,
+      "normal": 20.6,
+      "mr": 4.2,
+      "emissive": 10.7
+    },
+    "base_tex": 1024,
+    "emissive_coverage": 0.08468,
+    "mr_stats": {
+      "roughness_mean": 0.131,
+      "metallic_mean": 0.004
+    },
+    "front": "+z",
+    "origin": "脚底中心 (y=0)，高度归一化为 1",
+    "source": "Tencent Hunyuan3D 文生3D",
+    "prompt": "一颗半透明的外星虫卵，椭圆形直立，表面布满血管状纹路，内部发出橙色光芒，底部有黏液状的肉质基座，暗红褐色，湿润质感，写实科幻恐怖风格，游戏道具，单个物体",
+    "suggested_logical": "enemy.egg"
+  },
+  {
+    "name": "enemy_wing",
+    "file": "enemy_wing.glb",
+    "tris": 2500,
+    "verts": 3597,
+    "size_kb": 467.9,
+    "bbox": {
+      "w": 1.359,
+      "h": 1.0,
+      "d": 0.5528
+    },
+    "raw": {
+      "tris": 50000,
+      "verts": 35153,
+      "size_kb": 35872.6,
+      "w": 0.9727,
+      "h": 0.7157,
+      "d": 0.3957
+    },
+    "textures": {
+      "base": 222.0,
+      "normal": 106.4,
+      "mr": 5.5,
+      "emissive": 5.0
+    },
+    "base_tex": 1024,
+    "emissive_coverage": 0.00373,
+    "mr_stats": {
+      "roughness_mean": 0.154,
+      "metallic_mean": 0.027
+    },
+    "front": "+z",
+    "origin": "脚底中心 (y=0)，高度归一化为 1",
+    "source": "Tencent Hunyuan3D 文生3D",
+    "prompt": "飞行的外星虫族怪物，两对展开的半透明膜翅，黄蜂般分节的身体，尾部一根长长的毒刺，暗红褐与紫黑色几丁质甲壳，橙色发光眼睛，湿润质感，写实科幻恐怖风格，游戏怪物，单个主体全身，翅膀展开",
+    "suggested_logical": "enemy.wing"
+  },
+  {
+    "name": "unit_rifle",
+    "file": "unit_rifle.glb",
+    "tris": 1500,
+    "verts": 2724,
+    "size_kb": 212.7,
+    "bbox": {
+      "w": 0.5146,
+      "h": 1.0,
+      "d": 0.9211
+    },
+    "raw": {
+      "tris": 49956,
+      "verts": 40069,
+      "size_kb": 46186.9,
+      "w": 0.5049,
+      "h": 0.981,
+      "d": 0.9036
+    },
+    "textures": {
+      "base": 74.7,
+      "normal": 24.4,
+      "mr": 16.0,
+      "emissive": 1.8
+    },
+    "base_tex": 512,
+    "emissive_coverage": 0.00966,
+    "mr_stats": {
+      "roughness_mean": 0.609,
+      "metallic_mean": 0.566
+    },
+    "front": "+z",
+    "origin": "脚底中心 (y=0)，高度归一化为 1",
+    "source": "Tencent Hunyuan3D 文生3D",
+    "prompt": "科幻重型动力装甲士兵全身像，A字站姿双腿分开，双臂离开躯干，双手持粗大突击步枪平举指向正前方，枪身不贴身体。头盔带青色发光目镜，宽大肩甲，背包。枪灰色磨损金属装甲，钴蓝色肩甲涂装，少量青色发光条。写实硬核军事科幻风格，游戏角色，单个主体",
+    "suggested_logical": "unit.rifle"
+  },
+  {
+    "name": "unit_flamer",
+    "file": "unit_flamer.glb",
+    "tris": 1500,
+    "verts": 2733,
+    "size_kb": 208.8,
+    "bbox": {
+      "w": 0.8257,
+      "h": 1.0,
+      "d": 0.8939
+    },
+    "raw": {
+      "tris": 50016,
+      "verts": 39462,
+      "size_kb": 43383.5,
+      "w": 0.7421,
+      "h": 0.8987,
+      "d": 0.8034
+    },
+    "textures": {
+      "base": 73.7,
+      "normal": 22.5,
+      "mr": 15.1,
+      "emissive": 1.4
+    },
+    "base_tex": 512,
+    "emissive_coverage": 0.00372,
+    "mr_stats": {
+      "roughness_mean": 0.515,
+      "metallic_mean": 0.624
+    },
+    "front": "+z",
+    "origin": "脚底中心 (y=0)，高度归一化为 1",
+    "source": "Tencent Hunyuan3D 文生3D",
+    "prompt": "科幻重型动力装甲喷火兵全身像，A字站姿双腿分开，双臂离开躯干，双手持粗大喷火器平举指向正前方，武器不贴身体。背后两个圆柱形燃料罐，头盔带青色发光目镜，宽大肩甲。枪灰色磨损金属装甲，钴蓝色肩甲，橙色警示涂装点缀。写实硬核军事科幻风格，游戏角色，单个主体",
+    "suggested_logical": "unit.flamer"
+  },
+  {
+    "name": "unit_titan",
+    "file": "unit_titan.glb",
+    "tris": 4000,
+    "verts": 6403,
+    "size_kb": 588.0,
+    "bbox": {
+      "w": 0.7813,
+      "h": 1.0,
+      "d": 0.7309
+    },
+    "raw": {
+      "tris": 50000,
+      "verts": 41828,
+      "size_kb": 43446.9,
+      "w": 0.789,
+      "h": 1.0098,
+      "d": 0.7381
+    },
+    "textures": {
+      "base": 219.1,
+      "normal": 87.6,
+      "mr": 47.3,
+      "emissive": 8.5
+    },
+    "base_tex": 1024,
+    "emissive_coverage": 0.02698,
+    "mr_stats": {
+      "roughness_mean": 0.816,
+      "metallic_mean": 0.092
+    },
+    "front": "+z",
+    "origin": "脚底中心 (y=0)，高度归一化为 1",
+    "source": "Tencent Hunyuan3D 文生3D",
+    "prompt": "重型双足步行战斗机甲，无人形手臂，反关节机械腿双腿分开站立，方正的装甲驾驶舱躯干，左右两肩各一门双联装火炮指向正前方，分层装甲板。枪灰色磨损金属，钴蓝色装甲涂装，少量青色发光条。写实硬核军事科幻风格，游戏载具，单个主体全身",
+    "suggested_logical": "unit.titan"
+  },
+  {
+    "name": "unit_mortar",
+    "file": "unit_mortar.glb",
+    "tris": 3000,
+    "verts": 5382,
+    "size_kb": 480.8,
+    "bbox": {
+      "w": 0.9341,
+      "h": 1.0,
+      "d": 1.8049
+    },
+    "raw": {
+      "tris": 50010,
+      "verts": 43744,
+      "size_kb": 38070.6,
+      "w": 0.5166,
+      "h": 0.553,
+      "d": 0.9981
+    },
+    "textures": {
+      "base": 191.0,
+      "normal": 64.2,
+      "mr": 35.7,
+      "emissive": 2.4
+    },
+    "base_tex": 1024,
+    "emissive_coverage": 0.00057,
+    "mr_stats": {
+      "roughness_mean": 0.682,
+      "metallic_mean": 0.254
+    },
+    "front": "+z",
+    "origin": "脚底中心 (y=0)，高度归一化为 1",
+    "source": "Tencent Hunyuan3D 文生3D",
+    "prompt": "科幻履带式自行火炮，低矮厚重的装甲车体，两侧宽履带，炮塔上一根粗长炮管斜向前上方四十五度，分层装甲板。枪灰色磨损金属，钴蓝色装甲涂装，少量青色发光条。写实硬核军事科幻风格，游戏载具，单个主体全身",
+    "suggested_logical": "unit.mortar"
+  },
+  {
+    "name": "unit_lancer",
+    "file": "unit_lancer.glb",
+    "tris": 3000,
+    "verts": 5086,
+    "size_kb": 529.8,
+    "bbox": {
+      "w": 0.8663,
+      "h": 1.0,
+      "d": 2.2495
+    },
+    "raw": {
+      "tris": 50000,
+      "verts": 40593,
+      "size_kb": 38832.5,
+      "w": 0.4295,
+      "h": 0.4958,
+      "d": 1.1153
+    },
+    "textures": {
+      "base": 221.9,
+      "normal": 100.2,
+      "mr": 17.4,
+      "emissive": 11.8
+    },
+    "base_tex": 1024,
+    "emissive_coverage": 0.03677,
+    "mr_stats": {
+      "roughness_mean": 0.823,
+      "metallic_mean": 0.065
+    },
+    "front": "+z",
+    "origin": "脚底中心 (y=0)，高度归一化为 1",
+    "source": "Tencent Hunyuan3D 文生3D",
+    "prompt": "科幻四足步行炮台，机身低趴，四条粗壮机械腿向四角外张撑地，一根贯穿全身的超长电磁轨道炮水平指向正前方，炮管两条平行导轨带青色发光线圈。枪灰色磨损金属，钴蓝色装甲涂装。写实硬核军事科幻风格，游戏载具，单个主体全身",
+    "suggested_logical": "unit.lancer"
+  },
+  {
+    "name": "unit_reaper",
+    "file": "unit_reaper.glb",
+    "tris": 3000,
+    "verts": 5034,
+    "size_kb": 546.3,
+    "bbox": {
+      "w": 0.8732,
+      "h": 1.0,
+      "d": 0.66
+    },
+    "raw": {
+      "tris": 50000,
+      "verts": 40300,
+      "size_kb": 40653.3,
+      "w": 0.7262,
+      "h": 0.8317,
+      "d": 0.5489
+    },
+    "textures": {
+      "base": 225.3,
+      "normal": 113.4,
+      "mr": 26.8,
+      "emissive": 4.1
+    },
+    "base_tex": 1024,
+    "emissive_coverage": 0.00956,
+    "mr_stats": {
+      "roughness_mean": 0.155,
+      "metallic_mean": 0.149
+    },
+    "front": "+z",
+    "origin": "脚底中心 (y=0)，高度归一化为 1",
+    "source": "Tencent Hunyuan3D 文生3D",
+    "prompt": "科幻四足高脚步行机，四条细长的高挑机械腿向四角外张，小型装甲机身高高在上，机腹下方吊着一个圆形透镜状光束炮，透镜发青色光。枪灰色磨损金属，钴蓝色装甲涂装。写实硬核军事科幻风格，游戏载具，单个主体全身",
+    "suggested_logical": "unit.reaper"
+  },
+  {
+    "name": "hero_joe",
+    "file": "hero_joe.glb",
+    "tris": 3000,
+    "verts": 5495,
+    "size_kb": 593.9,
+    "bbox": {
+      "w": 0.8846,
+      "h": 1.0,
+      "d": 0.5823
+    },
+    "raw": {
+      "tris": 49988,
+      "verts": 44318,
+      "size_kb": 45577.5,
+      "w": 0.8313,
+      "h": 0.9397,
+      "d": 0.5472
+    },
+    "textures": {
+      "base": 253.3,
+      "normal": 93.2,
+      "mr": 51.6,
+      "emissive": 4.6
+    },
+    "base_tex": 1024,
+    "emissive_coverage": 0.00686,
+    "mr_stats": {
+      "roughness_mean": 0.661,
+      "metallic_mean": 0.661
+    },
+    "front": "+z",
+    "origin": "脚底中心 (y=0)，高度归一化为 1",
+    "source": "Tencent Hunyuan3D 文生3D",
+    "prompt": "改装的双足工程步行机，工程黄色涂装带黑黄警示条，磨损掉漆，反关节机械腿双腿分开站立，开放式驾驶舱带防滚架，右臂是大型钻机钻头，左臂是三指机械爪，双臂向两侧张开。枪灰色金属骨架，少量青色灯。写实硬核军事科幻风格，游戏载具，单个主体全身",
+    "suggested_logical": "unit.hero_joe"
+  },
+  {
+    "name": "unit_rifle_b",
+    "file": "unit_rifle_b.glb",
+    "tris": 1500,
+    "verts": 2833,
+    "size_kb": 205.2,
+    "bbox": {
+      "w": 0.4387,
+      "h": 1.0,
+      "d": 0.7526
+    },
+    "raw": {
+      "tris": 49966,
+      "verts": 39980,
+      "size_kb": 41756.4,
+      "w": 0.422,
+      "h": 0.9618,
+      "d": 0.7239
+    },
+    "textures": {
+      "base": 72.0,
+      "normal": 20.3,
+      "mr": 11.7,
+      "emissive": 2.0
+    },
+    "base_tex": 512,
+    "emissive_coverage": 0.01233,
+    "mr_stats": {
+      "roughness_mean": 0.63,
+      "metallic_mean": 0.465
+    },
+    "front": "+z",
+    "origin": "脚底中心 (y=0)，高度归一化为 1",
+    "source": "Tencent Hunyuan3D 文生3D",
+    "prompt": "科幻重型动力装甲士兵全身像，A字站姿双腿分开，双臂离开躯干，双手持粗大突击步枪平举指向正前方，枪身不贴身体。头盔带青色发光目镜，宽大肩甲，背包。枪灰色磨损金属装甲，钴蓝色肩甲涂装，少量青色发光条。写实硬核军事科幻风格，游戏角色，单个主体",
+    "suggested_logical": "unit.rifle (备选：同一次生成的候选 3)"
+  },
+  {
+    "name": "hero_hawk",
+    "file": "hero_hawk.glb",
+    "tris": 3000,
+    "verts": 4820,
+    "size_kb": 511.6,
+    "bbox": {
+      "w": 0.5295,
+      "h": 1.0,
+      "d": 0.8801
+    },
+    "raw": {
+      "tris": 49984,
+      "verts": 39121,
+      "size_kb": 42181.0,
+      "w": 0.4993,
+      "h": 0.9428,
+      "d": 0.8297
+    },
+    "textures": {
+      "base": 195.8,
+      "normal": 85.4,
+      "mr": 57.4,
+      "emissive": 2.9
+    },
+    "base_tex": 1024,
+    "emissive_coverage": 0.00327,
+    "mr_stats": {
+      "roughness_mean": 0.637,
+      "metallic_mean": 0.245
+    },
+    "front": "+z",
+    "origin": "脚底中心 (y=0)，高度归一化为 1",
+    "source": "Tencent Hunyuan3D 文生3D",
+    "prompt": "魁梧的科幻动力装甲指挥官全身像，A字站姿双腿分开，双臂离开躯干，双手持长管重型步枪指向正前方，枪身不贴身体。头盔顶有竖立鬃冠，青色发光目镜，左肩甲特别厚大，左肩披半幅短披风。枪灰色磨损金属装甲，钴蓝色肩甲。写实硬核军事科幻风格，游戏角色，单个主体",
+    "suggested_logical": "unit.hero_hawk"
+  },
+  {
+    "name": "hero_ysera",
+    "file": "hero_ysera.glb",
+    "tris": 3000,
+    "verts": 4026,
+    "size_kb": 524.7,
+    "bbox": {
+      "w": 0.7532,
+      "h": 1.0,
+      "d": 0.3096
+    },
+    "raw": {
+      "tris": 50000,
+      "verts": 34861,
+      "size_kb": 40547.8,
+      "w": 0.7194,
+      "h": 0.9552,
+      "d": 0.2957
+    },
+    "textures": {
+      "base": 225.8,
+      "normal": 109.6,
+      "mr": 34.8,
+      "emissive": 9.2
+    },
+    "base_tex": 1024,
+    "emissive_coverage": 0.02885,
+    "mr_stats": {
+      "roughness_mean": 0.672,
+      "metallic_mean": 0.363
+    },
+    "front": "+z",
+    "origin": "脚底中心 (y=0)，高度归一化为 1",
+    "source": "Tencent Hunyuan3D 文生3D",
+    "prompt": "修长的科幻灵能女战士全身像，A字站姿双腿分开，双臂张开离开躯干，右手竖握一杆能量长矛。流线型白金色装甲，钴蓝色点缀，背后六片展开的金属刃翼，光滑头盔，青色发光纹路。写实硬核科幻风格，游戏角色，单个主体",
+    "suggested_logical": "unit.hero_ysera"
+  },
+  {
+    "name": "unit_psion",
+    "file": "unit_psion.glb",
+    "tris": 2000,
+    "verts": 2995,
+    "size_kb": 360.8,
+    "bbox": {
+      "w": 0.7648,
+      "h": 1.0,
+      "d": 0.3328
+    },
+    "raw": {
+      "tris": 49982,
+      "verts": 34866,
+      "size_kb": 33430.6,
+      "w": 0.891,
+      "h": 1.165,
+      "d": 0.3877
+    },
+    "textures": {
+      "base": 157.7,
+      "normal": 51.1,
+      "mr": 34.8,
+      "emissive": 9.9
+    },
+    "base_tex": 1024,
+    "emissive_coverage": 0.03699,
+    "mr_stats": {
+      "roughness_mean": 0.401,
+      "metallic_mean": 0.184
+    },
+    "front": "+z",
+    "origin": "脚底中心 (y=0)，高度归一化为 1",
+    "source": "Tencent Hunyuan3D 文生3D",
+    "prompt": "悬浮的科幻灵能者全身像，身披长袍式装甲，长袍下摆垂到脚下，高立领，头戴光滑面罩头盔，双臂向两侧斜下张开离开躯干，周身环绕几片漂浮的青色发光晶片。枪灰色金属甲片，钴蓝色长袍，青色发光纹路。写实硬核科幻风格，游戏角色，单个主体",
+    "suggested_logical": "unit.psion"
+  },
+  {
+    "name": "unit_skyhook",
+    "file": "unit_skyhook.glb",
+    "tris": 2000,
+    "verts": 3551,
+    "size_kb": 414.9,
+    "bbox": {
+      "w": 1.4516,
+      "h": 1.0,
+      "d": 1.0794
+    },
+    "raw": {
+      "tris": 49866,
+      "verts": 38722,
+      "size_kb": 36866.9,
+      "w": 1.0632,
+      "h": 0.7325,
+      "d": 0.7906
+    },
+    "textures": {
+      "base": 201.6,
+      "normal": 80.4,
+      "mr": 5.1,
+      "emissive": 3.2
+    },
+    "base_tex": 1024,
+    "emissive_coverage": 0.00431,
+    "mr_stats": {
+      "roughness_mean": 0.193,
+      "metallic_mean": 0.025
+    },
+    "front": "+z",
+    "origin": "脚底中心 (y=0)，高度归一化为 1",
+    "source": "Tencent Hunyuan3D 文生3D",
+    "prompt": "科幻悬停无人机母机，扁平厚重的装甲机身，四角各一个大型涵道风扇向外伸出，机腹挂着几架小型无人机，机顶天线。枪灰色磨损金属，钴蓝色装甲涂装，少量青色发光条。写实硬核军事科幻风格，游戏载具，单个主体",
+    "suggested_logical": "unit.skyhook"
+  },
+  {
+    "name": "device_sentry",
+    "file": "device_sentry.glb",
+    "tris": 1500,
+    "verts": 2841,
+    "size_kb": 430.2,
+    "bbox": {
+      "w": 0.7166,
+      "h": 1.0,
+      "d": 0.8307
+    },
+    "raw": {
+      "tris": 50000,
+      "verts": 41988,
+      "size_kb": 37894.6,
+      "w": 0.5957,
+      "h": 0.8312,
+      "d": 0.6905
+    },
+    "textures": {
+      "base": 222.5,
+      "normal": 92.3,
+      "mr": 8.5,
+      "emissive": 7.5
+    },
+    "base_tex": 1024,
+    "emissive_coverage": 0.01693,
+    "mr_stats": {
+      "roughness_mean": 0.499,
+      "metallic_mean": 0.029
+    },
+    "front": "+z",
+    "origin": "脚底中心 (y=0)，高度归一化为 1",
+    "source": "Tencent Hunyuan3D 文生3D",
+    "prompt": "科幻自动哨戒机枪塔，三脚架支腿张开撑地，顶部旋转炮座上一挺双管重机枪指向正前方，侧面弹药箱，传感器镜头发青色光。枪灰色磨损金属，钴蓝色涂装点缀。写实硬核军事科幻风格，游戏道具，单个物体",
+    "suggested_logical": "device.sentry"
+  },
+  {
+    "name": "enemy_crusher_lod",
+    "file": "enemy_crusher_lod.glb",
+    "tris": 1200,
+    "verts": 2168,
+    "size_kb": 167.3,
+    "bbox": {
+      "w": 0.9241,
+      "h": 1.0,
+      "d": 1.4908
+    },
+    "raw": {
+      "tris": 50000,
+      "verts": 36769,
+      "size_kb": 41505.5,
+      "w": 0.652,
+      "h": 0.7056,
+      "d": 1.0519
+    },
+    "textures": {
+      "base": 64.1,
+      "normal": 16.6,
+      "mr": 9.0,
+      "emissive": 0.9
+    },
+    "base_tex": 512,
+    "emissive_coverage": 0.00168,
+    "mr_stats": {
+      "roughness_mean": 0.196,
+      "metallic_mean": 0.03
+    },
+    "front": "+z",
+    "origin": "脚底中心 (y=0)，高度归一化为 1",
+    "source": "Tencent Hunyuan3D 文生3D",
+    "prompt": "低矮宽扁的重甲甲虫状外星虫族怪物，六条粗短的腿，背部像坦克一样覆盖厚重分片的暗红褐色几丁质甲壳，头部前端一对短钳，橙色发光眼睛，湿润质感，写实科幻恐怖风格，游戏怪物，单个主体全身",
+    "suggested_logical": "enemy.crusher (远景 LOD)",
+    "lod_of": "enemy_crusher"
+  },
+  {
+    "name": "enemy_wing_lod",
+    "file": "enemy_wing_lod.glb",
+    "tris": 1000,
+    "verts": 1684,
+    "size_kb": 164.6,
+    "bbox": {
+      "w": 1.3549,
+      "h": 1.0,
+      "d": 0.5424
+    },
+    "raw": {
+      "tris": 50000,
+      "verts": 35153,
+      "size_kb": 35872.6,
+      "w": 0.9694,
+      "h": 0.7155,
+      "d": 0.3881
+    },
+    "textures": {
+      "base": 75.3,
+      "normal": 25.1,
+      "mr": 2.0,
+      "emissive": 1.8
+    },
+    "base_tex": 512,
+    "emissive_coverage": 0.00421,
+    "mr_stats": {
+      "roughness_mean": 0.154,
+      "metallic_mean": 0.027
+    },
+    "front": "+z",
+    "origin": "脚底中心 (y=0)，高度归一化为 1",
+    "source": "Tencent Hunyuan3D 文生3D",
+    "prompt": "飞行的外星虫族怪物，两对展开的半透明膜翅，黄蜂般分节的身体，尾部一根长长的毒刺，暗红褐与紫黑色几丁质甲壳，橙色发光眼睛，湿润质感，写实科幻恐怖风格，游戏怪物，单个主体全身，翅膀展开",
+    "suggested_logical": "enemy.wing (远景 LOD)",
+    "lod_of": "enemy_wing"
+  },
+  {
+    "name": "enemy_egg_lod",
+    "file": "enemy_egg_lod.glb",
+    "tris": 700,
+    "verts": 1333,
+    "size_kb": 103.4,
+    "bbox": {
+      "w": 0.7631,
+      "h": 1.0,
+      "d": 0.7983
+    },
+    "raw": {
+      "tris": 50000,
+      "verts": 33598,
+      "size_kb": 26107.0,
+      "w": 0.6939,
+      "h": 0.9093,
+      "d": 0.7258
+    },
+    "textures": {
+      "base": 45.5,
+      "normal": 4.7,
+      "mr": 1.5,
+      "emissive": 3.9
+    },
+    "base_tex": 512,
+    "emissive_coverage": 0.08707,
+    "mr_stats": {
+      "roughness_mean": 0.131,
+      "metallic_mean": 0.004
+    },
+    "front": "+z",
+    "origin": "脚底中心 (y=0)，高度归一化为 1",
+    "source": "Tencent Hunyuan3D 文生3D",
+    "prompt": "一颗半透明的外星虫卵，椭圆形直立，表面布满血管状纹路，内部发出橙色光芒，底部有黏液状的肉质基座，暗红褐色，湿润质感，写实科幻恐怖风格，游戏道具，单个物体",
+    "suggested_logical": "enemy.egg (远景 LOD)",
+    "lod_of": "enemy_egg"
+  },
+  {
+    "name": "enemy_spitter_lod",
+    "file": "enemy_spitter_lod.glb",
+    "tris": 1200,
+    "verts": 1944,
+    "size_kb": 156.2,
+    "bbox": {
+      "w": 0.9833,
+      "h": 1.0,
+      "d": 0.9907
+    },
+    "raw": {
+      "tris": 49940,
+      "verts": 35931,
+      "size_kb": 39791.5,
+      "w": 0.8625,
+      "h": 0.8772,
+      "d": 0.8691
+    },
+    "textures": {
+      "base": 64.6,
+      "normal": 15.8,
+      "mr": 4.5,
+      "emissive": 1.6
+    },
+    "base_tex": 512,
+    "emissive_coverage": 0.00897,
+    "mr_stats": {
+      "roughness_mean": 0.181,
+      "metallic_mean": 0.096
+    },
+    "front": "+z",
+    "origin": "脚底中心 (y=0)，高度归一化为 1",
+    "source": "Tencent Hunyuan3D 文生3D",
+    "prompt": "蛇形下身盘在地面、上身高高昂起的外星虫族怪物，背部一排长长的尖刺，头部两侧有展开的颈盾，张开大口喷吐姿态，暗红褐与紫黑色几丁质甲壳，橙色发光腺体，湿润质感，写实科幻恐怖风格，游戏怪物，单个主体全身",
+    "suggested_logical": "enemy.spitter (远景 LOD)",
+    "lod_of": "enemy_spitter"
+  }
+]

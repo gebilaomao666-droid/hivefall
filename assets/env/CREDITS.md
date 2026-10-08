@@ -1,0 +1,42 @@
+# CREDITS — assets/env (HDRI / PBR 贴图)
+
+全部来自 Poly Haven，CC0 1.0（https://polyhaven.com/license），无需署名，此处自愿致谢。
+
+- **The Sky Is On Fire** (hdri) — Greg Zaal, Rico Cilliers (Poly Haven) — https://polyhaven.com/a/the_sky_is_on_fire
+  - hdri_the_sky_is_on_fire_1k.hdr
+- **Satara Night** (hdri) — Greg Zaal (Poly Haven) — https://polyhaven.com/a/satara_night
+  - hdri_satara_night_1k.hdr
+- **Dikhololo Night** (hdri) — Greg Zaal (Poly Haven) — https://polyhaven.com/a/dikhololo_night
+  - hdri_dikhololo_night_1k.hdr
+- **Moonless Golf** (hdri) — Greg Zaal (Poly Haven) — https://polyhaven.com/a/moonless_golf
+  - hdri_moonless_golf_1k.hdr
+- **Industrial Sunset 02 (Pure Sky)** (hdri) — Jarod Guest, Sergej Majboroda (Poly Haven) — https://polyhaven.com/a/industrial_sunset_02_puresky
+  - hdri_industrial_sunset_02_puresky_1k.hdr
+- **Overcast Soil (Pure Sky)** (hdri) — Jarod Guest, Sergej Majboroda (Poly Haven) — https://polyhaven.com/a/overcast_soil_puresky
+  - hdri_overcast_soil_puresky_1k.hdr
+- **Kloppenheim 02 (Pure Sky)** (hdri) — Greg Zaal, Jarod Guest (Poly Haven) — https://polyhaven.com/a/kloppenheim_02_puresky
+  - hdri_kloppenheim_02_puresky_1k.hdr
+- **Belfast Sunset (Pure Sky)** (hdri) — Greg Zaal, Dimitrios Savva, Jarod Guest (Poly Haven) — https://polyhaven.com/a/belfast_sunset_puresky
+  - hdri_belfast_sunset_puresky_1k.hdr
+- **Rogland Clear Night** (hdri) — Greg Zaal (Poly Haven) — https://polyhaven.com/a/rogland_clear_night
+  - hdri_rogland_clear_night_1k.hdr
+- **Metal Plate** (pbr_texture_set) — Rob Tuytel (Poly Haven) — https://polyhaven.com/a/metal_plate
+  - tex_metal_plate_diff_1k.jpg, tex_metal_plate_nor_gl_1k.jpg, tex_metal_plate_rough_1k.jpg, tex_metal_plate_arm_1k.jpg
+- **Rusty Metal 02** (pbr_texture_set) — Rob Tuytel (Poly Haven) — https://polyhaven.com/a/rusty_metal_02
+  - tex_rusty_metal_02_diff_1k.jpg, tex_rusty_metal_02_nor_gl_1k.jpg, tex_rusty_metal_02_rough_1k.jpg, tex_rusty_metal_02_arm_1k.jpg
+- **Concrete Floor 02** (pbr_texture_set) — Rob Tuytel (Poly Haven) — https://polyhaven.com/a/concrete_floor_02
+  - tex_concrete_floor_02_diff_1k.jpg, tex_concrete_floor_02_nor_gl_1k.jpg, tex_concrete_floor_02_rough_1k.jpg, tex_concrete_floor_02_arm_1k.jpg
+- **Metal Grate Rusty** (pbr_texture_set) — Rob Tuytel, Dimitrios Savva (Poly Haven) — https://polyhaven.com/a/metal_grate_rusty
+  - tex_metal_grate_rusty_diff_1k.jpg, tex_metal_grate_rusty_nor_gl_1k.jpg, tex_metal_grate_rusty_rough_1k.jpg, tex_metal_grate_rusty_arm_1k.jpg
+- **Corrugated Iron** (pbr_texture_set) — Jenelle van Heerden, Dimitrios Savva (Poly Haven) — https://polyhaven.com/a/corrugated_iron
+  - tex_corrugated_iron_diff_1k.jpg, tex_corrugated_iron_nor_gl_1k.jpg, tex_corrugated_iron_rough_1k.jpg, tex_corrugated_iron_arm_1k.jpg
+- **Rusty Metal Grid** (pbr_texture_set) — Amal Kumar (Poly Haven) — https://polyhaven.com/a/rusty_metal_grid
+  - tex_rusty_metal_grid_diff_1k.jpg, tex_rusty_metal_grid_nor_gl_1k.jpg, tex_rusty_metal_grid_rough_1k.jpg, tex_rusty_metal_grid_arm_1k.jpg
+- **Green Metal Rust** (pbr_texture_set) — Rob Tuytel (Poly Haven) — https://polyhaven.com/a/green_metal_rust
+  - tex_green_metal_rust_diff_1k.jpg, tex_green_metal_rust_nor_gl_1k.jpg, tex_green_metal_rust_rough_1k.jpg, tex_green_metal_rust_arm_1k.jpg
+- **Concrete Floor Worn 001** (pbr_texture_set) — Dimitrios Savva, Rico Cilliers (Poly Haven) — https://polyhaven.com/a/concrete_floor_worn_001
+  - tex_concrete_floor_worn_001_diff_1k.jpg, tex_concrete_floor_worn_001_nor_gl_1k.jpg, tex_concrete_floor_worn_001_rough_1k.jpg, tex_concrete_floor_worn_001_arm_1k.jpg
+- **Painted Metal Shutter** (pbr_texture_set) — Dario Barresi, Rico Cilliers, Charlotte Baglioni (Poly Haven) — https://polyhaven.com/a/painted_metal_shutter
+  - tex_painted_metal_shutter_diff_1k.jpg, tex_painted_metal_shutter_nor_gl_1k.jpg, tex_painted_metal_shutter_rough_1k.jpg, tex_painted_metal_shutter_arm_1k.jpg
+- **Metal Plate 02** (pbr_texture_set) — Rob Tuytel (Poly Haven) — https://polyhaven.com/a/metal_plate_02
+  - tex_metal_plate_02_diff_1k.jpg, tex_metal_plate_02_nor_gl_1k.jpg, tex_metal_plate_02_rough_1k.jpg, tex_metal_plate_02_arm_1k.jpg

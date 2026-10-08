@@ -1,0 +1,324 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>HIVEFALL · 音频试听台</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="/assets/ui/fonts/fonts.css">
+<style>
+  :root{--bg:#0b1016;--panel:#121a23;--line:#2a3a4a;--amber:#ffb02e;--cyan:#5fe0ff;--red:#ff4d3d;--dim:#7d8fa0;--text:#d5dee6;--cut:10px}
+  *{box-sizing:border-box}
+  html,body{margin:0;background:var(--bg);color:var(--text);font:500 13px/1.5 "Noto Sans SC","Microsoft YaHei",sans-serif}
+  body{padding:0 0 60px;background:linear-gradient(180deg,#0e151d 0,#0b1016 220px)}
+  h1{font:400 26px/1 "ZCOOL QingKe HuangYou","Noto Sans SC",sans-serif;letter-spacing:3px;margin:0;color:var(--amber)}
+  h1 small{font:600 12px "Orbitron",sans-serif;color:var(--dim);letter-spacing:4px;margin-left:12px}
+  h2{font:700 13px/1 "Noto Sans SC",sans-serif;letter-spacing:2px;color:var(--cyan);margin:0 0 10px;display:flex;align-items:center;gap:8px}
+  h2::before{content:"";width:3px;height:13px;background:var(--amber)}
+  h2 span{color:var(--dim);font-weight:500;letter-spacing:0}
+  header{position:sticky;top:0;z-index:5;background:rgba(11,16,22,.94);border-bottom:1px solid var(--line);padding:12px 20px;display:flex;gap:18px;align-items:center;flex-wrap:wrap}
+  main{display:grid;grid-template-columns:minmax(0,1fr) 380px;gap:14px;padding:14px 20px;align-items:start}
+  @media(max-width:1100px){main{grid-template-columns:1fr}}
+  .col{display:flex;flex-direction:column;gap:14px;min-width:0}
+  .panel{background:var(--line);padding:1px;clip-path:polygon(var(--cut) 0,100% 0,100% calc(100% - var(--cut)),calc(100% - var(--cut)) 100%,0 100%,0 var(--cut))}
+  .panel>.in{background:var(--panel);padding:14px 16px;clip-path:polygon(var(--cut) 0,100% 0,100% calc(100% - var(--cut)),calc(100% - var(--cut)) 100%,0 100%,0 var(--cut))}
+  button{font:500 12px/1.2 "Noto Sans SC",sans-serif;color:var(--text);background:#18232f;border:1px solid var(--line);padding:6px 10px;cursor:pointer;clip-path:polygon(5px 0,100% 0,100% calc(100% - 5px),calc(100% - 5px) 100%,0 100%,0 5px);transition:background .08s,color .08s}
+  button:hover{background:#223243;color:#fff}
+  button:active,button.hit{background:var(--amber);color:#10161d}
+  button.on{border-color:var(--amber);color:var(--amber)}
+  button.big{font-size:14px;font-weight:700;padding:10px 18px;background:var(--amber);color:#10161d;border-color:var(--amber);letter-spacing:2px}
+  button.big.done{background:#18232f;color:var(--cyan);border-color:var(--line)}
+  button.null{opacity:.4}
+  button small{color:var(--dim);font:500 10px "Share Tech Mono",monospace;margin-left:5px}
+  button:active small,button.hit small{color:#10161d}
+  .row{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+  .stat{font:500 12px/1.3 "Share Tech Mono",monospace;color:var(--dim)}
+  .stat b{color:var(--cyan);font-weight:400;font-family:"Oxanium",sans-serif;font-size:15px}
+  .stat b.warn{color:var(--red)}
+  .bar{width:150px;height:8px;background:#0a0f14;border:1px solid var(--line);position:relative}
+  .bar i{position:absolute;left:0;top:0;bottom:0;background:var(--cyan);width:0}
+  .bar i.peak{background:none;border-right:2px solid var(--amber)}
+  .vol{display:grid;grid-template-columns:70px 1fr 38px;gap:8px;align-items:center;margin:5px 0}
+  .vol label{color:var(--dim)}
+  .vol output{font:500 13px "Oxanium",sans-serif;color:var(--amber);text-align:right}
+  input[type=range]{width:100%;accent-color:var(--amber)}
+  select,input[type=number]{background:#0a0f14;color:var(--text);border:1px solid var(--line);padding:5px 6px;font:500 12px "Noto Sans SC",sans-serif}
+  .ev{display:grid;grid-template-columns:118px 1fr;gap:4px 10px;padding:5px 0;border-top:1px solid #1b2733;align-items:start}
+  .ev:first-of-type{border-top:0}
+  .ev code{font:500 12px "Share Tech Mono",monospace;color:var(--amber);padding-top:6px}
+  .grp{display:grid;grid-template-columns:150px 1fr;gap:4px 10px;padding:4px 0;border-top:1px solid #1b2733}
+  .grp code{font:500 12px "Share Tech Mono",monospace;color:var(--cyan);padding-top:6px}
+  .grp button{padding:4px 8px;font-family:"Share Tech Mono",monospace;font-size:11px}
+  .note{color:var(--dim);font-size:12px;margin:0 0 10px}
+  .note b{color:var(--text)}
+  #log{font:500 11px/1.55 "Share Tech Mono",monospace;color:var(--dim);height:230px;overflow:hidden;white-space:pre}
+  #log b{color:var(--cyan);font-weight:400}
+  #meter{font:500 11px/1.6 "Share Tech Mono",monospace;min-height:190px}
+  #meter div{display:grid;grid-template-columns:150px 1fr 34px;gap:6px;align-items:center}
+  #meter i{display:block;height:7px;background:var(--cyan)}
+  #meter span{color:var(--dim);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  #meter em{font-style:normal;color:var(--amber);text-align:right}
+  #simInfo{font:500 12px/1.7 "Share Tech Mono",monospace;color:var(--dim);white-space:pre-wrap;margin-top:10px}
+  #simInfo b{color:var(--amber);font-weight:400}
+  .tag{display:inline-block;padding:1px 6px;border:1px solid var(--line);color:var(--dim);font:500 10px "Share Tech Mono",monospace;margin-left:6px}
+  .silent{color:var(--dim)}
+</style>
+</head>
+<body>
+<header>
+  <h1>音频试听台<small>HIVEFALL // AUDIO</small></h1>
+  <button class="big" id="unlock">启用声音</button>
+  <div class="stat">上下文 <b id="sCtx">-</b></div>
+  <div class="stat">素材 <b id="sLoad">0</b></div>
+  <div class="stat">发声 <b id="sVoices">0</b> / 56　峰值 <b id="sPeak">0</b><div class="bar"><i id="bVoices"></i><i class="peak" id="bPeak"></i></div></div>
+  <div class="stat">累计 <b id="sPlayed">0</b>　节流 <b id="sThr">0</b>　丢弃 <b id="sDrop">0</b>　抢占 <b id="sPre">0</b></div>
+  <div class="stat">音乐 <b id="sMusic">-</b></div>
+</header>
+<main>
+  <div class="col">
+    <section class="panel"><div class="in">
+      <h2>实战试听 <span>真实模拟 + 机器人打一局，事件流直接喂给音频层（没有画面）</span></h2>
+      <div class="row">
+        <select id="simCmd"><option value="hawk">「铁砧」霍克上尉</option><option value="ysera">「棱镜」伊瑟拉</option><option value="joe">「扳手」老猫</option><option value="none">标准小队</option></select>
+        <select id="simBoss"><option value="ravager">Boss「碾压者」</option><option value="matriarch">Boss「巢母」</option><option value="leviathan">Boss「渊噬蠕虫」</option></select>
+        <select id="simBot"><option value="good">机器人：走位+布防+技能</option><option value="builder">机器人：只布防</option><option value="idle">机器人：挂机</option></select>
+        <select id="simDiff"><option value="normal">普通</option><option value="veteran">老兵</option></select>
+        <label class="stat">种子 <input type="number" id="simSeed" value="1" min="1" style="width:64px"></label>
+        <label class="stat">从第 <input type="number" id="simSkip" value="0" min="0" max="170" style="width:60px"> 秒听起</label>
+        <label class="stat"><input type="checkbox" id="simEndless" checked> 打赢后继续无尽</label>
+        <button id="simStart" class="on">开始</button><button id="simStop">停止</button><button id="simPause">暂停 / 继续</button>
+      </div>
+      <div id="simInfo">还没开始。先点右上角「启用声音」。</div>
+    </div></section>
+
+    <section class="panel"><div class="in">
+      <h2>逐个事件 <span>点一下 = 给音频层喂一个这种事件；按住 Shift 点 = 1 秒内连喂 40 个（听节流效果）</span></h2>
+      <div class="row" style="margin-bottom:10px">
+        <span class="stat">事件位置</span>
+        <button data-pos="-6" class="pos">左</button><button data-pos="0" class="pos on">中</button><button data-pos="6" class="pos">右</button><button data-pos="rand" class="pos">随机</button>
+        <span class="stat" style="margin-left:14px">灰色按钮 = 映射表里写明不出声的分支</span>
+      </div>
+      <div id="events"></div>
+      <p class="note" style="margin-top:12px">明确不出声的事件：<span id="silent" class="silent"></span></p>
+    </div></section>
+
+    <section class="panel"><div class="in">
+      <h2>素材分组 <span>soundmap.js 的 SFX 表，逐个变体原样播放（不经节流、不变调）</span></h2>
+      <div id="groups"></div>
+      <p class="note" style="margin-top:12px">manifest 里没被用到的音效：<span id="unused" class="silent"></span></p>
+    </div></section>
+  </div>
+
+  <div class="col">
+    <section class="panel"><div class="in">
+      <h2>音量</h2>
+      <div id="vols"></div>
+      <div class="row" style="margin-top:8px"><button id="mute">静音</button><button id="muffle">模拟暂停（音乐发闷）</button></div>
+    </div></section>
+    <section class="panel"><div class="in">
+      <h2>音乐 <span>交叉淡化 1.2 秒</span></h2>
+      <p class="note">按<b>状态</b>切（游戏里就是这么切的，同一状态多首时每次进入换下一首）：</p>
+      <div class="row" id="mStates"></div>
+      <p class="note" style="margin-top:12px">按<b>曲目</b>直接听：</p>
+      <div class="row" id="mTracks"></div>
+      <div class="row" style="margin-top:10px"><button id="mStop">停止音乐</button><button id="mDuck">压低 2 秒</button></div>
+      <div class="stat" id="mInfo" style="margin-top:10px;white-space:pre-wrap"></div>
+    </div></section>
+    <section class="panel"><div class="in">
+      <h2>界面音 <span>audio.ui(name)</span></h2>
+      <div class="row" id="uis"></div>
+    </div></section>
+    <section class="panel"><div class="in">
+      <h2>最近 1 秒各类发声次数</h2>
+      <div id="meter"></div>
+    </div></section>
+    <section class="panel"><div class="in">
+      <h2>发声记录</h2>
+      <div id="log"></div>
+    </div></section>
+  </div>
+</main>
+<script type="module">
+import { createAudio } from '/src/audio/audio.js'
+import { CHANNELS, SFX, EVENT_MAP, SILENT_EVENTS, UI_MAP, MUSIC, usedSfxFiles } from '/src/audio/soundmap.js'
+import { createWorld } from '/src/sim/world.js'
+import { createBot } from '/src/sim/bot.js'
+
+const Q = new URLSearchParams(location.search)
+const $ = id => document.getElementById(id)
+const el = (tag, props = {}, ...kids) => { const n = Object.assign(document.createElement(tag), props); for (const k of kids) n.append(k); return n }
+// ?ignoreHidden=1：标签页在后台也照常出声（自动化验证时多个页面共用一个浏览器，本页常常不在前台）
+const audio = createAudio({ basePath: '/assets/audio/', deps: Q.get('ignoreHidden') === '1' ? { document: null } : {} })
+window.__audio = audio
+
+// ---------------------------------------------------------------- 顶栏
+const recent = []
+const logLines = []
+audio.onPlay = p => {
+  recent.push(p)
+  logLines.push(`${p.t.toFixed(2).padStart(7)}  <b>${p.key.padEnd(24)}</b> ${p.file.padEnd(26)} ${p.ch.padEnd(7)} vol ${p.vol.toFixed(2)}`)
+  if (logLines.length > 14) logLines.shift()
+}
+let unlocking = null
+function unlock() {
+  if (unlocking) { audio.unlock(); return unlocking }
+  const b = $('unlock')
+  b.textContent = '加载中 0%'
+  audio.unlock()
+  unlocking = audio.preload(p => { b.textContent = `加载中 ${Math.round(p * 100)}%` }).then(r => {
+    b.textContent = r.failed ? `已启用（${r.failed} 个文件失败）` : '声音已启用'
+    b.classList.add('done')
+    window.__preload = r
+    return r
+  })
+  return unlocking
+}
+$('unlock').onclick = unlock
+window.addEventListener('keydown', () => audio.unlock(), { once: true })
+
+// ---------------------------------------------------------------- 音量
+for (const c of CHANNELS) {
+  const names = { master: '总音量', music: '音乐', weapons: '我方火力', swarm: '虫群', voice: '通讯警报', ui: '界面' }
+  const out = el('output', { textContent: Math.round(audio.getVolume(c) * 100) })
+  const inp = el('input', { type: 'range', min: 0, max: 100, value: Math.round(audio.getVolume(c) * 100) })
+  inp.oninput = () => { audio.setVolume(c, inp.value / 100); out.textContent = inp.value }
+  $('vols').append(el('div', { className: 'vol' }, el('label', { textContent: names[c] }), inp, out))
+}
+$('mute').onclick = e => { audio.setMuted(!audio.muted); e.target.classList.toggle('on', audio.muted) }
+let muffle = false
+$('muffle').onclick = e => { muffle = !muffle; audio.setPaused(muffle); e.target.classList.toggle('on', muffle) }
+
+// ---------------------------------------------------------------- 音乐
+const stateNames = { menu: '菜单', battle: '战斗', battle_hi: '激战', boss: 'Boss', result: '结算' }
+for (const s of Object.keys(MUSIC.states)) $('mStates').append(el('button', { textContent: `${stateNames[s] || s} `, onclick: () => { unlock(); stopSim(); audio.music.setState(s) } }, el('small', { textContent: s })))
+for (const [s, list] of Object.entries(MUSIC.states)) for (const id of list) $('mTracks').append(el('button', { textContent: id, title: stateNames[s], onclick: () => { unlock(); stopSim(); audio.music.playTrack(id) } }))
+$('mStop').onclick = () => audio.music.stop()
+$('mDuck').onclick = () => audio.consume([{ type: 'bossSpawn', kind: 'ravager', x: 0, z: -21 }])
+
+// ---------------------------------------------------------------- 事件按钮
+let pos = '0'
+for (const b of document.querySelectorAll('.pos')) b.onclick = () => { pos = b.dataset.pos; document.querySelectorAll('.pos').forEach(x => x.classList.toggle('on', x === b)) }
+const px = () => (pos === 'rand' ? (Math.random() * 2 - 1) * 6 : Number(pos))
+const describe = r => (r == null ? '不出声' : [].concat(r).map(x => `${x.sfx}${x.loop ? ' 循环' : ''} · 间隔${x.gap === undefined ? 60 : x.gap}ms · 音量${x.vol} · 优先级${x.prio === undefined ? 2 : x.prio} · ${x.ch || 'weapons'}${x.dense ? ` · 密集时换 ${x.dense.sfx}` : ''}`).join('\n'))
+function sample(type, m, c) {
+  const x = px()
+  const e = { type, x, z: -2, x0: x, z0: 8, x1: x, z1: -12, tx: x, tz: -8, dur: 1.5, r: 2, points: [{ x, z: 0 }, { x: x + 1, z: -2 }], amount: 10, hits: 1, count: 3 }
+  if (c !== undefined && c !== '_') for (const f of [].concat(m.by)) e[f] = c
+  return e
+}
+function fire(type, m, c, ev) {
+  unlock()
+  const btn = ev.currentTarget
+  btn.classList.add('hit'); setTimeout(() => btn.classList.remove('hit'), 120)
+  if (ev.shiftKey) { let n = 0; const id = setInterval(() => { audio.consume([sample(type, m, c)]); if (++n >= 40) clearInterval(id) }, 25) }
+  else audio.consume([sample(type, m, c)])
+}
+for (const [type, m] of Object.entries(EVENT_MAP)) {
+  const row = el('div', { className: 'row' })
+  if (m && m.cases) for (const [c, r] of Object.entries(m.cases)) row.append(el('button', { textContent: c === '_' ? '其他' : c, title: describe(r), className: r == null ? 'null' : '', onclick: ev => fire(type, m, c, ev) }))
+  else row.append(el('button', { textContent: '播放', title: describe(m), onclick: ev => fire(type, m, undefined, ev) }, el('small', { textContent: [].concat(m).map(x => x.sfx).join(' + ') })))
+  $('events').append(el('div', { className: 'ev' }, el('code', { textContent: type }), row))
+}
+$('silent').textContent = Object.entries(SILENT_EVENTS).map(([k, v]) => `${k}（${v}）`).join('　')
+
+// ---------------------------------------------------------------- 素材分组 / 界面音
+for (const [g, files] of Object.entries(SFX)) {
+  const row = el('div', { className: 'row' })
+  for (const f of files) row.append(el('button', { textContent: f.replace(/^.*_(\d\d)$/, '$1').length === 2 ? f.slice(-2) : f, title: f + '.ogg', onclick: () => { unlock().then(() => audio.playFile(f)) } }))
+  $('groups').append(el('div', { className: 'grp' }, el('code', { textContent: g }), row))
+}
+fetch('/assets/audio/manifest.json').then(r => r.json()).then(list => {
+  const used = new Set(usedSfxFiles())
+  const rest = list.filter(m => m.file.startsWith('sfx/')).map(m => m.file.slice(4, -4)).filter(f => !used.has(f))
+  $('unused').textContent = ''
+  for (const f of rest) $('unused').append(el('button', { textContent: f, onclick: () => { unlock().then(() => audio.playFile(f)) } }), ' ')
+  if (!rest.length) $('unused').textContent = '无'
+})
+for (const name of Object.keys(UI_MAP)) $('uis').append(el('button', { textContent: name, onclick: () => { unlock(); audio.ui(name) } }))
+
+// ---------------------------------------------------------------- 实战试听
+const DT = 1 / 60
+let sim = null
+function startSim() {
+  unlock()
+  const opts = { seed: Number($('simSeed').value) || 1, commander: $('simCmd').value, boss: $('simBoss').value, difficulty: $('simDiff').value }
+  const world = createWorld(opts)
+  sim = { world, play: createBot($('simBot').value, world.seed), acc: 0, last: performance.now(), paused: false, hold: 0, endless: $('simEndless').checked, steps: 0, done: false }
+  // 快进到指定时刻（不出声），从那里开始听
+  const skip = Number($('simSkip').value) || 0
+  while (world.time < skip && world.status !== 'won' && world.status !== 'lost') { world.step(sim.play(world)); sim.steps++ }
+  window.__sim = sim
+}
+function stopSim() { if (sim) { sim = null; audio.update(null, 0) } }
+$('simStart').onclick = startSim
+$('simStop').onclick = () => { stopSim(); audio.music.stop() }
+$('simPause').onclick = () => { if (sim) { sim.paused = !sim.paused; audio.setPaused(sim.paused); audio.ui(sim.paused ? 'pause' : 'resume') } }
+const CONTINUE = { moveX: null, targetX: null, powers: [], aim: null, pick: null, reroll: false, continueEndless: true, retreat: false, place: null, remove: null }
+function simFrame(dt) {
+  if (!sim || sim.paused) return
+  const w = sim.world
+  sim.acc += Math.min(dt, 0.25)
+  while (sim.acc >= DT) {
+    sim.acc -= DT
+    if (w.status === 'won' || w.status === 'lost' || w.status === 'retreated') {
+      if (w.status === 'won' && sim.endless && w.phase === 'campaign') { sim.hold += DT; if (sim.hold > 6) { sim.hold = 0; w.step(CONTINUE); audio.consume(w.events) } }
+      else sim.done = true
+      continue
+    }
+    // 升级选卡停 0.8 秒，好听清「音乐发闷」的效果
+    if (w.status === 'levelup') { sim.hold += DT; if (sim.hold < 0.8) continue; sim.hold = 0 }
+    const input = sim.play(w)
+    if (w.endless && w.endless.layer >= 8) input.retreat = true
+    w.step(input)
+    sim.steps++
+    audio.consume(w.events)
+  }
+  audio.update(w, dt)
+}
+
+// ---------------------------------------------------------------- 刷新显示（rAF 不转时用定时器兜底）
+let lastFrame = performance.now()
+function frame() {
+  const now = performance.now(), dt = (now - lastFrame) / 1000
+  if (dt < 0.004) return
+  lastFrame = now
+  if (sim) simFrame(dt); else audio.update(null, dt)
+}
+const raf = () => { frame(); requestAnimationFrame(raf) }
+requestAnimationFrame(raf)
+setInterval(frame, 50)
+setInterval(() => {
+  const s = audio.stats()
+  $('sCtx').textContent = s.state + (s.hidden ? ' · 页面隐藏' : '') + (s.muted ? ' · 静音' : '')
+  $('sCtx').className = s.state === 'running' ? '' : 'warn'
+  $('sLoad').textContent = `${s.loaded}/${usedSfxFiles().length}` + (s.failed.length ? ` 失败${s.failed.length}` : '')
+  $('sVoices').textContent = s.voices; $('sPeak').textContent = s.peakVoices
+  $('bVoices').style.width = s.voices / 56 * 100 + '%'; $('bPeak').style.width = s.peakVoices / 56 * 100 + '%'
+  $('sPlayed').textContent = s.played; $('sThr').textContent = s.throttled; $('sDrop').textContent = s.dropped; $('sPre').textContent = s.preempted
+  const m = s.music
+  $('sMusic').textContent = m && m.track ? `${m.state || '手动'} · ${m.track}` : '-'
+  $('mInfo').textContent = m ? m.decks.map(d => `${d.fading ? '淡出' : '在播'}  ${d.id}${m.ext}  ${d.time.toFixed(1)}s${d.duration ? ' / ' + d.duration.toFixed(0) + 's' : ''}${d.blocked ? '  （被浏览器拦住，点一下页面）' : ''}`).join('\n') + (m.muffled ? '\n低通发闷中' : '') : ''
+  const t = audio.context ? audio.context.currentTime : 0
+  while (recent.length && recent[0].t < t - 1) recent.shift()
+  const count = {}
+  for (const p of recent) count[p.key] = (count[p.key] || 0) + 1
+  const top = Object.entries(count).sort((a, b) => b[1] - a[1]).slice(0, 12)
+  $('meter').replaceChildren(...top.map(([k, n]) => el('div', {}, el('span', { textContent: k }), el('i', { style: `width:${Math.min(100, n / 34 * 100)}%` }), el('em', { textContent: n }))))
+  $('log').innerHTML = logLines.join('\n')
+  if (sim) {
+    const w = sim.world
+    $('simInfo').innerHTML = `时间 <b>${w.time.toFixed(1)}s</b>　状态 <b>${w.status}</b>　阶段 <b>${w.phase}${w.endless ? ' 第' + w.endless.layer + '层' : ''}</b>　击杀 <b>${w.stats.kills}</b>　歼敌速度 <b>${Math.round(w.stats.killRate)}/s</b>　在场虫 <b>${w.swarm.living}</b>\n防线 <b>${Math.round(w.line.hp)}/${w.line.hpMax}</b>　兵力 <b>${w.squad.units.filter(u => u.alive).length}</b>　装置 <b>${w.devices.filter(d => d.alive).length}</b>　Boss <b>${w.boss ? w.boss.kind + ' ' + Math.round(w.boss.hp) : '无'}</b>　循环声 <b>${s.loops.join(' ') || '无'}</b>${sim.done ? '\n本局已结束。' : ''}`
+  }
+}, 200)
+
+// ---------------------------------------------------------------- 自动演示（给自动化验证用）：?auto=sim&skip=90
+if (Q.get('auto') === 'sim') {
+  if (Q.has('skip')) $('simSkip').value = Q.get('skip')
+  if (Q.has('seed')) $('simSeed').value = Q.get('seed')
+  if (Q.has('commander')) $('simCmd').value = Q.get('commander')
+  if (Q.has('boss')) $('simBoss').value = Q.get('boss')
+  window.__autoStart = () => unlock().then(() => { startSim(); return true })
+}
+</script>
+</body>
+</html>

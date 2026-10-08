@@ -1,0 +1,5682 @@
+[
+ {
+  "file": "adventurer_5EGWBMpuXq.glb",
+  "name": "Adventurer",
+  "source_url": "https://poly.pizza/m/5EGWBMpuXq",
+  "download_url": "https://static.poly.pizza/bbe369ee-a686-42c7-adad-14356f5f2f15.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "animations": [
+   {
+    "name": "CharacterArmature|Death",
+    "duration": 1.042
+   },
+   {
+    "name": "CharacterArmature|Gun_Shoot",
+    "duration": 0.583
+   },
+   {
+    "name": "CharacterArmature|HitRecieve",
+    "duration": 0.542
+   },
+   {
+    "name": "CharacterArmature|HitRecieve_2",
+    "duration": 0.542
+   },
+   {
+    "name": "CharacterArmature|Idle",
+    "duration": 1.667
+   },
+   {
+    "name": "CharacterArmature|Idle_Gun",
+    "duration": 1.667
+   },
+   {
+    "name": "CharacterArmature|Idle_Gun_Pointing",
+    "duration": 1.667
+   },
+   {
+    "name": "CharacterArmature|Idle_Gun_Shoot",
+    "duration": 0.667
+   },
+   {
+    "name": "CharacterArmature|Idle_Neutral",
+    "duration": 1.667
+   },
+   {
+    "name": "CharacterArmature|Idle_Sword",
+    "duration": 1.667
+   },
+   {
+    "name": "CharacterArmature|Interact",
+    "duration": 1.25
+   },
+   {
+    "name": "CharacterArmature|Kick_Left",
+    "duration": 0.917
+   },
+   {
+    "name": "CharacterArmature|Kick_Right",
+    "duration": 0.917
+   },
+   {
+    "name": "CharacterArmature|Punch_Left",
+    "duration": 0.833
+   },
+   {
+    "name": "CharacterArmature|Punch_Right",
+    "duration": 0.833
+   },
+   {
+    "name": "CharacterArmature|Roll",
+    "duration": 1.333
+   },
+   {
+    "name": "CharacterArmature|Run",
+    "duration": 0.792
+   },
+   {
+    "name": "CharacterArmature|Run_Back",
+    "duration": 0.833
+   },
+   {
+    "name": "CharacterArmature|Run_Left",
+    "duration": 0.792
+   },
+   {
+    "name": "CharacterArmature|Run_Right",
+    "duration": 0.792
+   },
+   {
+    "name": "CharacterArmature|Run_Shoot",
+    "duration": 0.833
+   },
+   {
+    "name": "CharacterArmature|Sword_Slash",
+    "duration": 1
+   },
+   {
+    "name": "CharacterArmature|Walk",
+    "duration": 1.333
+   },
+   {
+    "name": "CharacterArmature|Wave",
+    "duration": 1.667
+   }
+  ],
+  "bbox": {
+   "local_min": [
+    -0.008,
+    -0.006,
+    -0.007
+   ],
+   "local_max": [
+    0.008,
+    0.003,
+    0.019
+   ],
+   "local_size": [
+    0.017,
+    0.009,
+    0.026
+   ],
+   "est_world_size": [
+    1.7,
+    0.9,
+    2.6
+   ],
+   "note": "mesh局部坐标×骨架节点scale 100估算；轴向可能未含根节点旋转，运行时请用Box3归一化"
+  },
+  "size_kb": 1899,
+  "meshes": 5,
+  "materials": 11,
+  "textures": 0,
+  "skinned": true,
+  "joints": 62,
+  "tris": 10198,
+  "suggested_use": "3 英雄/平民备选人形，Gun动画齐全(character_animated除外)"
+ },
+ {
+  "file": "adventurer_ZwF0K7WBmu.glb",
+  "name": "Adventurer",
+  "source_url": "https://poly.pizza/m/ZwF0K7WBmu",
+  "download_url": "https://static.poly.pizza/69689495-028d-4b81-8678-792338a5693e.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "animations": [
+   {
+    "name": "CharacterArmature|Death",
+    "duration": 1.333
+   },
+   {
+    "name": "CharacterArmature|Gun_Shoot",
+    "duration": 0.75
+   },
+   {
+    "name": "CharacterArmature|HitRecieve",
+    "duration": 0.708
+   },
+   {
+    "name": "CharacterArmature|HitRecieve_2",
+    "duration": 0.708
+   },
+   {
+    "name": "CharacterArmature|Idle",
+    "duration": 2.083
+   },
+   {
+    "name": "CharacterArmature|Idle_Gun",
+    "duration": 2.083
+   },
+   {
+    "name": "CharacterArmature|Idle_Gun_Pointing",
+    "duration": 2.083
+   },
+   {
+    "name": "CharacterArmature|Idle_Gun_Shoot",
+    "duration": 0.833
+   },
+   {
+    "name": "CharacterArmature|Idle_Neutral",
+    "duration": 2.083
+   },
+   {
+    "name": "CharacterArmature|Idle_Sword",
+    "duration": 2.083
+   },
+   {
+    "name": "CharacterArmature|Interact",
+    "duration": 1.583
+   },
+   {
+    "name": "CharacterArmature|Kick_Left",
+    "duration": 1.167
+   },
+   {
+    "name": "CharacterArmature|Kick_Right",
+    "duration": 1.167
+   },
+   {
+    "name": "CharacterArmature|Punch_Left",
+    "duration": 1.042
+   },
+   {
+    "name": "CharacterArmature|Punch_Right",
+    "duration": 1.042
+   },
+   {
+    "name": "CharacterArmature|Roll",
+    "duration": 1.667
+   },
+   {
+    "name": "CharacterArmature|Run",
+    "duration": 1
+   },
+   {
+    "name": "CharacterArmature|Run_Back",
+    "duration": 1.042
+   },
+   {
+    "name": "CharacterArmature|Run_Left",
+    "duration": 1
+   },
+   {
+    "name": "CharacterArmature|Run_Right",
+    "duration": 1
+   },
+   {
+    "name": "CharacterArmature|Run_Shoot",
+    "duration": 1.042
+   },
+   {
+    "name": "CharacterArmature|Sword_Slash",
+    "duration": 1.292
+   },
+   {
+    "name": "CharacterArmature|Walk",
+    "duration": 1.667
+   },
+   {
+    "name": "CharacterArmature|Wave",
+    "duration": 2.083
+   }
+  ],
+  "bbox": {
+   "local_min": [
+    -0.008,
+    -0.003,
+    0
+   ],
+   "local_max": [
+    0.008,
+    0.002,
+    0.018
+   ],
+   "local_size": [
+    0.016,
+    0.005,
+    0.018
+   ],
+   "est_world_size": [
+    1.6,
+    0.5,
+    1.8
+   ],
+   "note": "mesh局部坐标×骨架节点scale 100估算；轴向可能未含根节点旋转，运行时请用Box3归一化"
+  },
+  "size_kb": 1549,
+  "meshes": 4,
+  "materials": 9,
+  "textures": 0,
+  "skinned": true,
+  "joints": 62,
+  "tris": 6808,
+  "suggested_use": "3 英雄/平民备选人形，Gun动画齐全(character_animated除外)"
+ },
+ {
+  "file": "animated_robot_QCm7qe9uNJ.glb",
+  "name": "Animated Robot",
+  "source_url": "https://poly.pizza/m/QCm7qe9uNJ",
+  "download_url": "https://static.poly.pizza/7d95dbce-8c73-489b-8298-f430b1f0dbdf.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "animations": [
+   {
+    "name": "RobotArmature|Robot_Dance",
+    "duration": 3.333
+   },
+   {
+    "name": "RobotArmature|Robot_Death",
+    "duration": 0.958
+   },
+   {
+    "name": "RobotArmature|Robot_Idle",
+    "duration": 3.333
+   },
+   {
+    "name": "RobotArmature|Robot_Jump",
+    "duration": 0.708
+   },
+   {
+    "name": "RobotArmature|Robot_No",
+    "duration": 1.667
+   },
+   {
+    "name": "RobotArmature|Robot_Punch",
+    "duration": 0.833
+   },
+   {
+    "name": "RobotArmature|Robot_Running",
+    "duration": 0.958
+   },
+   {
+    "name": "RobotArmature|Robot_Sitting",
+    "duration": 0.417
+   },
+   {
+    "name": "RobotArmature|Robot_Standing",
+    "duration": 0.417
+   },
+   {
+    "name": "RobotArmature|Robot_ThumbsUp",
+    "duration": 1.583
+   },
+   {
+    "name": "RobotArmature|Robot_Walking",
+    "duration": 0.958
+   },
+   {
+    "name": "RobotArmature|Robot_WalkJump",
+    "duration": 0.833
+   },
+   {
+    "name": "RobotArmature|Robot_Wave",
+    "duration": 1.833
+   },
+   {
+    "name": "RobotArmature|Robot_Yes",
+    "duration": 1.667
+   }
+  ],
+  "bbox": {
+   "local_min": [
+    -0.033,
+    -0.013,
+    -0.009
+   ],
+   "local_max": [
+    0.033,
+    0.013,
+    0.008
+   ],
+   "local_size": [
+    0.066,
+    0.026,
+    0.017
+   ],
+   "est_world_size": [
+    6.6,
+    2.6,
+    1.7
+   ],
+   "note": "mesh局部坐标×骨架节点scale 100估算；轴向可能未含根节点旋转，运行时请用Box3归一化"
+  },
+  "size_kb": 392,
+  "meshes": 14,
+  "materials": 5,
+  "textures": 0,
+  "skinned": true,
+  "joints": 43,
+  "tris": 3237,
+  "suggested_use": "7 机器人步兵候选(RobotExpressive同款)：Running/Punch/Death，无射击动画"
+ },
+ {
+  "file": "animated_wizard_kttbFvCl2C.glb",
+  "name": "Animated Wizard",
+  "source_url": "https://poly.pizza/m/kttbFvCl2C",
+  "download_url": "https://static.poly.pizza/7e77cc7a-eff9-4ebd-90a6-7728c265b092.glb",
+  "author": "Quaternius",
+  "license": "CC-BY 3.0",
+  "animations": [
+   {
+    "name": "CharacterArmature|Death",
+    "duration": 1.167
+   },
+   {
+    "name": "CharacterArmature|Idle",
+    "duration": 3.125
+   },
+   {
+    "name": "CharacterArmature|Idle_Attacking",
+    "duration": 1.667
+   },
+   {
+    "name": "CharacterArmature|Idle_Weapon",
+    "duration": 3.125
+   },
+   {
+    "name": "CharacterArmature|PickUp",
+    "duration": 1.25
+   },
+   {
+    "name": "CharacterArmature|Punch",
+    "duration": 0.75
+   },
+   {
+    "name": "CharacterArmature|RecieveHit",
+    "duration": 0.625
+   },
+   {
+    "name": "CharacterArmature|RecieveHit_2",
+    "duration": 0.625
+   },
+   {
+    "name": "CharacterArmature|Roll",
+    "duration": 1
+   },
+   {
+    "name": "CharacterArmature|Run",
+    "duration": 0.875
+   },
+   {
+    "name": "CharacterArmature|Run_Weapon",
+    "duration": 0.875
+   },
+   {
+    "name": "CharacterArmature|Spell1",
+    "duration": 1.208
+   },
+   {
+    "name": "CharacterArmature|Spell2",
+    "duration": 1.458
+   },
+   {
+    "name": "CharacterArmature|Staff_Attack",
+    "duration": 0.75
+   },
+   {
+    "name": "CharacterArmature|Walk",
+    "duration": 1.25
+   }
+  ],
+  "bbox": {
+   "local_min": [
+    -0.015,
+    -0.008,
+    -0.005
+   ],
+   "local_max": [
+    0.015,
+    0.014,
+    0.03
+   ],
+   "local_size": [
+    0.031,
+    0.022,
+    0.035
+   ],
+   "est_world_size": [
+    3.1,
+    2.2,
+    3.5
+   ],
+   "note": "mesh局部坐标×骨架节点scale 100估算；轴向可能未含根节点旋转，运行时请用Box3归一化"
+  },
+  "size_kb": 1139,
+  "meshes": 6,
+  "materials": 2,
+  "textures": 1,
+  "skinned": true,
+  "joints": 32,
+  "tris": 5369,
+  "suggested_use": "6 灵能/法师(CC-BY需署名)：Spell1/Spell2/Staff_Attack施法动画"
+ },
+ {
+  "file": "animated_woman_nIItLV9nxS.glb",
+  "name": "Animated Woman",
+  "source_url": "https://poly.pizza/m/nIItLV9nxS",
+  "download_url": "https://static.poly.pizza/46d6db5a-3c9f-4238-8cdf-8eb7194498dc.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "animations": [
+   {
+    "name": "CharacterArmature|Death",
+    "duration": 1.333
+   },
+   {
+    "name": "CharacterArmature|Gun_Shoot",
+    "duration": 0.75
+   },
+   {
+    "name": "CharacterArmature|HitRecieve",
+    "duration": 0.708
+   },
+   {
+    "name": "CharacterArmature|HitRecieve_2",
+    "duration": 0.708
+   },
+   {
+    "name": "CharacterArmature|Idle",
+    "duration": 2.083
+   },
+   {
+    "name": "CharacterArmature|Idle_Gun",
+    "duration": 2.083
+   },
+   {
+    "name": "CharacterArmature|Idle_Gun_Pointing",
+    "duration": 2.083
+   },
+   {
+    "name": "CharacterArmature|Idle_Gun_Shoot",
+    "duration": 0.833
+   },
+   {
+    "name": "CharacterArmature|Idle_Neutral",
+    "duration": 2.083
+   },
+   {
+    "name": "CharacterArmature|Idle_Sword",
+    "duration": 2.083
+   },
+   {
+    "name": "CharacterArmature|Interact",
+    "duration": 1.583
+   },
+   {
+    "name": "CharacterArmature|Kick_Left",
+    "duration": 1.167
+   },
+   {
+    "name": "CharacterArmature|Kick_Right",
+    "duration": 1.167
+   },
+   {
+    "name": "CharacterArmature|Punch_Left",
+    "duration": 1.042
+   },
+   {
+    "name": "CharacterArmature|Punch_Right",
+    "duration": 1.042
+   },
+   {
+    "name": "CharacterArmature|Roll",
+    "duration": 1.667
+   },
+   {
+    "name": "CharacterArmature|Run",
+    "duration": 1
+   },
+   {
+    "name": "CharacterArmature|Run_Back",
+    "duration": 1.042
+   },
+   {
+    "name": "CharacterArmature|Run_Left",
+    "duration": 1
+   },
+   {
+    "name": "CharacterArmature|Run_Right",
+    "duration": 1
+   },
+   {
+    "name": "CharacterArmature|Run_Shoot",
+    "duration": 1.042
+   },
+   {
+    "name": "CharacterArmature|Sword_Slash",
+    "duration": 1.292
+   },
+   {
+    "name": "CharacterArmature|Walk",
+    "duration": 1.667
+   },
+   {
+    "name": "CharacterArmature|Wave",
+    "duration": 2.083
+   }
+  ],
+  "bbox": {
+   "local_min": [
+    -0.008,
+    -0.003,
+    0
+   ],
+   "local_max": [
+    0.008,
+    0.001,
+    0.018
+   ],
+   "local_size": [
+    0.016,
+    0.004,
+    0.018
+   ],
+   "est_world_size": [
+    1.6,
+    0.4,
+    1.8
+   ],
+   "note": "mesh局部坐标×骨架节点scale 100估算；轴向可能未含根节点旋转，运行时请用Box3归一化"
+  },
+  "size_kb": 1457,
+  "meshes": 4,
+  "materials": 5,
+  "textures": 0,
+  "skinned": true,
+  "joints": 62,
+  "tris": 6108,
+  "suggested_use": "3 英雄/平民备选人形，Gun动画齐全(character_animated除外)"
+ },
+ {
+  "file": "animated_woman_qJ2gsTUBHL.glb",
+  "name": "Animated Woman",
+  "source_url": "https://poly.pizza/m/qJ2gsTUBHL",
+  "download_url": "https://static.poly.pizza/ba7a1955-ea51-4cb9-a561-188bdef0a6c7.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "animations": [
+   {
+    "name": "CharacterArmature|Death",
+    "duration": 1.333
+   },
+   {
+    "name": "CharacterArmature|Gun_Shoot",
+    "duration": 0.75
+   },
+   {
+    "name": "CharacterArmature|HitRecieve",
+    "duration": 0.708
+   },
+   {
+    "name": "CharacterArmature|HitRecieve_2",
+    "duration": 0.708
+   },
+   {
+    "name": "CharacterArmature|Idle",
+    "duration": 2.083
+   },
+   {
+    "name": "CharacterArmature|Idle_Gun",
+    "duration": 2.083
+   },
+   {
+    "name": "CharacterArmature|Idle_Gun_Pointing",
+    "duration": 2.083
+   },
+   {
+    "name": "CharacterArmature|Idle_Gun_Shoot",
+    "duration": 0.833
+   },
+   {
+    "name": "CharacterArmature|Idle_Neutral",
+    "duration": 2.083
+   },
+   {
+    "name": "CharacterArmature|Idle_Sword",
+    "duration": 2.083
+   },
+   {
+    "name": "CharacterArmature|Interact",
+    "duration": 1.583
+   },
+   {
+    "name": "CharacterArmature|Kick_Left",
+    "duration": 1.167
+   },
+   {
+    "name": "CharacterArmature|Kick_Right",
+    "duration": 1.167
+   },
+   {
+    "name": "CharacterArmature|Punch_Left",
+    "duration": 1.042
+   },
+   {
+    "name": "CharacterArmature|Punch_Right",
+    "duration": 1.042
+   },
+   {
+    "name": "CharacterArmature|Roll",
+    "duration": 1.667
+   },
+   {
+    "name": "CharacterArmature|Run",
+    "duration": 1
+   },
+   {
+    "name": "CharacterArmature|Run_Back",
+    "duration": 1.042
+   },
+   {
+    "name": "CharacterArmature|Run_Left",
+    "duration": 1
+   },
+   {
+    "name": "CharacterArmature|Run_Right",
+    "duration": 1
+   },
+   {
+    "name": "CharacterArmature|Run_Shoot",
+    "duration": 1.042
+   },
+   {
+    "name": "CharacterArmature|Sword_Slash",
+    "duration": 1.292
+   },
+   {
+    "name": "CharacterArmature|Walk",
+    "duration": 1.667
+   },
+   {
+    "name": "CharacterArmature|Wave",
+    "duration": 2.083
+   }
+  ],
+  "bbox": {
+   "local_min": [
+    -0.008,
+    -0.003,
+    0
+   ],
+   "local_max": [
+    0.008,
+    0.001,
+    0.018
+   ],
+   "local_size": [
+    0.017,
+    0.004,
+    0.019
+   ],
+   "est_world_size": [
+    1.7,
+    0.4,
+    1.9
+   ],
+   "note": "mesh局部坐标×骨架节点scale 100估算；轴向可能未含根节点旋转，运行时请用Box3归一化"
+  },
+  "size_kb": 1495,
+  "meshes": 4,
+  "materials": 7,
+  "textures": 0,
+  "skinned": true,
+  "joints": 62,
+  "tris": 6424,
+  "suggested_use": "3 英雄/平民备选人形，Gun动画齐全(character_animated除外)"
+ },
+ {
+  "file": "astronaut_0D54W8yfrA.glb",
+  "name": "Astronaut",
+  "source_url": "https://poly.pizza/m/0D54W8yfrA",
+  "download_url": "https://static.poly.pizza/f06659f2-e505-43df-a3db-84faec811a57.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "animations": [
+   {
+    "name": "CharacterArmature|Death",
+    "duration": 0.75
+   },
+   {
+    "name": "CharacterArmature|Duck",
+    "duration": 1.667
+   },
+   {
+    "name": "CharacterArmature|HitReact",
+    "duration": 0.583
+   },
+   {
+    "name": "CharacterArmature|Idle",
+    "duration": 1
+   },
+   {
+    "name": "CharacterArmature|Idle_Gun",
+    "duration": 1
+   },
+   {
+    "name": "CharacterArmature|Jump",
+    "duration": 0.333
+   },
+   {
+    "name": "CharacterArmature|Jump_Idle",
+    "duration": 0.5
+   },
+   {
+    "name": "CharacterArmature|Jump_Land",
+    "duration": 0.333
+   },
+   {
+    "name": "CharacterArmature|No",
+    "duration": 1.667
+   },
+   {
+    "name": "CharacterArmature|Punch",
+    "duration": 0.833
+   },
+   {
+    "name": "CharacterArmature|Run",
+    "duration": 0.542
+   },
+   {
+    "name": "CharacterArmature|Run_Gun",
+    "duration": 0.542
+   },
+   {
+    "name": "CharacterArmature|Run_Gun_Shoot",
+    "duration": 0.542
+   },
+   {
+    "name": "CharacterArmature|Walk",
+    "duration": 1
+   },
+   {
+    "name": "CharacterArmature|Walk_Gun",
+    "duration": 1
+   },
+   {
+    "name": "CharacterArmature|Wave",
+    "duration": 1.667
+   },
+   {
+    "name": "CharacterArmature|Weapon",
+    "duration": 0.833
+   },
+   {
+    "name": "CharacterArmature|Yes",
+    "duration": 1.667
+   }
+  ],
+  "bbox": {
+   "local_min": [
+    -0.023,
+    -0.01,
+    -0.002
+   ],
+   "local_max": [
+    0.023,
+    0.007,
+    0.027
+   ],
+   "local_size": [
+    0.046,
+    0.017,
+    0.029
+   ],
+   "est_world_size": [
+    4.6,
+    1.7,
+    2.9
+   ],
+   "note": "mesh局部坐标×骨架节点scale 100估算；轴向可能未含根节点旋转，运行时请用Box3归一化"
+  },
+  "size_kb": 716,
+  "meshes": 2,
+  "materials": 2,
+  "textures": 1,
+  "skinned": true,
+  "joints": 43,
+  "tris": 8606,
+  "suggested_use": "1 步兵候选(动物宇航员，偏卡通)，有Idle_Gun/Run_Gun/Run_Gun_Shoot；风格偏萌，备选"
+ },
+ {
+  "file": "astronaut_3hC2i0CTuO.glb",
+  "name": "Astronaut",
+  "source_url": "https://poly.pizza/m/3hC2i0CTuO",
+  "download_url": "https://static.poly.pizza/0076345b-bbea-42d5-931c-4a5ad2050b18.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "animations": [
+   {
+    "name": "CharacterArmature|Death",
+    "duration": 1.042
+   },
+   {
+    "name": "CharacterArmature|Gun_Shoot",
+    "duration": 0.583
+   },
+   {
+    "name": "CharacterArmature|HitRecieve",
+    "duration": 0.542
+   },
+   {
+    "name": "CharacterArmature|HitRecieve_2",
+    "duration": 0.542
+   },
+   {
+    "name": "CharacterArmature|Idle",
+    "duration": 1.667
+   },
+   {
+    "name": "CharacterArmature|Idle_Gun",
+    "duration": 1.667
+   },
+   {
+    "name": "CharacterArmature|Idle_Gun_Pointing",
+    "duration": 1.667
+   },
+   {
+    "name": "CharacterArmature|Idle_Gun_Shoot",
+    "duration": 0.667
+   },
+   {
+    "name": "CharacterArmature|Idle_Neutral",
+    "duration": 1.667
+   },
+   {
+    "name": "CharacterArmature|Idle_Sword",
+    "duration": 1.667
+   },
+   {
+    "name": "CharacterArmature|Interact",
+    "duration": 1.25
+   },
+   {
+    "name": "CharacterArmature|Kick_Left",
+    "duration": 0.917
+   },
+   {
+    "name": "CharacterArmature|Kick_Right",
+    "duration": 0.917
+   },
+   {
+    "name": "CharacterArmature|Punch_Left",
+    "duration": 0.833
+   },
+   {
+    "name": "CharacterArmature|Punch_Right",
+    "duration": 0.833
+   },
+   {
+    "name": "CharacterArmature|Roll",
+    "duration": 1.333
+   },
+   {
+    "name": "CharacterArmature|Run",
+    "duration": 0.792
+   },
+   {
+    "name": "CharacterArmature|Run_Back",
+    "duration": 0.833
+   },
+   {
+    "name": "CharacterArmature|Run_Left",
+    "duration": 0.792
+   },
+   {
+    "name": "CharacterArmature|Run_Right",
+    "duration": 0.792
+   },
+   {
+    "name": "CharacterArmature|Run_Shoot",
+    "duration": 0.833
+   },
+   {
+    "name": "CharacterArmature|Sword_Slash",
+    "duration": 1
+   },
+   {
+    "name": "CharacterArmature|Walk",
+    "duration": 1.333
+   },
+   {
+    "name": "CharacterArmature|Wave",
+    "duration": 1.667
+   }
+  ],
+  "bbox": {
+   "local_min": [
+    -0.008,
+    -0.003,
+    0
+   ],
+   "local_max": [
+    0.008,
+    0.001,
+    0.019
+   ],
+   "local_size": [
+    0.017,
+    0.004,
+    0.019
+   ],
+   "est_world_size": [
+    1.7,
+    0.4,
+    1.9
+   ],
+   "note": "mesh局部坐标×骨架节点scale 100估算；轴向可能未含根节点旋转，运行时请用Box3归一化"
+  },
+  "size_kb": 1899,
+  "meshes": 4,
+  "materials": 5,
+  "textures": 0,
+  "skinned": true,
+  "joints": 62,
+  "tris": 10558,
+  "suggested_use": "1 基础步兵候选(写实比例太空服)，有Idle_Gun/Run_Shoot/Gun_Shoot；需另挂枪模型"
+ },
+ {
+  "file": "astronaut_OgeSH89Nmx.glb",
+  "name": "Astronaut",
+  "source_url": "https://poly.pizza/m/OgeSH89Nmx",
+  "download_url": "https://static.poly.pizza/29010dcf-84c9-4eaf-a874-c44ef3166f55.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "animations": [
+   {
+    "name": "CharacterArmature|Death",
+    "duration": 0.75
+   },
+   {
+    "name": "CharacterArmature|Duck",
+    "duration": 1.667
+   },
+   {
+    "name": "CharacterArmature|HitReact",
+    "duration": 0.583
+   },
+   {
+    "name": "CharacterArmature|Idle",
+    "duration": 1
+   },
+   {
+    "name": "CharacterArmature|Idle_Gun",
+    "duration": 1
+   },
+   {
+    "name": "CharacterArmature|Jump",
+    "duration": 0.333
+   },
+   {
+    "name": "CharacterArmature|Jump_Idle",
+    "duration": 0.5
+   },
+   {
+    "name": "CharacterArmature|Jump_Land",
+    "duration": 0.333
+   },
+   {
+    "name": "CharacterArmature|No",
+    "duration": 1.667
+   },
+   {
+    "name": "CharacterArmature|Punch",
+    "duration": 0.833
+   },
+   {
+    "name": "CharacterArmature|Run",
+    "duration": 0.542
+   },
+   {
+    "name": "CharacterArmature|Run_Gun",
+    "duration": 0.542
+   },
+   {
+    "name": "CharacterArmature|Run_Gun_Shoot",
+    "duration": 0.542
+   },
+   {
+    "name": "CharacterArmature|Walk",
+    "duration": 1
+   },
+   {
+    "name": "CharacterArmature|Walk_Gun",
+    "duration": 1
+   },
+   {
+    "name": "CharacterArmature|Wave",
+    "duration": 1.667
+   },
+   {
+    "name": "CharacterArmature|Weapon",
+    "duration": 0.833
+   },
+   {
+    "name": "CharacterArmature|Yes",
+    "duration": 1.667
+   }
+  ],
+  "bbox": {
+   "local_min": [
+    -0.023,
+    -0.01,
+    -0.002
+   ],
+   "local_max": [
+    0.023,
+    0.007,
+    0.028
+   ],
+   "local_size": [
+    0.046,
+    0.017,
+    0.03
+   ],
+   "est_world_size": [
+    4.6,
+    1.7,
+    3
+   ],
+   "note": "mesh局部坐标×骨架节点scale 100估算；轴向可能未含根节点旋转，运行时请用Box3归一化"
+  },
+  "size_kb": 738,
+  "meshes": 2,
+  "materials": 2,
+  "textures": 1,
+  "skinned": true,
+  "joints": 43,
+  "tris": 8562,
+  "suggested_use": "1 步兵候选(动物宇航员，偏卡通)，有Idle_Gun/Run_Gun/Run_Gun_Shoot；风格偏萌，备选"
+ },
+ {
+  "file": "astronaut_zbtPq4dOJL.glb",
+  "name": "Astronaut",
+  "source_url": "https://poly.pizza/m/zbtPq4dOJL",
+  "download_url": "https://static.poly.pizza/9cd2d5d8-953d-4aee-8e46-f72b12ff5855.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "animations": [
+   {
+    "name": "CharacterArmature|Death",
+    "duration": 0.75
+   },
+   {
+    "name": "CharacterArmature|Duck",
+    "duration": 1.667
+   },
+   {
+    "name": "CharacterArmature|HitReact",
+    "duration": 0.583
+   },
+   {
+    "name": "CharacterArmature|Idle",
+    "duration": 1
+   },
+   {
+    "name": "CharacterArmature|Idle_Gun",
+    "duration": 1
+   },
+   {
+    "name": "CharacterArmature|Jump",
+    "duration": 0.333
+   },
+   {
+    "name": "CharacterArmature|Jump_Idle",
+    "duration": 0.5
+   },
+   {
+    "name": "CharacterArmature|Jump_Land",
+    "duration": 0.333
+   },
+   {
+    "name": "CharacterArmature|No",
+    "duration": 1.667
+   },
+   {
+    "name": "CharacterArmature|Punch",
+    "duration": 0.833
+   },
+   {
+    "name": "CharacterArmature|Run",
+    "duration": 0.542
+   },
+   {
+    "name": "CharacterArmature|Run_Gun",
+    "duration": 0.542
+   },
+   {
+    "name": "CharacterArmature|Run_Gun_Shoot",
+    "duration": 0.542
+   },
+   {
+    "name": "CharacterArmature|Walk",
+    "duration": 1
+   },
+   {
+    "name": "CharacterArmature|Walk_Gun",
+    "duration": 1
+   },
+   {
+    "name": "CharacterArmature|Wave",
+    "duration": 1.667
+   },
+   {
+    "name": "CharacterArmature|Weapon",
+    "duration": 0.833
+   },
+   {
+    "name": "CharacterArmature|Yes",
+    "duration": 1.667
+   }
+  ],
+  "bbox": {
+   "local_min": [
+    -0.023,
+    -0.01,
+    -0.002
+   ],
+   "local_max": [
+    0.023,
+    0.007,
+    0.028
+   ],
+   "local_size": [
+    0.046,
+    0.017,
+    0.03
+   ],
+   "est_world_size": [
+    4.6,
+    1.7,
+    3
+   ],
+   "note": "mesh局部坐标×骨架节点scale 100估算；轴向可能未含根节点旋转，运行时请用Box3归一化"
+  },
+  "size_kb": 685,
+  "meshes": 2,
+  "materials": 2,
+  "textures": 1,
+  "skinned": true,
+  "joints": 43,
+  "tris": 7938,
+  "suggested_use": "1 步兵候选(动物宇航员，偏卡通)，有Idle_Gun/Run_Gun/Run_Gun_Shoot；风格偏萌，备选"
+ },
+ {
+  "file": "character_animated_DgOCW9ZCRJ.glb",
+  "name": "Character Animated",
+  "source_url": "https://poly.pizza/m/DgOCW9ZCRJ",
+  "download_url": "https://static.poly.pizza/1a8a9d55-9aa9-43c4-a031-d926e251d80a.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "animations": [
+   {
+    "name": "Attacking_Idle",
+    "duration": 1.667
+   },
+   {
+    "name": "Dagger_Attack",
+    "duration": 0.75
+   },
+   {
+    "name": "Dagger_Attack2",
+    "duration": 1.25
+   },
+   {
+    "name": "Death",
+    "duration": 1.167
+   },
+   {
+    "name": "PickUp",
+    "duration": 1.25
+   },
+   {
+    "name": "Punch",
+    "duration": 0.75
+   },
+   {
+    "name": "RecieveHit",
+    "duration": 0.625
+   },
+   {
+    "name": "RecieveHit_Attacking",
+    "duration": 0.625
+   },
+   {
+    "name": "Roll",
+    "duration": 1
+   },
+   {
+    "name": "Run",
+    "duration": 0.875
+   },
+   {
+    "name": "Walk",
+    "duration": 1.25
+   },
+   {
+    "name": "Idle",
+    "duration": 3.125
+   },
+   {
+    "name": "CharacterArmature|Attacking_Idle",
+    "duration": 1.667
+   },
+   {
+    "name": "CharacterArmature|Dagger_Attack",
+    "duration": 0.75
+   },
+   {
+    "name": "CharacterArmature|Dagger_Attack2",
+    "duration": 1.25
+   },
+   {
+    "name": "CharacterArmature|Death",
+    "duration": 1.167
+   },
+   {
+    "name": "CharacterArmature|Idle",
+    "duration": 3.125
+   },
+   {
+    "name": "CharacterArmature|PickUp",
+    "duration": 1.25
+   },
+   {
+    "name": "CharacterArmature|Punch",
+    "duration": 0.75
+   },
+   {
+    "name": "CharacterArmature|RecieveHit",
+    "duration": 0.625
+   },
+   {
+    "name": "CharacterArmature|RecieveHit_Attacking",
+    "duration": 0.625
+   },
+   {
+    "name": "CharacterArmature|Roll",
+    "duration": 1
+   },
+   {
+    "name": "CharacterArmature|Run",
+    "duration": 0.875
+   },
+   {
+    "name": "CharacterArmature|Walk",
+    "duration": 1.25
+   }
+  ],
+  "bbox": {
+   "local_min": [
+    -0.014,
+    -0.004,
+    0
+   ],
+   "local_max": [
+    0.014,
+    0.006,
+    0.029
+   ],
+   "local_size": [
+    0.029,
+    0.011,
+    0.029
+   ],
+   "est_world_size": [
+    2.9,
+    1.1,
+    2.9
+   ],
+   "note": "mesh局部坐标×骨架节点scale 100估算；轴向可能未含根节点旋转，运行时请用Box3归一化"
+  },
+  "size_kb": 645,
+  "meshes": 3,
+  "materials": 11,
+  "textures": 0,
+  "skinned": true,
+  "joints": 31,
+  "tris": 6050,
+  "suggested_use": "3 英雄/平民备选人形，Gun动画齐全(character_animated除外)"
+ },
+ {
+  "file": "character_enemy_mdGe4IN31v.glb",
+  "name": "Character Enemy",
+  "source_url": "https://poly.pizza/m/mdGe4IN31v",
+  "download_url": "https://static.poly.pizza/6d2fe602-2adf-43d2-aa20-00e68165497d.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "animations": [
+   {
+    "name": "Idle",
+    "duration": 1.667
+   },
+   {
+    "name": "Death",
+    "duration": 0.75
+   },
+   {
+    "name": "Duck",
+    "duration": 1.667
+   },
+   {
+    "name": "HitReact",
+    "duration": 0.417
+   },
+   {
+    "name": "Idle_Shoot",
+    "duration": 0.333
+   },
+   {
+    "name": "Jump",
+    "duration": 0.292
+   },
+   {
+    "name": "Jump_Idle",
+    "duration": 1
+   },
+   {
+    "name": "Jump_Land",
+    "duration": 0.417
+   },
+   {
+    "name": "No",
+    "duration": 1.667
+   },
+   {
+    "name": "Punch",
+    "duration": 0.833
+   },
+   {
+    "name": "Run",
+    "duration": 0.708
+   },
+   {
+    "name": "Run_Gun",
+    "duration": 0.708
+   },
+   {
+    "name": "Run_Shoot",
+    "duration": 0.708
+   },
+   {
+    "name": "Walk",
+    "duration": 1
+   },
+   {
+    "name": "Walk_Shoot",
+    "duration": 1
+   },
+   {
+    "name": "Wave",
+    "duration": 1.667
+   },
+   {
+    "name": "Yes",
+    "duration": 1.667
+   },
+   {
+    "name": "CharacterArmature|Death",
+    "duration": 0.75
+   },
+   {
+    "name": "CharacterArmature|Duck",
+    "duration": 1.667
+   },
+   {
+    "name": "CharacterArmature|HitReact",
+    "duration": 0.417
+   },
+   {
+    "name": "CharacterArmature|Idle",
+    "duration": 1.667
+   },
+   {
+    "name": "CharacterArmature|Idle_Shoot",
+    "duration": 0.333
+   },
+   {
+    "name": "CharacterArmature|Jump",
+    "duration": 0.292
+   },
+   {
+    "name": "CharacterArmature|Jump_Idle",
+    "duration": 1
+   },
+   {
+    "name": "CharacterArmature|Jump_Land",
+    "duration": 0.417
+   },
+   {
+    "name": "CharacterArmature|No",
+    "duration": 1.667
+   },
+   {
+    "name": "CharacterArmature|Punch",
+    "duration": 0.833
+   },
+   {
+    "name": "CharacterArmature|Run",
+    "duration": 0.708
+   },
+   {
+    "name": "CharacterArmature|Run_Gun",
+    "duration": 0.708
+   },
+   {
+    "name": "CharacterArmature|Run_Shoot",
+    "duration": 0.708
+   },
+   {
+    "name": "CharacterArmature|Walk",
+    "duration": 1
+   },
+   {
+    "name": "CharacterArmature|Walk_Shoot",
+    "duration": 1
+   },
+   {
+    "name": "CharacterArmature|Wave",
+    "duration": 1.667
+   },
+   {
+    "name": "CharacterArmature|Yes",
+    "duration": 1.667
+   }
+  ],
+  "bbox": {
+   "local_min": [
+    -0.025,
+    -0.011,
+    -0.017
+   ],
+   "local_max": [
+    0.074,
+    0.011,
+    0.067
+   ],
+   "local_size": [
+    0.099,
+    0.023,
+    0.083
+   ],
+   "est_world_size": [
+    9.9,
+    2.3,
+    8.3
+   ],
+   "note": "mesh局部坐标×骨架节点scale 100估算；轴向可能未含根节点旋转，运行时请用Box3归一化"
+  },
+  "size_kb": 1516,
+  "meshes": 16,
+  "materials": 17,
+  "textures": 0,
+  "skinned": true,
+  "joints": 43,
+  "tris": 19478,
+  "suggested_use": "1/2 步兵变体(红盔)：可染色当精英步兵/爆破兵，动画同hazmat"
+ },
+ {
+  "file": "character_hazmat_z3TSQYx1Kn.glb",
+  "name": "Character Hazmat",
+  "source_url": "https://poly.pizza/m/z3TSQYx1Kn",
+  "download_url": "https://static.poly.pizza/484450a4-b76c-4e76-95d2-352337bb41e8.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "animations": [
+   {
+    "name": "CharacterArmature|Death",
+    "duration": 0.75
+   },
+   {
+    "name": "CharacterArmature|Duck",
+    "duration": 1.667
+   },
+   {
+    "name": "CharacterArmature|HitReact",
+    "duration": 0.417
+   },
+   {
+    "name": "CharacterArmature|Idle",
+    "duration": 1.667
+   },
+   {
+    "name": "CharacterArmature|Idle_Shoot",
+    "duration": 0.333
+   },
+   {
+    "name": "CharacterArmature|Jump",
+    "duration": 0.292
+   },
+   {
+    "name": "CharacterArmature|Jump_Idle",
+    "duration": 1
+   },
+   {
+    "name": "CharacterArmature|Jump_Land",
+    "duration": 0.417
+   },
+   {
+    "name": "CharacterArmature|No",
+    "duration": 1.667
+   },
+   {
+    "name": "CharacterArmature|Punch",
+    "duration": 0.833
+   },
+   {
+    "name": "CharacterArmature|Run",
+    "duration": 0.708
+   },
+   {
+    "name": "CharacterArmature|Run_Gun",
+    "duration": 0.708
+   },
+   {
+    "name": "CharacterArmature|Run_Shoot",
+    "duration": 0.708
+   },
+   {
+    "name": "CharacterArmature|Walk",
+    "duration": 1
+   },
+   {
+    "name": "CharacterArmature|Walk_Shoot",
+    "duration": 1
+   },
+   {
+    "name": "CharacterArmature|Wave",
+    "duration": 1.667
+   },
+   {
+    "name": "CharacterArmature|Yes",
+    "duration": 1.667
+   }
+  ],
+  "bbox": {
+   "local_min": [
+    -0.025,
+    -0.011,
+    -0.017
+   ],
+   "local_max": [
+    0.074,
+    0.011,
+    0.067
+   ],
+   "local_size": [
+    0.099,
+    0.023,
+    0.083
+   ],
+   "est_world_size": [
+    9.9,
+    2.3,
+    8.3
+   ],
+   "note": "mesh局部坐标×骨架节点scale 100估算；轴向可能未含根节点旋转，运行时请用Box3归一化"
+  },
+  "size_kb": 1369,
+  "meshes": 16,
+  "materials": 15,
+  "textures": 0,
+  "skinned": true,
+  "joints": 43,
+  "tris": 20346,
+  "suggested_use": "2 喷火兵/重装步兵(首选)：防化服持枪，有Run_Shoot/Idle_Shoot/Walk_Shoot"
+ },
+ {
+  "file": "character_soldier_PpLF4rt4ah.glb",
+  "name": "Character Soldier",
+  "source_url": "https://poly.pizza/m/PpLF4rt4ah",
+  "download_url": "https://static.poly.pizza/1083c1d3-d1d4-4682-adf6-bc516d06ac84.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "animations": [
+   {
+    "name": "CharacterArmature|Death",
+    "duration": 0.75
+   },
+   {
+    "name": "CharacterArmature|Duck",
+    "duration": 1.667
+   },
+   {
+    "name": "CharacterArmature|HitReact",
+    "duration": 0.417
+   },
+   {
+    "name": "CharacterArmature|Idle",
+    "duration": 1.667
+   },
+   {
+    "name": "CharacterArmature|Idle_Shoot",
+    "duration": 0.333
+   },
+   {
+    "name": "CharacterArmature|Jump",
+    "duration": 0.292
+   },
+   {
+    "name": "CharacterArmature|Jump_Idle",
+    "duration": 1
+   },
+   {
+    "name": "CharacterArmature|Jump_Land",
+    "duration": 0.417
+   },
+   {
+    "name": "CharacterArmature|No",
+    "duration": 1.667
+   },
+   {
+    "name": "CharacterArmature|Punch",
+    "duration": 0.833
+   },
+   {
+    "name": "CharacterArmature|Run",
+    "duration": 0.708
+   },
+   {
+    "name": "CharacterArmature|Run_Gun",
+    "duration": 0.708
+   },
+   {
+    "name": "CharacterArmature|Wave",
+    "duration": 1.667
+   },
+   {
+    "name": "CharacterArmature|Yes",
+    "duration": 1.667
+   }
+  ],
+  "bbox": {
+   "local_min": [
+    -0.025,
+    -0.011,
+    -0.017
+   ],
+   "local_max": [
+    0.074,
+    0.011,
+    0.067
+   ],
+   "local_size": [
+    0.099,
+    0.023,
+    0.083
+   ],
+   "est_world_size": [
+    9.9,
+    2.3,
+    8.3
+   ],
+   "note": "mesh局部坐标×骨架节点scale 100估算；轴向可能未含根节点旋转，运行时请用Box3归一化"
+  },
+  "size_kb": 1302,
+  "meshes": 18,
+  "materials": 14,
+  "textures": 0,
+  "skinned": true,
+  "joints": 43,
+  "tris": 20712,
+  "suggested_use": "1 基础步兵(首选)：Q版持枪士兵，自带枪械mesh；Idle/Run_Gun/Idle_Shoot缺Run_Shoot，用Run_Gun+枪口火光"
+ },
+ {
+  "file": "characters_matt_66kQ4dBBC7.glb",
+  "name": "Characters Matt",
+  "source_url": "https://poly.pizza/m/66kQ4dBBC7",
+  "download_url": "https://static.poly.pizza/1e87091b-7202-4906-bd14-22881d9b945c.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "animations": [
+   {
+    "name": "CharacterArmature|Death",
+    "duration": 0.75
+   },
+   {
+    "name": "CharacterArmature|Duck",
+    "duration": 1.667
+   },
+   {
+    "name": "CharacterArmature|HitReact",
+    "duration": 0.583
+   },
+   {
+    "name": "CharacterArmature|Idle",
+    "duration": 1
+   },
+   {
+    "name": "CharacterArmature|Idle_Gun",
+    "duration": 1
+   },
+   {
+    "name": "CharacterArmature|Jump",
+    "duration": 0.333
+   },
+   {
+    "name": "CharacterArmature|Jump_Idle",
+    "duration": 0.5
+   },
+   {
+    "name": "CharacterArmature|Jump_Land",
+    "duration": 0.333
+   },
+   {
+    "name": "CharacterArmature|No",
+    "duration": 1.667
+   },
+   {
+    "name": "CharacterArmature|Punch",
+    "duration": 0.75
+   },
+   {
+    "name": "CharacterArmature|Run",
+    "duration": 0.708
+   },
+   {
+    "name": "CharacterArmature|Run_Gun",
+    "duration": 0.708
+   },
+   {
+    "name": "CharacterArmature|Run_Slash",
+    "duration": 0.708
+   },
+   {
+    "name": "CharacterArmature|Run_Stab",
+    "duration": 0.708
+   },
+   {
+    "name": "CharacterArmature|Slash",
+    "duration": 0.833
+   },
+   {
+    "name": "CharacterArmature|Stab",
+    "duration": 0.833
+   },
+   {
+    "name": "CharacterArmature|Walk",
+    "duration": 1
+   },
+   {
+    "name": "CharacterArmature|Walk_Gun",
+    "duration": 1
+   },
+   {
+    "name": "CharacterArmature|Wave",
+    "duration": 1.667
+   },
+   {
+    "name": "CharacterArmature|Yes",
+    "duration": 1.667
+   }
+  ],
+  "bbox": {
+   "local_min": [
+    -0.01,
+    -0.007,
+    0
+   ],
+   "local_max": [
+    0.01,
+    0.004,
+    0.015
+   ],
+   "local_size": [
+    0.02,
+    0.011,
+    0.015
+   ],
+   "est_world_size": [
+    2,
+    1.1,
+    1.5
+   ],
+   "note": "mesh局部坐标×骨架节点scale 100估算；轴向可能未含根节点旋转，运行时请用Box3归一化"
+  },
+  "size_kb": 650,
+  "meshes": 2,
+  "materials": 2,
+  "textures": 1,
+  "skinned": true,
+  "joints": 43,
+  "tris": 7070,
+  "suggested_use": "1/3 Q版持武器人形备选(偏休闲风)，有Idle_Gun/Run_Gun"
+ },
+ {
+  "file": "characters_sam_UcLErL2W37.glb",
+  "name": "Characters Sam",
+  "source_url": "https://poly.pizza/m/UcLErL2W37",
+  "download_url": "https://static.poly.pizza/2d0ad9ee-2e86-4b0c-b20e-cfc8c80c8c78.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "animations": [
+   {
+    "name": "CharacterArmature|Death",
+    "duration": 0.75
+   },
+   {
+    "name": "CharacterArmature|Duck",
+    "duration": 1.667
+   },
+   {
+    "name": "CharacterArmature|HitReact",
+    "duration": 0.583
+   },
+   {
+    "name": "CharacterArmature|Idle",
+    "duration": 1
+   },
+   {
+    "name": "CharacterArmature|Idle_Gun",
+    "duration": 1
+   },
+   {
+    "name": "CharacterArmature|Jump",
+    "duration": 0.333
+   },
+   {
+    "name": "CharacterArmature|Jump_Idle",
+    "duration": 0.5
+   },
+   {
+    "name": "CharacterArmature|Jump_Land",
+    "duration": 0.333
+   },
+   {
+    "name": "CharacterArmature|No",
+    "duration": 1.667
+   },
+   {
+    "name": "CharacterArmature|Punch",
+    "duration": 0.75
+   },
+   {
+    "name": "CharacterArmature|Run",
+    "duration": 0.708
+   },
+   {
+    "name": "CharacterArmature|Run_Gun",
+    "duration": 0.708
+   },
+   {
+    "name": "CharacterArmature|Run_Slash",
+    "duration": 0.708
+   },
+   {
+    "name": "CharacterArmature|Run_Stab",
+    "duration": 0.708
+   },
+   {
+    "name": "CharacterArmature|Slash",
+    "duration": 0.833
+   },
+   {
+    "name": "CharacterArmature|Stab",
+    "duration": 0.833
+   },
+   {
+    "name": "CharacterArmature|Walk",
+    "duration": 1
+   },
+   {
+    "name": "CharacterArmature|Walk_Gun",
+    "duration": 1
+   },
+   {
+    "name": "CharacterArmature|Wave",
+    "duration": 1.667
+   },
+   {
+    "name": "CharacterArmature|Yes",
+    "duration": 1.667
+   }
+  ],
+  "bbox": {
+   "local_min": [
+    -0.01,
+    -0.01,
+    0
+   ],
+   "local_max": [
+    0.01,
+    0.004,
+    0.015
+   ],
+   "local_size": [
+    0.02,
+    0.014,
+    0.016
+   ],
+   "est_world_size": [
+    2,
+    1.4,
+    1.6
+   ],
+   "note": "mesh局部坐标×骨架节点scale 100估算；轴向可能未含根节点旋转，运行时请用Box3归一化"
+  },
+  "size_kb": 717,
+  "meshes": 2,
+  "materials": 2,
+  "textures": 1,
+  "skinned": true,
+  "joints": 43,
+  "tris": 9636,
+  "suggested_use": "1/3 Q版持武器人形备选(偏休闲风)，有Idle_Gun/Run_Gun"
+ },
+ {
+  "file": "characters_shaun_eJFT9MxzOM.glb",
+  "name": "Characters Shaun",
+  "source_url": "https://poly.pizza/m/eJFT9MxzOM",
+  "download_url": "https://static.poly.pizza/c8ecc219-6a19-4fd1-ae1a-6ceeda529eaf.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "animations": [
+   {
+    "name": "CharacterArmature|Death",
+    "duration": 0.75
+   },
+   {
+    "name": "CharacterArmature|Duck",
+    "duration": 1.667
+   },
+   {
+    "name": "CharacterArmature|HitReact",
+    "duration": 0.583
+   },
+   {
+    "name": "CharacterArmature|Idle",
+    "duration": 1
+   },
+   {
+    "name": "CharacterArmature|Idle_Gun",
+    "duration": 1
+   },
+   {
+    "name": "CharacterArmature|Jump",
+    "duration": 0.333
+   },
+   {
+    "name": "CharacterArmature|Jump_Idle",
+    "duration": 0.5
+   },
+   {
+    "name": "CharacterArmature|Jump_Land",
+    "duration": 0.333
+   },
+   {
+    "name": "CharacterArmature|No",
+    "duration": 1.667
+   },
+   {
+    "name": "CharacterArmature|Punch",
+    "duration": 0.75
+   },
+   {
+    "name": "CharacterArmature|Run",
+    "duration": 0.708
+   },
+   {
+    "name": "CharacterArmature|Run_Gun",
+    "duration": 0.708
+   },
+   {
+    "name": "CharacterArmature|Run_Slash",
+    "duration": 0.708
+   },
+   {
+    "name": "CharacterArmature|Run_Stab",
+    "duration": 0.708
+   },
+   {
+    "name": "CharacterArmature|Slash",
+    "duration": 0.833
+   },
+   {
+    "name": "CharacterArmature|Stab",
+    "duration": 0.833
+   },
+   {
+    "name": "CharacterArmature|Walk",
+    "duration": 1
+   },
+   {
+    "name": "CharacterArmature|Walk_Gun",
+    "duration": 1
+   },
+   {
+    "name": "CharacterArmature|Wave",
+    "duration": 1.667
+   },
+   {
+    "name": "CharacterArmature|Yes",
+    "duration": 1.667
+   }
+  ],
+  "bbox": {
+   "local_min": [
+    -0.01,
+    -0.01,
+    -0.001
+   ],
+   "local_max": [
+    0.01,
+    0.006,
+    0.015
+   ],
+   "local_size": [
+    0.02,
+    0.016,
+    0.016
+   ],
+   "est_world_size": [
+    2,
+    1.6,
+    1.6
+   ],
+   "note": "mesh局部坐标×骨架节点scale 100估算；轴向可能未含根节点旋转，运行时请用Box3归一化"
+  },
+  "size_kb": 840,
+  "meshes": 2,
+  "materials": 2,
+  "textures": 1,
+  "skinned": true,
+  "joints": 43,
+  "tris": 10758,
+  "suggested_use": "1/3 Q版持武器人形备选(偏休闲风)，有Idle_Gun/Run_Gun"
+ },
+ {
+  "file": "hooded_adventurer_y9KWOVG21R.glb",
+  "name": "Hooded Adventurer",
+  "source_url": "https://poly.pizza/m/y9KWOVG21R",
+  "download_url": "https://static.poly.pizza/3186b8e9-afd5-4d48-846c-b2b530cd23e2.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "animations": [
+   {
+    "name": "CharacterArmature|Death",
+    "duration": 1.333
+   },
+   {
+    "name": "CharacterArmature|Gun_Shoot",
+    "duration": 0.75
+   },
+   {
+    "name": "CharacterArmature|HitRecieve",
+    "duration": 0.708
+   },
+   {
+    "name": "CharacterArmature|HitRecieve_2",
+    "duration": 0.708
+   },
+   {
+    "name": "CharacterArmature|Idle",
+    "duration": 2.083
+   },
+   {
+    "name": "CharacterArmature|Idle_Gun",
+    "duration": 2.083
+   },
+   {
+    "name": "CharacterArmature|Idle_Gun_Pointing",
+    "duration": 2.083
+   },
+   {
+    "name": "CharacterArmature|Idle_Gun_Shoot",
+    "duration": 0.833
+   },
+   {
+    "name": "CharacterArmature|Idle_Neutral",
+    "duration": 2.083
+   },
+   {
+    "name": "CharacterArmature|Idle_Sword",
+    "duration": 2.083
+   },
+   {
+    "name": "CharacterArmature|Interact",
+    "duration": 1.583
+   },
+   {
+    "name": "CharacterArmature|Kick_Left",
+    "duration": 1.167
+   },
+   {
+    "name": "CharacterArmature|Kick_Right",
+    "duration": 1.167
+   },
+   {
+    "name": "CharacterArmature|Punch_Left",
+    "duration": 1.042
+   },
+   {
+    "name": "CharacterArmature|Punch_Right",
+    "duration": 1.042
+   },
+   {
+    "name": "CharacterArmature|Roll",
+    "duration": 1.667
+   },
+   {
+    "name": "CharacterArmature|Run",
+    "duration": 1
+   },
+   {
+    "name": "CharacterArmature|Run_Back",
+    "duration": 1.042
+   },
+   {
+    "name": "CharacterArmature|Run_Left",
+    "duration": 1
+   },
+   {
+    "name": "CharacterArmature|Run_Right",
+    "duration": 1
+   },
+   {
+    "name": "CharacterArmature|Run_Shoot",
+    "duration": 1.042
+   },
+   {
+    "name": "CharacterArmature|Sword_Slash",
+    "duration": 1.292
+   },
+   {
+    "name": "CharacterArmature|Walk",
+    "duration": 1.667
+   },
+   {
+    "name": "CharacterArmature|Wave",
+    "duration": 2.083
+   }
+  ],
+  "bbox": {
+   "local_min": [
+    -0.008,
+    -0.007,
+    0
+   ],
+   "local_max": [
+    0.008,
+    0.001,
+    0.019
+   ],
+   "local_size": [
+    0.016,
+    0.009,
+    0.019
+   ],
+   "est_world_size": [
+    1.6,
+    0.9,
+    1.9
+   ],
+   "note": "mesh局部坐标×骨架节点scale 100估算；轴向可能未含根节点旋转，运行时请用Box3归一化"
+  },
+  "size_kb": 1561,
+  "meshes": 5,
+  "materials": 11,
+  "textures": 0,
+  "skinned": true,
+  "joints": 62,
+  "tris": 7276,
+  "suggested_use": "3/6 灵能者/英雄候选：兜帽人形，Gun+Sword动画"
+ },
+ {
+  "file": "kaykit_knight.glb",
+  "name": "KayKit Knight",
+  "source_url": "https://github.com/KayKit-Game-Assets/KayKit-Character-Pack-Adventures-1.0",
+  "download_url": "https://raw.githubusercontent.com/KayKit-Game-Assets/KayKit-Character-Pack-Adventures-1.0/main/addons/kaykit_character_pack_adventures/Characters/gltf/Knight.glb",
+  "author": "Kay Lousberg (KayKit)",
+  "license": "CC0 1.0",
+  "animations": [
+   {
+    "name": "1H_Melee_Attack_Chop",
+    "duration": 1.067
+   },
+   {
+    "name": "1H_Melee_Attack_Slice_Diagonal",
+    "duration": 1
+   },
+   {
+    "name": "1H_Melee_Attack_Slice_Horizontal",
+    "duration": 1.067
+   },
+   {
+    "name": "1H_Melee_Attack_Stab",
+    "duration": 1.6
+   },
+   {
+    "name": "1H_Ranged_Aiming",
+    "duration": 1.067
+   },
+   {
+    "name": "1H_Ranged_Reload",
+    "duration": 1.167
+   },
+   {
+    "name": "1H_Ranged_Shoot",
+    "duration": 1.067
+   },
+   {
+    "name": "1H_Ranged_Shooting",
+    "duration": 1.6
+   },
+   {
+    "name": "2H_Melee_Attack_Chop",
+    "duration": 1.633
+   },
+   {
+    "name": "2H_Melee_Attack_Slice",
+    "duration": 1.1
+   },
+   {
+    "name": "2H_Melee_Attack_Spin",
+    "duration": 2.4
+   },
+   {
+    "name": "2H_Melee_Attack_Spinning",
+    "duration": 0.667
+   },
+   {
+    "name": "2H_Melee_Attack_Stab",
+    "duration": 1.6
+   },
+   {
+    "name": "2H_Melee_Idle",
+    "duration": 1.067
+   },
+   {
+    "name": "2H_Ranged_Aiming",
+    "duration": 1.6
+   },
+   {
+    "name": "2H_Ranged_Reload",
+    "duration": 1.6
+   },
+   {
+    "name": "2H_Ranged_Shoot",
+    "duration": 1.067
+   },
+   {
+    "name": "2H_Ranged_Shooting",
+    "duration": 1.067
+   },
+   {
+    "name": "Block",
+    "duration": 1.067
+   },
+   {
+    "name": "Block_Attack",
+    "duration": 1.067
+   },
+   {
+    "name": "Block_Hit",
+    "duration": 1.067
+   },
+   {
+    "name": "Blocking",
+    "duration": 1.067
+   },
+   {
+    "name": "Cheer",
+    "duration": 1.667
+   },
+   {
+    "name": "Death_A",
+    "duration": 0.8
+   },
+   {
+    "name": "Death_A_Pose",
+    "duration": 0
+   },
+   {
+    "name": "Death_B",
+    "duration": 2.633
+   },
+   {
+    "name": "Death_B_Pose",
+    "duration": 0
+   },
+   {
+    "name": "Dodge_Backward",
+    "duration": 0.4
+   },
+   {
+    "name": "Dodge_Forward",
+    "duration": 0.4
+   },
+   {
+    "name": "Dodge_Left",
+    "duration": 0.4
+   },
+   {
+    "name": "Dodge_Right",
+    "duration": 0.4
+   },
+   {
+    "name": "Dualwield_Melee_Attack_Chop",
+    "duration": 1.267
+   },
+   {
+    "name": "Dualwield_Melee_Attack_Slice",
+    "duration": 1.167
+   },
+   {
+    "name": "Dualwield_Melee_Attack_Stab",
+    "duration": 1.6
+   },
+   {
+    "name": "Hit_A",
+    "duration": 0.667
+   },
+   {
+    "name": "Hit_B",
+    "duration": 0.867
+   },
+   {
+    "name": "Idle",
+    "duration": 1.067
+   },
+   {
+    "name": "Interact",
+    "duration": 1.3
+   },
+   {
+    "name": "Jump_Full_Long",
+    "duration": 2.333
+   },
+   {
+    "name": "Jump_Full_Short",
+    "duration": 1.167
+   },
+   {
+    "name": "Jump_Idle",
+    "duration": 1.067
+   },
+   {
+    "name": "Jump_Land",
+    "duration": 0.667
+   },
+   {
+    "name": "Jump_Start",
+    "duration": 0.6
+   },
+   {
+    "name": "Lie_Down",
+    "duration": 3
+   },
+   {
+    "name": "Lie_Idle",
+    "duration": 2.667
+   },
+   {
+    "name": "Lie_Pose",
+    "duration": 0
+   },
+   {
+    "name": "Lie_StandUp",
+    "duration": 2.333
+   },
+   {
+    "name": "PickUp",
+    "duration": 1.3
+   },
+   {
+    "name": "Running_A",
+    "duration": 0.8
+   },
+   {
+    "name": "Running_B",
+    "duration": 1.067
+   },
+   {
+    "name": "Running_Strafe_Left",
+    "duration": 0.8
+   },
+   {
+    "name": "Running_Strafe_Right",
+    "duration": 0.8
+   },
+   {
+    "name": "Sit_Chair_Down",
+    "duration": 0.8
+   },
+   {
+    "name": "Sit_Chair_Idle",
+    "duration": 3.6
+   },
+   {
+    "name": "Sit_Chair_Pose",
+    "duration": 0
+   },
+   {
+    "name": "Sit_Chair_StandUp",
+    "duration": 0.8
+   },
+   {
+    "name": "Sit_Floor_Down",
+    "duration": 1
+   },
+   {
+    "name": "Sit_Floor_Idle",
+    "duration": 4
+   },
+   {
+    "name": "Sit_Floor_Pose",
+    "duration": 0
+   },
+   {
+    "name": "Sit_Floor_StandUp",
+    "duration": 1.133
+   },
+   {
+    "name": "Spellcast_Long",
+    "duration": 2.533
+   },
+   {
+    "name": "Spellcast_Raise",
+    "duration": 2.1
+   },
+   {
+    "name": "Spellcast_Shoot",
+    "duration": 0.933
+   },
+   {
+    "name": "Spellcasting",
+    "duration": 0.667
+   },
+   {
+    "name": "T-Pose",
+    "duration": 0
+   },
+   {
+    "name": "Throw",
+    "duration": 1.367
+   },
+   {
+    "name": "Unarmed_Idle",
+    "duration": 1.067
+   },
+   {
+    "name": "Unarmed_Melee_Attack_Kick",
+    "duration": 0.933
+   },
+   {
+    "name": "Unarmed_Melee_Attack_Punch_A",
+    "duration": 1.467
+   },
+   {
+    "name": "Unarmed_Melee_Attack_Punch_B",
+    "duration": 1.667
+   },
+   {
+    "name": "Unarmed_Pose",
+    "duration": 0
+   },
+   {
+    "name": "Use_Item",
+    "duration": 1.6
+   },
+   {
+    "name": "Walking_A",
+    "duration": 1.067
+   },
+   {
+    "name": "Walking_B",
+    "duration": 1.067
+   },
+   {
+    "name": "Walking_Backwards",
+    "duration": 1.067
+   },
+   {
+    "name": "Walking_C",
+    "duration": 1.6
+   }
+  ],
+  "bbox": {
+   "local_min": [
+    -0.971,
+    -1.122,
+    -0.542
+   ],
+   "local_max": [
+    0.971,
+    2.315,
+    0.711
+   ],
+   "local_size": [
+    1.943,
+    3.436,
+    1.254
+   ],
+   "est_world_size": [
+    1.94,
+    3.44,
+    1.25
+   ],
+   "note": "局部坐标，运行时请用Box3归一化"
+  },
+  "size_kb": 3574,
+  "meshes": 15,
+  "materials": 1,
+  "textures": 1,
+  "skinned": true,
+  "joints": 41,
+  "tris": 6952,
+  "suggested_use": "2 重装步兵候选(重甲)，含Ranged射击动画；中世纪风需换色"
+ },
+ {
+  "file": "kaykit_mage.glb",
+  "name": "KayKit Mage",
+  "source_url": "https://github.com/KayKit-Game-Assets/KayKit-Character-Pack-Adventures-1.0",
+  "download_url": "https://raw.githubusercontent.com/KayKit-Game-Assets/KayKit-Character-Pack-Adventures-1.0/main/addons/kaykit_character_pack_adventures/Characters/gltf/Mage.glb",
+  "author": "Kay Lousberg (KayKit)",
+  "license": "CC0 1.0",
+  "animations": [
+   {
+    "name": "1H_Melee_Attack_Chop",
+    "duration": 1.067
+   },
+   {
+    "name": "1H_Melee_Attack_Slice_Diagonal",
+    "duration": 1
+   },
+   {
+    "name": "1H_Melee_Attack_Slice_Horizontal",
+    "duration": 1.067
+   },
+   {
+    "name": "1H_Melee_Attack_Stab",
+    "duration": 1.6
+   },
+   {
+    "name": "1H_Ranged_Aiming",
+    "duration": 1.067
+   },
+   {
+    "name": "1H_Ranged_Reload",
+    "duration": 1.167
+   },
+   {
+    "name": "1H_Ranged_Shoot",
+    "duration": 1.067
+   },
+   {
+    "name": "1H_Ranged_Shooting",
+    "duration": 1.6
+   },
+   {
+    "name": "2H_Melee_Attack_Chop",
+    "duration": 1.633
+   },
+   {
+    "name": "2H_Melee_Attack_Slice",
+    "duration": 1.1
+   },
+   {
+    "name": "2H_Melee_Attack_Spin",
+    "duration": 2.4
+   },
+   {
+    "name": "2H_Melee_Attack_Spinning",
+    "duration": 0.667
+   },
+   {
+    "name": "2H_Melee_Attack_Stab",
+    "duration": 1.6
+   },
+   {
+    "name": "2H_Melee_Idle",
+    "duration": 1.067
+   },
+   {
+    "name": "2H_Ranged_Aiming",
+    "duration": 1.6
+   },
+   {
+    "name": "2H_Ranged_Reload",
+    "duration": 1.6
+   },
+   {
+    "name": "2H_Ranged_Shoot",
+    "duration": 1.067
+   },
+   {
+    "name": "2H_Ranged_Shooting",
+    "duration": 1.067
+   },
+   {
+    "name": "Block",
+    "duration": 1.067
+   },
+   {
+    "name": "Block_Attack",
+    "duration": 1.067
+   },
+   {
+    "name": "Block_Hit",
+    "duration": 1.067
+   },
+   {
+    "name": "Blocking",
+    "duration": 1.067
+   },
+   {
+    "name": "Cheer",
+    "duration": 1.667
+   },
+   {
+    "name": "Death_A",
+    "duration": 0.8
+   },
+   {
+    "name": "Death_A_Pose",
+    "duration": 0
+   },
+   {
+    "name": "Death_B",
+    "duration": 2.633
+   },
+   {
+    "name": "Death_B_Pose",
+    "duration": 0
+   },
+   {
+    "name": "Dodge_Backward",
+    "duration": 0.4
+   },
+   {
+    "name": "Dodge_Forward",
+    "duration": 0.4
+   },
+   {
+    "name": "Dodge_Left",
+    "duration": 0.4
+   },
+   {
+    "name": "Dodge_Right",
+    "duration": 0.4
+   },
+   {
+    "name": "Dualwield_Melee_Attack_Chop",
+    "duration": 1.267
+   },
+   {
+    "name": "Dualwield_Melee_Attack_Slice",
+    "duration": 1.167
+   },
+   {
+    "name": "Dualwield_Melee_Attack_Stab",
+    "duration": 1.6
+   },
+   {
+    "name": "Hit_A",
+    "duration": 0.667
+   },
+   {
+    "name": "Hit_B",
+    "duration": 0.867
+   },
+   {
+    "name": "Idle",
+    "duration": 1.067
+   },
+   {
+    "name": "Interact",
+    "duration": 1.3
+   },
+   {
+    "name": "Jump_Full_Long",
+    "duration": 2.333
+   },
+   {
+    "name": "Jump_Full_Short",
+    "duration": 1.167
+   },
+   {
+    "name": "Jump_Idle",
+    "duration": 1.067
+   },
+   {
+    "name": "Jump_Land",
+    "duration": 0.667
+   },
+   {
+    "name": "Jump_Start",
+    "duration": 0.6
+   },
+   {
+    "name": "Lie_Down",
+    "duration": 3
+   },
+   {
+    "name": "Lie_Idle",
+    "duration": 2.667
+   },
+   {
+    "name": "Lie_Pose",
+    "duration": 0
+   },
+   {
+    "name": "Lie_StandUp",
+    "duration": 2.333
+   },
+   {
+    "name": "PickUp",
+    "duration": 1.3
+   },
+   {
+    "name": "Running_A",
+    "duration": 0.8
+   },
+   {
+    "name": "Running_B",
+    "duration": 1.067
+   },
+   {
+    "name": "Running_Strafe_Left",
+    "duration": 0.8
+   },
+   {
+    "name": "Running_Strafe_Right",
+    "duration": 0.8
+   },
+   {
+    "name": "Sit_Chair_Down",
+    "duration": 0.8
+   },
+   {
+    "name": "Sit_Chair_Idle",
+    "duration": 3.6
+   },
+   {
+    "name": "Sit_Chair_Pose",
+    "duration": 0
+   },
+   {
+    "name": "Sit_Chair_StandUp",
+    "duration": 0.8
+   },
+   {
+    "name": "Sit_Floor_Down",
+    "duration": 1
+   },
+   {
+    "name": "Sit_Floor_Idle",
+    "duration": 4
+   },
+   {
+    "name": "Sit_Floor_Pose",
+    "duration": 0
+   },
+   {
+    "name": "Sit_Floor_StandUp",
+    "duration": 1.133
+   },
+   {
+    "name": "Spellcast_Long",
+    "duration": 2.533
+   },
+   {
+    "name": "Spellcast_Raise",
+    "duration": 2.1
+   },
+   {
+    "name": "Spellcast_Shoot",
+    "duration": 0.933
+   },
+   {
+    "name": "Spellcasting",
+    "duration": 0.667
+   },
+   {
+    "name": "T-Pose",
+    "duration": 0
+   },
+   {
+    "name": "Throw",
+    "duration": 1.367
+   },
+   {
+    "name": "Unarmed_Idle",
+    "duration": 1.067
+   },
+   {
+    "name": "Unarmed_Melee_Attack_Kick",
+    "duration": 0.933
+   },
+   {
+    "name": "Unarmed_Melee_Attack_Punch_A",
+    "duration": 1.467
+   },
+   {
+    "name": "Unarmed_Melee_Attack_Punch_B",
+    "duration": 1.667
+   },
+   {
+    "name": "Unarmed_Pose",
+    "duration": 0
+   },
+   {
+    "name": "Use_Item",
+    "duration": 1.6
+   },
+   {
+    "name": "Walking_A",
+    "duration": 1.067
+   },
+   {
+    "name": "Walking_B",
+    "duration": 1.067
+   },
+   {
+    "name": "Walking_Backwards",
+    "duration": 1.067
+   },
+   {
+    "name": "Walking_C",
+    "duration": 1.6
+   }
+  ],
+  "bbox": {
+   "local_min": [
+    -1.046,
+    -1.161,
+    -1.071
+   ],
+   "local_max": [
+    1.046,
+    2.203,
+    1.023
+   ],
+   "local_size": [
+    2.093,
+    3.363,
+    2.094
+   ],
+   "est_world_size": [
+    2.09,
+    3.36,
+    2.09
+   ],
+   "note": "局部坐标，运行时请用Box3归一化"
+  },
+  "size_kb": 3505,
+  "meshes": 12,
+  "materials": 1,
+  "textures": 1,
+  "skinned": true,
+  "joints": 41,
+  "tris": 5683,
+  "suggested_use": "6 灵能/法师(首选,CC0)：带袍带帽，Spellcast_* 施法动画齐全；3.5MB略超标"
+ },
+ {
+  "file": "kaykit_rogue_hooded.glb",
+  "name": "KayKit Rogue_Hooded",
+  "source_url": "https://github.com/KayKit-Game-Assets/KayKit-Character-Pack-Adventures-1.0",
+  "download_url": "https://raw.githubusercontent.com/KayKit-Game-Assets/KayKit-Character-Pack-Adventures-1.0/main/addons/kaykit_character_pack_adventures/Characters/gltf/Rogue_Hooded.glb",
+  "author": "Kay Lousberg (KayKit)",
+  "license": "CC0 1.0",
+  "animations": [
+   {
+    "name": "1H_Melee_Attack_Chop",
+    "duration": 1.067
+   },
+   {
+    "name": "1H_Melee_Attack_Slice_Diagonal",
+    "duration": 1
+   },
+   {
+    "name": "1H_Melee_Attack_Slice_Horizontal",
+    "duration": 1.067
+   },
+   {
+    "name": "1H_Melee_Attack_Stab",
+    "duration": 1.6
+   },
+   {
+    "name": "1H_Ranged_Aiming",
+    "duration": 1.067
+   },
+   {
+    "name": "1H_Ranged_Reload",
+    "duration": 1.167
+   },
+   {
+    "name": "1H_Ranged_Shoot",
+    "duration": 1.067
+   },
+   {
+    "name": "1H_Ranged_Shooting",
+    "duration": 1.6
+   },
+   {
+    "name": "2H_Melee_Attack_Chop",
+    "duration": 1.633
+   },
+   {
+    "name": "2H_Melee_Attack_Slice",
+    "duration": 1.1
+   },
+   {
+    "name": "2H_Melee_Attack_Spin",
+    "duration": 2.4
+   },
+   {
+    "name": "2H_Melee_Attack_Spinning",
+    "duration": 0.667
+   },
+   {
+    "name": "2H_Melee_Attack_Stab",
+    "duration": 1.6
+   },
+   {
+    "name": "2H_Melee_Idle",
+    "duration": 1.067
+   },
+   {
+    "name": "2H_Ranged_Aiming",
+    "duration": 1.6
+   },
+   {
+    "name": "2H_Ranged_Reload",
+    "duration": 1.6
+   },
+   {
+    "name": "2H_Ranged_Shoot",
+    "duration": 1.067
+   },
+   {
+    "name": "2H_Ranged_Shooting",
+    "duration": 1.067
+   },
+   {
+    "name": "Block",
+    "duration": 1.067
+   },
+   {
+    "name": "Block_Attack",
+    "duration": 1.067
+   },
+   {
+    "name": "Block_Hit",
+    "duration": 1.067
+   },
+   {
+    "name": "Blocking",
+    "duration": 1.067
+   },
+   {
+    "name": "Cheer",
+    "duration": 1.667
+   },
+   {
+    "name": "Death_A",
+    "duration": 0.8
+   },
+   {
+    "name": "Death_A_Pose",
+    "duration": 0
+   },
+   {
+    "name": "Death_B",
+    "duration": 2.633
+   },
+   {
+    "name": "Death_B_Pose",
+    "duration": 0
+   },
+   {
+    "name": "Dodge_Backward",
+    "duration": 0.4
+   },
+   {
+    "name": "Dodge_Forward",
+    "duration": 0.4
+   },
+   {
+    "name": "Dodge_Left",
+    "duration": 0.4
+   },
+   {
+    "name": "Dodge_Right",
+    "duration": 0.4
+   },
+   {
+    "name": "Dualwield_Melee_Attack_Chop",
+    "duration": 1.267
+   },
+   {
+    "name": "Dualwield_Melee_Attack_Slice",
+    "duration": 1.167
+   },
+   {
+    "name": "Dualwield_Melee_Attack_Stab",
+    "duration": 1.6
+   },
+   {
+    "name": "Hit_A",
+    "duration": 0.667
+   },
+   {
+    "name": "Hit_B",
+    "duration": 0.867
+   },
+   {
+    "name": "Idle",
+    "duration": 1.067
+   },
+   {
+    "name": "Interact",
+    "duration": 1.3
+   },
+   {
+    "name": "Jump_Full_Long",
+    "duration": 2.333
+   },
+   {
+    "name": "Jump_Full_Short",
+    "duration": 1.167
+   },
+   {
+    "name": "Jump_Idle",
+    "duration": 1.067
+   },
+   {
+    "name": "Jump_Land",
+    "duration": 0.667
+   },
+   {
+    "name": "Jump_Start",
+    "duration": 0.6
+   },
+   {
+    "name": "Lie_Down",
+    "duration": 3
+   },
+   {
+    "name": "Lie_Idle",
+    "duration": 2.667
+   },
+   {
+    "name": "Lie_Pose",
+    "duration": 0
+   },
+   {
+    "name": "Lie_StandUp",
+    "duration": 2.333
+   },
+   {
+    "name": "PickUp",
+    "duration": 1.3
+   },
+   {
+    "name": "Running_A",
+    "duration": 0.8
+   },
+   {
+    "name": "Running_B",
+    "duration": 1.067
+   },
+   {
+    "name": "Running_Strafe_Left",
+    "duration": 0.8
+   },
+   {
+    "name": "Running_Strafe_Right",
+    "duration": 0.8
+   },
+   {
+    "name": "Sit_Chair_Down",
+    "duration": 0.8
+   },
+   {
+    "name": "Sit_Chair_Idle",
+    "duration": 3.6
+   },
+   {
+    "name": "Sit_Chair_Pose",
+    "duration": 0
+   },
+   {
+    "name": "Sit_Chair_StandUp",
+    "duration": 0.8
+   },
+   {
+    "name": "Sit_Floor_Down",
+    "duration": 1
+   },
+   {
+    "name": "Sit_Floor_Idle",
+    "duration": 4
+   },
+   {
+    "name": "Sit_Floor_Pose",
+    "duration": 0
+   },
+   {
+    "name": "Sit_Floor_StandUp",
+    "duration": 1.133
+   },
+   {
+    "name": "Spellcast_Long",
+    "duration": 2.533
+   },
+   {
+    "name": "Spellcast_Raise",
+    "duration": 2.1
+   },
+   {
+    "name": "Spellcast_Shoot",
+    "duration": 0.933
+   },
+   {
+    "name": "Spellcasting",
+    "duration": 0.667
+   },
+   {
+    "name": "T-Pose",
+    "duration": 0
+   },
+   {
+    "name": "Throw",
+    "duration": 1.367
+   },
+   {
+    "name": "Unarmed_Idle",
+    "duration": 1.067
+   },
+   {
+    "name": "Unarmed_Melee_Attack_Kick",
+    "duration": 0.933
+   },
+   {
+    "name": "Unarmed_Melee_Attack_Punch_A",
+    "duration": 1.467
+   },
+   {
+    "name": "Unarmed_Melee_Attack_Punch_B",
+    "duration": 1.667
+   },
+   {
+    "name": "Unarmed_Pose",
+    "duration": 0
+   },
+   {
+    "name": "Use_Item",
+    "duration": 1.6
+   },
+   {
+    "name": "Walking_A",
+    "duration": 1.067
+   },
+   {
+    "name": "Walking_B",
+    "duration": 1.067
+   },
+   {
+    "name": "Walking_Backwards",
+    "duration": 1.067
+   },
+   {
+    "name": "Walking_C",
+    "duration": 1.6
+   }
+  ],
+  "bbox": {
+   "local_min": [
+    -0.971,
+    -1.122,
+    -0.567
+   ],
+   "local_max": [
+    0.971,
+    2.251,
+    1.163
+   ],
+   "local_size": [
+    1.943,
+    3.373,
+    1.731
+   ],
+   "est_world_size": [
+    1.94,
+    3.37,
+    1.73
+   ],
+   "note": "局部坐标，运行时请用Box3归一化"
+  },
+  "size_kb": 3513,
+  "meshes": 12,
+  "materials": 1,
+  "textures": 1,
+  "skinned": true,
+  "joints": 41,
+  "tris": 6035,
+  "suggested_use": "3/6 兜帽特工/灵能刺客候选，含1H/2H_Ranged_Shoot射击动画"
+ },
+ {
+  "file": "mech_4UvIHxnoSR.glb",
+  "name": "Mech",
+  "source_url": "https://poly.pizza/m/4UvIHxnoSR",
+  "download_url": "https://static.poly.pizza/dab7180d-5393-4cb1-aa8f-b56154b0d724.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "animations": [
+   {
+    "name": "RobotArmature|Dance",
+    "duration": 0.792
+   },
+   {
+    "name": "RobotArmature|Death",
+    "duration": 0.542
+   },
+   {
+    "name": "RobotArmature|Hello",
+    "duration": 1.5
+   },
+   {
+    "name": "RobotArmature|HitRecieve_1",
+    "duration": 0.5
+   },
+   {
+    "name": "RobotArmature|HitRecieve_2",
+    "duration": 0.667
+   },
+   {
+    "name": "RobotArmature|Idle",
+    "duration": 3.333
+   },
+   {
+    "name": "RobotArmature|Jump",
+    "duration": 0.833
+   },
+   {
+    "name": "RobotArmature|Jump_Landing",
+    "duration": 0.833
+   },
+   {
+    "name": "RobotArmature|Jump_NoHeight",
+    "duration": 0.583
+   },
+   {
+    "name": "RobotArmature|Kick",
+    "duration": 0.833
+   },
+   {
+    "name": "RobotArmature|No",
+    "duration": 1.375
+   },
+   {
+    "name": "RobotArmature|Pickup",
+    "duration": 1.375
+   },
+   {
+    "name": "RobotArmature|Run",
+    "duration": 0.833
+   },
+   {
+    "name": "RobotArmature|Shoot_Big",
+    "duration": 0.375
+   },
+   {
+    "name": "RobotArmature|Shoot_Small",
+    "duration": 0.208
+   },
+   {
+    "name": "RobotArmature|Walk",
+    "duration": 0.833
+   },
+   {
+    "name": "RobotArmature|Yes",
+    "duration": 1.375
+   }
+  ],
+  "bbox": {
+   "local_min": [
+    -0.015,
+    -0.013,
+    0
+   ],
+   "local_max": [
+    0.015,
+    0.007,
+    0.03
+   ],
+   "local_size": [
+    0.029,
+    0.021,
+    0.03
+   ],
+   "est_world_size": [
+    2.9,
+    2.1,
+    3
+   ],
+   "note": "mesh局部坐标×骨架节点scale 100估算；轴向可能未含根节点旋转，运行时请用Box3归一化"
+  },
+  "size_kb": 489,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "skinned": true,
+  "joints": 13,
+  "tris": 6756,
+  "suggested_use": "4 中型步行机甲(Quaternius Animated Mech/Space Kit，动物驾驶员)：Idle/Walk/Run/Shoot_Big/Shoot_Small/Death；放大3x可当5巨型机甲"
+ },
+ {
+  "file": "mech_D5wW2jDO42.glb",
+  "name": "Mech",
+  "source_url": "https://poly.pizza/m/D5wW2jDO42",
+  "download_url": "https://static.poly.pizza/750173d2-53aa-4318-95dc-5f8e6d2dcad2.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "animations": [
+   {
+    "name": "RobotArmature|Dance",
+    "duration": 0.792
+   },
+   {
+    "name": "RobotArmature|Death",
+    "duration": 0.542
+   },
+   {
+    "name": "RobotArmature|Hello",
+    "duration": 1.5
+   },
+   {
+    "name": "RobotArmature|HitRecieve_1",
+    "duration": 0.5
+   },
+   {
+    "name": "RobotArmature|HitRecieve_2",
+    "duration": 0.667
+   },
+   {
+    "name": "RobotArmature|Idle",
+    "duration": 3.333
+   },
+   {
+    "name": "RobotArmature|Jump",
+    "duration": 0.833
+   },
+   {
+    "name": "RobotArmature|Jump_Landing",
+    "duration": 0.833
+   },
+   {
+    "name": "RobotArmature|Jump_NoHeight",
+    "duration": 0.583
+   },
+   {
+    "name": "RobotArmature|Kick",
+    "duration": 0.833
+   },
+   {
+    "name": "RobotArmature|No",
+    "duration": 1.375
+   },
+   {
+    "name": "RobotArmature|Pickup",
+    "duration": 1.375
+   },
+   {
+    "name": "RobotArmature|Run",
+    "duration": 0.833
+   },
+   {
+    "name": "RobotArmature|Shoot_Big",
+    "duration": 0.375
+   },
+   {
+    "name": "RobotArmature|Shoot_Small",
+    "duration": 0.208
+   },
+   {
+    "name": "RobotArmature|Walk",
+    "duration": 0.833
+   },
+   {
+    "name": "RobotArmature|Yes",
+    "duration": 1.375
+   }
+  ],
+  "bbox": {
+   "local_min": [
+    -0.016,
+    -0.015,
+    0
+   ],
+   "local_max": [
+    0.016,
+    0.008,
+    0.038
+   ],
+   "local_size": [
+    0.033,
+    0.023,
+    0.038
+   ],
+   "est_world_size": [
+    3.3,
+    2.3,
+    3.8
+   ],
+   "note": "mesh局部坐标×骨架节点scale 100估算；轴向可能未含根节点旋转，运行时请用Box3归一化"
+  },
+  "size_kb": 410,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "skinned": true,
+  "joints": 13,
+  "tris": 4008,
+  "suggested_use": "4 中型步行机甲(Quaternius Animated Mech/Space Kit，动物驾驶员)：Idle/Walk/Run/Shoot_Big/Shoot_Small/Death；放大3x可当5巨型机甲"
+ },
+ {
+  "file": "mech_o3Ps8z8ByP.glb",
+  "name": "Mech",
+  "source_url": "https://poly.pizza/m/o3Ps8z8ByP",
+  "download_url": "https://static.poly.pizza/a242e73b-6a40-4bd9-bfa9-ed1d8e49ea21.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "animations": [
+   {
+    "name": "RobotArmature|Dance",
+    "duration": 0.792
+   },
+   {
+    "name": "RobotArmature|Death",
+    "duration": 0.542
+   },
+   {
+    "name": "RobotArmature|Hello",
+    "duration": 1.5
+   },
+   {
+    "name": "RobotArmature|HitRecieve_1",
+    "duration": 0.5
+   },
+   {
+    "name": "RobotArmature|HitRecieve_2",
+    "duration": 0.667
+   },
+   {
+    "name": "RobotArmature|Idle",
+    "duration": 3.333
+   },
+   {
+    "name": "RobotArmature|Jump",
+    "duration": 0.833
+   },
+   {
+    "name": "RobotArmature|Jump_Landing",
+    "duration": 0.833
+   },
+   {
+    "name": "RobotArmature|Jump_NoHeight",
+    "duration": 0.583
+   },
+   {
+    "name": "RobotArmature|Kick",
+    "duration": 0.833
+   },
+   {
+    "name": "RobotArmature|No",
+    "duration": 1.375
+   },
+   {
+    "name": "RobotArmature|Pickup",
+    "duration": 1.375
+   },
+   {
+    "name": "RobotArmature|Run",
+    "duration": 0.833
+   },
+   {
+    "name": "RobotArmature|Shoot_Big",
+    "duration": 0.375
+   },
+   {
+    "name": "RobotArmature|Shoot_Small",
+    "duration": 0.208
+   },
+   {
+    "name": "RobotArmature|Walk",
+    "duration": 0.833
+   },
+   {
+    "name": "RobotArmature|Yes",
+    "duration": 1.375
+   }
+  ],
+  "bbox": {
+   "local_min": [
+    -0.017,
+    -0.012,
+    0
+   ],
+   "local_max": [
+    0.017,
+    0.007,
+    0.03
+   ],
+   "local_size": [
+    0.034,
+    0.02,
+    0.031
+   ],
+   "est_world_size": [
+    3.4,
+    2,
+    3.1
+   ],
+   "note": "mesh局部坐标×骨架节点scale 100估算；轴向可能未含根节点旋转，运行时请用Box3归一化"
+  },
+  "size_kb": 657,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "skinned": true,
+  "joints": 13,
+  "tris": 5846,
+  "suggested_use": "4 中型步行机甲(Quaternius Animated Mech/Space Kit，动物驾驶员)：Idle/Walk/Run/Shoot_Big/Shoot_Small/Death；放大3x可当5巨型机甲"
+ },
+ {
+  "file": "mech_tLs9mFVCSU.glb",
+  "name": "Mech",
+  "source_url": "https://poly.pizza/m/tLs9mFVCSU",
+  "download_url": "https://static.poly.pizza/6f884100-f3e8-4302-b74a-10965c14956a.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "animations": [
+   {
+    "name": "RobotArmature|Dance",
+    "duration": 0.792
+   },
+   {
+    "name": "RobotArmature|Death",
+    "duration": 0.542
+   },
+   {
+    "name": "RobotArmature|Hello",
+    "duration": 1.5
+   },
+   {
+    "name": "RobotArmature|HitRecieve_1",
+    "duration": 0.5
+   },
+   {
+    "name": "RobotArmature|HitRecieve_2",
+    "duration": 0.667
+   },
+   {
+    "name": "RobotArmature|Idle",
+    "duration": 3.333
+   },
+   {
+    "name": "RobotArmature|Jump",
+    "duration": 0.833
+   },
+   {
+    "name": "RobotArmature|Jump_Landing",
+    "duration": 0.833
+   },
+   {
+    "name": "RobotArmature|Jump_NoHeight",
+    "duration": 0.583
+   },
+   {
+    "name": "RobotArmature|Kick",
+    "duration": 0.833
+   },
+   {
+    "name": "RobotArmature|No",
+    "duration": 1.375
+   },
+   {
+    "name": "RobotArmature|Pickup",
+    "duration": 1.375
+   },
+   {
+    "name": "RobotArmature|Run",
+    "duration": 0.833
+   },
+   {
+    "name": "RobotArmature|Shoot_Big",
+    "duration": 0.375
+   },
+   {
+    "name": "RobotArmature|Shoot_Small",
+    "duration": 0.208
+   },
+   {
+    "name": "RobotArmature|Walk",
+    "duration": 0.833
+   },
+   {
+    "name": "RobotArmature|Yes",
+    "duration": 1.375
+   }
+  ],
+  "bbox": {
+   "local_min": [
+    -0.02,
+    -0.018,
+    0
+   ],
+   "local_max": [
+    0.02,
+    0.012,
+    0.052
+   ],
+   "local_size": [
+    0.04,
+    0.03,
+    0.052
+   ],
+   "est_world_size": [
+    4,
+    3,
+    5.2
+   ],
+   "note": "mesh局部坐标×骨架节点scale 100估算；轴向可能未含根节点旋转，运行时请用Box3归一化"
+  },
+  "size_kb": 417,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "skinned": true,
+  "joints": 13,
+  "tris": 4086,
+  "suggested_use": "4 中型步行机甲(Quaternius Animated Mech/Space Kit，动物驾驶员)：Idle/Walk/Run/Shoot_Big/Shoot_Small/Death；放大3x可当5巨型机甲"
+ },
+ {
+  "file": "punk_BTALZymknF.glb",
+  "name": "Punk",
+  "source_url": "https://poly.pizza/m/BTALZymknF",
+  "download_url": "https://static.poly.pizza/e56f23b5-3270-406f-8924-f77cad980c43.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "animations": [
+   {
+    "name": "CharacterArmature|Death",
+    "duration": 1.042
+   },
+   {
+    "name": "CharacterArmature|Gun_Shoot",
+    "duration": 0.583
+   },
+   {
+    "name": "CharacterArmature|HitRecieve",
+    "duration": 0.542
+   },
+   {
+    "name": "CharacterArmature|HitRecieve_2",
+    "duration": 0.542
+   },
+   {
+    "name": "CharacterArmature|Idle",
+    "duration": 1.667
+   },
+   {
+    "name": "CharacterArmature|Idle_Gun",
+    "duration": 1.667
+   },
+   {
+    "name": "CharacterArmature|Idle_Gun_Pointing",
+    "duration": 1.667
+   },
+   {
+    "name": "CharacterArmature|Idle_Gun_Shoot",
+    "duration": 0.667
+   },
+   {
+    "name": "CharacterArmature|Idle_Neutral",
+    "duration": 1.667
+   },
+   {
+    "name": "CharacterArmature|Idle_Sword",
+    "duration": 1.667
+   },
+   {
+    "name": "CharacterArmature|Interact",
+    "duration": 1.25
+   },
+   {
+    "name": "CharacterArmature|Kick_Left",
+    "duration": 0.917
+   },
+   {
+    "name": "CharacterArmature|Kick_Right",
+    "duration": 0.917
+   },
+   {
+    "name": "CharacterArmature|Punch_Left",
+    "duration": 0.833
+   },
+   {
+    "name": "CharacterArmature|Punch_Right",
+    "duration": 0.833
+   },
+   {
+    "name": "CharacterArmature|Roll",
+    "duration": 1.333
+   },
+   {
+    "name": "CharacterArmature|Run",
+    "duration": 0.792
+   },
+   {
+    "name": "CharacterArmature|Run_Back",
+    "duration": 0.833
+   },
+   {
+    "name": "CharacterArmature|Run_Left",
+    "duration": 0.792
+   },
+   {
+    "name": "CharacterArmature|Run_Right",
+    "duration": 0.792
+   },
+   {
+    "name": "CharacterArmature|Run_Shoot",
+    "duration": 0.833
+   },
+   {
+    "name": "CharacterArmature|Sword_Slash",
+    "duration": 1
+   },
+   {
+    "name": "CharacterArmature|Walk",
+    "duration": 1.333
+   },
+   {
+    "name": "CharacterArmature|Wave",
+    "duration": 1.667
+   }
+  ],
+  "bbox": {
+   "local_min": [
+    -0.008,
+    -0.003,
+    0
+   ],
+   "local_max": [
+    0.008,
+    0.002,
+    0.02
+   ],
+   "local_size": [
+    0.017,
+    0.004,
+    0.02
+   ],
+   "est_world_size": [
+    1.7,
+    0.4,
+    2
+   ],
+   "note": "mesh局部坐标×骨架节点scale 100估算；轴向可能未含根节点旋转，运行时请用Box3归一化"
+  },
+  "size_kb": 1342,
+  "meshes": 4,
+  "materials": 9,
+  "textures": 0,
+  "skinned": true,
+  "joints": 62,
+  "tris": 5500,
+  "suggested_use": "3 英雄/平民备选人形，Gun动画齐全(character_animated除外)"
+ },
+ {
+  "file": "punk_djXoqejw6w.glb",
+  "name": "Punk",
+  "source_url": "https://poly.pizza/m/djXoqejw6w",
+  "download_url": "https://static.poly.pizza/1d368679-1d9a-4d5c-9095-877144b02d00.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "animations": [
+   {
+    "name": "CharacterArmature|Death",
+    "duration": 1.333
+   },
+   {
+    "name": "CharacterArmature|Gun_Shoot",
+    "duration": 0.75
+   },
+   {
+    "name": "CharacterArmature|HitRecieve",
+    "duration": 0.708
+   },
+   {
+    "name": "CharacterArmature|HitRecieve_2",
+    "duration": 0.708
+   },
+   {
+    "name": "CharacterArmature|Idle",
+    "duration": 2.083
+   },
+   {
+    "name": "CharacterArmature|Idle_Gun",
+    "duration": 2.083
+   },
+   {
+    "name": "CharacterArmature|Idle_Gun_Pointing",
+    "duration": 2.083
+   },
+   {
+    "name": "CharacterArmature|Idle_Gun_Shoot",
+    "duration": 0.833
+   },
+   {
+    "name": "CharacterArmature|Idle_Neutral",
+    "duration": 2.083
+   },
+   {
+    "name": "CharacterArmature|Idle_Sword",
+    "duration": 2.083
+   },
+   {
+    "name": "CharacterArmature|Interact",
+    "duration": 1.583
+   },
+   {
+    "name": "CharacterArmature|Kick_Left",
+    "duration": 1.167
+   },
+   {
+    "name": "CharacterArmature|Kick_Right",
+    "duration": 1.167
+   },
+   {
+    "name": "CharacterArmature|Punch_Left",
+    "duration": 1.042
+   },
+   {
+    "name": "CharacterArmature|Punch_Right",
+    "duration": 1.042
+   },
+   {
+    "name": "CharacterArmature|Roll",
+    "duration": 1.667
+   },
+   {
+    "name": "CharacterArmature|Run",
+    "duration": 1
+   },
+   {
+    "name": "CharacterArmature|Run_Back",
+    "duration": 1.042
+   },
+   {
+    "name": "CharacterArmature|Run_Left",
+    "duration": 1
+   },
+   {
+    "name": "CharacterArmature|Run_Right",
+    "duration": 1
+   },
+   {
+    "name": "CharacterArmature|Run_Shoot",
+    "duration": 1.042
+   },
+   {
+    "name": "CharacterArmature|Sword_Slash",
+    "duration": 1.292
+   },
+   {
+    "name": "CharacterArmature|Walk",
+    "duration": 1.667
+   },
+   {
+    "name": "CharacterArmature|Wave",
+    "duration": 2.083
+   }
+  ],
+  "bbox": {
+   "local_min": [
+    -0.008,
+    -0.003,
+    0
+   ],
+   "local_max": [
+    0.008,
+    0.001,
+    0.02
+   ],
+   "local_size": [
+    0.016,
+    0.004,
+    0.02
+   ],
+   "est_world_size": [
+    1.6,
+    0.4,
+    2
+   ],
+   "note": "mesh局部坐标×骨架节点scale 100估算；轴向可能未含根节点旋转，运行时请用Box3归一化"
+  },
+  "size_kb": 1440,
+  "meshes": 4,
+  "materials": 6,
+  "textures": 0,
+  "skinned": true,
+  "joints": 62,
+  "tris": 5956,
+  "suggested_use": "3 英雄/平民备选人形，Gun动画齐全(character_animated除外)"
+ },
+ {
+  "file": "robot_enemy_1gNo5ezvmr.glb",
+  "name": "Robot Enemy",
+  "source_url": "https://poly.pizza/m/1gNo5ezvmr",
+  "download_url": "https://static.poly.pizza/9c45ab2b-c46a-4319-bc2a-88d6dbbc8e42.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "animations": [
+   {
+    "name": "CharacterArmature|Attack",
+    "duration": 1.667
+   },
+   {
+    "name": "CharacterArmature|Death",
+    "duration": 0.792
+   },
+   {
+    "name": "CharacterArmature|Idle",
+    "duration": 1.875
+   },
+   {
+    "name": "CharacterArmature|Jump",
+    "duration": 0.625
+   },
+   {
+    "name": "CharacterArmature|Run",
+    "duration": 0.625
+   },
+   {
+    "name": "CharacterArmature|Shoot",
+    "duration": 0.333
+   },
+   {
+    "name": "CharacterArmature|Walk",
+    "duration": 1.667
+   }
+  ],
+  "bbox": {
+   "local_min": [
+    -0.006,
+    -0.002,
+    0
+   ],
+   "local_max": [
+    0.006,
+    0.002,
+    0.007
+   ],
+   "local_size": [
+    0.013,
+    0.005,
+    0.007
+   ],
+   "est_world_size": [
+    1.3,
+    0.5,
+    0.7
+   ],
+   "note": "mesh局部坐标×骨架节点scale 100估算；轴向可能未含根节点旋转，运行时请用Box3归一化"
+  },
+  "size_kb": 550,
+  "meshes": 1,
+  "materials": 5,
+  "textures": 0,
+  "skinned": true,
+  "joints": 15,
+  "tris": 4380,
+  "suggested_use": "7 机器人步兵(基础)：Walk/Run/Shoot/Attack"
+ },
+ {
+  "file": "robot_enemy_flying_gun_UDTM6X1y9a.glb",
+  "name": "Robot Enemy Flying Gun",
+  "source_url": "https://poly.pizza/m/UDTM6X1y9a",
+  "download_url": "https://static.poly.pizza/6d0889f1-0c3f-4f98-b011-fbcf6c79a93b.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "animations": [
+   {
+    "name": "CharacterArmature|Attack",
+    "duration": 0.75
+   },
+   {
+    "name": "CharacterArmature|Dead",
+    "duration": 0.333
+   },
+   {
+    "name": "CharacterArmature|Idle",
+    "duration": 1.5
+   },
+   {
+    "name": "CharacterArmature|Run",
+    "duration": 0.667
+   },
+   {
+    "name": "CharacterArmature|Shoot",
+    "duration": 0.25
+   },
+   {
+    "name": "CharacterArmature|Walk",
+    "duration": 1.167
+   }
+  ],
+  "bbox": {
+   "local_min": [
+    -0.011,
+    -0.008,
+    -0.002
+   ],
+   "local_max": [
+    0.011,
+    0.004,
+    0.005
+   ],
+   "local_size": [
+    0.023,
+    0.012,
+    0.008
+   ],
+   "est_world_size": [
+    2.3,
+    1.2,
+    0.8
+   ],
+   "note": "mesh局部坐标×骨架节点scale 100估算；轴向可能未含根节点旋转，运行时请用Box3归一化"
+  },
+  "size_kb": 317,
+  "meshes": 2,
+  "materials": 10,
+  "textures": 0,
+  "skinned": true,
+  "joints": 12,
+  "tris": 4582,
+  "suggested_use": "7 无人机(带枪，首选)：Idle/Run/Shoot"
+ },
+ {
+  "file": "robot_enemy_flying_lF3jeRJwiH.glb",
+  "name": "Robot Enemy Flying",
+  "source_url": "https://poly.pizza/m/lF3jeRJwiH",
+  "download_url": "https://static.poly.pizza/abb31ff6-3e2d-43a6-bf13-dba39b0c596d.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "animations": [
+   {
+    "name": "CharacterArmature|Attack",
+    "duration": 0.75
+   },
+   {
+    "name": "CharacterArmature|Dead",
+    "duration": 0.333
+   },
+   {
+    "name": "CharacterArmature|Idle",
+    "duration": 1.5
+   },
+   {
+    "name": "CharacterArmature|Run",
+    "duration": 0.667
+   },
+   {
+    "name": "CharacterArmature|Shoot",
+    "duration": 0.25
+   },
+   {
+    "name": "CharacterArmature|Walk",
+    "duration": 1.167
+   }
+  ],
+  "bbox": {
+   "local_min": [
+    -0.011,
+    -0.002,
+    -0.002
+   ],
+   "local_max": [
+    0.011,
+    0.002,
+    0.005
+   ],
+   "local_size": [
+    0.023,
+    0.005,
+    0.008
+   ],
+   "est_world_size": [
+    2.3,
+    0.5,
+    0.8
+   ],
+   "note": "mesh局部坐标×骨架节点scale 100估算；轴向可能未含根节点旋转，运行时请用Box3归一化"
+  },
+  "size_kb": 291,
+  "meshes": 2,
+  "materials": 8,
+  "textures": 0,
+  "skinned": true,
+  "joints": 11,
+  "tris": 4544,
+  "suggested_use": "7 无人机(无枪)"
+ },
+ {
+  "file": "robot_enemy_large_gun_mWojM4i2IH.glb",
+  "name": "Robot Enemy Large Gun",
+  "source_url": "https://poly.pizza/m/mWojM4i2IH",
+  "download_url": "https://static.poly.pizza/78e23275-cb6a-4ba3-ae5e-48a9b4ee2e65.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "animations": [
+   {
+    "name": "CharacterArmature|Attack",
+    "duration": 1.333
+   },
+   {
+    "name": "CharacterArmature|Attack.001",
+    "duration": 1.333
+   },
+   {
+    "name": "CharacterArmature|Death",
+    "duration": 0.625
+   },
+   {
+    "name": "CharacterArmature|Idle",
+    "duration": 1.5
+   },
+   {
+    "name": "CharacterArmature|Jump",
+    "duration": 0.5
+   },
+   {
+    "name": "CharacterArmature|Run",
+    "duration": 0.667
+   },
+   {
+    "name": "CharacterArmature|Shoot",
+    "duration": 0.25
+   },
+   {
+    "name": "CharacterArmature|Walk",
+    "duration": 1.333
+   }
+  ],
+  "bbox": {
+   "local_min": [
+    -0.061,
+    -0.039,
+    0
+   ],
+   "local_max": [
+    0.061,
+    0.045,
+    0.108
+   ],
+   "local_size": [
+    0.122,
+    0.084,
+    0.108
+   ],
+   "est_world_size": [
+    12.2,
+    8.4,
+    10.8
+   ],
+   "note": "mesh局部坐标×骨架节点scale 100估算；轴向可能未含根节点旋转，运行时请用Box3归一化"
+  },
+  "size_kb": 695,
+  "meshes": 1,
+  "materials": 9,
+  "textures": 0,
+  "skinned": true,
+  "joints": 15,
+  "tris": 6902,
+  "suggested_use": "5 巨型机甲/重型机器人候选：大型持炮机器人，Shoot/Attack/Walk；也可当4"
+ },
+ {
+  "file": "robot_enemy_large_mPDR0L5uKx.glb",
+  "name": "Robot Enemy Large",
+  "source_url": "https://poly.pizza/m/mPDR0L5uKx",
+  "download_url": "https://static.poly.pizza/86da7c34-9196-43b3-975d-db2325c83a65.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "animations": [
+   {
+    "name": "CharacterArmature|Attack",
+    "duration": 1.333
+   },
+   {
+    "name": "CharacterArmature|Attack.001",
+    "duration": 1.333
+   },
+   {
+    "name": "CharacterArmature|Death",
+    "duration": 0.625
+   },
+   {
+    "name": "CharacterArmature|Idle",
+    "duration": 1.5
+   },
+   {
+    "name": "CharacterArmature|Jump",
+    "duration": 0.5
+   },
+   {
+    "name": "CharacterArmature|Run",
+    "duration": 0.667
+   },
+   {
+    "name": "CharacterArmature|Shoot",
+    "duration": 0.25
+   },
+   {
+    "name": "CharacterArmature|Walk",
+    "duration": 1.333
+   }
+  ],
+  "bbox": {
+   "local_min": [
+    -0.032,
+    -0.05,
+    0
+   ],
+   "local_max": [
+    0.032,
+    0.014,
+    0.077
+   ],
+   "local_size": [
+    0.064,
+    0.064,
+    0.077
+   ],
+   "est_world_size": [
+    6.4,
+    6.4,
+    7.7
+   ],
+   "note": "mesh局部坐标×骨架节点scale 100估算；轴向可能未含根节点旋转，运行时请用Box3归一化"
+  },
+  "size_kb": 421,
+  "meshes": 2,
+  "materials": 5,
+  "textures": 0,
+  "skinned": true,
+  "joints": 15,
+  "tris": 4256,
+  "suggested_use": "4/5 重型机器人(无炮版)"
+ },
+ {
+  "file": "robot_enemy_legs_gun_lFZfDh2hzP.glb",
+  "name": "Robot Enemy Legs Gun",
+  "source_url": "https://poly.pizza/m/lFZfDh2hzP",
+  "download_url": "https://static.poly.pizza/c320ce4a-25be-4704-bda9-b67e1aa97a70.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "animations": [
+   {
+    "name": "CharacterArmature|Attack",
+    "duration": 1.667
+   },
+   {
+    "name": "CharacterArmature|Death",
+    "duration": 0.792
+   },
+   {
+    "name": "CharacterArmature|Idle",
+    "duration": 1.875
+   },
+   {
+    "name": "CharacterArmature|Jump",
+    "duration": 0.625
+   },
+   {
+    "name": "CharacterArmature|Run",
+    "duration": 0.625
+   },
+   {
+    "name": "CharacterArmature|Shoot",
+    "duration": 0.333
+   },
+   {
+    "name": "CharacterArmature|Walk",
+    "duration": 1.667
+   }
+  ],
+  "bbox": {
+   "local_min": [
+    -0.012,
+    -0.05,
+    -0.011
+   ],
+   "local_max": [
+    0.012,
+    0.013,
+    0.015
+   ],
+   "local_size": [
+    0.024,
+    0.062,
+    0.025
+   ],
+   "est_world_size": [
+    2.4,
+    6.2,
+    2.5
+   ],
+   "note": "mesh局部坐标×骨架节点scale 100估算；轴向可能未含根节点旋转，运行时请用Box3归一化"
+  },
+  "size_kb": 317,
+  "meshes": 2,
+  "materials": 7,
+  "textures": 0,
+  "skinned": true,
+  "joints": 15,
+  "tris": 4702,
+  "suggested_use": "7 机器人步兵/双足炮台：Walk/Run/Shoot"
+ },
+ {
+  "file": "sci_fi_character_4pUXv5V8kq.glb",
+  "name": "Sci Fi Character",
+  "source_url": "https://poly.pizza/m/4pUXv5V8kq",
+  "download_url": "https://static.poly.pizza/a8624e73-27bd-4878-a17b-f5d9af209c85.glb",
+  "author": "Quaternius",
+  "license": "CC-BY 3.0",
+  "animations": [
+   {
+    "name": "CharacterArmature|Death",
+    "duration": 1.333
+   },
+   {
+    "name": "CharacterArmature|Gun_Shoot",
+    "duration": 0.75
+   },
+   {
+    "name": "CharacterArmature|HitRecieve",
+    "duration": 0.708
+   },
+   {
+    "name": "CharacterArmature|HitRecieve_2",
+    "duration": 0.708
+   },
+   {
+    "name": "CharacterArmature|Idle",
+    "duration": 2.083
+   },
+   {
+    "name": "CharacterArmature|Idle_Gun",
+    "duration": 2.083
+   },
+   {
+    "name": "CharacterArmature|Idle_Gun_Pointing",
+    "duration": 2.083
+   },
+   {
+    "name": "CharacterArmature|Idle_Gun_Shoot",
+    "duration": 0.833
+   },
+   {
+    "name": "CharacterArmature|Idle_Neutral",
+    "duration": 2.083
+   },
+   {
+    "name": "CharacterArmature|Idle_Sword",
+    "duration": 2.083
+   },
+   {
+    "name": "CharacterArmature|Interact",
+    "duration": 1.583
+   },
+   {
+    "name": "CharacterArmature|Kick_Left",
+    "duration": 1.167
+   },
+   {
+    "name": "CharacterArmature|Kick_Right",
+    "duration": 1.167
+   },
+   {
+    "name": "CharacterArmature|Punch_Left",
+    "duration": 1.042
+   },
+   {
+    "name": "CharacterArmature|Punch_Right",
+    "duration": 1.042
+   },
+   {
+    "name": "CharacterArmature|Roll",
+    "duration": 1.667
+   },
+   {
+    "name": "CharacterArmature|Run",
+    "duration": 1
+   },
+   {
+    "name": "CharacterArmature|Run_Back",
+    "duration": 1.042
+   },
+   {
+    "name": "CharacterArmature|Run_Left",
+    "duration": 1
+   },
+   {
+    "name": "CharacterArmature|Run_Right",
+    "duration": 1
+   },
+   {
+    "name": "CharacterArmature|Run_Shoot",
+    "duration": 1.042
+   },
+   {
+    "name": "CharacterArmature|Sword_Slash",
+    "duration": 1.292
+   },
+   {
+    "name": "CharacterArmature|Walk",
+    "duration": 1.667
+   },
+   {
+    "name": "CharacterArmature|Wave",
+    "duration": 2.083
+   }
+  ],
+  "bbox": {
+   "local_min": [
+    -0.008,
+    -0.003,
+    0
+   ],
+   "local_max": [
+    0.008,
+    0.001,
+    0.019
+   ],
+   "local_size": [
+    0.016,
+    0.004,
+    0.019
+   ],
+   "est_world_size": [
+    1.6,
+    0.4,
+    1.9
+   ],
+   "note": "mesh局部坐标×骨架节点scale 100估算；轴向可能未含根节点旋转，运行时请用Box3归一化"
+  },
+  "size_kb": 1642,
+  "meshes": 5,
+  "materials": 10,
+  "textures": 0,
+  "skinned": true,
+  "joints": 62,
+  "tris": 8037,
+  "suggested_use": "3 英雄-女特工/狙击手(首选,CC-BY需署名)：科幻紧身服女性"
+ },
+ {
+  "file": "soldier_oAArCNHjFB.glb",
+  "name": "Soldier",
+  "source_url": "https://poly.pizza/m/oAArCNHjFB",
+  "download_url": "https://static.poly.pizza/66a55d04-4286-44a3-b289-0d774c27db5b.glb",
+  "author": "Quaternius",
+  "license": "CC-BY 3.0",
+  "animations": [
+   {
+    "name": "CharacterArmature|Death",
+    "duration": 1.333
+   },
+   {
+    "name": "CharacterArmature|Gun_Shoot",
+    "duration": 0.75
+   },
+   {
+    "name": "CharacterArmature|HitRecieve",
+    "duration": 0.708
+   },
+   {
+    "name": "CharacterArmature|HitRecieve_2",
+    "duration": 0.708
+   },
+   {
+    "name": "CharacterArmature|Idle",
+    "duration": 2.083
+   },
+   {
+    "name": "CharacterArmature|Idle_Gun",
+    "duration": 2.083
+   },
+   {
+    "name": "CharacterArmature|Idle_Gun_Pointing",
+    "duration": 2.083
+   },
+   {
+    "name": "CharacterArmature|Idle_Gun_Shoot",
+    "duration": 0.833
+   },
+   {
+    "name": "CharacterArmature|Idle_Neutral",
+    "duration": 2.083
+   },
+   {
+    "name": "CharacterArmature|Idle_Sword",
+    "duration": 2.083
+   },
+   {
+    "name": "CharacterArmature|Interact",
+    "duration": 1.583
+   },
+   {
+    "name": "CharacterArmature|Kick_Left",
+    "duration": 1.167
+   },
+   {
+    "name": "CharacterArmature|Kick_Right",
+    "duration": 1.167
+   },
+   {
+    "name": "CharacterArmature|Punch_Left",
+    "duration": 1.042
+   },
+   {
+    "name": "CharacterArmature|Punch_Right",
+    "duration": 1.042
+   },
+   {
+    "name": "CharacterArmature|Roll",
+    "duration": 1.667
+   },
+   {
+    "name": "CharacterArmature|Run",
+    "duration": 1
+   },
+   {
+    "name": "CharacterArmature|Run_Back",
+    "duration": 1.042
+   },
+   {
+    "name": "CharacterArmature|Run_Left",
+    "duration": 1
+   },
+   {
+    "name": "CharacterArmature|Run_Right",
+    "duration": 1
+   },
+   {
+    "name": "CharacterArmature|Run_Shoot",
+    "duration": 1.042
+   },
+   {
+    "name": "CharacterArmature|Sword_Slash",
+    "duration": 1.292
+   },
+   {
+    "name": "CharacterArmature|Walk",
+    "duration": 1.667
+   },
+   {
+    "name": "CharacterArmature|Wave",
+    "duration": 2.083
+   }
+  ],
+  "bbox": {
+   "local_min": [
+    -0.008,
+    -0.003,
+    0
+   ],
+   "local_max": [
+    0.008,
+    0.001,
+    0.018
+   ],
+   "local_size": [
+    0.016,
+    0.003,
+    0.018
+   ],
+   "est_world_size": [
+    1.6,
+    0.3,
+    1.8
+   ],
+   "note": "mesh局部坐标×骨架节点scale 100估算；轴向可能未含根节点旋转，运行时请用Box3归一化"
+  },
+  "size_kb": 1664,
+  "meshes": 4,
+  "materials": 6,
+  "textures": 0,
+  "skinned": true,
+  "joints": 62,
+  "tris": 7900,
+  "suggested_use": "3 英雄-女特工候选(CC-BY需署名)：女兵，Gun动画齐全"
+ },
+ {
+  "file": "suit_sOUciDsoVV.glb",
+  "name": "Suit",
+  "source_url": "https://poly.pizza/m/sOUciDsoVV",
+  "download_url": "https://static.poly.pizza/1bd7759c-ab76-4178-8fe6-7706dffa7d5f.glb",
+  "author": "Quaternius",
+  "license": "CC-BY 3.0",
+  "animations": [
+   {
+    "name": "CharacterArmature|Death",
+    "duration": 1.333
+   },
+   {
+    "name": "CharacterArmature|Gun_Shoot",
+    "duration": 0.75
+   },
+   {
+    "name": "CharacterArmature|HitRecieve",
+    "duration": 0.708
+   },
+   {
+    "name": "CharacterArmature|HitRecieve_2",
+    "duration": 0.708
+   },
+   {
+    "name": "CharacterArmature|Idle",
+    "duration": 2.083
+   },
+   {
+    "name": "CharacterArmature|Idle_Gun",
+    "duration": 2.083
+   },
+   {
+    "name": "CharacterArmature|Idle_Gun_Pointing",
+    "duration": 2.083
+   },
+   {
+    "name": "CharacterArmature|Idle_Gun_Shoot",
+    "duration": 0.833
+   },
+   {
+    "name": "CharacterArmature|Idle_Neutral",
+    "duration": 2.083
+   },
+   {
+    "name": "CharacterArmature|Idle_Sword",
+    "duration": 2.083
+   },
+   {
+    "name": "CharacterArmature|Interact",
+    "duration": 1.583
+   },
+   {
+    "name": "CharacterArmature|Kick_Left",
+    "duration": 1.167
+   },
+   {
+    "name": "CharacterArmature|Kick_Right",
+    "duration": 1.167
+   },
+   {
+    "name": "CharacterArmature|Punch_Left",
+    "duration": 1.042
+   },
+   {
+    "name": "CharacterArmature|Punch_Right",
+    "duration": 1.042
+   },
+   {
+    "name": "CharacterArmature|Roll",
+    "duration": 1.667
+   },
+   {
+    "name": "CharacterArmature|Run",
+    "duration": 1
+   },
+   {
+    "name": "CharacterArmature|Run_Back",
+    "duration": 1.042
+   },
+   {
+    "name": "CharacterArmature|Run_Left",
+    "duration": 1
+   },
+   {
+    "name": "CharacterArmature|Run_Right",
+    "duration": 1
+   },
+   {
+    "name": "CharacterArmature|Run_Shoot",
+    "duration": 1.042
+   },
+   {
+    "name": "CharacterArmature|Sword_Slash",
+    "duration": 1.292
+   },
+   {
+    "name": "CharacterArmature|Walk",
+    "duration": 1.667
+   },
+   {
+    "name": "CharacterArmature|Wave",
+    "duration": 2.083
+   }
+  ],
+  "bbox": {
+   "local_min": [
+    -0.008,
+    -0.003,
+    0
+   ],
+   "local_max": [
+    0.008,
+    0.001,
+    0.018
+   ],
+   "local_size": [
+    0.016,
+    0.004,
+    0.018
+   ],
+   "est_world_size": [
+    1.6,
+    0.4,
+    1.8
+   ],
+   "note": "mesh局部坐标×骨架节点scale 100估算；轴向可能未含根节点旋转，运行时请用Box3归一化"
+  },
+  "size_kb": 1502,
+  "meshes": 4,
+  "materials": 6,
+  "textures": 0,
+  "skinned": true,
+  "joints": 62,
+  "tris": 6482,
+  "suggested_use": "3 英雄/平民备选人形，Gun动画齐全(character_animated除外)"
+ },
+ {
+  "file": "swat_Btfn3G5Xv4.glb",
+  "name": "SWAT",
+  "source_url": "https://poly.pizza/m/Btfn3G5Xv4",
+  "download_url": "https://static.poly.pizza/713f6535-f4f3-4367-a4c6-ced126ae0936.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "animations": [
+   {
+    "name": "CharacterArmature|Death",
+    "duration": 1.042
+   },
+   {
+    "name": "CharacterArmature|Gun_Shoot",
+    "duration": 0.583
+   },
+   {
+    "name": "CharacterArmature|HitRecieve",
+    "duration": 0.542
+   },
+   {
+    "name": "CharacterArmature|HitRecieve_2",
+    "duration": 0.542
+   },
+   {
+    "name": "CharacterArmature|Idle",
+    "duration": 1.667
+   },
+   {
+    "name": "CharacterArmature|Idle_Gun",
+    "duration": 1.667
+   },
+   {
+    "name": "CharacterArmature|Idle_Gun_Pointing",
+    "duration": 1.667
+   },
+   {
+    "name": "CharacterArmature|Idle_Gun_Shoot",
+    "duration": 0.667
+   },
+   {
+    "name": "CharacterArmature|Idle_Neutral",
+    "duration": 1.667
+   },
+   {
+    "name": "CharacterArmature|Idle_Sword",
+    "duration": 1.667
+   },
+   {
+    "name": "CharacterArmature|Interact",
+    "duration": 1.25
+   },
+   {
+    "name": "CharacterArmature|Kick_Left",
+    "duration": 0.917
+   },
+   {
+    "name": "CharacterArmature|Kick_Right",
+    "duration": 0.917
+   },
+   {
+    "name": "CharacterArmature|Punch_Left",
+    "duration": 0.833
+   },
+   {
+    "name": "CharacterArmature|Punch_Right",
+    "duration": 0.833
+   },
+   {
+    "name": "CharacterArmature|Roll",
+    "duration": 1.333
+   },
+   {
+    "name": "CharacterArmature|Run",
+    "duration": 0.792
+   },
+   {
+    "name": "CharacterArmature|Run_Back",
+    "duration": 0.833
+   },
+   {
+    "name": "CharacterArmature|Run_Left",
+    "duration": 0.792
+   },
+   {
+    "name": "CharacterArmature|Run_Right",
+    "duration": 0.792
+   },
+   {
+    "name": "CharacterArmature|Run_Shoot",
+    "duration": 0.833
+   },
+   {
+    "name": "CharacterArmature|Sword_Slash",
+    "duration": 1
+   },
+   {
+    "name": "CharacterArmature|Walk",
+    "duration": 1.333
+   },
+   {
+    "name": "CharacterArmature|Wave",
+    "duration": 1.667
+   }
+  ],
+  "bbox": {
+   "local_min": [
+    -0.008,
+    -0.003,
+    0
+   ],
+   "local_max": [
+    0.008,
+    0.001,
+    0.019
+   ],
+   "local_size": [
+    0.017,
+    0.004,
+    0.019
+   ],
+   "est_world_size": [
+    1.7,
+    0.4,
+    1.9
+   ],
+   "note": "mesh局部坐标×骨架节点scale 100估算；轴向可能未含根节点旋转，运行时请用Box3归一化"
+  },
+  "size_kb": 1524,
+  "meshes": 4,
+  "materials": 4,
+  "textures": 0,
+  "skinned": true,
+  "joints": 62,
+  "tris": 7752,
+  "suggested_use": "3 英雄-队长(首选)：全黑特警装甲，Gun系列动画齐全；也可当重装步兵"
+ },
+ {
+  "file": "witch_QBEOV9ZUT8.glb",
+  "name": "Witch",
+  "source_url": "https://poly.pizza/m/QBEOV9ZUT8",
+  "download_url": "https://static.poly.pizza/a43d6661-8a89-4818-a7eb-40e1e8430a4c.glb",
+  "author": "Quaternius",
+  "license": "CC-BY 3.0",
+  "animations": [
+   {
+    "name": "CharacterArmature|Death",
+    "duration": 1.333
+   },
+   {
+    "name": "CharacterArmature|Gun_Shoot",
+    "duration": 0.75
+   },
+   {
+    "name": "CharacterArmature|HitRecieve",
+    "duration": 0.708
+   },
+   {
+    "name": "CharacterArmature|HitRecieve_2",
+    "duration": 0.708
+   },
+   {
+    "name": "CharacterArmature|Idle",
+    "duration": 2.083
+   },
+   {
+    "name": "CharacterArmature|Idle_Gun",
+    "duration": 2.083
+   },
+   {
+    "name": "CharacterArmature|Idle_Gun_Pointing",
+    "duration": 2.083
+   },
+   {
+    "name": "CharacterArmature|Idle_Gun_Shoot",
+    "duration": 0.833
+   },
+   {
+    "name": "CharacterArmature|Idle_Neutral",
+    "duration": 2.083
+   },
+   {
+    "name": "CharacterArmature|Idle_Sword",
+    "duration": 2.083
+   },
+   {
+    "name": "CharacterArmature|Interact",
+    "duration": 1.583
+   },
+   {
+    "name": "CharacterArmature|Kick_Left",
+    "duration": 1.167
+   },
+   {
+    "name": "CharacterArmature|Kick_Right",
+    "duration": 1.167
+   },
+   {
+    "name": "CharacterArmature|Punch_Left",
+    "duration": 1.042
+   },
+   {
+    "name": "CharacterArmature|Punch_Right",
+    "duration": 1.042
+   },
+   {
+    "name": "CharacterArmature|Roll",
+    "duration": 1.667
+   },
+   {
+    "name": "CharacterArmature|Run",
+    "duration": 1
+   },
+   {
+    "name": "CharacterArmature|Run_Back",
+    "duration": 1.042
+   },
+   {
+    "name": "CharacterArmature|Run_Left",
+    "duration": 1
+   },
+   {
+    "name": "CharacterArmature|Run_Right",
+    "duration": 1
+   },
+   {
+    "name": "CharacterArmature|Run_Shoot",
+    "duration": 1.042
+   },
+   {
+    "name": "CharacterArmature|Sword_Slash",
+    "duration": 1.292
+   },
+   {
+    "name": "CharacterArmature|Walk",
+    "duration": 1.667
+   },
+   {
+    "name": "CharacterArmature|Wave",
+    "duration": 2.083
+   }
+  ],
+  "bbox": {
+   "local_min": [
+    -0.008,
+    -0.003,
+    0
+   ],
+   "local_max": [
+    0.008,
+    0.002,
+    0.02
+   ],
+   "local_size": [
+    0.016,
+    0.005,
+    0.02
+   ],
+   "est_world_size": [
+    1.6,
+    0.5,
+    2
+   ],
+   "note": "mesh局部坐标×骨架节点scale 100估算；轴向可能未含根节点旋转，运行时请用Box3归一化"
+  },
+  "size_kb": 1552,
+  "meshes": 4,
+  "materials": 6,
+  "textures": 0,
+  "skinned": true,
+  "joints": 62,
+  "tris": 6872,
+  "suggested_use": "6 灵能/法师候选(CC-BY需署名)：尖帽紫袍女性"
+ },
+ {
+  "file": "worker_E8079Ahx7k.glb",
+  "name": "Worker",
+  "source_url": "https://poly.pizza/m/E8079Ahx7k",
+  "download_url": "https://static.poly.pizza/c0253218-85f2-4d67-b3f2-a4611a7901fe.glb",
+  "author": "Quaternius",
+  "license": "CC-BY 3.0",
+  "animations": [
+   {
+    "name": "CharacterArmature|Death",
+    "duration": 1.333
+   },
+   {
+    "name": "CharacterArmature|Gun_Shoot",
+    "duration": 0.75
+   },
+   {
+    "name": "CharacterArmature|HitRecieve",
+    "duration": 0.708
+   },
+   {
+    "name": "CharacterArmature|HitRecieve_2",
+    "duration": 0.708
+   },
+   {
+    "name": "CharacterArmature|Idle",
+    "duration": 2.083
+   },
+   {
+    "name": "CharacterArmature|Idle_Gun",
+    "duration": 2.083
+   },
+   {
+    "name": "CharacterArmature|Idle_Gun_Pointing",
+    "duration": 2.083
+   },
+   {
+    "name": "CharacterArmature|Idle_Gun_Shoot",
+    "duration": 0.833
+   },
+   {
+    "name": "CharacterArmature|Idle_Neutral",
+    "duration": 2.083
+   },
+   {
+    "name": "CharacterArmature|Idle_Sword",
+    "duration": 2.083
+   },
+   {
+    "name": "CharacterArmature|Interact",
+    "duration": 1.583
+   },
+   {
+    "name": "CharacterArmature|Kick_Left",
+    "duration": 1.167
+   },
+   {
+    "name": "CharacterArmature|Kick_Right",
+    "duration": 1.167
+   },
+   {
+    "name": "CharacterArmature|Punch_Left",
+    "duration": 1.042
+   },
+   {
+    "name": "CharacterArmature|Punch_Right",
+    "duration": 1.042
+   },
+   {
+    "name": "CharacterArmature|Roll",
+    "duration": 1.667
+   },
+   {
+    "name": "CharacterArmature|Run",
+    "duration": 1
+   },
+   {
+    "name": "CharacterArmature|Run_Back",
+    "duration": 1.042
+   },
+   {
+    "name": "CharacterArmature|Run_Left",
+    "duration": 1
+   },
+   {
+    "name": "CharacterArmature|Run_Right",
+    "duration": 1
+   },
+   {
+    "name": "CharacterArmature|Run_Shoot",
+    "duration": 1.042
+   },
+   {
+    "name": "CharacterArmature|Sword_Slash",
+    "duration": 1.292
+   },
+   {
+    "name": "CharacterArmature|Walk",
+    "duration": 1.667
+   },
+   {
+    "name": "CharacterArmature|Wave",
+    "duration": 2.083
+   }
+  ],
+  "bbox": {
+   "local_min": [
+    -0.008,
+    -0.003,
+    0
+   ],
+   "local_max": [
+    0.008,
+    0.001,
+    0.019
+   ],
+   "local_size": [
+    0.016,
+    0.004,
+    0.019
+   ],
+   "est_world_size": [
+    1.6,
+    0.4,
+    1.9
+   ],
+   "note": "mesh局部坐标×骨架节点scale 100估算；轴向可能未含根节点旋转，运行时请用Box3归一化"
+  },
+  "size_kb": 1465,
+  "meshes": 4,
+  "materials": 9,
+  "textures": 0,
+  "skinned": true,
+  "joints": 62,
+  "tris": 6112,
+  "suggested_use": "3 英雄-机械师：安全帽工装，Interact/Gun动画"
+ },
+ {
+  "file": "worker_Yg2bQZO6Hj.glb",
+  "name": "Worker",
+  "source_url": "https://poly.pizza/m/Yg2bQZO6Hj",
+  "download_url": "https://static.poly.pizza/3a5f3056-ffe6-42eb-bd52-122afcbd22b2.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "animations": [
+   {
+    "name": "CharacterArmature|Death",
+    "duration": 1.042
+   },
+   {
+    "name": "CharacterArmature|Gun_Shoot",
+    "duration": 0.583
+   },
+   {
+    "name": "CharacterArmature|HitRecieve",
+    "duration": 0.542
+   },
+   {
+    "name": "CharacterArmature|HitRecieve_2",
+    "duration": 0.542
+   },
+   {
+    "name": "CharacterArmature|Idle",
+    "duration": 1.667
+   },
+   {
+    "name": "CharacterArmature|Idle_Gun",
+    "duration": 1.667
+   },
+   {
+    "name": "CharacterArmature|Idle_Gun_Pointing",
+    "duration": 1.667
+   },
+   {
+    "name": "CharacterArmature|Idle_Gun_Shoot",
+    "duration": 0.667
+   },
+   {
+    "name": "CharacterArmature|Idle_Neutral",
+    "duration": 1.667
+   },
+   {
+    "name": "CharacterArmature|Idle_Sword",
+    "duration": 1.667
+   },
+   {
+    "name": "CharacterArmature|Interact",
+    "duration": 1.25
+   },
+   {
+    "name": "CharacterArmature|Kick_Left",
+    "duration": 0.917
+   },
+   {
+    "name": "CharacterArmature|Kick_Right",
+    "duration": 0.917
+   },
+   {
+    "name": "CharacterArmature|Punch_Left",
+    "duration": 0.833
+   },
+   {
+    "name": "CharacterArmature|Punch_Right",
+    "duration": 0.833
+   },
+   {
+    "name": "CharacterArmature|Roll",
+    "duration": 1.333
+   },
+   {
+    "name": "CharacterArmature|Run",
+    "duration": 0.792
+   },
+   {
+    "name": "CharacterArmature|Run_Back",
+    "duration": 0.833
+   },
+   {
+    "name": "CharacterArmature|Run_Left",
+    "duration": 0.792
+   },
+   {
+    "name": "CharacterArmature|Run_Right",
+    "duration": 0.792
+   },
+   {
+    "name": "CharacterArmature|Run_Shoot",
+    "duration": 0.833
+   },
+   {
+    "name": "CharacterArmature|Sword_Slash",
+    "duration": 1
+   },
+   {
+    "name": "CharacterArmature|Walk",
+    "duration": 1.333
+   },
+   {
+    "name": "CharacterArmature|Wave",
+    "duration": 1.667
+   }
+  ],
+  "bbox": {
+   "local_min": [
+    -0.008,
+    -0.003,
+    0
+   ],
+   "local_max": [
+    0.008,
+    0.001,
+    0.019
+   ],
+   "local_size": [
+    0.017,
+    0.004,
+    0.019
+   ],
+   "est_world_size": [
+    1.7,
+    0.4,
+    1.9
+   ],
+   "note": "mesh局部坐标×骨架节点scale 100估算；轴向可能未含根节点旋转，运行时请用Box3归一化"
+  },
+  "size_kb": 1313,
+  "meshes": 4,
+  "materials": 11,
+  "textures": 0,
+  "skinned": true,
+  "joints": 62,
+  "tris": 5240,
+  "suggested_use": "3 英雄-机械师：安全帽工装，Interact/Gun动画"
+ },
+ {
+  "file": "static/giant_mech_5l-n7PyvqOu.glb",
+  "name": "Giant Mech 🤖",
+  "source_url": "https://poly.pizza/m/5l-n7PyvqOu",
+  "download_url": "https://static.poly.pizza/1c157119-ea4b-4c72-8fe0-51b2ef1430f0.glb",
+  "author": "Chris Ross",
+  "license": "CC-BY 3.0",
+  "animations": [],
+  "bbox": {
+   "local_min": [
+    -2.498,
+    -0.989,
+    -3.074
+   ],
+   "local_max": [
+    1.108,
+    2.812,
+    1.842
+   ],
+   "local_size": [
+    3.606,
+    3.801,
+    4.916
+   ],
+   "est_world_size": [
+    3.61,
+    3.8,
+    4.92
+   ],
+   "note": "局部坐标，运行时请用Box3归一化"
+  },
+  "size_kb": 646,
+  "meshes": 1,
+  "materials": 8,
+  "textures": 0,
+  "skinned": false,
+  "joints": 0,
+  "tris": 19100,
+  "suggested_use": "5 巨型机甲外观候选(静态无骨骼，CC-BY需署名)：需程序化动画(上下浮动/炮口闪光)或仅作远景/Boss友军"
+ },
+ {
+  "file": "static/giant_robot_1kbGZOnhOwf.glb",
+  "name": "Giant Robot",
+  "source_url": "https://poly.pizza/m/1kbGZOnhOwf",
+  "download_url": "https://static.poly.pizza/2db3d598-a711-48ea-ac66-45165e37ee87.glb",
+  "author": "Dann Beeson",
+  "license": "CC-BY 3.0",
+  "animations": [],
+  "bbox": {
+   "local_min": [
+    -1.372,
+    -3.095,
+    -1.714
+   ],
+   "local_max": [
+    1.22,
+    3.062,
+    0.628
+   ],
+   "local_size": [
+    2.592,
+    6.157,
+    2.342
+   ],
+   "est_world_size": [
+    2.59,
+    6.16,
+    2.34
+   ],
+   "note": "局部坐标，运行时请用Box3归一化"
+  },
+  "size_kb": 1438,
+  "meshes": 113,
+  "materials": 10,
+  "textures": 0,
+  "skinned": false,
+  "joints": 0,
+  "tris": 20638,
+  "suggested_use": "5 巨型机甲外观候选(静态无骨骼，CC-BY需署名)：需程序化动画(上下浮动/炮口闪光)或仅作远景/Boss友军"
+ },
+ {
+  "file": "static/little_mech_7ysTwVKOiMp.glb",
+  "name": "Little Mech",
+  "source_url": "https://poly.pizza/m/7ysTwVKOiMp",
+  "download_url": "https://static.poly.pizza/890d3844-666b-4ac1-b5a7-b18ee7eacb51.glb",
+  "author": "Riley Florence",
+  "license": "CC-BY 3.0",
+  "animations": [],
+  "bbox": {
+   "local_min": [
+    -0.536,
+    -0.35,
+    -0.211
+   ],
+   "local_max": [
+    0.513,
+    1.12,
+    0.714
+   ],
+   "local_size": [
+    1.049,
+    1.47,
+    0.926
+   ],
+   "est_world_size": [
+    1.05,
+    1.47,
+    0.93
+   ],
+   "note": "局部坐标，运行时请用Box3归一化"
+  },
+  "size_kb": 229,
+  "meshes": 24,
+  "materials": 4,
+  "textures": 0,
+  "skinned": false,
+  "joints": 0,
+  "tris": 3012,
+  "suggested_use": "5 巨型机甲外观候选(静态无骨骼，CC-BY需署名)：需程序化动画(上下浮动/炮口闪光)或仅作远景/Boss友军"
+ },
+ {
+  "file": "static/mech_assault_walker_6s3_n8xzzvo.glb",
+  "name": "Mech Assault Walker",
+  "source_url": "https://poly.pizza/m/6s3_n8xzzvo",
+  "download_url": "https://static.poly.pizza/0f7c451a-e402-4429-b581-9d423de22c8b.glb",
+  "author": "Alimayo Arango",
+  "license": "CC-BY 3.0",
+  "animations": [],
+  "bbox": {
+   "local_min": [
+    -8.217,
+    -8.989,
+    -8.189
+   ],
+   "local_max": [
+    8.217,
+    10.326,
+    7.351
+   ],
+   "local_size": [
+    16.433,
+    19.315,
+    15.541
+   ],
+   "est_world_size": [
+    16.43,
+    19.32,
+    15.54
+   ],
+   "note": "局部坐标，运行时请用Box3归一化"
+  },
+  "size_kb": 1141,
+  "meshes": 1,
+  "materials": 13,
+  "textures": 0,
+  "skinned": false,
+  "joints": 0,
+  "tris": 36906,
+  "suggested_use": "5 巨型机甲外观候选(静态无骨骼，CC-BY需署名)：需程序化动画(上下浮动/炮口闪光)或仅作远景/Boss友军"
+ },
+ {
+  "file": "static/mech_concept_51h2ELk0o6n.glb",
+  "name": "Mech concept",
+  "source_url": "https://poly.pizza/m/51h2ELk0o6n",
+  "download_url": "https://static.poly.pizza/b5086706-1bcc-4a80-947d-6fe62521809c.glb",
+  "author": "Raul Yo",
+  "license": "CC-BY 3.0",
+  "animations": [],
+  "bbox": {
+   "local_min": [
+    -2.081,
+    -1.57,
+    -2.16
+   ],
+   "local_max": [
+    2.457,
+    3.809,
+    2.338
+   ],
+   "local_size": [
+    4.538,
+    5.378,
+    4.498
+   ],
+   "est_world_size": [
+    4.54,
+    5.38,
+    4.5
+   ],
+   "note": "局部坐标，运行时请用Box3归一化"
+  },
+  "size_kb": 2122,
+  "meshes": 1,
+  "materials": 9,
+  "textures": 0,
+  "skinned": false,
+  "joints": 0,
+  "tris": 38384,
+  "suggested_use": "5 巨型机甲外观候选(静态无骨骼，CC-BY需署名)：需程序化动画(上下浮动/炮口闪光)或仅作远景/Boss友军"
+ },
+ {
+  "file": "static/mechsuit_cQFoSfuK7Tf.glb",
+  "name": "Mechsuit",
+  "source_url": "https://poly.pizza/m/cQFoSfuK7Tf",
+  "download_url": "https://static.poly.pizza/81a2061f-08f5-4ed8-8463-d57bc58333da.glb",
+  "author": "Pepper Media",
+  "license": "CC-BY 3.0",
+  "animations": [],
+  "bbox": {
+   "local_min": [
+    -0.436,
+    -0.584,
+    -0.625
+   ],
+   "local_max": [
+    0.585,
+    0.709,
+    0.276
+   ],
+   "local_size": [
+    1.022,
+    1.293,
+    0.901
+   ],
+   "est_world_size": [
+    1.02,
+    1.29,
+    0.9
+   ],
+   "note": "局部坐标，运行时请用Box3归一化"
+  },
+  "size_kb": 2111,
+  "meshes": 74,
+  "materials": 5,
+  "textures": 0,
+  "skinned": false,
+  "joints": 0,
+  "tris": 30789,
+  "suggested_use": "5 巨型机甲外观候选(静态无骨骼，CC-BY需署名)：需程序化动画(上下浮动/炮口闪光)或仅作远景/Boss友军"
+ },
+ {
+  "file": "static/omega_hunter_bot_6IjSbZC5i5v.glb",
+  "name": "Omega Hunter Bot",
+  "source_url": "https://poly.pizza/m/6IjSbZC5i5v",
+  "download_url": "https://static.poly.pizza/8fc0fac3-decb-4ed2-8b6d-150faf088ca2.glb",
+  "author": "Aaron Clifford",
+  "license": "CC-BY 3.0",
+  "animations": [],
+  "bbox": {
+   "local_min": [
+    -1.904,
+    -1.299,
+    -0.322
+   ],
+   "local_max": [
+    1.895,
+    1.728,
+    0.842
+   ],
+   "local_size": [
+    3.799,
+    3.027,
+    1.163
+   ],
+   "est_world_size": [
+    3.8,
+    3.03,
+    1.16
+   ],
+   "note": "局部坐标，运行时请用Box3归一化"
+  },
+  "size_kb": 154,
+  "meshes": 10,
+  "materials": 9,
+  "textures": 0,
+  "skinned": false,
+  "joints": 0,
+  "tris": 1744,
+  "suggested_use": "5 巨型机甲外观候选(静态无骨骼，CC-BY需署名)：需程序化动画(上下浮动/炮口闪光)或仅作远景/Boss友军"
+ },
+ {
+  "file": "static/sentinel_mech_aGSpAN8ONud.glb",
+  "name": "Sentinel Mech",
+  "source_url": "https://poly.pizza/m/aGSpAN8ONud",
+  "download_url": "https://static.poly.pizza/40d7525e-237c-448b-8b1d-8260bd0b1885.glb",
+  "author": "Tekano Bob",
+  "license": "CC-BY 3.0",
+  "animations": [],
+  "bbox": {
+   "local_min": [
+    -2.108,
+    -2.649,
+    -2.132
+   ],
+   "local_max": [
+    2.486,
+    2.277,
+    2.313
+   ],
+   "local_size": [
+    4.594,
+    4.926,
+    4.444
+   ],
+   "est_world_size": [
+    4.59,
+    4.93,
+    4.44
+   ],
+   "note": "局部坐标，运行时请用Box3归一化"
+  },
+  "size_kb": 1567,
+  "meshes": 2,
+  "materials": 10,
+  "textures": 0,
+  "skinned": false,
+  "joints": 0,
+  "tris": 22364,
+  "suggested_use": "5 巨型机甲外观候选(静态无骨骼，CC-BY需署名)：需程序化动画(上下浮动/炮口闪光)或仅作远景/Boss友军"
+ }
+]

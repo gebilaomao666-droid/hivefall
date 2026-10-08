@@ -1,0 +1,10909 @@
+[
+ {
+  "file": "kaylousberg_base_dkut.glb",
+  "name": "Base",
+  "source_url": "https://poly.pizza/m/dKUTIIPVT8",
+  "download_url": "https://static.poly.pizza/4d72fea6-7424-4c21-a2ae-d0a776e46586.glb",
+  "author": "Kay Lousberg (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -1,
+    0,
+    -1
+   ],
+   "max": [
+    1,
+    0.1,
+    1
+   ],
+   "size": [
+    2,
+    0.1,
+    2
+   ]
+  },
+  "size_kb": 25,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 60,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "base"
+  ],
+  "suggested_use": "远景建筑/基地/天体"
+ },
+ {
+  "file": "kaylousberg_building_bbh2.glb",
+  "name": "Building",
+  "source_url": "https://poly.pizza/m/bbH2Bg73qM",
+  "download_url": "https://static.poly.pizza/e09bc106-ce36-4f55-977d-16921d6f0002.glb",
+  "author": "Kay Lousberg (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -1.003,
+    0,
+    -1
+   ],
+   "max": [
+    1.003,
+    2.976,
+    1
+   ],
+   "size": [
+    2.007,
+    2.976,
+    2
+   ]
+  },
+  "size_kb": 123,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 1711,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "building_G"
+  ],
+  "suggested_use": "远景建筑/基地/天体"
+ },
+ {
+  "file": "kaylousberg_building_otrs.glb",
+  "name": "Building",
+  "source_url": "https://poly.pizza/m/otRsYa6pan",
+  "download_url": "https://static.poly.pizza/1c40976f-9fd1-4779-ba85-8105d523f3d8.glb",
+  "author": "Kay Lousberg (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -1.003,
+    0,
+    -1
+   ],
+   "max": [
+    1.003,
+    3.05,
+    1
+   ],
+   "size": [
+    2.007,
+    3.05,
+    2
+   ]
+  },
+  "size_kb": 136,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 1885,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "building_H"
+  ],
+  "suggested_use": "远景建筑/基地/天体"
+ },
+ {
+  "file": "kaylousberg_building_qohh.glb",
+  "name": "Building",
+  "source_url": "https://poly.pizza/m/qOhhGLftam",
+  "download_url": "https://static.poly.pizza/878d8f0d-cf0b-41ef-a6ab-94bd1aeb23dd.glb",
+  "author": "Kay Lousberg (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -1.003,
+    0,
+    -1
+   ],
+   "max": [
+    1.003,
+    2.35,
+    1
+   ],
+   "size": [
+    2.007,
+    2.35,
+    2
+   ]
+  },
+  "size_kb": 104,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 1356,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "building_E"
+  ],
+  "suggested_use": "远景建筑/基地/天体"
+ },
+ {
+  "file": "kaylousberg_cargo-depot_crtw.glb",
+  "name": "Cargo Depot",
+  "source_url": "https://poly.pizza/m/cRtW9KaGs0",
+  "download_url": "https://static.poly.pizza/7d4fd0cc-1bb0-439d-b7d6-b4f698f01edc.glb",
+  "author": "Kay Lousberg (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -1.063,
+    0,
+    -1
+   ],
+   "max": [
+    1.01,
+    1.021,
+    1.095
+   ],
+   "size": [
+    2.074,
+    1.021,
+    2.095
+   ]
+  },
+  "size_kb": 98,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 1310,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "cargodepot_C"
+  ],
+  "suggested_use": "运输船/运输车"
+ },
+ {
+  "file": "kaylousberg_cargo-depot_vgga.glb",
+  "name": "Cargo Depot",
+  "source_url": "https://poly.pizza/m/VGgaSzvWke",
+  "download_url": "https://static.poly.pizza/6dcc55f6-7b19-4323-9863-0a74fc83fe38.glb",
+  "author": "Kay Lousberg (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -1.072,
+    0,
+    -1.106
+   ],
+   "max": [
+    1.01,
+    1.02,
+    1.072
+   ],
+   "size": [
+    2.083,
+    1.02,
+    2.178
+   ]
+  },
+  "size_kb": 82,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 966,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "cargodepot_B"
+  ],
+  "suggested_use": "运输船/运输车"
+ },
+ {
+  "file": "kaylousberg_cargo-roof-modules_l7i1.glb",
+  "name": "Cargo Roof Modules",
+  "source_url": "https://poly.pizza/m/l7I1ElLM0H",
+  "download_url": "https://static.poly.pizza/e1580e6e-a9d3-4eab-bbc3-20ee20f55aa1.glb",
+  "author": "Kay Lousberg (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    41.314,
+    -0.1,
+    -0.698
+   ],
+   "max": [
+    45.499,
+    1.12,
+    2.898
+   ],
+   "size": [
+    4.186,
+    1.22,
+    3.595
+   ]
+  },
+  "size_kb": 192,
+  "meshes": 6,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 3152,
+  "nodes": 7,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "roofmodule_base",
+   "roofmodule_cargo_A",
+   "roofmodule_cargo_B",
+   "roofmodule_cargo_C",
+   "roofmodule_solarpanels",
+   "solarpanel"
+  ],
+  "suggested_use": "运输船/运输车"
+ },
+ {
+  "file": "kaylousberg_cargo_lhbz.glb",
+  "name": "Cargo",
+  "source_url": "https://poly.pizza/m/lhBzhzwuUd",
+  "download_url": "https://static.poly.pizza/ef3628de-ee04-4f82-a660-24f0f402ac3f.glb",
+  "author": "Kay Lousberg (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    12.559,
+    -0.01,
+    -2.41
+   ],
+   "max": [
+    14.6,
+    1.01,
+    -1.39
+   ],
+   "size": [
+    2.041,
+    1.021,
+    1.021
+   ]
+  },
+  "size_kb": 71,
+  "meshes": 3,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 792,
+  "nodes": 4,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "cargo_B",
+   "cargo_B_packed",
+   "cargo_B_stacked"
+  ],
+  "suggested_use": "运输船/运输车"
+ },
+ {
+  "file": "kaylousberg_landing-pad_qpdg.glb",
+  "name": "Landing Pad",
+  "source_url": "https://poly.pizza/m/QpDGgpHcH2",
+  "download_url": "https://static.poly.pizza/847e2c22-b67b-434a-8d58-3edc9ff66505.glb",
+  "author": "Kay Lousberg (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.95,
+    0,
+    -0.95
+   ],
+   "max": [
+    0.95,
+    0.5,
+    0.95
+   ],
+   "size": [
+    1.9,
+    0.5,
+    1.9
+   ]
+  },
+  "size_kb": 52,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 454,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "landingpad_small"
+  ],
+  "suggested_use": "桥面/平台/地板模块"
+ },
+ {
+  "file": "kaylousberg_landing-pad_r5ts.glb",
+  "name": "Landing Pad",
+  "source_url": "https://poly.pizza/m/R5tsCpWwD2",
+  "download_url": "https://static.poly.pizza/deb43956-8ef1-435d-a4ff-b991f24b80ee.glb",
+  "author": "Kay Lousberg (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -1.25,
+    0,
+    -1.25
+   ],
+   "max": [
+    1.25,
+    0.5,
+    1.25
+   ],
+   "size": [
+    2.5,
+    0.5,
+    2.5
+   ]
+  },
+  "size_kb": 53,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 478,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "landingpad_large"
+  ],
+  "suggested_use": "桥面/平台/地板模块"
+ },
+ {
+  "file": "kaylousberg_space-base-modules_5txc.glb",
+  "name": "Space Base Modules",
+  "source_url": "https://poly.pizza/m/5TxCebwK2h",
+  "download_url": "https://static.poly.pizza/486d806d-6484-46e1-a3b0-c3d51efddda1.glb",
+  "author": "Kay Lousberg (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.824,
+    0,
+    -3.672
+   ],
+   "max": [
+    9.118,
+    1.65,
+    1.278
+   ],
+   "size": [
+    7.294,
+    1.65,
+    4.95
+   ]
+  },
+  "size_kb": 284,
+  "meshes": 7,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 4132,
+  "nodes": 8,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "basemodule_A",
+   "basemodule_B",
+   "basemodule_C",
+   "basemodule_D",
+   "basemodule_E",
+   "basemodule_garage",
+   "basemodule_garage_door"
+  ],
+  "suggested_use": "远景建筑/基地/天体"
+ },
+ {
+  "file": "kaylousberg_space-lander-base_tgoy.glb",
+  "name": "Space Lander Base",
+  "source_url": "https://poly.pizza/m/TgOY580aMy",
+  "download_url": "https://static.poly.pizza/62b494a9-1aad-486f-b5aa-49f012ca5b76.glb",
+  "author": "Kay Lousberg (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.672,
+    0,
+    -0.672
+   ],
+   "max": [
+    0.672,
+    0.5,
+    0.672
+   ],
+   "size": [
+    1.344,
+    0.5,
+    1.344
+   ]
+  },
+  "size_kb": 63,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 638,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "lander_base"
+  ],
+  "suggested_use": "运输船/运输车"
+ },
+ {
+  "file": "kaylousberg_space-platform_yxbe.glb",
+  "name": "Space Platform",
+  "source_url": "https://poly.pizza/m/yxbeci4pxl",
+  "download_url": "https://static.poly.pizza/69e707a2-7f9a-4854-b881-1a195c650ad7.glb",
+  "author": "Kay Lousberg (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.875,
+    0,
+    -0.875
+   ],
+   "max": [
+    0.875,
+    1,
+    0.875
+   ],
+   "size": [
+    1.75,
+    1,
+    1.75
+   ]
+  },
+  "size_kb": 53,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 422,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "structure_low"
+  ],
+  "suggested_use": "桥面/平台/地板模块"
+ },
+ {
+  "file": "kaylousberg_tunnels_e1rr.glb",
+  "name": "Tunnels",
+  "source_url": "https://poly.pizza/m/E1Rrk1NKt0",
+  "download_url": "https://static.poly.pizza/71fa7525-7a7f-4f1c-9c36-d5c06eca5023.glb",
+  "author": "Kay Lousberg (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    71.53,
+    0.2,
+    -3.465
+   ],
+   "max": [
+    77.408,
+    0.8,
+    3.47
+   ],
+   "size": [
+    5.878,
+    0.6,
+    6.935
+   ]
+  },
+  "size_kb": 165,
+  "meshes": 6,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 2160,
+  "nodes": 7,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "tunnel_diagonal_long_A",
+   "tunnel_diagonal_long_B",
+   "tunnel_diagonal_short_A",
+   "tunnel_diagonal_short_B",
+   "tunnel_straight_A",
+   "tunnel_straight_B"
+  ],
+  "suggested_use": "远景建筑/基地/天体"
+ },
+ {
+  "file": "kenney-industrial_building-a.glb",
+  "name": "building-a",
+  "source_url": "https://kenney.nl/assets/city-kit-industrial",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -1.041,
+    0,
+    -0.621
+   ],
+   "max": [
+    1.043,
+    1.47,
+    0.621
+   ],
+   "size": [
+    2.084,
+    1.47,
+    1.242
+   ]
+  },
+  "size_kb": 185,
+  "meshes": 1,
+  "materials": 2,
+  "textures": 1,
+  "triangles": 2046,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "building-a"
+  ],
+  "suggested_use": "远景建筑/基地/天体"
+ },
+ {
+  "file": "kenney-industrial_building-b.glb",
+  "name": "building-b",
+  "source_url": "https://kenney.nl/assets/city-kit-industrial",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -1.041,
+    0,
+    -0.639
+   ],
+   "max": [
+    1.043,
+    1.47,
+    0.623
+   ],
+   "size": [
+    2.084,
+    1.47,
+    1.262
+   ]
+  },
+  "size_kb": 219,
+  "meshes": 1,
+  "materials": 2,
+  "textures": 1,
+  "triangles": 2422,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "building-b"
+  ],
+  "suggested_use": "远景建筑/基地/天体"
+ },
+ {
+  "file": "kenney-industrial_building-c.glb",
+  "name": "building-c",
+  "source_url": "https://kenney.nl/assets/city-kit-industrial",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.842,
+    0,
+    -0.911
+   ],
+   "max": [
+    1.034,
+    1.25,
+    1.197
+   ],
+   "size": [
+    1.876,
+    1.25,
+    2.108
+   ]
+  },
+  "size_kb": 183,
+  "meshes": 1,
+  "materials": 2,
+  "textures": 1,
+  "triangles": 1928,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "building-c"
+  ],
+  "suggested_use": "远景建筑/基地/天体"
+ },
+ {
+  "file": "kenney-industrial_building-d.glb",
+  "name": "building-d",
+  "source_url": "https://kenney.nl/assets/city-kit-industrial",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.442,
+    0,
+    -0.8
+   ],
+   "max": [
+    0.442,
+    1.415,
+    0.62
+   ],
+   "size": [
+    0.884,
+    1.415,
+    1.42
+   ]
+  },
+  "size_kb": 110,
+  "meshes": 1,
+  "materials": 2,
+  "textures": 1,
+  "triangles": 1158,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "building-d"
+  ],
+  "suggested_use": "远景建筑/基地/天体"
+ },
+ {
+  "file": "kenney-industrial_building-e.glb",
+  "name": "building-e",
+  "source_url": "https://kenney.nl/assets/city-kit-industrial",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.842,
+    0,
+    -0.396
+   ],
+   "max": [
+    0.842,
+    1.65,
+    0.894
+   ],
+   "size": [
+    1.684,
+    1.65,
+    1.29
+   ]
+  },
+  "size_kb": 138,
+  "meshes": 1,
+  "materials": 2,
+  "textures": 1,
+  "triangles": 1484,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "building-e"
+  ],
+  "suggested_use": "远景建筑/基地/天体"
+ },
+ {
+  "file": "kenney-industrial_building-f.glb",
+  "name": "building-f",
+  "source_url": "https://kenney.nl/assets/city-kit-industrial",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -1.348,
+    0,
+    -0.386
+   ],
+   "max": [
+    0.442,
+    1.925,
+    0.894
+   ],
+   "size": [
+    1.79,
+    1.925,
+    1.28
+   ]
+  },
+  "size_kb": 143,
+  "meshes": 1,
+  "materials": 2,
+  "textures": 1,
+  "triangles": 1552,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "building-f"
+  ],
+  "suggested_use": "远景建筑/基地/天体"
+ },
+ {
+  "file": "kenney-industrial_building-g.glb",
+  "name": "building-g",
+  "source_url": "https://kenney.nl/assets/city-kit-industrial",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.839,
+    0,
+    -0.642
+   ],
+   "max": [
+    0.839,
+    1.28,
+    0.642
+   ],
+   "size": [
+    1.678,
+    1.28,
+    1.284
+   ]
+  },
+  "size_kb": 116,
+  "meshes": 1,
+  "materials": 2,
+  "textures": 1,
+  "triangles": 1242,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "building-g"
+  ],
+  "suggested_use": "远景建筑/基地/天体"
+ },
+ {
+  "file": "kenney-industrial_building-h.glb",
+  "name": "building-h",
+  "source_url": "https://kenney.nl/assets/city-kit-industrial",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -1.242,
+    0,
+    -0.376
+   ],
+   "max": [
+    0.08,
+    0.734,
+    0.934
+   ],
+   "size": [
+    1.322,
+    0.734,
+    1.31
+   ]
+  },
+  "size_kb": 74,
+  "meshes": 1,
+  "materials": 2,
+  "textures": 1,
+  "triangles": 698,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "building-h"
+  ],
+  "suggested_use": "远景建筑/基地/天体"
+ },
+ {
+  "file": "kenney-industrial_building-i.glb",
+  "name": "building-i",
+  "source_url": "https://kenney.nl/assets/city-kit-industrial",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.948,
+    0,
+    -0.376
+   ],
+   "max": [
+    0.08,
+    0.734,
+    0.924
+   ],
+   "size": [
+    1.028,
+    0.734,
+    1.3
+   ]
+  },
+  "size_kb": 84,
+  "meshes": 1,
+  "materials": 2,
+  "textures": 1,
+  "triangles": 798,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "building-i"
+  ],
+  "suggested_use": "远景建筑/基地/天体"
+ },
+ {
+  "file": "kenney-industrial_building-j.glb",
+  "name": "building-j",
+  "source_url": "https://kenney.nl/assets/city-kit-industrial",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.948,
+    0,
+    -0.376
+   ],
+   "max": [
+    0.078,
+    0.861,
+    0.924
+   ],
+   "size": [
+    1.027,
+    0.861,
+    1.3
+   ]
+  },
+  "size_kb": 91,
+  "meshes": 1,
+  "materials": 2,
+  "textures": 1,
+  "triangles": 886,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "building-j"
+  ],
+  "suggested_use": "远景建筑/基地/天体"
+ },
+ {
+  "file": "kenney-industrial_building-k.glb",
+  "name": "building-k",
+  "source_url": "https://kenney.nl/assets/city-kit-industrial",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.651,
+    0,
+    -0.464
+   ],
+   "max": [
+    0.651,
+    0.773,
+    0.45
+   ],
+   "size": [
+    1.303,
+    0.773,
+    0.914
+   ]
+  },
+  "size_kb": 76,
+  "meshes": 1,
+  "materials": 2,
+  "textures": 1,
+  "triangles": 702,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "building-k"
+  ],
+  "suggested_use": "远景建筑/基地/天体"
+ },
+ {
+  "file": "kenney-industrial_building-l.glb",
+  "name": "building-l",
+  "source_url": "https://kenney.nl/assets/city-kit-industrial",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -1.464,
+    0,
+    -0.711
+   ],
+   "max": [
+    0.62,
+    1.925,
+    1.159
+   ],
+   "size": [
+    2.084,
+    1.925,
+    1.87
+   ]
+  },
+  "size_kb": 170,
+  "meshes": 1,
+  "materials": 2,
+  "textures": 1,
+  "triangles": 1896,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "building-l"
+  ],
+  "suggested_use": "远景建筑/基地/天体"
+ },
+ {
+  "file": "kenney-industrial_building-m.glb",
+  "name": "building-m",
+  "source_url": "https://kenney.nl/assets/city-kit-industrial",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.658,
+    0,
+    -0.85
+   ],
+   "max": [
+    0.658,
+    1.519,
+    0.85
+   ],
+   "size": [
+    1.316,
+    1.519,
+    1.7
+   ]
+  },
+  "size_kb": 147,
+  "meshes": 1,
+  "materials": 2,
+  "textures": 1,
+  "triangles": 1694,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "building-m"
+  ],
+  "suggested_use": "远景建筑/基地/天体"
+ },
+ {
+  "file": "kenney-industrial_building-n.glb",
+  "name": "building-n",
+  "source_url": "https://kenney.nl/assets/city-kit-industrial",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.94,
+    0,
+    -0.15
+   ],
+   "max": [
+    0.037,
+    1.905,
+    1.27
+   ],
+   "size": [
+    0.977,
+    1.905,
+    1.42
+   ]
+  },
+  "size_kb": 118,
+  "meshes": 1,
+  "materials": 2,
+  "textures": 1,
+  "triangles": 1262,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "building-n"
+  ],
+  "suggested_use": "远景建筑/基地/天体"
+ },
+ {
+  "file": "kenney-industrial_building-o.glb",
+  "name": "building-o",
+  "source_url": "https://kenney.nl/assets/city-kit-industrial",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.884,
+    0,
+    0
+   ],
+   "max": [
+    0,
+    0.918,
+    1.24
+   ],
+   "size": [
+    0.884,
+    0.918,
+    1.24
+   ]
+  },
+  "size_kb": 86,
+  "meshes": 1,
+  "materials": 2,
+  "textures": 1,
+  "triangles": 868,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "building-o"
+  ],
+  "suggested_use": "远景建筑/基地/天体"
+ },
+ {
+  "file": "kenney-industrial_building-p.glb",
+  "name": "building-p",
+  "source_url": "https://kenney.nl/assets/city-kit-industrial",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.842,
+    0,
+    -0.496
+   ],
+   "max": [
+    0.842,
+    0.715,
+    0.496
+   ],
+   "size": [
+    1.684,
+    0.715,
+    0.992
+   ]
+  },
+  "size_kb": 113,
+  "meshes": 1,
+  "materials": 2,
+  "textures": 1,
+  "triangles": 1162,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "building-p"
+  ],
+  "suggested_use": "远景建筑/基地/天体"
+ },
+ {
+  "file": "kenney-industrial_building-q.glb",
+  "name": "building-q",
+  "source_url": "https://kenney.nl/assets/city-kit-industrial",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -1.298,
+    0,
+    -0.874
+   ],
+   "max": [
+    0.842,
+    0.88,
+    0.896
+   ],
+   "size": [
+    2.14,
+    0.88,
+    1.77
+   ]
+  },
+  "size_kb": 189,
+  "meshes": 1,
+  "materials": 2,
+  "textures": 1,
+  "triangles": 2062,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "building-q"
+  ],
+  "suggested_use": "远景建筑/基地/天体"
+ },
+ {
+  "file": "kenney-industrial_building-r.glb",
+  "name": "building-r",
+  "source_url": "https://kenney.nl/assets/city-kit-industrial",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -1.242,
+    0,
+    -0.636
+   ],
+   "max": [
+    1.242,
+    1.393,
+    0.636
+   ],
+   "size": [
+    2.484,
+    1.393,
+    1.272
+   ]
+  },
+  "size_kb": 181,
+  "meshes": 1,
+  "materials": 2,
+  "textures": 1,
+  "triangles": 1912,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "building-r"
+  ],
+  "suggested_use": "远景建筑/基地/天体"
+ },
+ {
+  "file": "kenney-industrial_building-s.glb",
+  "name": "building-s",
+  "source_url": "https://kenney.nl/assets/city-kit-industrial",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -1.07,
+    0,
+    -0.458
+   ],
+   "max": [
+    1.05,
+    0.837,
+    0.458
+   ],
+   "size": [
+    2.12,
+    0.837,
+    0.916
+   ]
+  },
+  "size_kb": 91,
+  "meshes": 1,
+  "materials": 2,
+  "textures": 1,
+  "triangles": 876,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "building-s"
+  ],
+  "suggested_use": "远景建筑/基地/天体"
+ },
+ {
+  "file": "kenney-industrial_building-t.glb",
+  "name": "building-t",
+  "source_url": "https://kenney.nl/assets/city-kit-industrial",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.861,
+    0,
+    -0.695
+   ],
+   "max": [
+    0.861,
+    1.015,
+    0.695
+   ],
+   "size": [
+    1.722,
+    1.015,
+    1.39
+   ]
+  },
+  "size_kb": 148,
+  "meshes": 1,
+  "materials": 2,
+  "textures": 1,
+  "triangles": 1586,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "building-t"
+  ],
+  "suggested_use": "远景建筑/基地/天体"
+ },
+ {
+  "file": "kenney-industrial_chimney-basic.glb",
+  "name": "chimney-basic",
+  "source_url": "https://kenney.nl/assets/city-kit-industrial",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.1,
+    0,
+    -0.1
+   ],
+   "max": [
+    0.1,
+    1,
+    0.1
+   ],
+   "size": [
+    0.2,
+    1,
+    0.2
+   ]
+  },
+  "size_kb": 21,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 88,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "chimney-basic"
+  ],
+  "suggested_use": "远景建筑/基地/天体"
+ },
+ {
+  "file": "kenney-industrial_chimney-large.glb",
+  "name": "chimney-large",
+  "source_url": "https://kenney.nl/assets/city-kit-industrial",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.54,
+    0,
+    -0.54
+   ],
+   "max": [
+    0.54,
+    1.7,
+    0.54
+   ],
+   "size": [
+    1.08,
+    1.7,
+    1.08
+   ]
+  },
+  "size_kb": 32,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 218,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "chimney-large"
+  ],
+  "suggested_use": "远景建筑/基地/天体"
+ },
+ {
+  "file": "kenney-industrial_chimney-medium.glb",
+  "name": "chimney-medium",
+  "source_url": "https://kenney.nl/assets/city-kit-industrial",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.225,
+    0,
+    -0.225
+   ],
+   "max": [
+    0.225,
+    1.925,
+    0.225
+   ],
+   "size": [
+    0.45,
+    1.925,
+    0.45
+   ]
+  },
+  "size_kb": 26,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 160,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "chimney-medium"
+  ],
+  "suggested_use": "远景建筑/基地/天体"
+ },
+ {
+  "file": "kenney-industrial_chimney-small.glb",
+  "name": "chimney-small",
+  "source_url": "https://kenney.nl/assets/city-kit-industrial",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.15,
+    0,
+    -0.15
+   ],
+   "max": [
+    0.15,
+    0.75,
+    0.15
+   ],
+   "size": [
+    0.3,
+    0.75,
+    0.3
+   ]
+  },
+  "size_kb": 22,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 124,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "chimney-small"
+  ],
+  "suggested_use": "远景建筑/基地/天体"
+ },
+ {
+  "file": "kenney-industrial_detail-tank-large.glb",
+  "name": "detail-tank-large",
+  "source_url": "https://kenney.nl/assets/city-kit-industrial",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.754,
+    0,
+    -0.894
+   ],
+   "max": [
+    0.754,
+    0.962,
+    0.754
+   ],
+   "size": [
+    1.508,
+    0.962,
+    1.648
+   ]
+  },
+  "size_kb": 58,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 566,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "detail-tank-large"
+  ],
+  "suggested_use": "集装箱/桶/储罐 路边堆放"
+ },
+ {
+  "file": "kenney-industrial_detail-tank.glb",
+  "name": "detail-tank",
+  "source_url": "https://kenney.nl/assets/city-kit-industrial",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.424,
+    0,
+    -0.258
+   ],
+   "max": [
+    0.424,
+    0.415,
+    0.258
+   ],
+   "size": [
+    0.848,
+    0.415,
+    0.515
+   ]
+  },
+  "size_kb": 42,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 310,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "detail-tank"
+  ],
+  "suggested_use": "坦克/重型地面单位增援"
+ },
+ {
+  "file": "kenney-industrial_shipping-container-a.glb",
+  "name": "shipping-container-a",
+  "source_url": "https://kenney.nl/assets/city-kit-industrial",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.186,
+    0,
+    -0.411
+   ],
+   "max": [
+    0.186,
+    0.348,
+    0.411
+   ],
+   "size": [
+    0.373,
+    0.348,
+    0.823
+   ]
+  },
+  "size_kb": 48,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 402,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "shipping-container-a"
+  ],
+  "suggested_use": "集装箱/桶/储罐 路边堆放"
+ },
+ {
+  "file": "kenney-industrial_shipping-container-b.glb",
+  "name": "shipping-container-b",
+  "source_url": "https://kenney.nl/assets/city-kit-industrial",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.186,
+    0,
+    -0.411
+   ],
+   "max": [
+    0.186,
+    0.348,
+    0.411
+   ],
+   "size": [
+    0.373,
+    0.348,
+    0.823
+   ]
+  },
+  "size_kb": 48,
+  "meshes": 1,
+  "materials": 2,
+  "textures": 1,
+  "triangles": 402,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "shipping-container-b"
+  ],
+  "suggested_use": "集装箱/桶/储罐 路边堆放"
+ },
+ {
+  "file": "kenney-industrial_shipping-container-c.glb",
+  "name": "shipping-container-c",
+  "source_url": "https://kenney.nl/assets/city-kit-industrial",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.186,
+    0,
+    -0.411
+   ],
+   "max": [
+    0.186,
+    0.348,
+    0.411
+   ],
+   "size": [
+    0.373,
+    0.348,
+    0.823
+   ]
+  },
+  "size_kb": 48,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 402,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "shipping-container-c"
+  ],
+  "suggested_use": "集装箱/桶/储罐 路边堆放"
+ },
+ {
+  "file": "kenney-industrial_water-tower.glb",
+  "name": "water-tower",
+  "source_url": "https://kenney.nl/assets/city-kit-industrial",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.426,
+    0,
+    -0.416
+   ],
+   "max": [
+    0.426,
+    2.142,
+    0.416
+   ],
+   "size": [
+    0.852,
+    2.142,
+    0.832
+   ]
+  },
+  "size_kb": 103,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 968,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "water-tower"
+  ],
+  "suggested_use": "远景建筑/基地/天体"
+ },
+ {
+  "file": "kenney-space-station_balcony-floor-center.glb",
+  "name": "balcony-floor-center",
+  "source_url": "https://kenney.nl/assets/space-station-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.5,
+    0,
+    -0.35
+   ],
+   "max": [
+    0.5,
+    0.15,
+    0.35
+   ],
+   "size": [
+    1,
+    0.15,
+    0.7
+   ]
+  },
+  "size_kb": 11,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 20,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "balcony-floor-center"
+  ],
+  "suggested_use": "桥面/平台/地板模块"
+ },
+ {
+  "file": "kenney-space-station_balcony-floor-corner.glb",
+  "name": "balcony-floor-corner",
+  "source_url": "https://kenney.nl/assets/space-station-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.35,
+    0,
+    -0.35
+   ],
+   "max": [
+    0.35,
+    0.15,
+    0.35
+   ],
+   "size": [
+    0.7,
+    0.15,
+    0.7
+   ]
+  },
+  "size_kb": 12,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 32,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "balcony-floor-corner"
+  ],
+  "suggested_use": "桥面/平台/地板模块"
+ },
+ {
+  "file": "kenney-space-station_balcony-floor.glb",
+  "name": "balcony-floor",
+  "source_url": "https://kenney.nl/assets/space-station-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.5,
+    0,
+    -0.35
+   ],
+   "max": [
+    0.5,
+    0.15,
+    0.35
+   ],
+   "size": [
+    1,
+    0.15,
+    0.7
+   ]
+  },
+  "size_kb": 12,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 44,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "balcony-floor"
+  ],
+  "suggested_use": "桥面/平台/地板模块"
+ },
+ {
+  "file": "kenney-space-station_balcony-rail-center.glb",
+  "name": "balcony-rail-center",
+  "source_url": "https://kenney.nl/assets/space-station-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.5,
+    0,
+    -0.1
+   ],
+   "max": [
+    0.5,
+    0.4,
+    0.1
+   ],
+   "size": [
+    1,
+    0.4,
+    0.2
+   ]
+  },
+  "size_kb": 12,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 44,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "balcony-rail-center"
+  ],
+  "suggested_use": "桥面/平台/地板模块"
+ },
+ {
+  "file": "kenney-space-station_balcony-rail-corner.glb",
+  "name": "balcony-rail-corner",
+  "source_url": "https://kenney.nl/assets/space-station-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.35,
+    0,
+    -0.35
+   ],
+   "max": [
+    0.35,
+    0.4,
+    0.35
+   ],
+   "size": [
+    0.7,
+    0.4,
+    0.7
+   ]
+  },
+  "size_kb": 20,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 124,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "balcony-rail-corner"
+  ],
+  "suggested_use": "桥面/平台/地板模块"
+ },
+ {
+  "file": "kenney-space-station_balcony-rail.glb",
+  "name": "balcony-rail",
+  "source_url": "https://kenney.nl/assets/space-station-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.5,
+    0,
+    -0.35
+   ],
+   "max": [
+    0.5,
+    0.4,
+    0.35
+   ],
+   "size": [
+    1,
+    0.4,
+    0.7
+   ]
+  },
+  "size_kb": 28,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 214,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "balcony-rail"
+  ],
+  "suggested_use": "桥面/平台/地板模块"
+ },
+ {
+  "file": "kenney-space-station_computer-system.glb",
+  "name": "computer-system",
+  "source_url": "https://kenney.nl/assets/space-station-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.45,
+    0,
+    -0.372
+   ],
+   "max": [
+    0.45,
+    0.6,
+    0.322
+   ],
+   "size": [
+    0.9,
+    0.6,
+    0.695
+   ]
+  },
+  "size_kb": 24,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 176,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "computer-system"
+  ],
+  "suggested_use": "通用科幻装饰件"
+ },
+ {
+  "file": "kenney-space-station_computer-wide.glb",
+  "name": "computer-wide",
+  "source_url": "https://kenney.nl/assets/space-station-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.4,
+    0,
+    -0.237
+   ],
+   "max": [
+    0.4,
+    0.497,
+    0.297
+   ],
+   "size": [
+    0.8,
+    0.497,
+    0.533
+   ]
+  },
+  "size_kb": 24,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 174,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "computer-wide"
+  ],
+  "suggested_use": "通用科幻装饰件"
+ },
+ {
+  "file": "kenney-space-station_container-flat-open.glb",
+  "name": "container-flat-open",
+  "source_url": "https://kenney.nl/assets/space-station-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.3,
+    0,
+    -0.541
+   ],
+   "max": [
+    0.359,
+    0.6,
+    0.45
+   ],
+   "size": [
+    0.659,
+    0.6,
+    0.991
+   ]
+  },
+  "size_kb": 20,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 132,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "container-flat-open"
+  ],
+  "suggested_use": "集装箱/桶/储罐 路边堆放"
+ },
+ {
+  "file": "kenney-space-station_container-flat.glb",
+  "name": "container-flat",
+  "source_url": "https://kenney.nl/assets/space-station-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.3,
+    0,
+    -0.541
+   ],
+   "max": [
+    0.359,
+    0.6,
+    0.55
+   ],
+   "size": [
+    0.659,
+    0.6,
+    1.091
+   ]
+  },
+  "size_kb": 19,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 116,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "container-flat"
+  ],
+  "suggested_use": "集装箱/桶/储罐 路边堆放"
+ },
+ {
+  "file": "kenney-space-station_container-tall.glb",
+  "name": "container-tall",
+  "source_url": "https://kenney.nl/assets/space-station-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.3,
+    0,
+    -0.3
+   ],
+   "max": [
+    0.3,
+    0.9,
+    0.3
+   ],
+   "size": [
+    0.6,
+    0.9,
+    0.6
+   ]
+  },
+  "size_kb": 20,
+  "meshes": 2,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 116,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "container-tall",
+   "Group"
+  ],
+  "suggested_use": "集装箱/桶/储罐 路边堆放"
+ },
+ {
+  "file": "kenney-space-station_container-wide.glb",
+  "name": "container-wide",
+  "source_url": "https://kenney.nl/assets/space-station-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.3,
+    0,
+    -0.3
+   ],
+   "max": [
+    0.3,
+    0.7,
+    0.3
+   ],
+   "size": [
+    0.6,
+    0.7,
+    0.6
+   ]
+  },
+  "size_kb": 19,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 116,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "container-wide"
+  ],
+  "suggested_use": "集装箱/桶/储罐 路边堆放"
+ },
+ {
+  "file": "kenney-space-station_container.glb",
+  "name": "container",
+  "source_url": "https://kenney.nl/assets/space-station-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.287,
+    0,
+    -0.287
+   ],
+   "max": [
+    0.287,
+    0.6,
+    0.287
+   ],
+   "size": [
+    0.575,
+    0.6,
+    0.575
+   ]
+  },
+  "size_kb": 17,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 88,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "container"
+  ],
+  "suggested_use": "集装箱/桶/储罐 路边堆放"
+ },
+ {
+  "file": "kenney-space-station_display-wall-wide.glb",
+  "name": "display-wall-wide",
+  "source_url": "https://kenney.nl/assets/space-station-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.3,
+    0,
+    -0.143
+   ],
+   "max": [
+    0.3,
+    0.461,
+    0.241
+   ],
+   "size": [
+    0.6,
+    0.461,
+    0.384
+   ]
+  },
+  "size_kb": 17,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 96,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "display-wall-wide"
+  ],
+  "suggested_use": "通用科幻装饰件"
+ },
+ {
+  "file": "kenney-space-station_display-wall.glb",
+  "name": "display-wall",
+  "source_url": "https://kenney.nl/assets/space-station-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.2,
+    0,
+    -0.143
+   ],
+   "max": [
+    0.2,
+    0.461,
+    0.241
+   ],
+   "size": [
+    0.4,
+    0.461,
+    0.384
+   ]
+  },
+  "size_kb": 16,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 86,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "display-wall"
+  ],
+  "suggested_use": "通用科幻装饰件"
+ },
+ {
+  "file": "kenney-space-station_door-double-closed.glb",
+  "name": "door-double-closed",
+  "source_url": "https://kenney.nl/assets/space-station-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.3,
+    0,
+    -0.05
+   ],
+   "max": [
+    0.3,
+    0.7,
+    0.05
+   ],
+   "size": [
+    0.6,
+    0.7,
+    0.1
+   ]
+  },
+  "size_kb": 14,
+  "meshes": 2,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 52,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "door-double-closed",
+   "Group"
+  ],
+  "suggested_use": "通用科幻装饰件"
+ },
+ {
+  "file": "kenney-space-station_door-double.glb",
+  "name": "door-double",
+  "source_url": "https://kenney.nl/assets/space-station-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.3,
+    0,
+    -0.05
+   ],
+   "max": [
+    0.3,
+    0.7,
+    0.05
+   ],
+   "size": [
+    0.6,
+    0.7,
+    0.1
+   ]
+  },
+  "size_kb": 13,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 52,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "door-double"
+  ],
+  "suggested_use": "通用科幻装饰件"
+ },
+ {
+  "file": "kenney-space-station_floor-corner.glb",
+  "name": "floor-corner",
+  "source_url": "https://kenney.nl/assets/space-station-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.5,
+    0,
+    -0.5
+   ],
+   "max": [
+    0.5,
+    0.3,
+    0.5
+   ],
+   "size": [
+    1,
+    0.3,
+    1
+   ]
+  },
+  "size_kb": 10,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 16,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "floor-corner"
+  ],
+  "suggested_use": "桥面/平台/地板模块"
+ },
+ {
+  "file": "kenney-space-station_floor-detail.glb",
+  "name": "floor-detail",
+  "source_url": "https://kenney.nl/assets/space-station-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.5,
+    0,
+    -0.5
+   ],
+   "max": [
+    0.5,
+    0.325,
+    0.5
+   ],
+   "size": [
+    1,
+    0.325,
+    1
+   ]
+  },
+  "size_kb": 13,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 44,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "floor-detail"
+  ],
+  "suggested_use": "桥面/平台/地板模块"
+ },
+ {
+  "file": "kenney-space-station_floor-panel-corner.glb",
+  "name": "floor-panel-corner",
+  "source_url": "https://kenney.nl/assets/space-station-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.5,
+    0,
+    -0.5
+   ],
+   "max": [
+    0.5,
+    0.3,
+    0.5
+   ],
+   "size": [
+    1,
+    0.3,
+    1
+   ]
+  },
+  "size_kb": 13,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 52,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "floor-panel-corner"
+  ],
+  "suggested_use": "桥面/平台/地板模块"
+ },
+ {
+  "file": "kenney-space-station_floor-panel-end.glb",
+  "name": "floor-panel-end",
+  "source_url": "https://kenney.nl/assets/space-station-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.5,
+    0,
+    -0.5
+   ],
+   "max": [
+    0.5,
+    0.3,
+    0.5
+   ],
+   "size": [
+    1,
+    0.3,
+    1
+   ]
+  },
+  "size_kb": 14,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 60,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "floor-panel-end"
+  ],
+  "suggested_use": "桥面/平台/地板模块"
+ },
+ {
+  "file": "kenney-space-station_floor-panel-straight.glb",
+  "name": "floor-panel-straight",
+  "source_url": "https://kenney.nl/assets/space-station-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.5,
+    0,
+    -0.5
+   ],
+   "max": [
+    0.5,
+    0.3,
+    0.5
+   ],
+   "size": [
+    1,
+    0.3,
+    1
+   ]
+  },
+  "size_kb": 14,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 60,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "floor-panel-straight"
+  ],
+  "suggested_use": "桥面/平台/地板模块"
+ },
+ {
+  "file": "kenney-space-station_floor-panel.glb",
+  "name": "floor-panel",
+  "source_url": "https://kenney.nl/assets/space-station-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.5,
+    0,
+    -0.5
+   ],
+   "max": [
+    0.5,
+    0.3,
+    0.5
+   ],
+   "size": [
+    1,
+    0.3,
+    1
+   ]
+  },
+  "size_kb": 16,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 92,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "floor-panel"
+  ],
+  "suggested_use": "桥面/平台/地板模块"
+ },
+ {
+  "file": "kenney-space-station_floor.glb",
+  "name": "floor",
+  "source_url": "https://kenney.nl/assets/space-station-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.5,
+    0,
+    -0.5
+   ],
+   "max": [
+    0.5,
+    0.3,
+    0.5
+   ],
+   "size": [
+    1,
+    0.3,
+    1
+   ]
+  },
+  "size_kb": 10,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 12,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "floor"
+  ],
+  "suggested_use": "桥面/平台/地板模块"
+ },
+ {
+  "file": "kenney-space-station_pipe-bend-diagonal.glb",
+  "name": "pipe-bend-diagonal",
+  "source_url": "https://kenney.nl/assets/space-station-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.123,
+    0,
+    -0.142
+   ],
+   "max": [
+    0.303,
+    0.607,
+    0.142
+   ],
+   "size": [
+    0.426,
+    0.607,
+    0.285
+   ]
+  },
+  "size_kb": 13,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 40,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "pipe-bend-diagonal"
+  ],
+  "suggested_use": "管道装饰"
+ },
+ {
+  "file": "kenney-space-station_pipe-bend.glb",
+  "name": "pipe-bend",
+  "source_url": "https://kenney.nl/assets/space-station-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.123,
+    0,
+    -0.142
+   ],
+   "max": [
+    0.377,
+    0.5,
+    0.142
+   ],
+   "size": [
+    0.5,
+    0.5,
+    0.285
+   ]
+  },
+  "size_kb": 14,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 48,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "pipe-bend"
+  ],
+  "suggested_use": "管道装饰"
+ },
+ {
+  "file": "kenney-space-station_pipe-end-colored.glb",
+  "name": "pipe-end-colored",
+  "source_url": "https://kenney.nl/assets/space-station-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.173,
+    0,
+    -0.2
+   ],
+   "max": [
+    0.173,
+    0.5,
+    0.2
+   ],
+   "size": [
+    0.346,
+    0.5,
+    0.4
+   ]
+  },
+  "size_kb": 12,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 36,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "pipe-end-colored"
+  ],
+  "suggested_use": "管道装饰"
+ },
+ {
+  "file": "kenney-space-station_pipe-end.glb",
+  "name": "pipe-end",
+  "source_url": "https://kenney.nl/assets/space-station-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.173,
+    0,
+    -0.2
+   ],
+   "max": [
+    0.173,
+    0.5,
+    0.2
+   ],
+   "size": [
+    0.346,
+    0.5,
+    0.4
+   ]
+  },
+  "size_kb": 12,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 36,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "pipe-end"
+  ],
+  "suggested_use": "管道装饰"
+ },
+ {
+  "file": "kenney-space-station_pipe-ring-colored.glb",
+  "name": "pipe-ring-colored",
+  "source_url": "https://kenney.nl/assets/space-station-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.173,
+    0,
+    -0.2
+   ],
+   "max": [
+    0.173,
+    0.5,
+    0.2
+   ],
+   "size": [
+    0.346,
+    0.5,
+    0.4
+   ]
+  },
+  "size_kb": 13,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 40,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "pipe-ring-colored"
+  ],
+  "suggested_use": "管道装饰"
+ },
+ {
+  "file": "kenney-space-station_pipe-ring.glb",
+  "name": "pipe-ring",
+  "source_url": "https://kenney.nl/assets/space-station-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.173,
+    0,
+    -0.2
+   ],
+   "max": [
+    0.173,
+    0.5,
+    0.2
+   ],
+   "size": [
+    0.346,
+    0.5,
+    0.4
+   ]
+  },
+  "size_kb": 13,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 40,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "pipe-ring"
+  ],
+  "suggested_use": "管道装饰"
+ },
+ {
+  "file": "kenney-space-station_pipe.glb",
+  "name": "pipe",
+  "source_url": "https://kenney.nl/assets/space-station-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.123,
+    0,
+    -0.142
+   ],
+   "max": [
+    0.123,
+    0.5,
+    0.142
+   ],
+   "size": [
+    0.246,
+    0.5,
+    0.285
+   ]
+  },
+  "size_kb": 11,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 20,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "pipe"
+  ],
+  "suggested_use": "管道装饰"
+ },
+ {
+  "file": "kenney-space-station_rail-narrow.glb",
+  "name": "rail-narrow",
+  "source_url": "https://kenney.nl/assets/space-station-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.25,
+    0,
+    -0.05
+   ],
+   "max": [
+    0.25,
+    0.4,
+    0.05
+   ],
+   "size": [
+    0.5,
+    0.4,
+    0.1
+   ]
+  },
+  "size_kb": 17,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 96,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "rail-narrow"
+  ],
+  "suggested_use": "护栏/路障"
+ },
+ {
+  "file": "kenney-space-station_rail.glb",
+  "name": "rail",
+  "source_url": "https://kenney.nl/assets/space-station-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.5,
+    0,
+    -0.05
+   ],
+   "max": [
+    0.5,
+    0.4,
+    0.05
+   ],
+   "size": [
+    1,
+    0.4,
+    0.1
+   ]
+  },
+  "size_kb": 17,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 96,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "rail"
+  ],
+  "suggested_use": "护栏/路障"
+ },
+ {
+  "file": "kenney-space-station_rocks.glb",
+  "name": "rocks",
+  "source_url": "https://kenney.nl/assets/space-station-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -1.111,
+    0,
+    0.007
+   ],
+   "max": [
+    0,
+    0.353,
+    1.025
+   ],
+   "size": [
+    1.111,
+    0.353,
+    1.017
+   ]
+  },
+  "size_kb": 16,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 80,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "rocks"
+  ],
+  "suggested_use": "岩石/地形"
+ },
+ {
+  "file": "kenney-space-station_skip-rocks.glb",
+  "name": "skip-rocks",
+  "source_url": "https://kenney.nl/assets/space-station-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.35,
+    0,
+    -0.6
+   ],
+   "max": [
+    0.35,
+    0.7,
+    0.6
+   ],
+   "size": [
+    0.7,
+    0.7,
+    1.2
+   ]
+  },
+  "size_kb": 20,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 138,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "skip-rocks"
+  ],
+  "suggested_use": "集装箱/桶/储罐 路边堆放"
+ },
+ {
+  "file": "kenney-space-station_skip.glb",
+  "name": "skip",
+  "source_url": "https://kenney.nl/assets/space-station-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.35,
+    0,
+    -0.6
+   ],
+   "max": [
+    0.35,
+    0.5,
+    0.6
+   ],
+   "size": [
+    0.7,
+    0.5,
+    1.2
+   ]
+  },
+  "size_kb": 16,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 88,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "skip"
+  ],
+  "suggested_use": "集装箱/桶/储罐 路边堆放"
+ },
+ {
+  "file": "kenney-space-station_stairs-ramp.glb",
+  "name": "stairs-ramp",
+  "source_url": "https://kenney.nl/assets/space-station-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.5,
+    0,
+    -0.5
+   ],
+   "max": [
+    0.5,
+    0.3,
+    0.5
+   ],
+   "size": [
+    1,
+    0.3,
+    1
+   ]
+  },
+  "size_kb": 14,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 60,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "stairs-ramp"
+  ],
+  "suggested_use": "通用科幻装饰件"
+ },
+ {
+  "file": "kenney-space-station_stairs.glb",
+  "name": "stairs",
+  "source_url": "https://kenney.nl/assets/space-station-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.5,
+    0,
+    -0.5
+   ],
+   "max": [
+    0.5,
+    0.3,
+    0.5
+   ],
+   "size": [
+    1,
+    0.3,
+    1
+   ]
+  },
+  "size_kb": 13,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 52,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "stairs"
+  ],
+  "suggested_use": "通用科幻装饰件"
+ },
+ {
+  "file": "kenney-space-station_structure-barrier-high.glb",
+  "name": "structure-barrier-high",
+  "source_url": "https://kenney.nl/assets/space-station-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.55,
+    0,
+    -0.55
+   ],
+   "max": [
+    0.55,
+    1,
+    0.55
+   ],
+   "size": [
+    1.1,
+    1,
+    1.1
+   ]
+  },
+  "size_kb": 50,
+  "meshes": 17,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 256,
+  "nodes": 17,
+  "skinned": false,
+  "node_names": [
+   "Group",
+   "Group",
+   "Group",
+   "Group",
+   "Group",
+   "Group",
+   "Group",
+   "Group",
+   "Group",
+   "Group",
+   "Group",
+   "Group"
+  ],
+  "suggested_use": "护栏/路障"
+ },
+ {
+  "file": "kenney-space-station_structure-barrier.glb",
+  "name": "structure-barrier",
+  "source_url": "https://kenney.nl/assets/space-station-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.55,
+    0,
+    -0.55
+   ],
+   "max": [
+    0.55,
+    1,
+    0.55
+   ],
+   "size": [
+    1.1,
+    1,
+    1.1
+   ]
+  },
+  "size_kb": 50,
+  "meshes": 17,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 256,
+  "nodes": 17,
+  "skinned": false,
+  "node_names": [
+   "Group",
+   "Group",
+   "Group",
+   "Group",
+   "Group",
+   "Group",
+   "Group",
+   "Group",
+   "Group",
+   "Group",
+   "Group",
+   "Group"
+  ],
+  "suggested_use": "护栏/路障"
+ },
+ {
+  "file": "kenney-space-station_structure-panel.glb",
+  "name": "structure-panel",
+  "source_url": "https://kenney.nl/assets/space-station-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.425,
+    0,
+    -0.425
+   ],
+   "max": [
+    0.425,
+    0.125,
+    0.425
+   ],
+   "size": [
+    0.85,
+    0.125,
+    0.85
+   ]
+  },
+  "size_kb": 20,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 124,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "structure-panel"
+  ],
+  "suggested_use": "通用科幻装饰件"
+ },
+ {
+  "file": "kenney-space-station_structure.glb",
+  "name": "structure",
+  "source_url": "https://kenney.nl/assets/space-station-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.5,
+    0,
+    -0.5
+   ],
+   "max": [
+    0.5,
+    1,
+    0.5
+   ],
+   "size": [
+    1,
+    1,
+    1
+   ]
+  },
+  "size_kb": 36,
+  "meshes": 13,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 144,
+  "nodes": 13,
+  "skinned": false,
+  "node_names": [
+   "Group",
+   "Group",
+   "Group",
+   "Group",
+   "Group",
+   "Group",
+   "Group",
+   "Group",
+   "Group",
+   "Group",
+   "Group",
+   "Group"
+  ],
+  "suggested_use": "通用科幻装饰件"
+ },
+ {
+  "file": "kenney-space-station_wall-banner.glb",
+  "name": "wall-banner",
+  "source_url": "https://kenney.nl/assets/space-station-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.5,
+    0,
+    -0.15
+   ],
+   "max": [
+    0.5,
+    1,
+    0.15
+   ],
+   "size": [
+    1,
+    1,
+    0.3
+   ]
+  },
+  "size_kb": 13,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 52,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "wall-banner"
+  ],
+  "suggested_use": "通用科幻装饰件"
+ },
+ {
+  "file": "kenney-space-station_wall-corner.glb",
+  "name": "wall-corner",
+  "source_url": "https://kenney.nl/assets/space-station-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.4,
+    0,
+    -0.4
+   ],
+   "max": [
+    0.4,
+    1,
+    0.4
+   ],
+   "size": [
+    0.8,
+    1,
+    0.8
+   ]
+  },
+  "size_kb": 16,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 92,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "wall-corner"
+  ],
+  "suggested_use": "通用科幻装饰件"
+ },
+ {
+  "file": "kenney-space-station_wall-detail.glb",
+  "name": "wall-detail",
+  "source_url": "https://kenney.nl/assets/space-station-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.2,
+    0,
+    -0.087
+   ],
+   "max": [
+    0.2,
+    0.7,
+    0.087
+   ],
+   "size": [
+    0.4,
+    0.7,
+    0.173
+   ]
+  },
+  "size_kb": 22,
+  "meshes": 3,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 120,
+  "nodes": 3,
+  "skinned": false,
+  "node_names": [
+   "wall-detail",
+   "Group",
+   "Group"
+  ],
+  "suggested_use": "通用科幻装饰件"
+ },
+ {
+  "file": "kenney-space-station_wall-pillar.glb",
+  "name": "wall-pillar",
+  "source_url": "https://kenney.nl/assets/space-station-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.5,
+    0,
+    -0.25
+   ],
+   "max": [
+    0.5,
+    1,
+    0.25
+   ],
+   "size": [
+    1,
+    1,
+    0.5
+   ]
+  },
+  "size_kb": 16,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 88,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "wall-pillar"
+  ],
+  "suggested_use": "通用科幻装饰件"
+ },
+ {
+  "file": "kenney-space-station_wall-window.glb",
+  "name": "wall-window",
+  "source_url": "https://kenney.nl/assets/space-station-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.5,
+    0,
+    -0.15
+   ],
+   "max": [
+    0.5,
+    1,
+    0.15
+   ],
+   "size": [
+    1,
+    1,
+    0.3
+   ]
+  },
+  "size_kb": 17,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 104,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "wall-window"
+  ],
+  "suggested_use": "通用科幻装饰件"
+ },
+ {
+  "file": "kenney-space-station_wall.glb",
+  "name": "wall",
+  "source_url": "https://kenney.nl/assets/space-station-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.5,
+    0,
+    -0.15
+   ],
+   "max": [
+    0.5,
+    1,
+    0.15
+   ],
+   "size": [
+    1,
+    1,
+    0.3
+   ]
+  },
+  "size_kb": 12,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 44,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "wall"
+  ],
+  "suggested_use": "通用科幻装饰件"
+ },
+ {
+  "file": "kenney-space_barrel.glb",
+  "name": "barrel",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.9,
+    0,
+    1.413
+   ],
+   "max": [
+    2.1,
+    0.25,
+    1.587
+   ],
+   "size": [
+    0.2,
+    0.25,
+    0.173
+   ]
+  },
+  "size_kb": 5,
+  "meshes": 1,
+  "materials": 2,
+  "textures": 0,
+  "triangles": 56,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "barrel"
+  ],
+  "suggested_use": "集装箱/桶/储罐 路边堆放"
+ },
+ {
+  "file": "kenney-space_barrels-rail.glb",
+  "name": "barrels_rail",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.725,
+    0,
+    1.252
+   ],
+   "max": [
+    2.275,
+    0.35,
+    1.748
+   ],
+   "size": [
+    0.55,
+    0.35,
+    0.496
+   ]
+  },
+  "size_kb": 30,
+  "meshes": 5,
+  "materials": 3,
+  "textures": 0,
+  "triangles": 428,
+  "nodes": 6,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "barrels_rail",
+   "barrel",
+   "barrel",
+   "barrel",
+   "barrel"
+  ],
+  "suggested_use": "护栏/路障"
+ },
+ {
+  "file": "kenney-space_barrels.glb",
+  "name": "barrels",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.725,
+    0,
+    1.252
+   ],
+   "max": [
+    2.275,
+    0.35,
+    1.748
+   ],
+   "size": [
+    0.55,
+    0.35,
+    0.496
+   ]
+  },
+  "size_kb": 20,
+  "meshes": 5,
+  "materials": 3,
+  "textures": 0,
+  "triangles": 268,
+  "nodes": 6,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "barrels",
+   "barrel",
+   "barrel",
+   "barrel",
+   "barrel"
+  ],
+  "suggested_use": "集装箱/桶/储罐 路边堆放"
+ },
+ {
+  "file": "kenney-space_bones.glb",
+  "name": "bones",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.569,
+    0,
+    1.209
+   ],
+   "max": [
+    2.431,
+    0.442,
+    1.791
+   ],
+   "size": [
+    0.861,
+    0.442,
+    0.582
+   ]
+  },
+  "size_kb": 14,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 0,
+  "triangles": 168,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "bones"
+  ],
+  "suggested_use": "虫巢有机结构/外星植物"
+ },
+ {
+  "file": "kenney-space_chimney-detailed.glb",
+  "name": "chimney_detailed",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.8,
+    0,
+    1.3
+   ],
+   "max": [
+    2.2,
+    2,
+    1.7
+   ],
+   "size": [
+    0.4,
+    2,
+    0.4
+   ]
+  },
+  "size_kb": 19,
+  "meshes": 1,
+  "materials": 3,
+  "textures": 0,
+  "triangles": 332,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "chimney_detailed"
+  ],
+  "suggested_use": "远景建筑/基地/天体"
+ },
+ {
+  "file": "kenney-space_chimney.glb",
+  "name": "chimney",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.8,
+    0,
+    1.3
+   ],
+   "max": [
+    2.2,
+    2,
+    1.7
+   ],
+   "size": [
+    0.4,
+    2,
+    0.4
+   ]
+  },
+  "size_kb": 9,
+  "meshes": 1,
+  "materials": 2,
+  "textures": 0,
+  "triangles": 140,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "chimney"
+  ],
+  "suggested_use": "远景建筑/基地/天体"
+ },
+ {
+  "file": "kenney-space_corridor-detailed.glb",
+  "name": "corridor_detailed",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.4,
+    0,
+    1
+   ],
+   "max": [
+    2.6,
+    1.1,
+    2
+   ],
+   "size": [
+    1.2,
+    1.1,
+    1
+   ]
+  },
+  "size_kb": 11,
+  "meshes": 1,
+  "materials": 4,
+  "textures": 0,
+  "triangles": 164,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "corridor_detailed"
+  ],
+  "suggested_use": "通用科幻装饰件"
+ },
+ {
+  "file": "kenney-space_corridor-end.glb",
+  "name": "corridor_end",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.5,
+    0,
+    1.5
+   ],
+   "max": [
+    2.5,
+    1,
+    2
+   ],
+   "size": [
+    1,
+    1,
+    0.5
+   ]
+  },
+  "size_kb": 9,
+  "meshes": 1,
+  "materials": 4,
+  "textures": 0,
+  "triangles": 120,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "corridor_end"
+  ],
+  "suggested_use": "通用科幻装饰件"
+ },
+ {
+  "file": "kenney-space_corridor-open.glb",
+  "name": "corridor_open",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.5,
+    0,
+    1
+   ],
+   "max": [
+    2.5,
+    1,
+    2
+   ],
+   "size": [
+    1,
+    1,
+    1
+   ]
+  },
+  "size_kb": 11,
+  "meshes": 1,
+  "materials": 2,
+  "textures": 0,
+  "triangles": 170,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "corridor_open"
+  ],
+  "suggested_use": "通用科幻装饰件"
+ },
+ {
+  "file": "kenney-space_corridor-roof.glb",
+  "name": "corridor_roof",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.5,
+    0,
+    1
+   ],
+   "max": [
+    2.5,
+    0.241,
+    2
+   ],
+   "size": [
+    1,
+    0.241,
+    1
+   ]
+  },
+  "size_kb": 4,
+  "meshes": 1,
+  "materials": 2,
+  "textures": 0,
+  "triangles": 44,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "corridor_roof"
+  ],
+  "suggested_use": "通用科幻装饰件"
+ },
+ {
+  "file": "kenney-space_corridor-wall.glb",
+  "name": "corridor_wall",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    2.4,
+    0,
+    1
+   ],
+   "max": [
+    2.5,
+    0.8,
+    2
+   ],
+   "size": [
+    0.1,
+    0.8,
+    1
+   ]
+  },
+  "size_kb": 4,
+  "meshes": 1,
+  "materials": 3,
+  "textures": 0,
+  "triangles": 36,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "corridor_wall"
+  ],
+  "suggested_use": "通用科幻装饰件"
+ },
+ {
+  "file": "kenney-space_corridor-window.glb",
+  "name": "corridor_window",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.5,
+    0,
+    1
+   ],
+   "max": [
+    2.5,
+    1,
+    2
+   ],
+   "size": [
+    1,
+    1,
+    1
+   ]
+  },
+  "size_kb": 13,
+  "meshes": 1,
+  "materials": 4,
+  "textures": 0,
+  "triangles": 190,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "corridor_window"
+  ],
+  "suggested_use": "通用科幻装饰件"
+ },
+ {
+  "file": "kenney-space_corridor.glb",
+  "name": "corridor",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.5,
+    0,
+    1
+   ],
+   "max": [
+    2.5,
+    1,
+    2
+   ],
+   "size": [
+    1,
+    1,
+    1
+   ]
+  },
+  "size_kb": 7,
+  "meshes": 1,
+  "materials": 3,
+  "textures": 0,
+  "triangles": 84,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "corridor"
+  ],
+  "suggested_use": "通用科幻装饰件"
+ },
+ {
+  "file": "kenney-space_crater.glb",
+  "name": "crater",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.643,
+    0,
+    1.087
+   ],
+   "max": [
+    2.357,
+    0.118,
+    1.913
+   ],
+   "size": [
+    0.715,
+    0.118,
+    0.826
+   ]
+  },
+  "size_kb": 6,
+  "meshes": 1,
+  "materials": 2,
+  "textures": 0,
+  "triangles": 60,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "crater"
+  ],
+  "suggested_use": "空投舱/补给箱/拾取物"
+ },
+ {
+  "file": "kenney-space_craterlarge.glb",
+  "name": "craterLarge",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.557,
+    0,
+    1.057
+   ],
+   "max": [
+    2.443,
+    0.12,
+    1.943
+   ],
+   "size": [
+    0.886,
+    0.12,
+    0.886
+   ]
+  },
+  "size_kb": 6,
+  "meshes": 1,
+  "materials": 2,
+  "textures": 0,
+  "triangles": 60,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "craterLarge"
+  ],
+  "suggested_use": "空投舱/补给箱/拾取物"
+ },
+ {
+  "file": "kenney-space_gate-complex.glb",
+  "name": "gate_complex",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.5,
+    0,
+    1.25
+   ],
+   "max": [
+    2.5,
+    1.013,
+    1.75
+   ],
+   "size": [
+    1,
+    1.013,
+    0.5
+   ]
+  },
+  "size_kb": 29,
+  "meshes": 1,
+  "materials": 4,
+  "textures": 0,
+  "triangles": 460,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "gate_complex"
+  ],
+  "suggested_use": "通用科幻装饰件"
+ },
+ {
+  "file": "kenney-space_gate-simple.glb",
+  "name": "gate_simple",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.5,
+    0,
+    1.25
+   ],
+   "max": [
+    2.5,
+    1.08,
+    1.75
+   ],
+   "size": [
+    1,
+    1.08,
+    0.5
+   ]
+  },
+  "size_kb": 15,
+  "meshes": 1,
+  "materials": 3,
+  "textures": 0,
+  "triangles": 212,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "gate_simple"
+  ],
+  "suggested_use": "通用科幻装饰件"
+ },
+ {
+  "file": "kenney-space_hangar-largea.glb",
+  "name": "hangar_largeA",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1,
+    0,
+    0
+   ],
+   "max": [
+    3,
+    1,
+    3
+   ],
+   "size": [
+    2,
+    1,
+    3
+   ]
+  },
+  "size_kb": 25,
+  "meshes": 3,
+  "materials": 4,
+  "textures": 0,
+  "triangles": 412,
+  "nodes": 4,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "hangar_largeA",
+   "gate",
+   "gate"
+  ],
+  "suggested_use": "远景建筑/基地/天体"
+ },
+ {
+  "file": "kenney-space_hangar-largeb.glb",
+  "name": "hangar_largeB",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    0.9,
+    0,
+    0
+   ],
+   "max": [
+    3.1,
+    1.1,
+    3
+   ],
+   "size": [
+    2.2,
+    1.1,
+    3
+   ]
+  },
+  "size_kb": 23,
+  "meshes": 3,
+  "materials": 4,
+  "textures": 0,
+  "triangles": 360,
+  "nodes": 4,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "hangar_largeB",
+   "gate",
+   "gate"
+  ],
+  "suggested_use": "远景建筑/基地/天体"
+ },
+ {
+  "file": "kenney-space_hangar-rounda.glb",
+  "name": "hangar_roundA",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    0.364,
+    0,
+    0.084
+   ],
+   "max": [
+    3.636,
+    1.5,
+    2.916
+   ],
+   "size": [
+    3.271,
+    1.5,
+    2.833
+   ]
+  },
+  "size_kb": 12,
+  "meshes": 1,
+  "materials": 4,
+  "textures": 0,
+  "triangles": 166,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "hangar_roundA"
+  ],
+  "suggested_use": "远景建筑/基地/天体"
+ },
+ {
+  "file": "kenney-space_hangar-roundb.glb",
+  "name": "hangar_roundB",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    0.364,
+    0,
+    0.084
+   ],
+   "max": [
+    3.636,
+    1.8,
+    2.916
+   ],
+   "size": [
+    3.271,
+    1.8,
+    2.833
+   ]
+  },
+  "size_kb": 12,
+  "meshes": 1,
+  "materials": 4,
+  "textures": 0,
+  "triangles": 166,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "hangar_roundB"
+  ],
+  "suggested_use": "远景建筑/基地/天体"
+ },
+ {
+  "file": "kenney-space_hangar-roundglass.glb",
+  "name": "hangar_roundGlass",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    0.364,
+    0,
+    0.084
+   ],
+   "max": [
+    3.636,
+    1.4,
+    2.916
+   ],
+   "size": [
+    3.271,
+    1.4,
+    2.833
+   ]
+  },
+  "size_kb": 10,
+  "meshes": 1,
+  "materials": 4,
+  "textures": 0,
+  "triangles": 113,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "hangar_roundGlass"
+  ],
+  "suggested_use": "远景建筑/基地/天体"
+ },
+ {
+  "file": "kenney-space_hangar-smalla.glb",
+  "name": "hangar_smallA",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1,
+    0,
+    0.5
+   ],
+   "max": [
+    3,
+    1,
+    2.5
+   ],
+   "size": [
+    2,
+    1,
+    2
+   ]
+  },
+  "size_kb": 18,
+  "meshes": 3,
+  "materials": 4,
+  "textures": 0,
+  "triangles": 280,
+  "nodes": 4,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "hangar_smallA",
+   "gate",
+   "gate"
+  ],
+  "suggested_use": "远景建筑/基地/天体"
+ },
+ {
+  "file": "kenney-space_hangar-smallb.glb",
+  "name": "hangar_smallB",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1,
+    0,
+    0.5
+   ],
+   "max": [
+    3,
+    1,
+    2.5
+   ],
+   "size": [
+    2,
+    1,
+    2
+   ]
+  },
+  "size_kb": 19,
+  "meshes": 3,
+  "materials": 4,
+  "textures": 0,
+  "triangles": 284,
+  "nodes": 4,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "hangar_smallB",
+   "gate",
+   "gate"
+  ],
+  "suggested_use": "远景建筑/基地/天体"
+ },
+ {
+  "file": "kenney-space_machine-barrel.glb",
+  "name": "machine_barrel",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.777,
+    0,
+    1.242
+   ],
+   "max": [
+    2.423,
+    0.6,
+    1.758
+   ],
+   "size": [
+    0.646,
+    0.6,
+    0.515
+   ]
+  },
+  "size_kb": 23,
+  "meshes": 2,
+  "materials": 4,
+  "textures": 0,
+  "triangles": 338,
+  "nodes": 3,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "machine_barrel",
+   "cables"
+  ],
+  "suggested_use": "集装箱/桶/储罐 路边堆放"
+ },
+ {
+  "file": "kenney-space_machine-barrellarge.glb",
+  "name": "machine_barrelLarge",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.623,
+    0,
+    1.123
+   ],
+   "max": [
+    2.377,
+    0.6,
+    1.877
+   ],
+   "size": [
+    0.754,
+    0.6,
+    0.754
+   ]
+  },
+  "size_kb": 14,
+  "meshes": 1,
+  "materials": 4,
+  "textures": 0,
+  "triangles": 192,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "machine_barrelLarge"
+  ],
+  "suggested_use": "集装箱/桶/储罐 路边堆放"
+ },
+ {
+  "file": "kenney-space_machine-generator.glb",
+  "name": "machine_generator",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.6,
+    0,
+    1.175
+   ],
+   "max": [
+    2.3,
+    0.4,
+    1.7
+   ],
+   "size": [
+    0.7,
+    0.4,
+    0.525
+   ]
+  },
+  "size_kb": 27,
+  "meshes": 2,
+  "materials": 5,
+  "textures": 0,
+  "triangles": 406,
+  "nodes": 3,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "machine_generator",
+   "cable"
+  ],
+  "suggested_use": "通用科幻装饰件"
+ },
+ {
+  "file": "kenney-space_machine-generatorlarge.glb",
+  "name": "machine_generatorLarge",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.5,
+    0,
+    0.85
+   ],
+   "max": [
+    2.5,
+    0.683,
+    2.15
+   ],
+   "size": [
+    1,
+    0.683,
+    1.3
+   ]
+  },
+  "size_kb": 10,
+  "meshes": 1,
+  "materials": 4,
+  "textures": 0,
+  "triangles": 126,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "machine_generatorLarge"
+  ],
+  "suggested_use": "通用科幻装饰件"
+ },
+ {
+  "file": "kenney-space_machine-wireless.glb",
+  "name": "machine_wireless",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.625,
+    0,
+    1.25
+   ],
+   "max": [
+    2.375,
+    0.6,
+    1.75
+   ],
+   "size": [
+    0.75,
+    0.6,
+    0.5
+   ]
+  },
+  "size_kb": 13,
+  "meshes": 1,
+  "materials": 4,
+  "textures": 0,
+  "triangles": 174,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "machine_wireless"
+  ],
+  "suggested_use": "通用科幻装饰件"
+ },
+ {
+  "file": "kenney-space_machine-wirelesscable.glb",
+  "name": "machine_wirelessCable",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.55,
+    0,
+    1.15
+   ],
+   "max": [
+    2.3,
+    0.8,
+    1.75
+   ],
+   "size": [
+    0.75,
+    0.8,
+    0.6
+   ]
+  },
+  "size_kb": 20,
+  "meshes": 2,
+  "materials": 4,
+  "textures": 0,
+  "triangles": 282,
+  "nodes": 3,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "machine_wirelessCable",
+   "cable"
+  ],
+  "suggested_use": "通用科幻装饰件"
+ },
+ {
+  "file": "kenney-space_meteor-detailed.glb",
+  "name": "meteor_detailed",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.567,
+    0,
+    1.087
+   ],
+   "max": [
+    2.433,
+    0.735,
+    1.913
+   ],
+   "size": [
+    0.866,
+    0.735,
+    0.825
+   ]
+  },
+  "size_kb": 14,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 0,
+  "triangles": 196,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "meteor_detailed"
+  ],
+  "suggested_use": "岩石/地形"
+ },
+ {
+  "file": "kenney-space_meteor-half.glb",
+  "name": "meteor_half",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.567,
+    0,
+    1.125
+   ],
+   "max": [
+    2.433,
+    0.367,
+    1.875
+   ],
+   "size": [
+    0.866,
+    0.367,
+    0.75
+   ]
+  },
+  "size_kb": 5,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 0,
+  "triangles": 44,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "meteor_half"
+  ],
+  "suggested_use": "岩石/地形"
+ },
+ {
+  "file": "kenney-space_meteor.glb",
+  "name": "meteor",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.567,
+    0,
+    1.125
+   ],
+   "max": [
+    2.433,
+    0.735,
+    1.875
+   ],
+   "size": [
+    0.866,
+    0.735,
+    0.75
+   ]
+  },
+  "size_kb": 6,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 0,
+  "triangles": 68,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "meteor"
+  ],
+  "suggested_use": "岩石/地形"
+ },
+ {
+  "file": "kenney-space_monorail-trackcornerlarge.glb",
+  "name": "monorail_trackCornerLarge",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1,
+    0,
+    0.5
+   ],
+   "max": [
+    2.6,
+    0.13,
+    2.1
+   ],
+   "size": [
+    1.6,
+    0.13,
+    1.6
+   ]
+  },
+  "size_kb": 14,
+  "meshes": 1,
+  "materials": 2,
+  "textures": 0,
+  "triangles": 204,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "monorail_trackCornerLarge"
+  ],
+  "suggested_use": "护栏/路障"
+ },
+ {
+  "file": "kenney-space_monorail-trackcornersmall.glb",
+  "name": "monorail_trackCornerSmall",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.5,
+    0,
+    1
+   ],
+   "max": [
+    2.1,
+    0.13,
+    1.6
+   ],
+   "size": [
+    0.6,
+    0.13,
+    0.6
+   ]
+  },
+  "size_kb": 26,
+  "meshes": 1,
+  "materials": 2,
+  "textures": 0,
+  "triangles": 408,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "monorail_trackCornerSmall"
+  ],
+  "suggested_use": "护栏/路障"
+ },
+ {
+  "file": "kenney-space_monorail-trackslope.glb",
+  "name": "monorail_trackSlope",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.9,
+    0,
+    1
+   ],
+   "max": [
+    2.1,
+    0.63,
+    2
+   ],
+   "size": [
+    0.2,
+    0.63,
+    1
+   ]
+  },
+  "size_kb": 4,
+  "meshes": 1,
+  "materials": 2,
+  "textures": 0,
+  "triangles": 28,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "monorail_trackSlope"
+  ],
+  "suggested_use": "护栏/路障"
+ },
+ {
+  "file": "kenney-space_monorail-trackstraight.glb",
+  "name": "monorail_trackStraight",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.9,
+    0,
+    1
+   ],
+   "max": [
+    2.1,
+    0.13,
+    2
+   ],
+   "size": [
+    0.2,
+    0.13,
+    1
+   ]
+  },
+  "size_kb": 4,
+  "meshes": 1,
+  "materials": 2,
+  "textures": 0,
+  "triangles": 28,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "monorail_trackStraight"
+  ],
+  "suggested_use": "护栏/路障"
+ },
+ {
+  "file": "kenney-space_monorail-tracksupport.glb",
+  "name": "monorail_trackSupport",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.9,
+    0,
+    1.4
+   ],
+   "max": [
+    2.1,
+    0.5,
+    1.6
+   ],
+   "size": [
+    0.2,
+    0.5,
+    0.2
+   ]
+  },
+  "size_kb": 12,
+  "meshes": 1,
+  "materials": 3,
+  "textures": 0,
+  "triangles": 176,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "monorail_trackSupport"
+  ],
+  "suggested_use": "护栏/路障"
+ },
+ {
+  "file": "kenney-space_monorail-tracksupportcorner.glb",
+  "name": "monorail_trackSupportCorner",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.9,
+    0,
+    1.4
+   ],
+   "max": [
+    2.1,
+    0.5,
+    1.6
+   ],
+   "size": [
+    0.2,
+    0.5,
+    0.2
+   ]
+  },
+  "size_kb": 11,
+  "meshes": 1,
+  "materials": 3,
+  "textures": 0,
+  "triangles": 164,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "monorail_trackSupportCorner"
+  ],
+  "suggested_use": "护栏/路障"
+ },
+ {
+  "file": "kenney-space_pipe-corner.glb",
+  "name": "pipe_corner",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.5,
+    0,
+    1
+   ],
+   "max": [
+    2.346,
+    0.6,
+    1.846
+   ],
+   "size": [
+    0.846,
+    0.6,
+    0.846
+   ]
+  },
+  "size_kb": 7,
+  "meshes": 1,
+  "materials": 2,
+  "textures": 0,
+  "triangles": 84,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "pipe_corner"
+  ],
+  "suggested_use": "管道装饰"
+ },
+ {
+  "file": "kenney-space_pipe-cornerdiagonal.glb",
+  "name": "pipe_cornerDiagonal",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.5,
+    0,
+    1
+   ],
+   "max": [
+    2.346,
+    0.6,
+    1.846
+   ],
+   "size": [
+    0.846,
+    0.6,
+    0.846
+   ]
+  },
+  "size_kb": 5,
+  "meshes": 1,
+  "materials": 2,
+  "textures": 0,
+  "triangles": 48,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "pipe_cornerDiagonal"
+  ],
+  "suggested_use": "管道装饰"
+ },
+ {
+  "file": "kenney-space_pipe-cornerround.glb",
+  "name": "pipe_cornerRound",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.5,
+    0,
+    1
+   ],
+   "max": [
+    2.346,
+    0.6,
+    1.846
+   ],
+   "size": [
+    0.846,
+    0.6,
+    0.846
+   ]
+  },
+  "size_kb": 22,
+  "meshes": 1,
+  "materials": 2,
+  "textures": 0,
+  "triangles": 352,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "pipe_cornerRound"
+  ],
+  "suggested_use": "管道装饰"
+ },
+ {
+  "file": "kenney-space_pipe-cornerroundlarge.glb",
+  "name": "pipe_cornerRoundLarge",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1,
+    0,
+    0.5
+   ],
+   "max": [
+    2.846,
+    0.6,
+    2.346
+   ],
+   "size": [
+    1.846,
+    0.6,
+    1.846
+   ]
+  },
+  "size_kb": 23,
+  "meshes": 1,
+  "materials": 2,
+  "textures": 0,
+  "triangles": 356,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "pipe_cornerRoundLarge"
+  ],
+  "suggested_use": "管道装饰"
+ },
+ {
+  "file": "kenney-space_pipe-cross.glb",
+  "name": "pipe_cross",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.5,
+    0,
+    1
+   ],
+   "max": [
+    2.5,
+    0.6,
+    2
+   ],
+   "size": [
+    1,
+    0.6,
+    1
+   ]
+  },
+  "size_kb": 13,
+  "meshes": 1,
+  "materials": 3,
+  "textures": 0,
+  "triangles": 200,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "pipe_cross"
+  ],
+  "suggested_use": "管道装饰"
+ },
+ {
+  "file": "kenney-space_pipe-end.glb",
+  "name": "pipe_end",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.654,
+    0,
+    1
+   ],
+   "max": [
+    2.346,
+    0.6,
+    2
+   ],
+   "size": [
+    0.693,
+    0.6,
+    1
+   ]
+  },
+  "size_kb": 7,
+  "meshes": 1,
+  "materials": 3,
+  "textures": 0,
+  "triangles": 82,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "pipe_end"
+  ],
+  "suggested_use": "管道装饰"
+ },
+ {
+  "file": "kenney-space_pipe-entrance.glb",
+  "name": "pipe_entrance",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.538,
+    -0.1,
+    1.4
+   ],
+   "max": [
+    2.462,
+    0.7,
+    2
+   ],
+   "size": [
+    0.924,
+    0.8,
+    0.6
+   ]
+  },
+  "size_kb": 9,
+  "meshes": 1,
+  "materials": 2,
+  "textures": 0,
+  "triangles": 126,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "pipe_entrance"
+  ],
+  "suggested_use": "管道装饰"
+ },
+ {
+  "file": "kenney-space_pipe-open.glb",
+  "name": "pipe_open",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.654,
+    0,
+    1
+   ],
+   "max": [
+    2.346,
+    0.6,
+    2
+   ],
+   "size": [
+    0.693,
+    0.6,
+    1
+   ]
+  },
+  "size_kb": 7,
+  "meshes": 1,
+  "materials": 2,
+  "textures": 0,
+  "triangles": 104,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "pipe_open"
+  ],
+  "suggested_use": "管道装饰"
+ },
+ {
+  "file": "kenney-space_pipe-ramplarge.glb",
+  "name": "pipe_rampLarge",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.654,
+    0,
+    1
+   ],
+   "max": [
+    2.346,
+    1.2,
+    3
+   ],
+   "size": [
+    0.693,
+    1.2,
+    2
+   ]
+  },
+  "size_kb": 11,
+  "meshes": 1,
+  "materials": 3,
+  "textures": 0,
+  "triangles": 160,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "pipe_rampLarge"
+  ],
+  "suggested_use": "管道装饰"
+ },
+ {
+  "file": "kenney-space_pipe-rampsmall.glb",
+  "name": "pipe_rampSmall",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.654,
+    0,
+    1
+   ],
+   "max": [
+    2.346,
+    0.9,
+    3
+   ],
+   "size": [
+    0.693,
+    0.9,
+    2
+   ]
+  },
+  "size_kb": 11,
+  "meshes": 1,
+  "materials": 3,
+  "textures": 0,
+  "triangles": 160,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "pipe_rampSmall"
+  ],
+  "suggested_use": "管道装饰"
+ },
+ {
+  "file": "kenney-space_pipe-ring.glb",
+  "name": "pipe_ring",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.538,
+    -0.1,
+    1
+   ],
+   "max": [
+    2.462,
+    0.7,
+    2
+   ],
+   "size": [
+    0.924,
+    0.8,
+    1
+   ]
+  },
+  "size_kb": 10,
+  "meshes": 1,
+  "materials": 4,
+  "textures": 0,
+  "triangles": 144,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "pipe_ring"
+  ],
+  "suggested_use": "管道装饰"
+ },
+ {
+  "file": "kenney-space_pipe-ringhigh.glb",
+  "name": "pipe_ringHigh",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.538,
+    0,
+    1
+   ],
+   "max": [
+    2.462,
+    1.3,
+    2
+   ],
+   "size": [
+    0.924,
+    1.3,
+    1
+   ]
+  },
+  "size_kb": 14,
+  "meshes": 1,
+  "materials": 5,
+  "textures": 0,
+  "triangles": 190,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "pipe_ringHigh"
+  ],
+  "suggested_use": "管道装饰"
+ },
+ {
+  "file": "kenney-space_pipe-ringhighend.glb",
+  "name": "pipe_ringHighEnd",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.538,
+    0,
+    1.2
+   ],
+   "max": [
+    2.462,
+    1.3,
+    2
+   ],
+   "size": [
+    0.924,
+    1.3,
+    0.8
+   ]
+  },
+  "size_kb": 14,
+  "meshes": 1,
+  "materials": 5,
+  "textures": 0,
+  "triangles": 186,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "pipe_ringHighEnd"
+  ],
+  "suggested_use": "管道装饰"
+ },
+ {
+  "file": "kenney-space_pipe-ringsupport.glb",
+  "name": "pipe_ringSupport",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.538,
+    0,
+    1.3
+   ],
+   "max": [
+    2.462,
+    1.3,
+    1.7
+   ],
+   "size": [
+    0.924,
+    1.3,
+    0.4
+   ]
+  },
+  "size_kb": 8,
+  "meshes": 1,
+  "materials": 3,
+  "textures": 0,
+  "triangles": 104,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "pipe_ringSupport"
+  ],
+  "suggested_use": "管道装饰"
+ },
+ {
+  "file": "kenney-space_pipe-split.glb",
+  "name": "pipe_split",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.5,
+    0,
+    1
+   ],
+   "max": [
+    2.5,
+    0.6,
+    1.846
+   ],
+   "size": [
+    1,
+    0.6,
+    0.846
+   ]
+  },
+  "size_kb": 10,
+  "meshes": 1,
+  "materials": 3,
+  "textures": 0,
+  "triangles": 142,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "pipe_split"
+  ],
+  "suggested_use": "管道装饰"
+ },
+ {
+  "file": "kenney-space_pipe-straight.glb",
+  "name": "pipe_straight",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.654,
+    0,
+    1
+   ],
+   "max": [
+    2.346,
+    0.6,
+    2
+   ],
+   "size": [
+    0.693,
+    0.6,
+    1
+   ]
+  },
+  "size_kb": 6,
+  "meshes": 1,
+  "materials": 3,
+  "textures": 0,
+  "triangles": 80,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "pipe_straight"
+  ],
+  "suggested_use": "管道装饰"
+ },
+ {
+  "file": "kenney-space_pipe-supporthigh.glb",
+  "name": "pipe_supportHigh",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.8,
+    0,
+    1.3
+   ],
+   "max": [
+    2.2,
+    1,
+    1.7
+   ],
+   "size": [
+    0.4,
+    1,
+    0.4
+   ]
+  },
+  "size_kb": 5,
+  "meshes": 1,
+  "materials": 3,
+  "textures": 0,
+  "triangles": 40,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "pipe_supportHigh"
+  ],
+  "suggested_use": "管道装饰"
+ },
+ {
+  "file": "kenney-space_pipe-supportlow.glb",
+  "name": "pipe_supportLow",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.8,
+    0,
+    1.3
+   ],
+   "max": [
+    2.2,
+    0.5,
+    1.7
+   ],
+   "size": [
+    0.4,
+    0.5,
+    0.4
+   ]
+  },
+  "size_kb": 5,
+  "meshes": 1,
+  "materials": 3,
+  "textures": 0,
+  "triangles": 40,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "pipe_supportLow"
+  ],
+  "suggested_use": "管道装饰"
+ },
+ {
+  "file": "kenney-space_platform-center.glb",
+  "name": "platform_center",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.5,
+    0.05,
+    1
+   ],
+   "max": [
+    2.5,
+    0.05,
+    2
+   ],
+   "size": [
+    1,
+    0,
+    1
+   ]
+  },
+  "size_kb": 2,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 0,
+  "triangles": 4,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "platform_center"
+  ],
+  "suggested_use": "桥面/平台/地板模块"
+ },
+ {
+  "file": "kenney-space_platform-corner.glb",
+  "name": "platform_corner",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.5,
+    0,
+    1
+   ],
+   "max": [
+    2.5,
+    0.1,
+    2
+   ],
+   "size": [
+    1,
+    0.1,
+    1
+   ]
+  },
+  "size_kb": 7,
+  "meshes": 1,
+  "materials": 3,
+  "textures": 0,
+  "triangles": 84,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "platform_corner"
+  ],
+  "suggested_use": "桥面/平台/地板模块"
+ },
+ {
+  "file": "kenney-space_platform-corneropen.glb",
+  "name": "platform_cornerOpen",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.5,
+    0,
+    1
+   ],
+   "max": [
+    2.5,
+    0.1,
+    2
+   ],
+   "size": [
+    1,
+    0.1,
+    1
+   ]
+  },
+  "size_kb": 5,
+  "meshes": 1,
+  "materials": 3,
+  "textures": 0,
+  "triangles": 50,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "platform_cornerOpen"
+  ],
+  "suggested_use": "桥面/平台/地板模块"
+ },
+ {
+  "file": "kenney-space_platform-cornerround.glb",
+  "name": "platform_cornerRound",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.5,
+    0,
+    1
+   ],
+   "max": [
+    2.5,
+    0.1,
+    2
+   ],
+   "size": [
+    1,
+    0.1,
+    1
+   ]
+  },
+  "size_kb": 19,
+  "meshes": 1,
+  "materials": 3,
+  "textures": 0,
+  "triangles": 356,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "platform_cornerRound"
+  ],
+  "suggested_use": "桥面/平台/地板模块"
+ },
+ {
+  "file": "kenney-space_platform-end.glb",
+  "name": "platform_end",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.5,
+    0,
+    1
+   ],
+   "max": [
+    2.5,
+    0.1,
+    2
+   ],
+   "size": [
+    1,
+    0.1,
+    1
+   ]
+  },
+  "size_kb": 6,
+  "meshes": 1,
+  "materials": 3,
+  "textures": 0,
+  "triangles": 64,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "platform_end"
+  ],
+  "suggested_use": "桥面/平台/地板模块"
+ },
+ {
+  "file": "kenney-space_platform-high.glb",
+  "name": "platform_high",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.5,
+    0,
+    1
+   ],
+   "max": [
+    2.5,
+    1,
+    2
+   ],
+   "size": [
+    1,
+    1,
+    1
+   ]
+  },
+  "size_kb": 16,
+  "meshes": 1,
+  "materials": 4,
+  "textures": 0,
+  "triangles": 236,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "platform_high"
+  ],
+  "suggested_use": "桥面/平台/地板模块"
+ },
+ {
+  "file": "kenney-space_platform-large.glb",
+  "name": "platform_large",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1,
+    0,
+    0.5
+   ],
+   "max": [
+    3,
+    0.1,
+    2.5
+   ],
+   "size": [
+    2,
+    0.1,
+    2
+   ]
+  },
+  "size_kb": 6,
+  "meshes": 1,
+  "materials": 3,
+  "textures": 0,
+  "triangles": 76,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "platform_large"
+  ],
+  "suggested_use": "桥面/平台/地板模块"
+ },
+ {
+  "file": "kenney-space_platform-long.glb",
+  "name": "platform_long",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1,
+    0,
+    1
+   ],
+   "max": [
+    3,
+    0.1,
+    2
+   ],
+   "size": [
+    2,
+    0.1,
+    1
+   ]
+  },
+  "size_kb": 6,
+  "meshes": 1,
+  "materials": 3,
+  "textures": 0,
+  "triangles": 76,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "platform_long"
+  ],
+  "suggested_use": "桥面/平台/地板模块"
+ },
+ {
+  "file": "kenney-space_platform-low.glb",
+  "name": "platform_low",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.5,
+    0,
+    1
+   ],
+   "max": [
+    2.5,
+    0.5,
+    2
+   ],
+   "size": [
+    1,
+    0.5,
+    1
+   ]
+  },
+  "size_kb": 11,
+  "meshes": 1,
+  "materials": 3,
+  "textures": 0,
+  "triangles": 156,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "platform_low"
+  ],
+  "suggested_use": "桥面/平台/地板模块"
+ },
+ {
+  "file": "kenney-space_platform-side.glb",
+  "name": "platform_side",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.5,
+    0,
+    1
+   ],
+   "max": [
+    2.5,
+    0.1,
+    2
+   ],
+   "size": [
+    1,
+    0.1,
+    1
+   ]
+  },
+  "size_kb": 5,
+  "meshes": 1,
+  "materials": 4,
+  "textures": 0,
+  "triangles": 30,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "platform_side"
+  ],
+  "suggested_use": "桥面/平台/地板模块"
+ },
+ {
+  "file": "kenney-space_platform-small.glb",
+  "name": "platform_small",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.5,
+    0,
+    1
+   ],
+   "max": [
+    2.5,
+    0.1,
+    2
+   ],
+   "size": [
+    1,
+    0.1,
+    1
+   ]
+  },
+  "size_kb": 6,
+  "meshes": 1,
+  "materials": 3,
+  "textures": 0,
+  "triangles": 76,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "platform_small"
+  ],
+  "suggested_use": "桥面/平台/地板模块"
+ },
+ {
+  "file": "kenney-space_platform-smalldiagonal.glb",
+  "name": "platform_smallDiagonal",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.5,
+    0,
+    1
+   ],
+   "max": [
+    2.5,
+    0.1,
+    2
+   ],
+   "size": [
+    1,
+    0.1,
+    1
+   ]
+  },
+  "size_kb": 6,
+  "meshes": 1,
+  "materials": 3,
+  "textures": 0,
+  "triangles": 72,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "platform_smallDiagonal"
+  ],
+  "suggested_use": "桥面/平台/地板模块"
+ },
+ {
+  "file": "kenney-space_platform-straight.glb",
+  "name": "platform_straight",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.5,
+    0,
+    1
+   ],
+   "max": [
+    2.5,
+    0.1,
+    2
+   ],
+   "size": [
+    1,
+    0.1,
+    1
+   ]
+  },
+  "size_kb": 6,
+  "meshes": 1,
+  "materials": 4,
+  "textures": 0,
+  "triangles": 56,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "platform_straight"
+  ],
+  "suggested_use": "桥面/平台/地板模块"
+ },
+ {
+  "file": "kenney-space_rail-corner.glb",
+  "name": "rail_corner",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.5,
+    0,
+    1.1
+   ],
+   "max": [
+    2.4,
+    0.25,
+    2
+   ],
+   "size": [
+    0.9,
+    0.25,
+    0.9
+   ]
+  },
+  "size_kb": 10,
+  "meshes": 1,
+  "materials": 2,
+  "textures": 0,
+  "triangles": 130,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "rail_corner"
+  ],
+  "suggested_use": "护栏/路障"
+ },
+ {
+  "file": "kenney-space_rail-end.glb",
+  "name": "rail_end",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.5,
+    0,
+    1.95
+   ],
+   "max": [
+    2.4,
+    0.25,
+    2
+   ],
+   "size": [
+    0.9,
+    0.25,
+    0.05
+   ]
+  },
+  "size_kb": 5,
+  "meshes": 1,
+  "materials": 2,
+  "textures": 0,
+  "triangles": 46,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "rail_end"
+  ],
+  "suggested_use": "护栏/路障"
+ },
+ {
+  "file": "kenney-space_rail-middle.glb",
+  "name": "rail_middle",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.5,
+    0,
+    1.95
+   ],
+   "max": [
+    2.5,
+    0.25,
+    2
+   ],
+   "size": [
+    1,
+    0.25,
+    0.05
+   ]
+  },
+  "size_kb": 5,
+  "meshes": 1,
+  "materials": 2,
+  "textures": 0,
+  "triangles": 46,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "rail_middle"
+  ],
+  "suggested_use": "护栏/路障"
+ },
+ {
+  "file": "kenney-space_rail.glb",
+  "name": "rail",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.6,
+    0,
+    1.95
+   ],
+   "max": [
+    2.4,
+    0.25,
+    2
+   ],
+   "size": [
+    0.8,
+    0.25,
+    0.05
+   ]
+  },
+  "size_kb": 6,
+  "meshes": 1,
+  "materials": 2,
+  "textures": 0,
+  "triangles": 76,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "rail"
+  ],
+  "suggested_use": "护栏/路障"
+ },
+ {
+  "file": "kenney-space_rock-crystals.glb",
+  "name": "rock_crystals",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.528,
+    0,
+    1.07
+   ],
+   "max": [
+    2.379,
+    0.337,
+    1.872
+   ],
+   "size": [
+    0.851,
+    0.337,
+    0.801
+   ]
+  },
+  "size_kb": 25,
+  "meshes": 1,
+  "materials": 3,
+  "textures": 0,
+  "triangles": 364,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "rock_crystals"
+  ],
+  "suggested_use": "外星水晶"
+ },
+ {
+  "file": "kenney-space_rock-crystalslargea.glb",
+  "name": "rock_crystalsLargeA",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.598,
+    0,
+    1.047
+   ],
+   "max": [
+    2.432,
+    0.541,
+    1.967
+   ],
+   "size": [
+    0.834,
+    0.541,
+    0.919
+   ]
+  },
+  "size_kb": 26,
+  "meshes": 1,
+  "materials": 3,
+  "textures": 0,
+  "triangles": 384,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "rock_crystalsLargeA"
+  ],
+  "suggested_use": "外星水晶"
+ },
+ {
+  "file": "kenney-space_rock-crystalslargeb.glb",
+  "name": "rock_crystalsLargeB",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.52,
+    0,
+    1.026
+   ],
+   "max": [
+    2.459,
+    0.55,
+    1.958
+   ],
+   "size": [
+    0.939,
+    0.55,
+    0.932
+   ]
+  },
+  "size_kb": 25,
+  "meshes": 1,
+  "materials": 3,
+  "textures": 0,
+  "triangles": 380,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "rock_crystalsLargeB"
+  ],
+  "suggested_use": "外星水晶"
+ },
+ {
+  "file": "kenney-space_rock-largea.glb",
+  "name": "rock_largeA",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.547,
+    0,
+    1.068
+   ],
+   "max": [
+    2.467,
+    0.5,
+    1.902
+   ],
+   "size": [
+    0.919,
+    0.5,
+    0.834
+   ]
+  },
+  "size_kb": 13,
+  "meshes": 1,
+  "materials": 2,
+  "textures": 0,
+  "triangles": 176,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "rock_largeA"
+  ],
+  "suggested_use": "岩石/地形"
+ },
+ {
+  "file": "kenney-space_rock-largeb.glb",
+  "name": "rock_largeB",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.53,
+    0,
+    1.041
+   ],
+   "max": [
+    2.458,
+    0.5,
+    1.98
+   ],
+   "size": [
+    0.928,
+    0.5,
+    0.939
+   ]
+  },
+  "size_kb": 13,
+  "meshes": 1,
+  "materials": 2,
+  "textures": 0,
+  "triangles": 172,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "rock_largeB"
+  ],
+  "suggested_use": "岩石/地形"
+ },
+ {
+  "file": "kenney-space_rock.glb",
+  "name": "rock",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.57,
+    0,
+    1.121
+   ],
+   "max": [
+    2.372,
+    0.3,
+    1.972
+   ],
+   "size": [
+    0.801,
+    0.3,
+    0.851
+   ]
+  },
+  "size_kb": 13,
+  "meshes": 1,
+  "materials": 2,
+  "textures": 0,
+  "triangles": 172,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "rock"
+  ],
+  "suggested_use": "岩石/地形"
+ },
+ {
+  "file": "kenney-space_rocks-smalla.glb",
+  "name": "rocks_smallA",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.529,
+    0,
+    1.056
+   ],
+   "max": [
+    2.466,
+    0.105,
+    1.925
+   ],
+   "size": [
+    0.937,
+    0.105,
+    0.87
+   ]
+  },
+  "size_kb": 6,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 0,
+  "triangles": 60,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "rocks_smallA"
+  ],
+  "suggested_use": "岩石/地形"
+ },
+ {
+  "file": "kenney-space_rocks-smallb.glb",
+  "name": "rocks_smallB",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.634,
+    0,
+    1.122
+   ],
+   "max": [
+    2.363,
+    0.186,
+    1.821
+   ],
+   "size": [
+    0.729,
+    0.186,
+    0.699
+   ]
+  },
+  "size_kb": 5,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 0,
+  "triangles": 48,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "rocks_smallB"
+  ],
+  "suggested_use": "岩石/地形"
+ },
+ {
+  "file": "kenney-space_satellitedish-detailed.glb",
+  "name": "satelliteDish_detailed",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.65,
+    0,
+    1.15
+   ],
+   "max": [
+    2.35,
+    0.616,
+    1.85
+   ],
+   "size": [
+    0.7,
+    0.616,
+    0.7
+   ]
+  },
+  "size_kb": 25,
+  "meshes": 1,
+  "materials": 5,
+  "textures": 0,
+  "triangles": 390,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "satelliteDish_detailed"
+  ],
+  "suggested_use": "远景建筑/基地/天体"
+ },
+ {
+  "file": "kenney-space_satellitedish-large.glb",
+  "name": "satelliteDish_large",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.576,
+    0,
+    1.032
+   ],
+   "max": [
+    2.424,
+    0.814,
+    1.769
+   ],
+   "size": [
+    0.849,
+    0.814,
+    0.737
+   ]
+  },
+  "size_kb": 14,
+  "meshes": 1,
+  "materials": 3,
+  "textures": 0,
+  "triangles": 186,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "satelliteDish_large"
+  ],
+  "suggested_use": "远景建筑/基地/天体"
+ },
+ {
+  "file": "kenney-space_satellitedish.glb",
+  "name": "satelliteDish",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.656,
+    0,
+    1.184
+   ],
+   "max": [
+    2.344,
+    0.616,
+    1.75
+   ],
+   "size": [
+    0.688,
+    0.616,
+    0.566
+   ]
+  },
+  "size_kb": 19,
+  "meshes": 1,
+  "materials": 5,
+  "textures": 0,
+  "triangles": 274,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "satelliteDish"
+  ],
+  "suggested_use": "远景建筑/基地/天体"
+ },
+ {
+  "file": "kenney-space_stairs-corner.glb",
+  "name": "stairs_corner",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.55,
+    0,
+    1.3
+   ],
+   "max": [
+    2.15,
+    0.5,
+    1.9
+   ],
+   "size": [
+    0.6,
+    0.5,
+    0.6
+   ]
+  },
+  "size_kb": 19,
+  "meshes": 1,
+  "materials": 3,
+  "textures": 0,
+  "triangles": 306,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "stairs_corner"
+  ],
+  "suggested_use": "通用科幻装饰件"
+ },
+ {
+  "file": "kenney-space_stairs-short.glb",
+  "name": "stairs_short",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.85,
+    0,
+    1.3
+   ],
+   "max": [
+    2.15,
+    0.275,
+    1.7
+   ],
+   "size": [
+    0.3,
+    0.275,
+    0.4
+   ]
+  },
+  "size_kb": 10,
+  "meshes": 1,
+  "materials": 3,
+  "textures": 0,
+  "triangles": 136,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "stairs_short"
+  ],
+  "suggested_use": "通用科幻装饰件"
+ },
+ {
+  "file": "kenney-space_stairs.glb",
+  "name": "stairs",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.85,
+    0,
+    1.3
+   ],
+   "max": [
+    2.15,
+    0.5,
+    2
+   ],
+   "size": [
+    0.3,
+    0.5,
+    0.7
+   ]
+  },
+  "size_kb": 14,
+  "meshes": 1,
+  "materials": 3,
+  "textures": 0,
+  "triangles": 208,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "stairs"
+  ],
+  "suggested_use": "通用科幻装饰件"
+ },
+ {
+  "file": "kenney-space_structure-closed.glb",
+  "name": "structure_closed",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.5,
+    0,
+    1
+   ],
+   "max": [
+    2.5,
+    1,
+    2
+   ],
+   "size": [
+    1,
+    1,
+    1
+   ]
+  },
+  "size_kb": 15,
+  "meshes": 1,
+  "materials": 3,
+  "textures": 0,
+  "triangles": 264,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "structure_closed"
+  ],
+  "suggested_use": "通用科幻装饰件"
+ },
+ {
+  "file": "kenney-space_structure-detailed.glb",
+  "name": "structure_detailed",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.5,
+    0,
+    1
+   ],
+   "max": [
+    2.5,
+    1,
+    2
+   ],
+   "size": [
+    1,
+    1,
+    1
+   ]
+  },
+  "size_kb": 14,
+  "meshes": 1,
+  "materials": 3,
+  "textures": 0,
+  "triangles": 232,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "structure_detailed"
+  ],
+  "suggested_use": "通用科幻装饰件"
+ },
+ {
+  "file": "kenney-space_structure-diagonal.glb",
+  "name": "structure_diagonal",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.5,
+    0,
+    1
+   ],
+   "max": [
+    2.5,
+    1,
+    2
+   ],
+   "size": [
+    1,
+    1,
+    1
+   ]
+  },
+  "size_kb": 19,
+  "meshes": 1,
+  "materials": 3,
+  "textures": 0,
+  "triangles": 344,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "structure_diagonal"
+  ],
+  "suggested_use": "通用科幻装饰件"
+ },
+ {
+  "file": "kenney-space_structure.glb",
+  "name": "structure",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.5,
+    0,
+    1
+   ],
+   "max": [
+    2.5,
+    1,
+    2
+   ],
+   "size": [
+    1,
+    1,
+    1
+   ]
+  },
+  "size_kb": 11,
+  "meshes": 1,
+  "materials": 2,
+  "textures": 0,
+  "triangles": 168,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "structure"
+  ],
+  "suggested_use": "通用科幻装饰件"
+ },
+ {
+  "file": "kenney-space_supports-high.glb",
+  "name": "supports_high",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.587,
+    0,
+    1.087
+   ],
+   "max": [
+    2.413,
+    1,
+    1.913
+   ],
+   "size": [
+    0.825,
+    1,
+    0.825
+   ]
+  },
+  "size_kb": 20,
+  "meshes": 1,
+  "materials": 3,
+  "textures": 0,
+  "triangles": 312,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "supports_high"
+  ],
+  "suggested_use": "通用科幻装饰件"
+ },
+ {
+  "file": "kenney-space_supports-low.glb",
+  "name": "supports_low",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.587,
+    0,
+    1.087
+   ],
+   "max": [
+    2.413,
+    0.5,
+    1.913
+   ],
+   "size": [
+    0.825,
+    0.5,
+    0.825
+   ]
+  },
+  "size_kb": 14,
+  "meshes": 1,
+  "materials": 3,
+  "textures": 0,
+  "triangles": 184,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "supports_low"
+  ],
+  "suggested_use": "通用科幻装饰件"
+ },
+ {
+  "file": "kenney-space_terrain-ramp.glb",
+  "name": "terrain_ramp",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.5,
+    0,
+    1
+   ],
+   "max": [
+    2.5,
+    0.5,
+    2
+   ],
+   "size": [
+    1,
+    0.5,
+    1
+   ]
+  },
+  "size_kb": 2,
+  "meshes": 1,
+  "materials": 2,
+  "textures": 0,
+  "triangles": 4,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "terrain_ramp"
+  ],
+  "suggested_use": "岩石/地形"
+ },
+ {
+  "file": "kenney-space_terrain-roadstraight.glb",
+  "name": "terrain_roadStraight",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.5,
+    0,
+    1
+   ],
+   "max": [
+    2.5,
+    0,
+    2
+   ],
+   "size": [
+    1,
+    0,
+    1
+   ]
+  },
+  "size_kb": 2,
+  "meshes": 1,
+  "materials": 2,
+  "textures": 0,
+  "triangles": 10,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "terrain_roadStraight"
+  ],
+  "suggested_use": "岩石/地形"
+ },
+ {
+  "file": "kenney-space_terrain-side.glb",
+  "name": "terrain_side",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.5,
+    -0.5,
+    1
+   ],
+   "max": [
+    2.5,
+    0,
+    2
+   ],
+   "size": [
+    1,
+    0.5,
+    1
+   ]
+  },
+  "size_kb": 2,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 0,
+  "triangles": 2,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "terrain_side"
+  ],
+  "suggested_use": "岩石/地形"
+ },
+ {
+  "file": "kenney-space_terrain-sidecliff.glb",
+  "name": "terrain_sideCliff",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    2,
+    0,
+    1
+   ],
+   "max": [
+    3,
+    0.5,
+    2
+   ],
+   "size": [
+    1,
+    0.5,
+    1
+   ]
+  },
+  "size_kb": 3,
+  "meshes": 1,
+  "materials": 2,
+  "textures": 0,
+  "triangles": 12,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "terrain_sideCliff"
+  ],
+  "suggested_use": "岩石/地形"
+ },
+ {
+  "file": "kenney-space_terrain.glb",
+  "name": "terrain",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.5,
+    0,
+    1
+   ],
+   "max": [
+    2.5,
+    0,
+    2
+   ],
+   "size": [
+    1,
+    0,
+    1
+   ]
+  },
+  "size_kb": 2,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 0,
+  "triangles": 2,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "terrain"
+  ],
+  "suggested_use": "岩石/地形"
+ },
+ {
+  "file": "kenney-survival_barrel-open.glb",
+  "name": "barrel-open",
+  "source_url": "https://kenney.nl/assets/survival-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.118,
+    0,
+    -0.118
+   ],
+   "max": [
+    0.118,
+    0.344,
+    0.118
+   ],
+   "size": [
+    0.236,
+    0.344,
+    0.236
+   ]
+  },
+  "size_kb": 38,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 380,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "barrel-open"
+  ],
+  "suggested_use": "集装箱/桶/储罐 路边堆放"
+ },
+ {
+  "file": "kenney-survival_barrel.glb",
+  "name": "barrel",
+  "source_url": "https://kenney.nl/assets/survival-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.118,
+    0,
+    -0.118
+   ],
+   "max": [
+    0.118,
+    0.344,
+    0.118
+   ],
+   "size": [
+    0.236,
+    0.344,
+    0.236
+   ]
+  },
+  "size_kb": 41,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 412,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "barrel"
+  ],
+  "suggested_use": "集装箱/桶/储罐 路边堆放"
+ },
+ {
+  "file": "kenney-survival_fence-fortified.glb",
+  "name": "fence-fortified",
+  "source_url": "https://kenney.nl/assets/survival-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.25,
+    0,
+    -0.25
+   ],
+   "max": [
+    0.25,
+    0.517,
+    -0.197
+   ],
+   "size": [
+    0.5,
+    0.517,
+    0.053
+   ]
+  },
+  "size_kb": 21,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 120,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "fence-fortified"
+  ],
+  "suggested_use": "护栏/路障"
+ },
+ {
+  "file": "kenney-survival_metal-panel-narrow.glb",
+  "name": "metal-panel-narrow",
+  "source_url": "https://kenney.nl/assets/survival-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.125,
+    0,
+    -0.025
+   ],
+   "max": [
+    0.125,
+    0.5,
+    0.025
+   ],
+   "size": [
+    0.25,
+    0.5,
+    0.05
+   ]
+  },
+  "size_kb": 21,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 152,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "metal-panel-narrow"
+  ],
+  "suggested_use": "桥面/平台/地板模块"
+ },
+ {
+  "file": "kenney-survival_metal-panel-screws-half.glb",
+  "name": "metal-panel-screws-half",
+  "source_url": "https://kenney.nl/assets/survival-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.25,
+    0,
+    -0.025
+   ],
+   "max": [
+    0.25,
+    0.25,
+    0.038
+   ],
+   "size": [
+    0.5,
+    0.25,
+    0.063
+   ]
+  },
+  "size_kb": 35,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 320,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "metal-panel-screws-half"
+  ],
+  "suggested_use": "桥面/平台/地板模块"
+ },
+ {
+  "file": "kenney-survival_metal-panel-screws-narrow.glb",
+  "name": "metal-panel-screws-narrow",
+  "source_url": "https://kenney.nl/assets/survival-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.125,
+    0,
+    -0.025
+   ],
+   "max": [
+    0.125,
+    0.5,
+    0.038
+   ],
+   "size": [
+    0.25,
+    0.5,
+    0.063
+   ]
+  },
+  "size_kb": 25,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 192,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "metal-panel-screws-narrow"
+  ],
+  "suggested_use": "桥面/平台/地板模块"
+ },
+ {
+  "file": "kenney-survival_metal-panel-screws.glb",
+  "name": "metal-panel-screws",
+  "source_url": "https://kenney.nl/assets/survival-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.25,
+    0,
+    -0.025
+   ],
+   "max": [
+    0.25,
+    0.5,
+    0.038
+   ],
+   "size": [
+    0.5,
+    0.5,
+    0.063
+   ]
+  },
+  "size_kb": 35,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 320,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "metal-panel-screws"
+  ],
+  "suggested_use": "桥面/平台/地板模块"
+ },
+ {
+  "file": "kenney-survival_metal-panel.glb",
+  "name": "metal-panel",
+  "source_url": "https://kenney.nl/assets/survival-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.25,
+    0,
+    -0.025
+   ],
+   "max": [
+    0.25,
+    0.5,
+    0.025
+   ],
+   "size": [
+    0.5,
+    0.5,
+    0.05
+   ]
+  },
+  "size_kb": 31,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 280,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "metal-panel"
+  ],
+  "suggested_use": "桥面/平台/地板模块"
+ },
+ {
+  "file": "kenney-survival_rock-a.glb",
+  "name": "rock-a",
+  "source_url": "https://kenney.nl/assets/survival-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.3,
+    0,
+    -0.297
+   ],
+   "max": [
+    0.255,
+    0.393,
+    0.324
+   ],
+   "size": [
+    0.555,
+    0.393,
+    0.622
+   ]
+  },
+  "size_kb": 18,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 104,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "rock-a"
+  ],
+  "suggested_use": "岩石/地形"
+ },
+ {
+  "file": "kenney-survival_rock-b.glb",
+  "name": "rock-b",
+  "source_url": "https://kenney.nl/assets/survival-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.378,
+    0,
+    -0.355
+   ],
+   "max": [
+    0.456,
+    0.419,
+    0.37
+   ],
+   "size": [
+    0.835,
+    0.419,
+    0.725
+   ]
+  },
+  "size_kb": 22,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 156,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "rock-b"
+  ],
+  "suggested_use": "岩石/地形"
+ },
+ {
+  "file": "kenney-survival_rock-c.glb",
+  "name": "rock-c",
+  "source_url": "https://kenney.nl/assets/survival-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.381,
+    0,
+    -0.289
+   ],
+   "max": [
+    0.402,
+    0.51,
+    0.277
+   ],
+   "size": [
+    0.784,
+    0.51,
+    0.566
+   ]
+  },
+  "size_kb": 19,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 120,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "rock-c"
+  ],
+  "suggested_use": "岩石/地形"
+ },
+ {
+  "file": "kenney-survival_rock-flat.glb",
+  "name": "rock-flat",
+  "source_url": "https://kenney.nl/assets/survival-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.896,
+    0,
+    -0.74
+   ],
+   "max": [
+    0.89,
+    0.195,
+    0.708
+   ],
+   "size": [
+    1.786,
+    0.195,
+    1.448
+   ]
+  },
+  "size_kb": 31,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 274,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "rock-flat"
+  ],
+  "suggested_use": "岩石/地形"
+ },
+ {
+  "file": "kenney-survival_structure-metal-doorway.glb",
+  "name": "structure-metal-doorway",
+  "source_url": "https://kenney.nl/assets/survival-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.268,
+    0,
+    -0.268
+   ],
+   "max": [
+    0.268,
+    0.517,
+    -0.179
+   ],
+   "size": [
+    0.535,
+    0.517,
+    0.089
+   ]
+  },
+  "size_kb": 25,
+  "meshes": 2,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 160,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "structure-metal-doorway",
+   "Group"
+  ],
+  "suggested_use": "桥面/平台/地板模块"
+ },
+ {
+  "file": "kenney-survival_structure-metal-floor.glb",
+  "name": "structure-metal-floor",
+  "source_url": "https://kenney.nl/assets/survival-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.25,
+    0,
+    -0.25
+   ],
+   "max": [
+    0.25,
+    0.512,
+    0.25
+   ],
+   "size": [
+    0.5,
+    0.512,
+    0.5
+   ]
+  },
+  "size_kb": 40,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 352,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "structure-metal-floor"
+  ],
+  "suggested_use": "桥面/平台/地板模块"
+ },
+ {
+  "file": "kenney-survival_structure-metal-roof.glb",
+  "name": "structure-metal-roof",
+  "source_url": "https://kenney.nl/assets/survival-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.27,
+    0,
+    -0.275
+   ],
+   "max": [
+    0.274,
+    0.5,
+    0.275
+   ],
+   "size": [
+    0.544,
+    0.5,
+    0.55
+   ]
+  },
+  "size_kb": 47,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 456,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "structure-metal-roof"
+  ],
+  "suggested_use": "桥面/平台/地板模块"
+ },
+ {
+  "file": "kenney-survival_structure-metal-wall.glb",
+  "name": "structure-metal-wall",
+  "source_url": "https://kenney.nl/assets/survival-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.268,
+    0,
+    -0.268
+   ],
+   "max": [
+    0.268,
+    0.5,
+    -0.179
+   ],
+   "size": [
+    0.535,
+    0.5,
+    0.089
+   ]
+  },
+  "size_kb": 17,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 92,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "structure-metal-wall"
+  ],
+  "suggested_use": "桥面/平台/地板模块"
+ },
+ {
+  "file": "kenney-survival_structure-metal.glb",
+  "name": "structure-metal",
+  "source_url": "https://kenney.nl/assets/survival-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.268,
+    0,
+    -0.268
+   ],
+   "max": [
+    0.268,
+    0.5,
+    0.268
+   ],
+   "size": [
+    0.535,
+    0.5,
+    0.535
+   ]
+  },
+  "size_kb": 26,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 184,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "structure-metal"
+  ],
+  "suggested_use": "桥面/平台/地板模块"
+ },
+ {
+  "file": "kenney-tower-defense_detail-crystal-large.glb",
+  "name": "detail-crystal-large",
+  "source_url": "https://kenney.nl/assets/tower-defense-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.434,
+    0,
+    -0.418
+   ],
+   "max": [
+    0.458,
+    0.552,
+    0.442
+   ],
+   "size": [
+    0.892,
+    0.552,
+    0.859
+   ]
+  },
+  "size_kb": 55,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 436,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "detail-crystal-large"
+  ],
+  "suggested_use": "外星水晶"
+ },
+ {
+  "file": "kenney-tower-defense_detail-crystal.glb",
+  "name": "detail-crystal",
+  "source_url": "https://kenney.nl/assets/tower-defense-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.126,
+    0,
+    -0.145
+   ],
+   "max": [
+    0.126,
+    0.425,
+    0.145
+   ],
+   "size": [
+    0.251,
+    0.425,
+    0.29
+   ]
+  },
+  "size_kb": 20,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 68,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "detail-crystal"
+  ],
+  "suggested_use": "外星水晶"
+ },
+ {
+  "file": "kenney-tower-defense_detail-rocks-large.glb",
+  "name": "detail-rocks-large",
+  "source_url": "https://kenney.nl/assets/tower-defense-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.434,
+    0,
+    -0.418
+   ],
+   "max": [
+    0.458,
+    0.415,
+    0.442
+   ],
+   "size": [
+    0.892,
+    0.415,
+    0.859
+   ]
+  },
+  "size_kb": 34,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 232,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "detail-rocks-large"
+  ],
+  "suggested_use": "岩石/地形"
+ },
+ {
+  "file": "kenney-tower-defense_detail-rocks.glb",
+  "name": "detail-rocks",
+  "source_url": "https://kenney.nl/assets/tower-defense-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.296,
+    0,
+    -0.321
+   ],
+   "max": [
+    0.302,
+    0.184,
+    0.285
+   ],
+   "size": [
+    0.598,
+    0.184,
+    0.605
+   ]
+  },
+  "size_kb": 30,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 184,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "detail-rocks"
+  ],
+  "suggested_use": "岩石/地形"
+ },
+ {
+  "file": "kenney-tower-defense_selection-a.glb",
+  "name": "selection-a",
+  "source_url": "https://kenney.nl/assets/tower-defense-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.5,
+    0,
+    -0.5
+   ],
+   "max": [
+    0.5,
+    0.05,
+    0.5
+   ],
+   "size": [
+    1,
+    0.05,
+    1
+   ]
+  },
+  "size_kb": 30,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 192,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "selection-a"
+  ],
+  "suggested_use": "远景建筑/基地/天体"
+ },
+ {
+  "file": "kenney-tower-defense_selection-b.glb",
+  "name": "selection-b",
+  "source_url": "https://kenney.nl/assets/tower-defense-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.5,
+    0,
+    -0.5
+   ],
+   "max": [
+    0.5,
+    0.2,
+    0.5
+   ],
+   "size": [
+    1,
+    0.2,
+    1
+   ]
+  },
+  "size_kb": 16,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 32,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "selection-b"
+  ],
+  "suggested_use": "远景建筑/基地/天体"
+ },
+ {
+  "file": "kenney-tower-defense_tile-crystal.glb",
+  "name": "tile-crystal",
+  "source_url": "https://kenney.nl/assets/tower-defense-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.5,
+    0,
+    -0.5
+   ],
+   "max": [
+    0.5,
+    0.752,
+    0.5
+   ],
+   "size": [
+    1,
+    0.752,
+    1
+   ]
+  },
+  "size_kb": 58,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 460,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "tile-crystal"
+  ],
+  "suggested_use": "桥面/平台/地板模块"
+ },
+ {
+  "file": "kenney-tower-defense_tile-rock.glb",
+  "name": "tile-rock",
+  "source_url": "https://kenney.nl/assets/tower-defense-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.5,
+    0,
+    -0.5
+   ],
+   "max": [
+    0.5,
+    0.615,
+    0.5
+   ],
+   "size": [
+    1,
+    0.615,
+    1
+   ]
+  },
+  "size_kb": 47,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 376,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "tile-rock"
+  ],
+  "suggested_use": "桥面/平台/地板模块"
+ },
+ {
+  "file": "kenney-tower-defense_tower-round-crystals.glb",
+  "name": "tower-round-crystals",
+  "source_url": "https://kenney.nl/assets/tower-defense-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.5,
+    0,
+    -0.5
+   ],
+   "max": [
+    0.5,
+    0.818,
+    0.5
+   ],
+   "size": [
+    1,
+    0.818,
+    1
+   ]
+  },
+  "size_kb": 81,
+  "meshes": 6,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 688,
+  "nodes": 6,
+  "skinned": false,
+  "node_names": [
+   "tower-round-crystals",
+   "crystal",
+   "crystal-small",
+   "crystal-small",
+   "crystal-small",
+   "crystal-small"
+  ],
+  "suggested_use": "外星水晶"
+ },
+ {
+  "file": "kenney-tower-defense_tower-square-bottom-a.glb",
+  "name": "tower-square-bottom-a",
+  "source_url": "https://kenney.nl/assets/tower-defense-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.5,
+    0,
+    -0.5
+   ],
+   "max": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "size": [
+    1,
+    0.5,
+    1
+   ]
+  },
+  "size_kb": 24,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 120,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "tower-square-bottom-a"
+  ],
+  "suggested_use": "远景建筑/基地/天体"
+ },
+ {
+  "file": "kenney-tower-defense_tower-square-middle-a.glb",
+  "name": "tower-square-middle-a",
+  "source_url": "https://kenney.nl/assets/tower-defense-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.55,
+    0,
+    -0.55
+   ],
+   "max": [
+    0.55,
+    0.5,
+    0.55
+   ],
+   "size": [
+    1.1,
+    0.5,
+    1.1
+   ]
+  },
+  "size_kb": 56,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 452,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "tower-square-middle-a"
+  ],
+  "suggested_use": "远景建筑/基地/天体"
+ },
+ {
+  "file": "kenney-tower-defense_tower-square-top-a.glb",
+  "name": "tower-square-top-a",
+  "source_url": "https://kenney.nl/assets/tower-defense-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.55,
+    0,
+    -0.55
+   ],
+   "max": [
+    0.55,
+    0.5,
+    0.55
+   ],
+   "size": [
+    1.1,
+    0.5,
+    1.1
+   ]
+  },
+  "size_kb": 76,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 728,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "tower-square-top-a"
+  ],
+  "suggested_use": "远景建筑/基地/天体"
+ },
+ {
+  "file": "quaternius_antenna_l5oc.glb",
+  "name": "Antenna",
+  "source_url": "https://poly.pizza/m/l5Oc9swvKk",
+  "download_url": "https://static.poly.pizza/c958f28b-bcea-4b96-81ab-1eb01914bb73.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.102,
+    -0.001,
+    -0.032
+   ],
+   "max": [
+    0.3,
+    1.655,
+    0.032
+   ],
+   "size": [
+    0.402,
+    1.656,
+    0.063
+   ]
+  },
+  "size_kb": 6,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 0,
+  "triangles": 88,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "Antenna_1"
+  ],
+  "suggested_use": "远景建筑/基地/天体"
+ },
+ {
+  "file": "quaternius_antenna_ouhq.glb",
+  "name": "Antenna",
+  "source_url": "https://poly.pizza/m/OuHQCigiUR",
+  "download_url": "https://static.poly.pizza/08f832ca-e268-4834-9711-d03986f042e8.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.484,
+    -0.358,
+    -0.3
+   ],
+   "max": [
+    0.133,
+    0.373,
+    0.356
+   ],
+   "size": [
+    0.617,
+    0.731,
+    0.657
+   ]
+  },
+  "size_kb": 15,
+  "meshes": 1,
+  "materials": 3,
+  "textures": 0,
+  "triangles": 412,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "Antenna_2"
+  ],
+  "suggested_use": "远景建筑/基地/天体"
+ },
+ {
+  "file": "quaternius_barrier-fixed_fg3n.glb",
+  "name": "Barrier Fixed",
+  "source_url": "https://poly.pizza/m/Fg3Nimfcfg",
+  "download_url": "https://static.poly.pizza/6a60b8f9-b75b-462f-88b9-b47bc62aa29d.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -1.909,
+    -0.003,
+    -0.339
+   ],
+   "max": [
+    1.896,
+    3.18,
+    0.328
+   ],
+   "size": [
+    3.806,
+    3.183,
+    0.667
+   ]
+  },
+  "size_kb": 143,
+  "meshes": 1,
+  "materials": 7,
+  "textures": 1,
+  "triangles": 1208,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "Barrier_Fixed"
+  ],
+  "suggested_use": "护栏/路障"
+ },
+ {
+  "file": "quaternius_barrier-large_glbb.glb",
+  "name": "Barrier Large",
+  "source_url": "https://poly.pizza/m/gLbBiYwt7l",
+  "download_url": "https://static.poly.pizza/1533a896-a4db-4ca5-aa04-51dec1da46ad.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -1.909,
+    -0.003,
+    -0.339
+   ],
+   "max": [
+    1.896,
+    3.18,
+    0.328
+   ],
+   "size": [
+    3.806,
+    3.183,
+    0.667
+   ]
+  },
+  "size_kb": 105,
+  "meshes": 1,
+  "materials": 5,
+  "textures": 1,
+  "triangles": 624,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "Barrier_Large"
+  ],
+  "suggested_use": "护栏/路障"
+ },
+ {
+  "file": "quaternius_barrier-single_wcux.glb",
+  "name": "Barrier Single",
+  "source_url": "https://poly.pizza/m/wCUxgt2jSP",
+  "download_url": "https://static.poly.pizza/8b30a401-db60-4168-8eaf-43f097bb5470.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.935,
+    -0.003,
+    -0.329
+   ],
+   "max": [
+    0.955,
+    0.625,
+    0.328
+   ],
+   "size": [
+    1.89,
+    0.628,
+    0.657
+   ]
+  },
+  "size_kb": 12,
+  "meshes": 1,
+  "materials": 4,
+  "textures": 0,
+  "triangles": 232,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "Barrier_Single"
+  ],
+  "suggested_use": "护栏/路障"
+ },
+ {
+  "file": "quaternius_barrier-trash_53ax.glb",
+  "name": "Barrier Trash",
+  "source_url": "https://poly.pizza/m/53AXNH8J9N",
+  "download_url": "https://static.poly.pizza/ba1f2fd4-c479-4351-b0be-624ab39115c4.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -2.323,
+    -0.019,
+    -0.516
+   ],
+   "max": [
+    2.165,
+    2.49,
+    0.794
+   ],
+   "size": [
+    4.488,
+    2.509,
+    1.31
+   ]
+  },
+  "size_kb": 123,
+  "meshes": 1,
+  "materials": 6,
+  "textures": 0,
+  "triangles": 4261,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "Barrier_Trash"
+  ],
+  "suggested_use": "护栏/路障"
+ },
+ {
+  "file": "quaternius_base-large_uyh9.glb",
+  "name": "Base Large",
+  "source_url": "https://poly.pizza/m/UyH95ZAeJ2",
+  "download_url": "https://static.poly.pizza/f8e09790-8770-4cad-91f0-edefd14eb34f.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -4.265,
+    0.004,
+    -4.265
+   ],
+   "max": [
+    4.265,
+    4.975,
+    4.265
+   ],
+   "size": [
+    8.53,
+    4.971,
+    8.53
+   ]
+  },
+  "size_kb": 122,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 2790,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "Base_Large"
+  ],
+  "suggested_use": "远景建筑/基地/天体"
+ },
+ {
+  "file": "quaternius_big-building_avcs.glb",
+  "name": "Big Building",
+  "source_url": "https://poly.pizza/m/AVCS8jUd2l",
+  "download_url": "https://static.poly.pizza/6c49f4dd-c032-4e50-b257-68bbe01bcf16.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -2.353,
+    -0.013,
+    -2.195
+   ],
+   "max": [
+    2.353,
+    5.664,
+    2.195
+   ],
+   "size": [
+    4.705,
+    5.677,
+    4.391
+   ]
+  },
+  "size_kb": 346,
+  "meshes": 1,
+  "materials": 6,
+  "textures": 0,
+  "triangles": 7004,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "Building3_Big"
+  ],
+  "suggested_use": "远景建筑/基地/天体"
+ },
+ {
+  "file": "quaternius_big-crystal_pf5l.glb",
+  "name": "Big Crystal",
+  "source_url": "https://poly.pizza/m/pf5lzmgr2J",
+  "download_url": "https://static.poly.pizza/f2bbae6a-f84c-493e-8a39-7498e90fbd49.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.78,
+    -0.002,
+    -0.771
+   ],
+   "max": [
+    0.696,
+    1.652,
+    0.711
+   ],
+   "size": [
+    1.476,
+    1.655,
+    1.482
+   ]
+  },
+  "size_kb": 33,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 590,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "Crystal_Big"
+  ],
+  "suggested_use": "外星水晶"
+ },
+ {
+  "file": "quaternius_building_zsyg.glb",
+  "name": "Building",
+  "source_url": "https://poly.pizza/m/ZSYgIuHfYb",
+  "download_url": "https://static.poly.pizza/3449b80d-3595-4cc8-a21e-eb7d597f66df.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -2.322,
+    -0.015,
+    -1.928
+   ],
+   "max": [
+    2.322,
+    5.472,
+    1.928
+   ],
+   "size": [
+    4.644,
+    5.487,
+    3.856
+   ]
+  },
+  "size_kb": 416,
+  "meshes": 1,
+  "materials": 7,
+  "textures": 0,
+  "triangles": 9734,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "Building4"
+  ],
+  "suggested_use": "远景建筑/基地/天体"
+ },
+ {
+  "file": "quaternius_column_6y1e.glb",
+  "name": "Column",
+  "source_url": "https://poly.pizza/m/6y1EFzpRI9",
+  "download_url": "https://static.poly.pizza/902b61ab-3073-4d77-8875-bf6a65051738.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.652,
+    0.008,
+    -0.652
+   ],
+   "max": [
+    0.652,
+    4.073,
+    0.652
+   ],
+   "size": [
+    1.304,
+    4.065,
+    1.304
+   ]
+  },
+  "size_kb": 24,
+  "meshes": 1,
+  "materials": 2,
+  "textures": 0,
+  "triangles": 440,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "Column"
+  ],
+  "suggested_use": "通用科幻装饰件"
+ },
+ {
+  "file": "quaternius_column_wlub.glb",
+  "name": "Column",
+  "source_url": "https://poly.pizza/m/wLubNpOTX4",
+  "download_url": "https://static.poly.pizza/5239f88f-e30b-452b-a19e-89745d580b1e.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.652,
+    0.008,
+    -0.652
+   ],
+   "max": [
+    0.652,
+    4.081,
+    0.652
+   ],
+   "size": [
+    1.304,
+    4.072,
+    1.304
+   ]
+  },
+  "size_kb": 30,
+  "meshes": 1,
+  "materials": 2,
+  "textures": 0,
+  "triangles": 548,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "Column2"
+  ],
+  "suggested_use": "通用科幻装饰件"
+ },
+ {
+  "file": "quaternius_connector_0okx.glb",
+  "name": "Connector",
+  "source_url": "https://poly.pizza/m/0OKxctiaBw",
+  "download_url": "https://static.poly.pizza/955a390a-4cc1-482d-928f-a115ffb06d7c.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.684,
+    1.222,
+    -1.085
+   ],
+   "max": [
+    2.684,
+    3.435,
+    1.085
+   ],
+   "size": [
+    3.368,
+    2.213,
+    2.171
+   ]
+  },
+  "size_kb": 27,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 508,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "Connector"
+  ],
+  "suggested_use": "通用科幻装饰件"
+ },
+ {
+  "file": "quaternius_container-green_h5ru.glb",
+  "name": "Container Green",
+  "source_url": "https://poly.pizza/m/h5RUr3vlcS",
+  "download_url": "https://static.poly.pizza/b3927d85-693b-4b24-86bc-7bd3502407e7.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -2.854,
+    0.038,
+    -1.28
+   ],
+   "max": [
+    2.854,
+    2.641,
+    1.28
+   ],
+   "size": [
+    5.709,
+    2.603,
+    2.561
+   ]
+  },
+  "size_kb": 70,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 1336,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "Container_Green"
+  ],
+  "suggested_use": "集装箱/桶/储罐 路边堆放"
+ },
+ {
+  "file": "quaternius_container-red_vzzc.glb",
+  "name": "Container Red",
+  "source_url": "https://poly.pizza/m/vzzCNUB6Zn",
+  "download_url": "https://static.poly.pizza/98061c7f-e85a-4b19-98ee-391e0a2263cd.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -2.83,
+    -0.009,
+    -1.273
+   ],
+   "max": [
+    2.878,
+    2.594,
+    1.286
+   ],
+   "size": [
+    5.708,
+    2.603,
+    2.559
+   ]
+  },
+  "size_kb": 58,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 1032,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "Container_Red"
+  ],
+  "suggested_use": "集装箱/桶/储罐 路边堆放"
+ },
+ {
+  "file": "quaternius_container-small_b79i.glb",
+  "name": "Container Small",
+  "source_url": "https://poly.pizza/m/B79i6fHgVU",
+  "download_url": "https://static.poly.pizza/2e1f581e-5f9d-42ff-9ef9-600b1cfde0a6.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -1.097,
+    0.039,
+    -1.045
+   ],
+   "max": [
+    1.097,
+    2.17,
+    1.045
+   ],
+   "size": [
+    2.194,
+    2.131,
+    2.09
+   ]
+  },
+  "size_kb": 39,
+  "meshes": 1,
+  "materials": 2,
+  "textures": 0,
+  "triangles": 920,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "Container_Small"
+  ],
+  "suggested_use": "集装箱/桶/储罐 路边堆放"
+ },
+ {
+  "file": "quaternius_crystal_nbln.glb",
+  "name": "Crystal",
+  "source_url": "https://poly.pizza/m/nBlnK8G6xw",
+  "download_url": "https://static.poly.pizza/3b886302-8856-461c-9472-dc34459a21de.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.633,
+    0.009,
+    -0.183
+   ],
+   "max": [
+    0.132,
+    0.826,
+    0.599
+   ],
+   "size": [
+    0.765,
+    0.817,
+    0.782
+   ]
+  },
+  "size_kb": 18,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 264,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "Crystal_Small"
+  ],
+  "suggested_use": "外星水晶"
+ },
+ {
+  "file": "quaternius_cyberpunk-platform_ctq5.glb",
+  "name": "Cyberpunk Platform",
+  "source_url": "https://poly.pizza/m/ctQ5CDmraQ",
+  "download_url": "https://static.poly.pizza/2d528aaf-0c17-435d-b7bc-a4c3e7364e10.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    3.782,
+    -3.712,
+    -1.981
+   ],
+   "max": [
+    8.25,
+    0.046,
+    1.922
+   ],
+   "size": [
+    4.468,
+    3.758,
+    3.904
+   ]
+  },
+  "size_kb": 834,
+  "meshes": 1,
+  "materials": 6,
+  "textures": 1,
+  "triangles": 13328,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "Platform_4x4"
+  ],
+  "suggested_use": "桥面/平台/地板模块"
+ },
+ {
+  "file": "quaternius_cyberpunk-platform_dhym.glb",
+  "name": "Cyberpunk Platform",
+  "source_url": "https://poly.pizza/m/dHymLbsOMY",
+  "download_url": "https://static.poly.pizza/ea6b803f-6c8b-489c-a5fb-7bb4f936a5c6.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -1.437,
+    -3.57,
+    -1.089
+   ],
+   "max": [
+    1.872,
+    0.265,
+    1.069
+   ],
+   "size": [
+    3.309,
+    3.835,
+    2.158
+   ]
+  },
+  "size_kb": 474,
+  "meshes": 1,
+  "materials": 6,
+  "textures": 0,
+  "triangles": 9921,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "Platform_2x2"
+  ],
+  "suggested_use": "桥面/平台/地板模块"
+ },
+ {
+  "file": "quaternius_cyberpunk-platform_s0rw.glb",
+  "name": "Cyberpunk Platform",
+  "source_url": "https://poly.pizza/m/s0rwPHWMpY",
+  "download_url": "https://static.poly.pizza/b7721d78-b483-4db0-9adb-d28e5240db19.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -1.947,
+    -2.705,
+    -0.638
+   ],
+   "max": [
+    1.916,
+    0.101,
+    1.092
+   ],
+   "size": [
+    3.863,
+    2.806,
+    1.73
+   ]
+  },
+  "size_kb": 174,
+  "meshes": 1,
+  "materials": 6,
+  "textures": 0,
+  "triangles": 4316,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "Platform_4x1"
+  ],
+  "suggested_use": "桥面/平台/地板模块"
+ },
+ {
+  "file": "quaternius_egg_ngjy.glb",
+  "name": "Egg",
+  "source_url": "https://poly.pizza/m/ngjyRi84lk",
+  "download_url": "https://static.poly.pizza/b93932c4-96f0-45e7-bf05-fee371aaad09.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.182,
+    -0.003,
+    -0.182
+   ],
+   "max": [
+    0.182,
+    0.463,
+    0.182
+   ],
+   "size": [
+    0.363,
+    0.466,
+    0.363
+   ]
+  },
+  "size_kb": 22,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 0,
+  "triangles": 288,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "Egg_Whole"
+  ],
+  "suggested_use": "虫巢有机结构/外星植物"
+ },
+ {
+  "file": "quaternius_exploding-barrel_1orh.glb",
+  "name": "Exploding Barrel",
+  "source_url": "https://poly.pizza/m/1orHe0kCc1",
+  "download_url": "https://static.poly.pizza/dbb58868-50d4-4ef0-945a-12b07222fb69.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.392,
+    0,
+    -0.392
+   ],
+   "max": [
+    0.392,
+    1.024,
+    0.392
+   ],
+   "size": [
+    0.785,
+    1.024,
+    0.785
+   ]
+  },
+  "size_kb": 19,
+  "meshes": 1,
+  "materials": 3,
+  "textures": 0,
+  "triangles": 516,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "ExplodingBarrel"
+  ],
+  "suggested_use": "集装箱/桶/储罐 路边堆放"
+ },
+ {
+  "file": "quaternius_house-pod_npp0.glb",
+  "name": "House Pod",
+  "source_url": "https://poly.pizza/m/npP0RG1MR3",
+  "download_url": "https://static.poly.pizza/e6274402-b693-451b-b77b-f6a1a5693fc8.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -2.804,
+    0.004,
+    -5.984
+   ],
+   "max": [
+    24.596,
+    4.328,
+    2.804
+   ],
+   "size": [
+    27.4,
+    4.324,
+    8.788
+   ]
+  },
+  "size_kb": 187,
+  "meshes": 3,
+  "materials": 4,
+  "textures": 1,
+  "triangles": 4938,
+  "nodes": 4,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "House_Cylinder",
+   "House_Long",
+   "House_Single_Support"
+  ],
+  "suggested_use": "空投舱/补给箱/拾取物"
+ },
+ {
+  "file": "quaternius_metal-fence_qwkh.glb",
+  "name": "Metal Fence",
+  "source_url": "https://poly.pizza/m/qWKhREFj7H",
+  "download_url": "https://static.poly.pizza/94d06743-b682-4a86-9bba-499c351282b7.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -1.774,
+    -0.001,
+    -0.206
+   ],
+   "max": [
+    1.774,
+    2.874,
+    -0.091
+   ],
+   "size": [
+    3.549,
+    2.875,
+    0.115
+   ]
+  },
+  "size_kb": 87,
+  "meshes": 1,
+  "materials": 2,
+  "textures": 1,
+  "triangles": 218,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "MetalFence"
+  ],
+  "suggested_use": "护栏/路障"
+ },
+ {
+  "file": "quaternius_metal-support_zyuj.glb",
+  "name": "Metal Support",
+  "source_url": "https://poly.pizza/m/ZyUjmgnTyw",
+  "download_url": "https://static.poly.pizza/651cbeb0-9b5b-41d0-8be1-43dcd7f053a2.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.057,
+    0.023,
+    -3.008
+   ],
+   "max": [
+    0.084,
+    1.224,
+    2.947
+   ],
+   "size": [
+    0.142,
+    1.201,
+    5.955
+   ]
+  },
+  "size_kb": 28,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 540,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "MetalSupport"
+  ],
+  "suggested_use": "通用科幻装饰件"
+ },
+ {
+  "file": "quaternius_mineral_stix.glb",
+  "name": "Mineral",
+  "source_url": "https://poly.pizza/m/STixpWYaTd",
+  "download_url": "https://static.poly.pizza/0440888a-3aa3-4d44-94cd-be2beec1ee7d.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.285,
+    -0.111,
+    -0.277
+   ],
+   "max": [
+    0.302,
+    0.325,
+    0.287
+   ],
+   "size": [
+    0.588,
+    0.437,
+    0.564
+   ]
+  },
+  "size_kb": 88,
+  "meshes": 1,
+  "materials": 2,
+  "textures": 0,
+  "triangles": 896,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "Mineral"
+  ],
+  "suggested_use": "运输船/运输车"
+ },
+ {
+  "file": "quaternius_pipe_cpcn.glb",
+  "name": "Pipe",
+  "source_url": "https://poly.pizza/m/CpCnSuo786",
+  "download_url": "https://static.poly.pizza/a666bc66-b9c0-4850-a463-8a8735ceed8f.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.92,
+    -0.014,
+    -0.921
+   ],
+   "max": [
+    0.92,
+    1.971,
+    0.921
+   ],
+   "size": [
+    1.84,
+    1.985,
+    1.842
+   ]
+  },
+  "size_kb": 30,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 0,
+  "triangles": 556,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "Pipe"
+  ],
+  "suggested_use": "管道装饰"
+ },
+ {
+  "file": "quaternius_pipe_zphd.glb",
+  "name": "Pipe",
+  "source_url": "https://poly.pizza/m/zpHDL1CzGU",
+  "download_url": "https://static.poly.pizza/4530bc70-41be-40d8-84df-4d62a97b18d6.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -1.221,
+    -0.106,
+    -0.324
+   ],
+   "max": [
+    1.221,
+    0.106,
+    0.232
+   ],
+   "size": [
+    2.442,
+    0.212,
+    0.556
+   ]
+  },
+  "size_kb": 7,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 0,
+  "triangles": 224,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "Pipe_1"
+  ],
+  "suggested_use": "管道装饰"
+ },
+ {
+  "file": "quaternius_pipes-panel_rzvu.glb",
+  "name": "Pipes Panel",
+  "source_url": "https://poly.pizza/m/rzvuy93JU3",
+  "download_url": "https://static.poly.pizza/681da577-8a74-49aa-806b-643a5732c368.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.257,
+    -0.792,
+    0
+   ],
+   "max": [
+    0.257,
+    0.792,
+    0.093
+   ],
+   "size": [
+    0.514,
+    1.585,
+    0.093
+   ]
+  },
+  "size_kb": 26,
+  "meshes": 1,
+  "materials": 4,
+  "textures": 0,
+  "triangles": 498,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "Details_Pipes_Long"
+  ],
+  "suggested_use": "管道装饰"
+ },
+ {
+  "file": "quaternius_pipes_gb6a.glb",
+  "name": "Pipes",
+  "source_url": "https://poly.pizza/m/GB6AFkoiZb",
+  "download_url": "https://static.poly.pizza/ab52d5ee-95b3-4842-b2b8-27151a67275b.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.498,
+    -0.023,
+    -2.133
+   ],
+   "max": [
+    0.504,
+    0.933,
+    2.133
+   ],
+   "size": [
+    1.002,
+    0.956,
+    4.266
+   ]
+  },
+  "size_kb": 20,
+  "meshes": 1,
+  "materials": 2,
+  "textures": 0,
+  "triangles": 688,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "Pipes"
+  ],
+  "suggested_use": "管道装饰"
+ },
+ {
+  "file": "quaternius_pipes_lqin.glb",
+  "name": "Pipes",
+  "source_url": "https://poly.pizza/m/LqinclZKTn",
+  "download_url": "https://static.poly.pizza/0d8b02b3-cf75-4355-bc35-1755372dcc10.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.374,
+    0.005,
+    -1.678
+   ],
+   "max": [
+    0.374,
+    0.676,
+    1.678
+   ],
+   "size": [
+    0.748,
+    0.671,
+    3.355
+   ]
+  },
+  "size_kb": 58,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 1496,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "Pipes"
+  ],
+  "suggested_use": "管道装饰"
+ },
+ {
+  "file": "quaternius_pipes_shdm.glb",
+  "name": "Pipes",
+  "source_url": "https://poly.pizza/m/sHdMpk2YD4",
+  "download_url": "https://static.poly.pizza/23235c22-bd22-4cf9-a3ab-423614c9dbec.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -1.677,
+    3.985,
+    0.213
+   ],
+   "max": [
+    1.832,
+    4.355,
+    0.341
+   ],
+   "size": [
+    3.508,
+    0.37,
+    0.128
+   ]
+  },
+  "size_kb": 14,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 0,
+  "triangles": 356,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "Pipes"
+  ],
+  "suggested_use": "管道装饰"
+ },
+ {
+  "file": "quaternius_planet_b7xd.glb",
+  "name": "Planet",
+  "source_url": "https://poly.pizza/m/B7xd3SZq0z",
+  "download_url": "https://static.poly.pizza/ae96e45d-8863-4182-b69d-80f3d2cd677f.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -1.864,
+    -1.94,
+    -1.865
+   ],
+   "max": [
+    1.926,
+    1.994,
+    1.952
+   ],
+   "size": [
+    3.789,
+    3.935,
+    3.816
+   ]
+  },
+  "size_kb": 276,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 10688,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "Planet_1"
+  ],
+  "suggested_use": "远景建筑/基地/天体"
+ },
+ {
+  "file": "quaternius_planet_ec1l.glb",
+  "name": "Planet",
+  "source_url": "https://poly.pizza/m/EC1Lk2IamI",
+  "download_url": "https://static.poly.pizza/27290e95-1712-4ef9-b19e-cc0c626322d8.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -2.195,
+    -2.333,
+    -2.194
+   ],
+   "max": [
+    2.298,
+    1.756,
+    1.775
+   ],
+   "size": [
+    4.493,
+    4.089,
+    3.97
+   ]
+  },
+  "size_kb": 261,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 10488,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "Planet_4"
+  ],
+  "suggested_use": "远景建筑/基地/天体"
+ },
+ {
+  "file": "quaternius_planet_phzz.glb",
+  "name": "Planet",
+  "source_url": "https://poly.pizza/m/pHZz4EMvVM",
+  "download_url": "https://static.poly.pizza/b6152eba-27b5-4914-ad50-f1234adb7ff0.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -1.907,
+    -1.873,
+    -1.883
+   ],
+   "max": [
+    1.916,
+    1.873,
+    1.925
+   ],
+   "size": [
+    3.823,
+    3.746,
+    3.809
+   ]
+  },
+  "size_kb": 64,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 1864,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "Planet_9"
+  ],
+  "suggested_use": "远景建筑/基地/天体"
+ },
+ {
+  "file": "quaternius_plant_5efs.glb",
+  "name": "Plant",
+  "source_url": "https://poly.pizza/m/5EfsdpXCiD",
+  "download_url": "https://static.poly.pizza/8f500ff5-098d-4bec-b2a5-04a3c76e3861.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.591,
+    -0.019,
+    -0.428
+   ],
+   "max": [
+    0.499,
+    0.924,
+    0.544
+   ],
+   "size": [
+    1.09,
+    0.944,
+    0.972
+   ]
+  },
+  "size_kb": 34,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 0,
+  "triangles": 600,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "Plant_3"
+  ],
+  "suggested_use": "虫巢有机结构/外星植物"
+ },
+ {
+  "file": "quaternius_plant_nrjn.glb",
+  "name": "Plant",
+  "source_url": "https://poly.pizza/m/NrJN7UcglF",
+  "download_url": "https://static.poly.pizza/35b5f5ed-871c-4b5b-8c92-80c06138d5b1.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.711,
+    -0.035,
+    -0.764
+   ],
+   "max": [
+    0.563,
+    0.979,
+    0.622
+   ],
+   "size": [
+    1.273,
+    1.014,
+    1.386
+   ]
+  },
+  "size_kb": 670,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 120,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "Plant_1"
+  ],
+  "suggested_use": "虫巢有机结构/外星植物"
+ },
+ {
+  "file": "quaternius_plant_rpth.glb",
+  "name": "Plant",
+  "source_url": "https://poly.pizza/m/RptHDDjUGW",
+  "download_url": "https://static.poly.pizza/f0b146fe-fd6b-477a-a904-95b53c9dd1d6.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.555,
+    -0.002,
+    -0.514
+   ],
+   "max": [
+    0.502,
+    1.972,
+    0.496
+   ],
+   "size": [
+    1.057,
+    1.974,
+    1.01
+   ]
+  },
+  "size_kb": 17,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 196,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "Plant_2"
+  ],
+  "suggested_use": "虫巢有机结构/外星植物"
+ },
+ {
+  "file": "quaternius_plant_s0jo.glb",
+  "name": "Plant",
+  "source_url": "https://poly.pizza/m/s0joFFrQoy",
+  "download_url": "https://static.poly.pizza/4bcb2f67-5810-48e1-a41f-9893f228f991.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.762,
+    -0.038,
+    -0.415
+   ],
+   "max": [
+    1.042,
+    2.142,
+    0.227
+   ],
+   "size": [
+    1.804,
+    2.18,
+    0.642
+   ]
+  },
+  "size_kb": 27,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 540,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "Plant_1"
+  ],
+  "suggested_use": "虫巢有机结构/外星植物"
+ },
+ {
+  "file": "quaternius_plastic-barrier_qaix.glb",
+  "name": "Plastic Barrier",
+  "source_url": "https://poly.pizza/m/QAiXMsbWRc",
+  "download_url": "https://static.poly.pizza/5285ff90-c136-4abe-9772-aa7b9244bf88.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.518,
+    0,
+    -0.167
+   ],
+   "max": [
+    0.518,
+    0.6,
+    0.167
+   ],
+   "size": [
+    1.035,
+    0.6,
+    0.334
+   ]
+  },
+  "size_kb": 45,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 852,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "PlasticBarrier"
+  ],
+  "suggested_use": "护栏/路障"
+ },
+ {
+  "file": "quaternius_rail_i9ld.glb",
+  "name": "Rail",
+  "source_url": "https://poly.pizza/m/I9LDZrsr1C",
+  "download_url": "https://static.poly.pizza/2fb65206-d983-4530-9102-6342bf71ebc9.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -1.146,
+    -0.008,
+    -0.03
+   ],
+   "max": [
+    1.146,
+    0.228,
+    0.03
+   ],
+   "size": [
+    2.293,
+    0.237,
+    0.061
+   ]
+  },
+  "size_kb": 8,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 0,
+  "triangles": 256,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "Rail_Long"
+  ],
+  "suggested_use": "护栏/路障"
+ },
+ {
+  "file": "quaternius_rock-large_54jz.glb",
+  "name": "Rock Large",
+  "source_url": "https://poly.pizza/m/54jZKTAt5p",
+  "download_url": "https://static.poly.pizza/c14651f6-9ef8-41e8-8aca-cafed61d9ca2.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -3.849,
+    -0.316,
+    -4.025
+   ],
+   "max": [
+    3.822,
+    2.973,
+    3.307
+   ],
+   "size": [
+    7.671,
+    3.289,
+    7.332
+   ]
+  },
+  "size_kb": 18,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 222,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "Rock_Large_1"
+  ],
+  "suggested_use": "岩石/地形"
+ },
+ {
+  "file": "quaternius_rock-large_d2vw.glb",
+  "name": "Rock Large",
+  "source_url": "https://poly.pizza/m/d2VWOdthtR",
+  "download_url": "https://static.poly.pizza/d7bc2b98-2c73-4e78-b0bd-e5e24d65734a.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -2.774,
+    -0.272,
+    -3.01
+   ],
+   "max": [
+    2.539,
+    7.155,
+    2.184
+   ],
+   "size": [
+    5.314,
+    7.427,
+    5.193
+   ]
+  },
+  "size_kb": 29,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 448,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "Rock_Large_3"
+  ],
+  "suggested_use": "岩石/地形"
+ },
+ {
+  "file": "quaternius_rock-large_li0y.glb",
+  "name": "Rock Large",
+  "source_url": "https://poly.pizza/m/li0YBlBEMz",
+  "download_url": "https://static.poly.pizza/a50f220b-3c4c-4226-ae97-0458ed615cd2.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -4.81,
+    -0.234,
+    -3.691
+   ],
+   "max": [
+    3.733,
+    7.972,
+    3.928
+   ],
+   "size": [
+    8.543,
+    8.206,
+    7.619
+   ]
+  },
+  "size_kb": 29,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 432,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "Rock_Large_2"
+  ],
+  "suggested_use": "岩石/地形"
+ },
+ {
+  "file": "quaternius_rock_rtlr.glb",
+  "name": "Rock",
+  "source_url": "https://poly.pizza/m/RtLRqYjfMs",
+  "download_url": "https://static.poly.pizza/87d3dfd2-de47-4b03-b9f1-4c84c2a605b0.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.262,
+    -0.018,
+    -0.327
+   ],
+   "max": [
+    0.357,
+    0.549,
+    0.37
+   ],
+   "size": [
+    0.619,
+    0.566,
+    0.698
+   ]
+  },
+  "size_kb": 30,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 0,
+  "triangles": 632,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "Resource_Rock_1"
+  ],
+  "suggested_use": "岩石/地形"
+ },
+ {
+  "file": "quaternius_rocks_gl3p.glb",
+  "name": "Rocks",
+  "source_url": "https://poly.pizza/m/Gl3pcrdnpW",
+  "download_url": "https://static.poly.pizza/88886889-dca6-4ccc-83f3-aa19ace86743.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.189,
+    -0.002,
+    -0.237
+   ],
+   "max": [
+    0.202,
+    0.187,
+    0.224
+   ],
+   "size": [
+    0.392,
+    0.19,
+    0.461
+   ]
+  },
+  "size_kb": 21,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 0,
+  "triangles": 426,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "Resource_Rock_3"
+  ],
+  "suggested_use": "岩石/地形"
+ },
+ {
+  "file": "quaternius_rocks_gyho.glb",
+  "name": "Rocks",
+  "source_url": "https://poly.pizza/m/gYhoEOKItJ",
+  "download_url": "https://static.poly.pizza/01671e28-0504-4db1-a5d5-af71ce0a6a1e.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    190.429,
+    -0.21,
+    -0.623
+   ],
+   "max": [
+    197.707,
+    1.943,
+    0.694
+   ],
+   "size": [
+    7.278,
+    2.153,
+    1.317
+   ]
+  },
+  "size_kb": 3078,
+  "meshes": 5,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 2230,
+  "nodes": 6,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "Rock_4",
+   "Rock_1",
+   "Rock_2",
+   "Rock_3",
+   "Rock_5"
+  ],
+  "suggested_use": "岩石/地形"
+ },
+ {
+  "file": "quaternius_rocks_oqvi.glb",
+  "name": "Rocks",
+  "source_url": "https://poly.pizza/m/OQvi8PIZ40",
+  "download_url": "https://static.poly.pizza/c6f65def-08c5-4c81-b17f-f37b171ad911.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.172,
+    0,
+    -0.118
+   ],
+   "max": [
+    0.132,
+    0.08,
+    0.144
+   ],
+   "size": [
+    0.304,
+    0.08,
+    0.262
+   ]
+  },
+  "size_kb": 6,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 0,
+  "triangles": 84,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "Rock_3"
+  ],
+  "suggested_use": "岩石/地形"
+ },
+ {
+  "file": "quaternius_roof-antenna_fbdg.glb",
+  "name": "Roof Antenna",
+  "source_url": "https://poly.pizza/m/Fbdg52kqJ6",
+  "download_url": "https://static.poly.pizza/f11fe705-f599-4b9f-8a1b-3b1fb81b40a6.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.706,
+    4.068,
+    -0.716
+   ],
+   "max": [
+    0.706,
+    7.611,
+    0.717
+   ],
+   "size": [
+    1.412,
+    3.543,
+    1.433
+   ]
+  },
+  "size_kb": 29,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 492,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "Roof_Antenna"
+  ],
+  "suggested_use": "远景建筑/基地/天体"
+ },
+ {
+  "file": "quaternius_scifi-computer_u0xm.glb",
+  "name": "Scifi Computer",
+  "source_url": "https://poly.pizza/m/U0xmt6tUlL",
+  "download_url": "https://static.poly.pizza/1de4dd3a-fc24-470d-bf26-4fb0a9ee4440.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.29,
+    -0.004,
+    -0.242
+   ],
+   "max": [
+    0.29,
+    2.075,
+    0.402
+   ],
+   "size": [
+    0.58,
+    2.079,
+    0.644
+   ]
+  },
+  "size_kb": 41,
+  "meshes": 1,
+  "materials": 5,
+  "textures": 0,
+  "triangles": 624,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "Props_Computer"
+  ],
+  "suggested_use": "通用科幻装饰件"
+ },
+ {
+  "file": "quaternius_scifi-container_22fb.glb",
+  "name": "Scifi Container",
+  "source_url": "https://poly.pizza/m/22FBVK7m9c",
+  "download_url": "https://static.poly.pizza/ee63ce27-91fb-4d6b-88ed-76cc8002dd7f.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.601,
+    0.002,
+    -0.376
+   ],
+   "max": [
+    0.601,
+    0.584,
+    0.376
+   ],
+   "size": [
+    1.202,
+    0.582,
+    0.752
+   ]
+  },
+  "size_kb": 238,
+  "meshes": 1,
+  "materials": 5,
+  "textures": 0,
+  "triangles": 4930,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "Props_ContainerFull"
+  ],
+  "suggested_use": "集装箱/桶/储罐 路边堆放"
+ },
+ {
+  "file": "quaternius_scifi-kit_b6ot.glb",
+  "name": "Scifi Kit",
+  "source_url": "https://poly.pizza/m/b6otgtfVoe",
+  "download_url": "https://static.poly.pizza/abf8cad0-d1fb-48cb-b0d6-6f5ba386f2a7.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -7.922,
+    -1.239,
+    -17.026
+   ],
+   "max": [
+    40.078,
+    4.463,
+    18.188
+   ],
+   "size": [
+    48,
+    5.703,
+    35.214
+   ]
+  },
+  "size_kb": 3879,
+  "meshes": 93,
+  "materials": 8,
+  "textures": 0,
+  "triangles": 62398,
+  "nodes": 94,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "Column_3",
+   "Column_2",
+   "Column_1",
+   "FloorTile_Double",
+   "Props_Shelf_Tall",
+   "Props_Shelf",
+   "Props_Statue",
+   "Props_Capsule",
+   "Props_Laser",
+   "Props_Teleporter_2",
+   "Props_Teleporter_1"
+  ],
+  "suggested_use": "远景建筑/基地/天体"
+ },
+ {
+  "file": "quaternius_shipping-container-structure_ebme.glb",
+  "name": "Shipping Container Structure",
+  "source_url": "https://poly.pizza/m/ebmepOXDRd",
+  "download_url": "https://static.poly.pizza/a5a8487c-a09f-473b-b5a7-fae74832404e.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -4.638,
+    -0.053,
+    -1.807
+   ],
+   "max": [
+    3.337,
+    4.507,
+    2.715
+   ],
+   "size": [
+    7.975,
+    4.56,
+    4.521
+   ]
+  },
+  "size_kb": 240,
+  "meshes": 1,
+  "materials": 6,
+  "textures": 0,
+  "triangles": 3966,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "Structure_1"
+  ],
+  "suggested_use": "集装箱/桶/储罐 路边堆放"
+ },
+ {
+  "file": "quaternius_shipping-container_dqxr.glb",
+  "name": "Shipping Container",
+  "source_url": "https://poly.pizza/m/dQXRtm5GbO",
+  "download_url": "https://static.poly.pizza/e56c8efb-940f-4150-9bf8-d468c0165116.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -2.18,
+    0.031,
+    -1.045
+   ],
+   "max": [
+    2.18,
+    2.161,
+    1.045
+   ],
+   "size": [
+    4.359,
+    2.131,
+    2.09
+   ]
+  },
+  "size_kb": 56,
+  "meshes": 1,
+  "materials": 2,
+  "textures": 0,
+  "triangles": 1336,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "Container_Long"
+  ],
+  "suggested_use": "集装箱/桶/储罐 路边堆放"
+ },
+ {
+  "file": "quaternius_street-light_0lxf.glb",
+  "name": "Street Light",
+  "source_url": "https://poly.pizza/m/0lxF8Dl1jU",
+  "download_url": "https://static.poly.pizza/451a3b57-b957-4184-9c67-4a11587299b5.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.182,
+    -0.015,
+    -0.17
+   ],
+   "max": [
+    0.182,
+    6.628,
+    2.755
+   ],
+   "size": [
+    0.364,
+    6.643,
+    2.925
+   ]
+  },
+  "size_kb": 23,
+  "meshes": 1,
+  "materials": 2,
+  "textures": 1,
+  "triangles": 426,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "StreetLights"
+  ],
+  "suggested_use": "灯柱"
+ },
+ {
+  "file": "quaternius_street-light_nfwr.glb",
+  "name": "Street Light",
+  "source_url": "https://poly.pizza/m/nFwrlcLvM5",
+  "download_url": "https://static.poly.pizza/9a8aac3e-d1ee-4860-b294-edca62ef50be.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.209,
+    -0.008,
+    -0.203
+   ],
+   "max": [
+    0.209,
+    5.638,
+    1.883
+   ],
+   "size": [
+    0.418,
+    5.646,
+    2.086
+   ]
+  },
+  "size_kb": 11,
+  "meshes": 1,
+  "materials": 2,
+  "textures": 0,
+  "triangles": 324,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "StreetLight"
+  ],
+  "suggested_use": "灯柱"
+ },
+ {
+  "file": "quaternius_streetlight_bq1q.glb",
+  "name": "Streetlight",
+  "source_url": "https://poly.pizza/m/Bq1Qj4DAre",
+  "download_url": "https://static.poly.pizza/7576487c-00cd-43cd-93a7-d2c217fa8c25.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.088,
+    -0.01,
+    -0.088
+   ],
+   "max": [
+    0.088,
+    2.857,
+    0.584
+   ],
+   "size": [
+    0.176,
+    2.866,
+    0.672
+   ]
+  },
+  "size_kb": 19,
+  "meshes": 1,
+  "materials": 3,
+  "textures": 0,
+  "triangles": 526,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "Light_Street_1"
+  ],
+  "suggested_use": "灯柱"
+ },
+ {
+  "file": "quaternius_streetlight_wp6e.glb",
+  "name": "Streetlight",
+  "source_url": "https://poly.pizza/m/Wp6Eh4r9VX",
+  "download_url": "https://static.poly.pizza/cfa09b3c-2a84-452c-ac5f-f61d4f1f11da.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.678,
+    0,
+    -0.413
+   ],
+   "max": [
+    0.673,
+    2.649,
+    0.772
+   ],
+   "size": [
+    1.351,
+    2.649,
+    1.186
+   ]
+  },
+  "size_kb": 24,
+  "meshes": 1,
+  "materials": 3,
+  "textures": 0,
+  "triangles": 664,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "Light_Street_2"
+  ],
+  "suggested_use": "灯柱"
+ },
+ {
+  "file": "quaternius_support_z1ty.glb",
+  "name": "Support",
+  "source_url": "https://poly.pizza/m/Z1TYxDMXMx",
+  "download_url": "https://static.poly.pizza/5612c01c-e05b-4eaa-9790-a91f681b73d6.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    0,
+    -1.78,
+    -0.044
+   ],
+   "max": [
+    1.11,
+    1.78,
+    0.044
+   ],
+   "size": [
+    1.11,
+    3.561,
+    0.088
+   ]
+  },
+  "size_kb": 31,
+  "meshes": 1,
+  "materials": 2,
+  "textures": 0,
+  "triangles": 524,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "Support_Long"
+  ],
+  "suggested_use": "通用科幻装饰件"
+ },
+ {
+  "file": "quaternius_teleporter-base_oiez.glb",
+  "name": "Teleporter Base",
+  "source_url": "https://poly.pizza/m/OIezStCmak",
+  "download_url": "https://static.poly.pizza/39432e22-8304-40c5-8fc6-0fdf2a19c7e1.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -1.198,
+    0,
+    -1.198
+   ],
+   "max": [
+    1.198,
+    0.32,
+    1.198
+   ],
+   "size": [
+    2.396,
+    0.32,
+    2.396
+   ]
+  },
+  "size_kb": 30,
+  "meshes": 1,
+  "materials": 3,
+  "textures": 0,
+  "triangles": 556,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "Props_Base"
+  ],
+  "suggested_use": "远景建筑/基地/天体"
+ },
+ {
+  "file": "quaternius_tentacle_8cpg.glb",
+  "name": "Tentacle",
+  "source_url": "https://poly.pizza/m/8CPgEpyXo3",
+  "download_url": "https://static.poly.pizza/5babaca7-622c-4974-ba0b-e20f5a09e6ee.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.308,
+    -0.174,
+    -0.136
+   ],
+   "max": [
+    0.454,
+    0.102,
+    0.131
+   ],
+   "size": [
+    0.762,
+    0.276,
+    0.267
+   ]
+  },
+  "size_kb": 34,
+  "meshes": 1,
+  "materials": 2,
+  "textures": 0,
+  "triangles": 612,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "Tentacle"
+  ],
+  "suggested_use": "虫巢有机结构/外星植物"
+ },
+ {
+  "file": "quaternius_tentacle_br1v.glb",
+  "name": "Tentacle",
+  "source_url": "https://poly.pizza/m/BR1vpIvvvv",
+  "download_url": "https://static.poly.pizza/b39d86e5-e51f-4bd8-bc63-c7fc0cdea864.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [
+   {
+    "name": "TentacleArmature|TentacleArmature|TentacleArmature|Tentacle_Attack2|TentacleArma",
+    "duration": 1
+   },
+   {
+    "name": "TentacleArmature|TentacleArmature|TentacleArmature|Tentacle_Attack|TentacleArmat",
+    "duration": 0.875
+   },
+   {
+    "name": "TentacleArmature|TentacleArmature|TentacleArmature|Tentacle_Idle|TentacleArmatur",
+    "duration": 3.333
+   },
+   {
+    "name": "TentacleArmature|TentacleArmature|TentacleArmature|Tentacle_Poke|TentacleArmatur",
+    "duration": 1.333
+   }
+  ],
+  "bbox": {
+   "min": [
+    -1.374,
+    0.018,
+    -1.143
+   ],
+   "max": [
+    1.374,
+    19.71,
+    1.038
+   ],
+   "size": [
+    2.748,
+    19.692,
+    2.182
+   ]
+  },
+  "size_kb": 297,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 3874,
+  "nodes": 27,
+  "skinned": true,
+  "node_names": [
+   "RootNode",
+   "TentacleArmature",
+   "Root",
+   "Tentacle1",
+   "Tentacle2",
+   "Tentacle3",
+   "Tentacle4",
+   "Tentacle5",
+   "Tentacle6",
+   "Tentacle7",
+   "Tentacle8",
+   "Tentacle9"
+  ],
+  "suggested_use": "虫巢有机结构/外星植物"
+ },
+ {
+  "file": "quaternius_tentacle_cbtm.glb",
+  "name": "Tentacle",
+  "source_url": "https://poly.pizza/m/CbtMrlBpMQ",
+  "download_url": "https://static.poly.pizza/0c20510f-8c97-4a4b-93ca-1ee013ac9e5d.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.397,
+    -0.184,
+    -0.22
+   ],
+   "max": [
+    0.362,
+    0.164,
+    0.205
+   ],
+   "size": [
+    0.759,
+    0.348,
+    0.425
+   ]
+  },
+  "size_kb": 46,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 1280,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "FoodIngredient_Tentacle"
+  ],
+  "suggested_use": "虫巢有机结构/外星植物"
+ },
+ {
+  "file": "quaternius_traffic-barrier_cm3a.glb",
+  "name": "Traffic Barrier",
+  "source_url": "https://poly.pizza/m/cM3aJPU9NS",
+  "download_url": "https://static.poly.pizza/bb0861ab-63dd-4f72-8697-f75b8a2e3d93.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.778,
+    0.003,
+    -0.39
+   ],
+   "max": [
+    0.778,
+    0.805,
+    0.39
+   ],
+   "size": [
+    1.555,
+    0.802,
+    0.78
+   ]
+  },
+  "size_kb": 25,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 364,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "TrafficBarrier_2"
+  ],
+  "suggested_use": "护栏/路障"
+ },
+ {
+  "file": "quaternius_traffic-barrier_nugx.glb",
+  "name": "Traffic Barrier",
+  "source_url": "https://poly.pizza/m/nugx3heueH",
+  "download_url": "https://static.poly.pizza/17611df7-a65e-4c71-8e45-e36ecabc608b.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.778,
+    0.006,
+    -0.44
+   ],
+   "max": [
+    0.778,
+    1.118,
+    0.44
+   ],
+   "size": [
+    1.555,
+    1.112,
+    0.881
+   ]
+  },
+  "size_kb": 43,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 732,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "TrafficBarrier_1"
+  ],
+  "suggested_use": "护栏/路障"
+ },
+ {
+  "file": "quaternius_tree-blob_0x3f.glb",
+  "name": "Tree Blob",
+  "source_url": "https://poly.pizza/m/0X3fUj0uUF",
+  "download_url": "https://static.poly.pizza/f5d3aefa-92d6-4d3e-af9f-211a7207ec7f.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -1.466,
+    -0.004,
+    -1.362
+   ],
+   "max": [
+    1.338,
+    3.417,
+    1.41
+   ],
+   "size": [
+    2.804,
+    3.421,
+    2.772
+   ]
+  },
+  "size_kb": 65,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 1892,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "Tree_Blob_3"
+  ],
+  "suggested_use": "虫巢有机结构/外星植物"
+ },
+ {
+  "file": "quaternius_tree-spikes_a6vo.glb",
+  "name": "Tree Spikes",
+  "source_url": "https://poly.pizza/m/a6Vo1seJw9",
+  "download_url": "https://static.poly.pizza/605ba337-c708-4987-b45e-f0f232849828.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -2.025,
+    -0.01,
+    -2.025
+   ],
+   "max": [
+    2.025,
+    5.142,
+    2.025
+   ],
+   "size": [
+    4.05,
+    5.153,
+    4.05
+   ]
+  },
+  "size_kb": 81,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 2548,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "Tree_Spikes_1"
+  ],
+  "suggested_use": "虫巢有机结构/外星植物"
+ },
+ {
+  "file": "quaternius_tree-spiral_pofj.glb",
+  "name": "Tree Spiral",
+  "source_url": "https://poly.pizza/m/poFJzEWCk8",
+  "download_url": "https://static.poly.pizza/4ffc8534-84d8-4e38-a280-57cff53eed49.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.742,
+    -0.005,
+    -0.682
+   ],
+   "max": [
+    1.621,
+    4.486,
+    1.545
+   ],
+   "size": [
+    2.364,
+    4.491,
+    2.228
+   ]
+  },
+  "size_kb": 35,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 748,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "Tree_Spiral_1"
+  ],
+  "suggested_use": "虫巢有机结构/外星植物"
+ },
+ {
+  "file": "quaternius_tv-tower_r8dt.glb",
+  "name": "TV Tower",
+  "source_url": "https://poly.pizza/m/R8DtfW6Nx5",
+  "download_url": "https://static.poly.pizza/fc13f23c-953b-4dc9-bfd1-87b086ce4bf0.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.253,
+    -0.004,
+    -0.179
+   ],
+   "max": [
+    0.481,
+    2.374,
+    0.453
+   ],
+   "size": [
+    0.734,
+    2.378,
+    0.631
+   ]
+  },
+  "size_kb": 37,
+  "meshes": 1,
+  "materials": 4,
+  "textures": 0,
+  "triangles": 554,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "TV_3"
+  ],
+  "suggested_use": "远景建筑/基地/天体"
+ },
+ {
+  "file": "zsky_hive-turret_l88q.glb",
+  "name": "Hive Turret",
+  "source_url": "https://poly.pizza/m/l88QO02liG",
+  "download_url": "https://static.poly.pizza/1720a065-001e-4afe-817f-6f28b055e120.glb",
+  "author": "Zsky (via poly.pizza)",
+  "license": "CC-BY 3.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -1.132,
+    -1.113,
+    -1.132
+   ],
+   "max": [
+    1.132,
+    3.211,
+    1.132
+   ],
+   "size": [
+    2.264,
+    4.324,
+    2.264
+   ]
+  },
+  "size_kb": 75,
+  "meshes": 4,
+  "materials": 8,
+  "textures": 0,
+  "triangles": 664,
+  "nodes": 5,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "BaseHiveTurret1",
+   "GunHiveTurret1",
+   "MiddleHiveTurret1",
+   "StorageHiveTurret1"
+  ],
+  "suggested_use": "炮塔/攻城炮/固定火力"
+ },
+ {
+  "file": "zsky_light-pole_uxe1.glb",
+  "name": "Light Pole",
+  "source_url": "https://poly.pizza/m/UxE1NF0xrq",
+  "download_url": "https://static.poly.pizza/ccc15a93-d1e9-4e4e-80ad-8c4cb4371501.glb",
+  "author": "Zsky (via poly.pizza)",
+  "license": "CC-BY 3.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -3.238,
+    -23.561,
+    -8.129
+   ],
+   "max": [
+    3.249,
+    24.675,
+    15.714
+   ],
+   "size": [
+    6.487,
+    48.236,
+    23.843
+   ]
+  },
+  "size_kb": 19,
+  "meshes": 1,
+  "materials": 2,
+  "textures": 0,
+  "triangles": 232,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "LightPole_01_Cube.042"
+  ],
+  "suggested_use": "灯柱"
+ },
+ {
+  "file": "zsky_light-post_7jug.glb",
+  "name": "Light Post",
+  "source_url": "https://poly.pizza/m/7JUgLfLeEU",
+  "download_url": "https://static.poly.pizza/66f97c5d-cf57-492b-ac11-bcb91c38c4f5.glb",
+  "author": "Zsky (via poly.pizza)",
+  "license": "CC-BY 3.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -11.267,
+    -30.418,
+    -2.07
+   ],
+   "max": [
+    11.402,
+    5.35,
+    1.812
+   ],
+   "size": [
+    22.669,
+    35.768,
+    3.882
+   ]
+  },
+  "size_kb": 15,
+  "meshes": 1,
+  "materials": 2,
+  "textures": 0,
+  "triangles": 204,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "LightPole01_Cube.003"
+  ],
+  "suggested_use": "灯柱"
+ }
+]

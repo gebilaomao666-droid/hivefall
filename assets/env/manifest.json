@@ -1,0 +1,575 @@
+[
+ {
+  "file": "hdri_the_sky_is_on_fire_1k.hdr",
+  "name": "The Sky Is On Fire",
+  "type": "hdri",
+  "source_url": "https://polyhaven.com/a/the_sky_is_on_fire",
+  "download_url": "https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/1k/the_sky_is_on_fire_1k.hdr",
+  "author": "Greg Zaal, Rico Cilliers (Poly Haven)",
+  "license": "CC0 1.0",
+  "size_kb": 1490,
+  "tags": [
+   "twilight",
+   "rail",
+   "promenade",
+   "path",
+   "ocean",
+   "wave",
+   "backplates"
+  ]
+ },
+ {
+  "file": "hdri_satara_night_1k.hdr",
+  "name": "Satara Night",
+  "type": "hdri",
+  "source_url": "https://polyhaven.com/a/satara_night",
+  "download_url": "https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/1k/satara_night_1k.hdr",
+  "author": "Greg Zaal (Poly Haven)",
+  "license": "CC0 1.0",
+  "size_kb": 1829,
+  "tags": [
+   "stars",
+   "tree",
+   "lamp",
+   "milky way",
+   "galaxy",
+   "hut"
+  ]
+ },
+ {
+  "file": "hdri_dikhololo_night_1k.hdr",
+  "name": "Dikhololo Night",
+  "type": "hdri",
+  "source_url": "https://polyhaven.com/a/dikhololo_night",
+  "download_url": "https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/1k/dikhololo_night_1k.hdr",
+  "author": "Greg Zaal (Poly Haven)",
+  "license": "CC0 1.0",
+  "size_kb": 1704,
+  "tags": [
+   "bush",
+   "grass",
+   "road",
+   "safari",
+   "tree",
+   "veld",
+   "milky way",
+   "stars"
+  ]
+ },
+ {
+  "file": "hdri_moonless_golf_1k.hdr",
+  "name": "Moonless Golf",
+  "type": "hdri",
+  "source_url": "https://polyhaven.com/a/moonless_golf",
+  "download_url": "https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/1k/moonless_golf_1k.hdr",
+  "author": "Greg Zaal (Poly Haven)",
+  "license": "CC0 1.0",
+  "size_kb": 1633,
+  "tags": [
+   "grass",
+   "golf",
+   "stars",
+   "milky way",
+   "field"
+  ]
+ },
+ {
+  "file": "hdri_industrial_sunset_02_puresky_1k.hdr",
+  "name": "Industrial Sunset 02 (Pure Sky)",
+  "type": "hdri",
+  "source_url": "https://polyhaven.com/a/industrial_sunset_02_puresky",
+  "download_url": "https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/1k/industrial_sunset_02_puresky_1k.hdr",
+  "author": "Jarod Guest, Sergej Majboroda (Poly Haven)",
+  "license": "CC0 1.0",
+  "size_kb": 1050,
+  "tags": [
+   "pure skies"
+  ]
+ },
+ {
+  "file": "hdri_overcast_soil_puresky_1k.hdr",
+  "name": "Overcast Soil (Pure Sky)",
+  "type": "hdri",
+  "source_url": "https://polyhaven.com/a/overcast_soil_puresky",
+  "download_url": "https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/1k/overcast_soil_puresky_1k.hdr",
+  "author": "Jarod Guest, Sergej Majboroda (Poly Haven)",
+  "license": "CC0 1.0",
+  "size_kb": 1167,
+  "tags": [
+   "pure skies"
+  ]
+ },
+ {
+  "file": "hdri_kloppenheim_02_puresky_1k.hdr",
+  "name": "Kloppenheim 02 (Pure Sky)",
+  "type": "hdri",
+  "source_url": "https://polyhaven.com/a/kloppenheim_02_puresky",
+  "download_url": "https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/1k/kloppenheim_02_puresky_1k.hdr",
+  "author": "Greg Zaal, Jarod Guest (Poly Haven)",
+  "license": "CC0 1.0",
+  "size_kb": 1360,
+  "tags": [
+   "pure skies"
+  ]
+ },
+ {
+  "file": "hdri_belfast_sunset_puresky_1k.hdr",
+  "name": "Belfast Sunset (Pure Sky)",
+  "type": "hdri",
+  "source_url": "https://polyhaven.com/a/belfast_sunset_puresky",
+  "download_url": "https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/1k/belfast_sunset_puresky_1k.hdr",
+  "author": "Greg Zaal, Dimitrios Savva, Jarod Guest (Poly Haven)",
+  "license": "CC0 1.0",
+  "size_kb": 1162,
+  "tags": [
+   "pure skies"
+  ]
+ },
+ {
+  "file": "hdri_rogland_clear_night_1k.hdr",
+  "name": "Rogland Clear Night",
+  "type": "hdri",
+  "source_url": "https://polyhaven.com/a/rogland_clear_night",
+  "download_url": "https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/1k/rogland_clear_night_1k.hdr",
+  "author": "Greg Zaal (Poly Haven)",
+  "license": "CC0 1.0",
+  "size_kb": 1654,
+  "tags": [
+   "stars",
+   "milky way",
+   "galaxy",
+   "astronomy",
+   "dark",
+   "rocky",
+   "arid",
+   "desert"
+  ]
+ },
+ {
+  "name": "Metal Plate",
+  "type": "pbr_texture_set",
+  "files": [
+   {
+    "file": "tex_metal_plate_diff_1k.jpg",
+    "map": "diff",
+    "size_kb": 676,
+    "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/metal_plate/metal_plate_diff_1k.jpg"
+   },
+   {
+    "file": "tex_metal_plate_nor_gl_1k.jpg",
+    "map": "nor_gl",
+    "size_kb": 752,
+    "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/metal_plate/metal_plate_nor_gl_1k.jpg"
+   },
+   {
+    "file": "tex_metal_plate_rough_1k.jpg",
+    "map": "rough",
+    "size_kb": 757,
+    "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/metal_plate/metal_plate_rough_1k.jpg"
+   },
+   {
+    "file": "tex_metal_plate_arm_1k.jpg",
+    "map": "arm",
+    "size_kb": 980,
+    "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/metal_plate/metal_plate_arm_1k.jpg"
+   }
+  ],
+  "source_url": "https://polyhaven.com/a/metal_plate",
+  "author": "Rob Tuytel (Poly Haven)",
+  "license": "CC0 1.0",
+  "size_kb": 3165,
+  "tags": [
+   "bare",
+   "painted",
+   "rusty",
+   "pattern",
+   "iron",
+   "factory",
+   "industrial",
+   "steel"
+  ]
+ },
+ {
+  "name": "Rusty Metal 02",
+  "type": "pbr_texture_set",
+  "files": [
+   {
+    "file": "tex_rusty_metal_02_diff_1k.jpg",
+    "map": "diff",
+    "size_kb": 551,
+    "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/rusty_metal_02/rusty_metal_02_diff_1k.jpg"
+   },
+   {
+    "file": "tex_rusty_metal_02_nor_gl_1k.jpg",
+    "map": "nor_gl",
+    "size_kb": 393,
+    "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/rusty_metal_02/rusty_metal_02_nor_gl_1k.jpg"
+   },
+   {
+    "file": "tex_rusty_metal_02_rough_1k.jpg",
+    "map": "rough",
+    "size_kb": 131,
+    "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/rusty_metal_02/rusty_metal_02_rough_1k.jpg"
+   },
+   {
+    "file": "tex_rusty_metal_02_arm_1k.jpg",
+    "map": "arm",
+    "size_kb": 149,
+    "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/rusty_metal_02/rusty_metal_02_arm_1k.jpg"
+   }
+  ],
+  "source_url": "https://polyhaven.com/a/rusty_metal_02",
+  "author": "Rob Tuytel (Poly Haven)",
+  "license": "CC0 1.0",
+  "size_kb": 1224,
+  "tags": [
+   "rust",
+   "old",
+   "weathered",
+   "painted"
+  ]
+ },
+ {
+  "name": "Concrete Floor 02",
+  "type": "pbr_texture_set",
+  "files": [
+   {
+    "file": "tex_concrete_floor_02_diff_1k.jpg",
+    "map": "diff",
+    "size_kb": 757,
+    "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/concrete_floor_02/concrete_floor_02_diff_1k.jpg"
+   },
+   {
+    "file": "tex_concrete_floor_02_nor_gl_1k.jpg",
+    "map": "nor_gl",
+    "size_kb": 188,
+    "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/concrete_floor_02/concrete_floor_02_nor_gl_1k.jpg"
+   },
+   {
+    "file": "tex_concrete_floor_02_rough_1k.jpg",
+    "map": "rough",
+    "size_kb": 311,
+    "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/concrete_floor_02/concrete_floor_02_rough_1k.jpg"
+   },
+   {
+    "file": "tex_concrete_floor_02_arm_1k.jpg",
+    "map": "arm",
+    "size_kb": 143,
+    "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/concrete_floor_02/concrete_floor_02_arm_1k.jpg"
+   }
+  ],
+  "source_url": "https://polyhaven.com/a/concrete_floor_02",
+  "author": "Rob Tuytel (Poly Haven)",
+  "license": "CC0 1.0",
+  "size_kb": 1399,
+  "tags": [
+   "rough",
+   "moss",
+   "plain"
+  ]
+ },
+ {
+  "name": "Metal Grate Rusty",
+  "type": "pbr_texture_set",
+  "files": [
+   {
+    "file": "tex_metal_grate_rusty_diff_1k.jpg",
+    "map": "diff",
+    "size_kb": 907,
+    "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/metal_grate_rusty/metal_grate_rusty_diff_1k.jpg"
+   },
+   {
+    "file": "tex_metal_grate_rusty_nor_gl_1k.jpg",
+    "map": "nor_gl",
+    "size_kb": 857,
+    "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/metal_grate_rusty/metal_grate_rusty_nor_gl_1k.jpg"
+   },
+   {
+    "file": "tex_metal_grate_rusty_rough_1k.jpg",
+    "map": "rough",
+    "size_kb": 827,
+    "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/metal_grate_rusty/metal_grate_rusty_rough_1k.jpg"
+   },
+   {
+    "file": "tex_metal_grate_rusty_arm_1k.jpg",
+    "map": "arm",
+    "size_kb": 944,
+    "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/metal_grate_rusty/metal_grate_rusty_arm_1k.jpg"
+   }
+  ],
+  "source_url": "https://polyhaven.com/a/metal_grate_rusty",
+  "author": "Rob Tuytel, Dimitrios Savva (Poly Haven)",
+  "license": "CC0 1.0",
+  "size_kb": 3535,
+  "tags": [
+   "rusty",
+   "rust",
+   "metallic",
+   "grate",
+   "weathered",
+   "worn",
+   "old",
+   "manhole"
+  ]
+ },
+ {
+  "name": "Corrugated Iron",
+  "type": "pbr_texture_set",
+  "files": [
+   {
+    "file": "tex_corrugated_iron_diff_1k.jpg",
+    "map": "diff",
+    "size_kb": 702,
+    "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/corrugated_iron/corrugated_iron_diff_1k.jpg"
+   },
+   {
+    "file": "tex_corrugated_iron_nor_gl_1k.jpg",
+    "map": "nor_gl",
+    "size_kb": 737,
+    "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/corrugated_iron/corrugated_iron_nor_gl_1k.jpg"
+   },
+   {
+    "file": "tex_corrugated_iron_rough_1k.jpg",
+    "map": "rough",
+    "size_kb": 444,
+    "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/corrugated_iron/corrugated_iron_rough_1k.jpg"
+   },
+   {
+    "file": "tex_corrugated_iron_arm_1k.jpg",
+    "map": "arm",
+    "size_kb": 501,
+    "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/corrugated_iron/corrugated_iron_arm_1k.jpg"
+   }
+  ],
+  "source_url": "https://polyhaven.com/a/corrugated_iron",
+  "author": "Jenelle van Heerden, Dimitrios Savva (Poly Haven)",
+  "license": "CC0 1.0",
+  "size_kb": 2384,
+  "tags": [
+   "metal",
+   "corrugated",
+   "roof",
+   "roofing",
+   "steel",
+   "metallic",
+   "sheet",
+   "metal sheet"
+  ]
+ },
+ {
+  "name": "Rusty Metal Grid",
+  "type": "pbr_texture_set",
+  "files": [
+   {
+    "file": "tex_rusty_metal_grid_diff_1k.jpg",
+    "map": "diff",
+    "size_kb": 711,
+    "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/rusty_metal_grid/rusty_metal_grid_diff_1k.jpg"
+   },
+   {
+    "file": "tex_rusty_metal_grid_nor_gl_1k.jpg",
+    "map": "nor_gl",
+    "size_kb": 529,
+    "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/rusty_metal_grid/rusty_metal_grid_nor_gl_1k.jpg"
+   },
+   {
+    "file": "tex_rusty_metal_grid_rough_1k.jpg",
+    "map": "rough",
+    "size_kb": 472,
+    "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/rusty_metal_grid/rusty_metal_grid_rough_1k.jpg"
+   },
+   {
+    "file": "tex_rusty_metal_grid_arm_1k.jpg",
+    "map": "arm",
+    "size_kb": 555,
+    "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/rusty_metal_grid/rusty_metal_grid_arm_1k.jpg"
+   }
+  ],
+  "source_url": "https://polyhaven.com/a/rusty_metal_grid",
+  "author": "Amal Kumar (Poly Haven)",
+  "license": "CC0 1.0",
+  "size_kb": 2267,
+  "tags": [
+   "rusted",
+   "metal sheet",
+   "metal",
+   "painted",
+   "rusty",
+   "rust",
+   "corroded metal sheet",
+   "rusty metal"
+  ]
+ },
+ {
+  "name": "Green Metal Rust",
+  "type": "pbr_texture_set",
+  "files": [
+   {
+    "file": "tex_green_metal_rust_diff_1k.jpg",
+    "map": "diff",
+    "size_kb": 207,
+    "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/green_metal_rust/green_metal_rust_diff_1k.jpg"
+   },
+   {
+    "file": "tex_green_metal_rust_nor_gl_1k.jpg",
+    "map": "nor_gl",
+    "size_kb": 118,
+    "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/green_metal_rust/green_metal_rust_nor_gl_1k.jpg"
+   },
+   {
+    "file": "tex_green_metal_rust_rough_1k.jpg",
+    "map": "rough",
+    "size_kb": 121,
+    "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/green_metal_rust/green_metal_rust_rough_1k.jpg"
+   },
+   {
+    "file": "tex_green_metal_rust_arm_1k.jpg",
+    "map": "arm",
+    "size_kb": 106,
+    "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/green_metal_rust/green_metal_rust_arm_1k.jpg"
+   }
+  ],
+  "source_url": "https://polyhaven.com/a/green_metal_rust",
+  "author": "Rob Tuytel (Poly Haven)",
+  "license": "CC0 1.0",
+  "size_kb": 552,
+  "tags": [
+   "painted",
+   "ship",
+   "tank",
+   "industrial",
+   "canister"
+  ]
+ },
+ {
+  "name": "Concrete Floor Worn 001",
+  "type": "pbr_texture_set",
+  "files": [
+   {
+    "file": "tex_concrete_floor_worn_001_diff_1k.jpg",
+    "map": "diff",
+    "size_kb": 116,
+    "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/concrete_floor_worn_001/concrete_floor_worn_001_diff_1k.jpg"
+   },
+   {
+    "file": "tex_concrete_floor_worn_001_nor_gl_1k.jpg",
+    "map": "nor_gl",
+    "size_kb": 108,
+    "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/concrete_floor_worn_001/concrete_floor_worn_001_nor_gl_1k.jpg"
+   },
+   {
+    "file": "tex_concrete_floor_worn_001_rough_1k.jpg",
+    "map": "rough",
+    "size_kb": 177,
+    "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/concrete_floor_worn_001/concrete_floor_worn_001_rough_1k.jpg"
+   },
+   {
+    "file": "tex_concrete_floor_worn_001_arm_1k.jpg",
+    "map": "arm",
+    "size_kb": 149,
+    "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/concrete_floor_worn_001/concrete_floor_worn_001_arm_1k.jpg"
+   }
+  ],
+  "source_url": "https://polyhaven.com/a/concrete_floor_worn_001",
+  "author": "Dimitrios Savva, Rico Cilliers (Poly Haven)",
+  "license": "CC0 1.0",
+  "size_kb": 550,
+  "tags": [
+   "worn",
+   "old",
+   "plain",
+   "grey",
+   "weathered",
+   "bare",
+   "discolored"
+  ]
+ },
+ {
+  "name": "Painted Metal Shutter",
+  "type": "pbr_texture_set",
+  "files": [
+   {
+    "file": "tex_painted_metal_shutter_diff_1k.jpg",
+    "map": "diff",
+    "size_kb": 612,
+    "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/painted_metal_shutter/painted_metal_shutter_diff_1k.jpg"
+   },
+   {
+    "file": "tex_painted_metal_shutter_nor_gl_1k.jpg",
+    "map": "nor_gl",
+    "size_kb": 713,
+    "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/painted_metal_shutter/painted_metal_shutter_nor_gl_1k.jpg"
+   },
+   {
+    "file": "tex_painted_metal_shutter_rough_1k.jpg",
+    "map": "rough",
+    "size_kb": 535,
+    "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/painted_metal_shutter/painted_metal_shutter_rough_1k.jpg"
+   },
+   {
+    "file": "tex_painted_metal_shutter_arm_1k.jpg",
+    "map": "arm",
+    "size_kb": 592,
+    "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/painted_metal_shutter/painted_metal_shutter_arm_1k.jpg"
+   }
+  ],
+  "source_url": "https://polyhaven.com/a/painted_metal_shutter",
+  "author": "Dario Barresi, Rico Cilliers, Charlotte Baglioni (Poly Haven)",
+  "license": "CC0 1.0",
+  "size_kb": 2452,
+  "tags": [
+   "weathered",
+   "worn",
+   "dirty",
+   "stained",
+   "scratched",
+   "discolored",
+   "painted",
+   "metal"
+  ]
+ },
+ {
+  "name": "Metal Plate 02",
+  "type": "pbr_texture_set",
+  "files": [
+   {
+    "file": "tex_metal_plate_02_diff_1k.jpg",
+    "map": "diff",
+    "size_kb": 611,
+    "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/metal_plate_02/metal_plate_02_diff_1k.jpg"
+   },
+   {
+    "file": "tex_metal_plate_02_nor_gl_1k.jpg",
+    "map": "nor_gl",
+    "size_kb": 178,
+    "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/metal_plate_02/metal_plate_02_nor_gl_1k.jpg"
+   },
+   {
+    "file": "tex_metal_plate_02_rough_1k.jpg",
+    "map": "rough",
+    "size_kb": 890,
+    "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/metal_plate_02/metal_plate_02_rough_1k.jpg"
+   },
+   {
+    "file": "tex_metal_plate_02_arm_1k.jpg",
+    "map": "arm",
+    "size_kb": 1050,
+    "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/metal_plate_02/metal_plate_02_arm_1k.jpg"
+   }
+  ],
+  "source_url": "https://polyhaven.com/a/metal_plate_02",
+  "author": "Rob Tuytel (Poly Haven)",
+  "license": "CC0 1.0",
+  "size_kb": 2729,
+  "tags": [
+   "worn",
+   "metal sheet",
+   "corroded metal sheet",
+   "metal sheet ",
+   "steel sheeting",
+   "rusted",
+   "rusty",
+   "iron"
+  ]
+ }
+]

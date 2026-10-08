@@ -1,0 +1,310 @@
+# CREDITS — assets/models/env
+
+所有文件均为可再分发授权（CC0 或 CC-BY 3.0）。CC-BY 条目必须在游戏内制作人员名单中署名。未使用参考游戏或暴雪的任何素材。
+
+## Kay Lousberg (via poly.pizza) | CC0 1.0
+
+- `kaylousberg_base_dkut.glb` — "Base" — https://poly.pizza/m/dKUTIIPVT8
+- `kaylousberg_building_bbh2.glb` — "Building" — https://poly.pizza/m/bbH2Bg73qM
+- `kaylousberg_building_otrs.glb` — "Building" — https://poly.pizza/m/otRsYa6pan
+- `kaylousberg_building_qohh.glb` — "Building" — https://poly.pizza/m/qOhhGLftam
+- `kaylousberg_cargo-depot_crtw.glb` — "Cargo Depot" — https://poly.pizza/m/cRtW9KaGs0
+- `kaylousberg_cargo-depot_vgga.glb` — "Cargo Depot" — https://poly.pizza/m/VGgaSzvWke
+- `kaylousberg_cargo-roof-modules_l7i1.glb` — "Cargo Roof Modules" — https://poly.pizza/m/l7I1ElLM0H
+- `kaylousberg_cargo_lhbz.glb` — "Cargo" — https://poly.pizza/m/lhBzhzwuUd
+- `kaylousberg_landing-pad_qpdg.glb` — "Landing Pad" — https://poly.pizza/m/QpDGgpHcH2
+- `kaylousberg_landing-pad_r5ts.glb` — "Landing Pad" — https://poly.pizza/m/R5tsCpWwD2
+- `kaylousberg_space-base-modules_5txc.glb` — "Space Base Modules" — https://poly.pizza/m/5TxCebwK2h
+- `kaylousberg_space-lander-base_tgoy.glb` — "Space Lander Base" — https://poly.pizza/m/TgOY580aMy
+- `kaylousberg_space-platform_yxbe.glb` — "Space Platform" — https://poly.pizza/m/yxbeci4pxl
+- `kaylousberg_tunnels_e1rr.glb` — "Tunnels" — https://poly.pizza/m/E1Rrk1NKt0
+
+## Kenney (kenney.nl) | CC0 1.0
+
+- `kenney-industrial_building-a.glb` — "building-a" — https://kenney.nl/assets/city-kit-industrial
+- `kenney-industrial_building-b.glb` — "building-b" — https://kenney.nl/assets/city-kit-industrial
+- `kenney-industrial_building-c.glb` — "building-c" — https://kenney.nl/assets/city-kit-industrial
+- `kenney-industrial_building-d.glb` — "building-d" — https://kenney.nl/assets/city-kit-industrial
+- `kenney-industrial_building-e.glb` — "building-e" — https://kenney.nl/assets/city-kit-industrial
+- `kenney-industrial_building-f.glb` — "building-f" — https://kenney.nl/assets/city-kit-industrial
+- `kenney-industrial_building-g.glb` — "building-g" — https://kenney.nl/assets/city-kit-industrial
+- `kenney-industrial_building-h.glb` — "building-h" — https://kenney.nl/assets/city-kit-industrial
+- `kenney-industrial_building-i.glb` — "building-i" — https://kenney.nl/assets/city-kit-industrial
+- `kenney-industrial_building-j.glb` — "building-j" — https://kenney.nl/assets/city-kit-industrial
+- `kenney-industrial_building-k.glb` — "building-k" — https://kenney.nl/assets/city-kit-industrial
+- `kenney-industrial_building-l.glb` — "building-l" — https://kenney.nl/assets/city-kit-industrial
+- `kenney-industrial_building-m.glb` — "building-m" — https://kenney.nl/assets/city-kit-industrial
+- `kenney-industrial_building-n.glb` — "building-n" — https://kenney.nl/assets/city-kit-industrial
+- `kenney-industrial_building-o.glb` — "building-o" — https://kenney.nl/assets/city-kit-industrial
+- `kenney-industrial_building-p.glb` — "building-p" — https://kenney.nl/assets/city-kit-industrial
+- `kenney-industrial_building-q.glb` — "building-q" — https://kenney.nl/assets/city-kit-industrial
+- `kenney-industrial_building-r.glb` — "building-r" — https://kenney.nl/assets/city-kit-industrial
+- `kenney-industrial_building-s.glb` — "building-s" — https://kenney.nl/assets/city-kit-industrial
+- `kenney-industrial_building-t.glb` — "building-t" — https://kenney.nl/assets/city-kit-industrial
+- `kenney-industrial_chimney-basic.glb` — "chimney-basic" — https://kenney.nl/assets/city-kit-industrial
+- `kenney-industrial_chimney-large.glb` — "chimney-large" — https://kenney.nl/assets/city-kit-industrial
+- `kenney-industrial_chimney-medium.glb` — "chimney-medium" — https://kenney.nl/assets/city-kit-industrial
+- `kenney-industrial_chimney-small.glb` — "chimney-small" — https://kenney.nl/assets/city-kit-industrial
+- `kenney-industrial_detail-tank-large.glb` — "detail-tank-large" — https://kenney.nl/assets/city-kit-industrial
+- `kenney-industrial_detail-tank.glb` — "detail-tank" — https://kenney.nl/assets/city-kit-industrial
+- `kenney-industrial_shipping-container-a.glb` — "shipping-container-a" — https://kenney.nl/assets/city-kit-industrial
+- `kenney-industrial_shipping-container-b.glb` — "shipping-container-b" — https://kenney.nl/assets/city-kit-industrial
+- `kenney-industrial_shipping-container-c.glb` — "shipping-container-c" — https://kenney.nl/assets/city-kit-industrial
+- `kenney-industrial_water-tower.glb` — "water-tower" — https://kenney.nl/assets/city-kit-industrial
+- `kenney-space-station_balcony-floor-center.glb` — "balcony-floor-center" — https://kenney.nl/assets/space-station-kit
+- `kenney-space-station_balcony-floor-corner.glb` — "balcony-floor-corner" — https://kenney.nl/assets/space-station-kit
+- `kenney-space-station_balcony-floor.glb` — "balcony-floor" — https://kenney.nl/assets/space-station-kit
+- `kenney-space-station_balcony-rail-center.glb` — "balcony-rail-center" — https://kenney.nl/assets/space-station-kit
+- `kenney-space-station_balcony-rail-corner.glb` — "balcony-rail-corner" — https://kenney.nl/assets/space-station-kit
+- `kenney-space-station_balcony-rail.glb` — "balcony-rail" — https://kenney.nl/assets/space-station-kit
+- `kenney-space-station_computer-system.glb` — "computer-system" — https://kenney.nl/assets/space-station-kit
+- `kenney-space-station_computer-wide.glb` — "computer-wide" — https://kenney.nl/assets/space-station-kit
+- `kenney-space-station_container-flat-open.glb` — "container-flat-open" — https://kenney.nl/assets/space-station-kit
+- `kenney-space-station_container-flat.glb` — "container-flat" — https://kenney.nl/assets/space-station-kit
+- `kenney-space-station_container-tall.glb` — "container-tall" — https://kenney.nl/assets/space-station-kit
+- `kenney-space-station_container-wide.glb` — "container-wide" — https://kenney.nl/assets/space-station-kit
+- `kenney-space-station_container.glb` — "container" — https://kenney.nl/assets/space-station-kit
+- `kenney-space-station_display-wall-wide.glb` — "display-wall-wide" — https://kenney.nl/assets/space-station-kit
+- `kenney-space-station_display-wall.glb` — "display-wall" — https://kenney.nl/assets/space-station-kit
+- `kenney-space-station_door-double-closed.glb` — "door-double-closed" — https://kenney.nl/assets/space-station-kit
+- `kenney-space-station_door-double.glb` — "door-double" — https://kenney.nl/assets/space-station-kit
+- `kenney-space-station_floor-corner.glb` — "floor-corner" — https://kenney.nl/assets/space-station-kit
+- `kenney-space-station_floor-detail.glb` — "floor-detail" — https://kenney.nl/assets/space-station-kit
+- `kenney-space-station_floor-panel-corner.glb` — "floor-panel-corner" — https://kenney.nl/assets/space-station-kit
+- `kenney-space-station_floor-panel-end.glb` — "floor-panel-end" — https://kenney.nl/assets/space-station-kit
+- `kenney-space-station_floor-panel-straight.glb` — "floor-panel-straight" — https://kenney.nl/assets/space-station-kit
+- `kenney-space-station_floor-panel.glb` — "floor-panel" — https://kenney.nl/assets/space-station-kit
+- `kenney-space-station_floor.glb` — "floor" — https://kenney.nl/assets/space-station-kit
+- `kenney-space-station_pipe-bend-diagonal.glb` — "pipe-bend-diagonal" — https://kenney.nl/assets/space-station-kit
+- `kenney-space-station_pipe-bend.glb` — "pipe-bend" — https://kenney.nl/assets/space-station-kit
+- `kenney-space-station_pipe-end-colored.glb` — "pipe-end-colored" — https://kenney.nl/assets/space-station-kit
+- `kenney-space-station_pipe-end.glb` — "pipe-end" — https://kenney.nl/assets/space-station-kit
+- `kenney-space-station_pipe-ring-colored.glb` — "pipe-ring-colored" — https://kenney.nl/assets/space-station-kit
+- `kenney-space-station_pipe-ring.glb` — "pipe-ring" — https://kenney.nl/assets/space-station-kit
+- `kenney-space-station_pipe.glb` — "pipe" — https://kenney.nl/assets/space-station-kit
+- `kenney-space-station_rail-narrow.glb` — "rail-narrow" — https://kenney.nl/assets/space-station-kit
+- `kenney-space-station_rail.glb` — "rail" — https://kenney.nl/assets/space-station-kit
+- `kenney-space-station_rocks.glb` — "rocks" — https://kenney.nl/assets/space-station-kit
+- `kenney-space-station_skip-rocks.glb` — "skip-rocks" — https://kenney.nl/assets/space-station-kit
+- `kenney-space-station_skip.glb` — "skip" — https://kenney.nl/assets/space-station-kit
+- `kenney-space-station_stairs-ramp.glb` — "stairs-ramp" — https://kenney.nl/assets/space-station-kit
+- `kenney-space-station_stairs.glb` — "stairs" — https://kenney.nl/assets/space-station-kit
+- `kenney-space-station_structure-barrier-high.glb` — "structure-barrier-high" — https://kenney.nl/assets/space-station-kit
+- `kenney-space-station_structure-barrier.glb` — "structure-barrier" — https://kenney.nl/assets/space-station-kit
+- `kenney-space-station_structure-panel.glb` — "structure-panel" — https://kenney.nl/assets/space-station-kit
+- `kenney-space-station_structure.glb` — "structure" — https://kenney.nl/assets/space-station-kit
+- `kenney-space-station_wall-banner.glb` — "wall-banner" — https://kenney.nl/assets/space-station-kit
+- `kenney-space-station_wall-corner.glb` — "wall-corner" — https://kenney.nl/assets/space-station-kit
+- `kenney-space-station_wall-detail.glb` — "wall-detail" — https://kenney.nl/assets/space-station-kit
+- `kenney-space-station_wall-pillar.glb` — "wall-pillar" — https://kenney.nl/assets/space-station-kit
+- `kenney-space-station_wall-window.glb` — "wall-window" — https://kenney.nl/assets/space-station-kit
+- `kenney-space-station_wall.glb` — "wall" — https://kenney.nl/assets/space-station-kit
+- `kenney-space_barrel.glb` — "barrel" — https://kenney.nl/assets/space-kit
+- `kenney-space_barrels-rail.glb` — "barrels_rail" — https://kenney.nl/assets/space-kit
+- `kenney-space_barrels.glb` — "barrels" — https://kenney.nl/assets/space-kit
+- `kenney-space_bones.glb` — "bones" — https://kenney.nl/assets/space-kit
+- `kenney-space_chimney-detailed.glb` — "chimney_detailed" — https://kenney.nl/assets/space-kit
+- `kenney-space_chimney.glb` — "chimney" — https://kenney.nl/assets/space-kit
+- `kenney-space_corridor-detailed.glb` — "corridor_detailed" — https://kenney.nl/assets/space-kit
+- `kenney-space_corridor-end.glb` — "corridor_end" — https://kenney.nl/assets/space-kit
+- `kenney-space_corridor-open.glb` — "corridor_open" — https://kenney.nl/assets/space-kit
+- `kenney-space_corridor-roof.glb` — "corridor_roof" — https://kenney.nl/assets/space-kit
+- `kenney-space_corridor-wall.glb` — "corridor_wall" — https://kenney.nl/assets/space-kit
+- `kenney-space_corridor-window.glb` — "corridor_window" — https://kenney.nl/assets/space-kit
+- `kenney-space_corridor.glb` — "corridor" — https://kenney.nl/assets/space-kit
+- `kenney-space_crater.glb` — "crater" — https://kenney.nl/assets/space-kit
+- `kenney-space_craterlarge.glb` — "craterLarge" — https://kenney.nl/assets/space-kit
+- `kenney-space_gate-complex.glb` — "gate_complex" — https://kenney.nl/assets/space-kit
+- `kenney-space_gate-simple.glb` — "gate_simple" — https://kenney.nl/assets/space-kit
+- `kenney-space_hangar-largea.glb` — "hangar_largeA" — https://kenney.nl/assets/space-kit
+- `kenney-space_hangar-largeb.glb` — "hangar_largeB" — https://kenney.nl/assets/space-kit
+- `kenney-space_hangar-rounda.glb` — "hangar_roundA" — https://kenney.nl/assets/space-kit
+- `kenney-space_hangar-roundb.glb` — "hangar_roundB" — https://kenney.nl/assets/space-kit
+- `kenney-space_hangar-roundglass.glb` — "hangar_roundGlass" — https://kenney.nl/assets/space-kit
+- `kenney-space_hangar-smalla.glb` — "hangar_smallA" — https://kenney.nl/assets/space-kit
+- `kenney-space_hangar-smallb.glb` — "hangar_smallB" — https://kenney.nl/assets/space-kit
+- `kenney-space_machine-barrel.glb` — "machine_barrel" — https://kenney.nl/assets/space-kit
+- `kenney-space_machine-barrellarge.glb` — "machine_barrelLarge" — https://kenney.nl/assets/space-kit
+- `kenney-space_machine-generator.glb` — "machine_generator" — https://kenney.nl/assets/space-kit
+- `kenney-space_machine-generatorlarge.glb` — "machine_generatorLarge" — https://kenney.nl/assets/space-kit
+- `kenney-space_machine-wireless.glb` — "machine_wireless" — https://kenney.nl/assets/space-kit
+- `kenney-space_machine-wirelesscable.glb` — "machine_wirelessCable" — https://kenney.nl/assets/space-kit
+- `kenney-space_meteor-detailed.glb` — "meteor_detailed" — https://kenney.nl/assets/space-kit
+- `kenney-space_meteor-half.glb` — "meteor_half" — https://kenney.nl/assets/space-kit
+- `kenney-space_meteor.glb` — "meteor" — https://kenney.nl/assets/space-kit
+- `kenney-space_monorail-trackcornerlarge.glb` — "monorail_trackCornerLarge" — https://kenney.nl/assets/space-kit
+- `kenney-space_monorail-trackcornersmall.glb` — "monorail_trackCornerSmall" — https://kenney.nl/assets/space-kit
+- `kenney-space_monorail-trackslope.glb` — "monorail_trackSlope" — https://kenney.nl/assets/space-kit
+- `kenney-space_monorail-trackstraight.glb` — "monorail_trackStraight" — https://kenney.nl/assets/space-kit
+- `kenney-space_monorail-tracksupport.glb` — "monorail_trackSupport" — https://kenney.nl/assets/space-kit
+- `kenney-space_monorail-tracksupportcorner.glb` — "monorail_trackSupportCorner" — https://kenney.nl/assets/space-kit
+- `kenney-space_pipe-corner.glb` — "pipe_corner" — https://kenney.nl/assets/space-kit
+- `kenney-space_pipe-cornerdiagonal.glb` — "pipe_cornerDiagonal" — https://kenney.nl/assets/space-kit
+- `kenney-space_pipe-cornerround.glb` — "pipe_cornerRound" — https://kenney.nl/assets/space-kit
+- `kenney-space_pipe-cornerroundlarge.glb` — "pipe_cornerRoundLarge" — https://kenney.nl/assets/space-kit
+- `kenney-space_pipe-cross.glb` — "pipe_cross" — https://kenney.nl/assets/space-kit
+- `kenney-space_pipe-end.glb` — "pipe_end" — https://kenney.nl/assets/space-kit
+- `kenney-space_pipe-entrance.glb` — "pipe_entrance" — https://kenney.nl/assets/space-kit
+- `kenney-space_pipe-open.glb` — "pipe_open" — https://kenney.nl/assets/space-kit
+- `kenney-space_pipe-ramplarge.glb` — "pipe_rampLarge" — https://kenney.nl/assets/space-kit
+- `kenney-space_pipe-rampsmall.glb` — "pipe_rampSmall" — https://kenney.nl/assets/space-kit
+- `kenney-space_pipe-ring.glb` — "pipe_ring" — https://kenney.nl/assets/space-kit
+- `kenney-space_pipe-ringhigh.glb` — "pipe_ringHigh" — https://kenney.nl/assets/space-kit
+- `kenney-space_pipe-ringhighend.glb` — "pipe_ringHighEnd" — https://kenney.nl/assets/space-kit
+- `kenney-space_pipe-ringsupport.glb` — "pipe_ringSupport" — https://kenney.nl/assets/space-kit
+- `kenney-space_pipe-split.glb` — "pipe_split" — https://kenney.nl/assets/space-kit
+- `kenney-space_pipe-straight.glb` — "pipe_straight" — https://kenney.nl/assets/space-kit
+- `kenney-space_pipe-supporthigh.glb` — "pipe_supportHigh" — https://kenney.nl/assets/space-kit
+- `kenney-space_pipe-supportlow.glb` — "pipe_supportLow" — https://kenney.nl/assets/space-kit
+- `kenney-space_platform-center.glb` — "platform_center" — https://kenney.nl/assets/space-kit
+- `kenney-space_platform-corner.glb` — "platform_corner" — https://kenney.nl/assets/space-kit
+- `kenney-space_platform-corneropen.glb` — "platform_cornerOpen" — https://kenney.nl/assets/space-kit
+- `kenney-space_platform-cornerround.glb` — "platform_cornerRound" — https://kenney.nl/assets/space-kit
+- `kenney-space_platform-end.glb` — "platform_end" — https://kenney.nl/assets/space-kit
+- `kenney-space_platform-high.glb` — "platform_high" — https://kenney.nl/assets/space-kit
+- `kenney-space_platform-large.glb` — "platform_large" — https://kenney.nl/assets/space-kit
+- `kenney-space_platform-long.glb` — "platform_long" — https://kenney.nl/assets/space-kit
+- `kenney-space_platform-low.glb` — "platform_low" — https://kenney.nl/assets/space-kit
+- `kenney-space_platform-side.glb` — "platform_side" — https://kenney.nl/assets/space-kit
+- `kenney-space_platform-small.glb` — "platform_small" — https://kenney.nl/assets/space-kit
+- `kenney-space_platform-smalldiagonal.glb` — "platform_smallDiagonal" — https://kenney.nl/assets/space-kit
+- `kenney-space_platform-straight.glb` — "platform_straight" — https://kenney.nl/assets/space-kit
+- `kenney-space_rail-corner.glb` — "rail_corner" — https://kenney.nl/assets/space-kit
+- `kenney-space_rail-end.glb` — "rail_end" — https://kenney.nl/assets/space-kit
+- `kenney-space_rail-middle.glb` — "rail_middle" — https://kenney.nl/assets/space-kit
+- `kenney-space_rail.glb` — "rail" — https://kenney.nl/assets/space-kit
+- `kenney-space_rock-crystals.glb` — "rock_crystals" — https://kenney.nl/assets/space-kit
+- `kenney-space_rock-crystalslargea.glb` — "rock_crystalsLargeA" — https://kenney.nl/assets/space-kit
+- `kenney-space_rock-crystalslargeb.glb` — "rock_crystalsLargeB" — https://kenney.nl/assets/space-kit
+- `kenney-space_rock-largea.glb` — "rock_largeA" — https://kenney.nl/assets/space-kit
+- `kenney-space_rock-largeb.glb` — "rock_largeB" — https://kenney.nl/assets/space-kit
+- `kenney-space_rock.glb` — "rock" — https://kenney.nl/assets/space-kit
+- `kenney-space_rocks-smalla.glb` — "rocks_smallA" — https://kenney.nl/assets/space-kit
+- `kenney-space_rocks-smallb.glb` — "rocks_smallB" — https://kenney.nl/assets/space-kit
+- `kenney-space_satellitedish-detailed.glb` — "satelliteDish_detailed" — https://kenney.nl/assets/space-kit
+- `kenney-space_satellitedish-large.glb` — "satelliteDish_large" — https://kenney.nl/assets/space-kit
+- `kenney-space_satellitedish.glb` — "satelliteDish" — https://kenney.nl/assets/space-kit
+- `kenney-space_stairs-corner.glb` — "stairs_corner" — https://kenney.nl/assets/space-kit
+- `kenney-space_stairs-short.glb` — "stairs_short" — https://kenney.nl/assets/space-kit
+- `kenney-space_stairs.glb` — "stairs" — https://kenney.nl/assets/space-kit
+- `kenney-space_structure-closed.glb` — "structure_closed" — https://kenney.nl/assets/space-kit
+- `kenney-space_structure-detailed.glb` — "structure_detailed" — https://kenney.nl/assets/space-kit
+- `kenney-space_structure-diagonal.glb` — "structure_diagonal" — https://kenney.nl/assets/space-kit
+- `kenney-space_structure.glb` — "structure" — https://kenney.nl/assets/space-kit
+- `kenney-space_supports-high.glb` — "supports_high" — https://kenney.nl/assets/space-kit
+- `kenney-space_supports-low.glb` — "supports_low" — https://kenney.nl/assets/space-kit
+- `kenney-space_terrain-ramp.glb` — "terrain_ramp" — https://kenney.nl/assets/space-kit
+- `kenney-space_terrain-roadstraight.glb` — "terrain_roadStraight" — https://kenney.nl/assets/space-kit
+- `kenney-space_terrain-side.glb` — "terrain_side" — https://kenney.nl/assets/space-kit
+- `kenney-space_terrain-sidecliff.glb` — "terrain_sideCliff" — https://kenney.nl/assets/space-kit
+- `kenney-space_terrain.glb` — "terrain" — https://kenney.nl/assets/space-kit
+- `kenney-survival_barrel-open.glb` — "barrel-open" — https://kenney.nl/assets/survival-kit
+- `kenney-survival_barrel.glb` — "barrel" — https://kenney.nl/assets/survival-kit
+- `kenney-survival_fence-fortified.glb` — "fence-fortified" — https://kenney.nl/assets/survival-kit
+- `kenney-survival_metal-panel-narrow.glb` — "metal-panel-narrow" — https://kenney.nl/assets/survival-kit
+- `kenney-survival_metal-panel-screws-half.glb` — "metal-panel-screws-half" — https://kenney.nl/assets/survival-kit
+- `kenney-survival_metal-panel-screws-narrow.glb` — "metal-panel-screws-narrow" — https://kenney.nl/assets/survival-kit
+- `kenney-survival_metal-panel-screws.glb` — "metal-panel-screws" — https://kenney.nl/assets/survival-kit
+- `kenney-survival_metal-panel.glb` — "metal-panel" — https://kenney.nl/assets/survival-kit
+- `kenney-survival_rock-a.glb` — "rock-a" — https://kenney.nl/assets/survival-kit
+- `kenney-survival_rock-b.glb` — "rock-b" — https://kenney.nl/assets/survival-kit
+- `kenney-survival_rock-c.glb` — "rock-c" — https://kenney.nl/assets/survival-kit
+- `kenney-survival_rock-flat.glb` — "rock-flat" — https://kenney.nl/assets/survival-kit
+- `kenney-survival_structure-metal-doorway.glb` — "structure-metal-doorway" — https://kenney.nl/assets/survival-kit
+- `kenney-survival_structure-metal-floor.glb` — "structure-metal-floor" — https://kenney.nl/assets/survival-kit
+- `kenney-survival_structure-metal-roof.glb` — "structure-metal-roof" — https://kenney.nl/assets/survival-kit
+- `kenney-survival_structure-metal-wall.glb` — "structure-metal-wall" — https://kenney.nl/assets/survival-kit
+- `kenney-survival_structure-metal.glb` — "structure-metal" — https://kenney.nl/assets/survival-kit
+- `kenney-tower-defense_detail-crystal-large.glb` — "detail-crystal-large" — https://kenney.nl/assets/tower-defense-kit
+- `kenney-tower-defense_detail-crystal.glb` — "detail-crystal" — https://kenney.nl/assets/tower-defense-kit
+- `kenney-tower-defense_detail-rocks-large.glb` — "detail-rocks-large" — https://kenney.nl/assets/tower-defense-kit
+- `kenney-tower-defense_detail-rocks.glb` — "detail-rocks" — https://kenney.nl/assets/tower-defense-kit
+- `kenney-tower-defense_selection-a.glb` — "selection-a" — https://kenney.nl/assets/tower-defense-kit
+- `kenney-tower-defense_selection-b.glb` — "selection-b" — https://kenney.nl/assets/tower-defense-kit
+- `kenney-tower-defense_tile-crystal.glb` — "tile-crystal" — https://kenney.nl/assets/tower-defense-kit
+- `kenney-tower-defense_tile-rock.glb` — "tile-rock" — https://kenney.nl/assets/tower-defense-kit
+- `kenney-tower-defense_tower-round-crystals.glb` — "tower-round-crystals" — https://kenney.nl/assets/tower-defense-kit
+- `kenney-tower-defense_tower-square-bottom-a.glb` — "tower-square-bottom-a" — https://kenney.nl/assets/tower-defense-kit
+- `kenney-tower-defense_tower-square-middle-a.glb` — "tower-square-middle-a" — https://kenney.nl/assets/tower-defense-kit
+- `kenney-tower-defense_tower-square-top-a.glb` — "tower-square-top-a" — https://kenney.nl/assets/tower-defense-kit
+
+## Quaternius (via poly.pizza) | CC0 1.0
+
+- `quaternius_antenna_l5oc.glb` — "Antenna" — https://poly.pizza/m/l5Oc9swvKk
+- `quaternius_antenna_ouhq.glb` — "Antenna" — https://poly.pizza/m/OuHQCigiUR
+- `quaternius_barrier-fixed_fg3n.glb` — "Barrier Fixed" — https://poly.pizza/m/Fg3Nimfcfg
+- `quaternius_barrier-large_glbb.glb` — "Barrier Large" — https://poly.pizza/m/gLbBiYwt7l
+- `quaternius_barrier-single_wcux.glb` — "Barrier Single" — https://poly.pizza/m/wCUxgt2jSP
+- `quaternius_barrier-trash_53ax.glb` — "Barrier Trash" — https://poly.pizza/m/53AXNH8J9N
+- `quaternius_base-large_uyh9.glb` — "Base Large" — https://poly.pizza/m/UyH95ZAeJ2
+- `quaternius_big-building_avcs.glb` — "Big Building" — https://poly.pizza/m/AVCS8jUd2l
+- `quaternius_big-crystal_pf5l.glb` — "Big Crystal" — https://poly.pizza/m/pf5lzmgr2J
+- `quaternius_building_zsyg.glb` — "Building" — https://poly.pizza/m/ZSYgIuHfYb
+- `quaternius_column_6y1e.glb` — "Column" — https://poly.pizza/m/6y1EFzpRI9
+- `quaternius_column_wlub.glb` — "Column" — https://poly.pizza/m/wLubNpOTX4
+- `quaternius_connector_0okx.glb` — "Connector" — https://poly.pizza/m/0OKxctiaBw
+- `quaternius_container-green_h5ru.glb` — "Container Green" — https://poly.pizza/m/h5RUr3vlcS
+- `quaternius_container-red_vzzc.glb` — "Container Red" — https://poly.pizza/m/vzzCNUB6Zn
+- `quaternius_container-small_b79i.glb` — "Container Small" — https://poly.pizza/m/B79i6fHgVU
+- `quaternius_crystal_nbln.glb` — "Crystal" — https://poly.pizza/m/nBlnK8G6xw
+- `quaternius_cyberpunk-platform_ctq5.glb` — "Cyberpunk Platform" — https://poly.pizza/m/ctQ5CDmraQ
+- `quaternius_cyberpunk-platform_dhym.glb` — "Cyberpunk Platform" — https://poly.pizza/m/dHymLbsOMY
+- `quaternius_cyberpunk-platform_s0rw.glb` — "Cyberpunk Platform" — https://poly.pizza/m/s0rwPHWMpY
+- `quaternius_egg_ngjy.glb` — "Egg" — https://poly.pizza/m/ngjyRi84lk
+- `quaternius_exploding-barrel_1orh.glb` — "Exploding Barrel" — https://poly.pizza/m/1orHe0kCc1
+- `quaternius_house-pod_npp0.glb` — "House Pod" — https://poly.pizza/m/npP0RG1MR3
+- `quaternius_metal-fence_qwkh.glb` — "Metal Fence" — https://poly.pizza/m/qWKhREFj7H
+- `quaternius_metal-support_zyuj.glb` — "Metal Support" — https://poly.pizza/m/ZyUjmgnTyw
+- `quaternius_mineral_stix.glb` — "Mineral" — https://poly.pizza/m/STixpWYaTd
+- `quaternius_pipe_cpcn.glb` — "Pipe" — https://poly.pizza/m/CpCnSuo786
+- `quaternius_pipe_zphd.glb` — "Pipe" — https://poly.pizza/m/zpHDL1CzGU
+- `quaternius_pipes-panel_rzvu.glb` — "Pipes Panel" — https://poly.pizza/m/rzvuy93JU3
+- `quaternius_pipes_gb6a.glb` — "Pipes" — https://poly.pizza/m/GB6AFkoiZb
+- `quaternius_pipes_lqin.glb` — "Pipes" — https://poly.pizza/m/LqinclZKTn
+- `quaternius_pipes_shdm.glb` — "Pipes" — https://poly.pizza/m/sHdMpk2YD4
+- `quaternius_planet_b7xd.glb` — "Planet" — https://poly.pizza/m/B7xd3SZq0z
+- `quaternius_planet_ec1l.glb` — "Planet" — https://poly.pizza/m/EC1Lk2IamI
+- `quaternius_planet_phzz.glb` — "Planet" — https://poly.pizza/m/pHZz4EMvVM
+- `quaternius_plant_5efs.glb` — "Plant" — https://poly.pizza/m/5EfsdpXCiD
+- `quaternius_plant_nrjn.glb` — "Plant" — https://poly.pizza/m/NrJN7UcglF
+- `quaternius_plant_rpth.glb` — "Plant" — https://poly.pizza/m/RptHDDjUGW
+- `quaternius_plant_s0jo.glb` — "Plant" — https://poly.pizza/m/s0joFFrQoy
+- `quaternius_plastic-barrier_qaix.glb` — "Plastic Barrier" — https://poly.pizza/m/QAiXMsbWRc
+- `quaternius_rail_i9ld.glb` — "Rail" — https://poly.pizza/m/I9LDZrsr1C
+- `quaternius_rock-large_54jz.glb` — "Rock Large" — https://poly.pizza/m/54jZKTAt5p
+- `quaternius_rock-large_d2vw.glb` — "Rock Large" — https://poly.pizza/m/d2VWOdthtR
+- `quaternius_rock-large_li0y.glb` — "Rock Large" — https://poly.pizza/m/li0YBlBEMz
+- `quaternius_rock_rtlr.glb` — "Rock" — https://poly.pizza/m/RtLRqYjfMs
+- `quaternius_rocks_gl3p.glb` — "Rocks" — https://poly.pizza/m/Gl3pcrdnpW
+- `quaternius_rocks_gyho.glb` — "Rocks" — https://poly.pizza/m/gYhoEOKItJ
+- `quaternius_rocks_oqvi.glb` — "Rocks" — https://poly.pizza/m/OQvi8PIZ40
+- `quaternius_roof-antenna_fbdg.glb` — "Roof Antenna" — https://poly.pizza/m/Fbdg52kqJ6
+- `quaternius_scifi-computer_u0xm.glb` — "Scifi Computer" — https://poly.pizza/m/U0xmt6tUlL
+- `quaternius_scifi-container_22fb.glb` — "Scifi Container" — https://poly.pizza/m/22FBVK7m9c
+- `quaternius_scifi-kit_b6ot.glb` — "Scifi Kit" — https://poly.pizza/m/b6otgtfVoe
+- `quaternius_shipping-container-structure_ebme.glb` — "Shipping Container Structure" — https://poly.pizza/m/ebmepOXDRd
+- `quaternius_shipping-container_dqxr.glb` — "Shipping Container" — https://poly.pizza/m/dQXRtm5GbO
+- `quaternius_street-light_0lxf.glb` — "Street Light" — https://poly.pizza/m/0lxF8Dl1jU
+- `quaternius_street-light_nfwr.glb` — "Street Light" — https://poly.pizza/m/nFwrlcLvM5
+- `quaternius_streetlight_bq1q.glb` — "Streetlight" — https://poly.pizza/m/Bq1Qj4DAre
+- `quaternius_streetlight_wp6e.glb` — "Streetlight" — https://poly.pizza/m/Wp6Eh4r9VX
+- `quaternius_support_z1ty.glb` — "Support" — https://poly.pizza/m/Z1TYxDMXMx
+- `quaternius_teleporter-base_oiez.glb` — "Teleporter Base" — https://poly.pizza/m/OIezStCmak
+- `quaternius_tentacle_8cpg.glb` — "Tentacle" — https://poly.pizza/m/8CPgEpyXo3
+- `quaternius_tentacle_br1v.glb` — "Tentacle" — https://poly.pizza/m/BR1vpIvvvv
+- `quaternius_tentacle_cbtm.glb` — "Tentacle" — https://poly.pizza/m/CbtMrlBpMQ
+- `quaternius_traffic-barrier_cm3a.glb` — "Traffic Barrier" — https://poly.pizza/m/cM3aJPU9NS
+- `quaternius_traffic-barrier_nugx.glb` — "Traffic Barrier" — https://poly.pizza/m/nugx3heueH
+- `quaternius_tree-blob_0x3f.glb` — "Tree Blob" — https://poly.pizza/m/0X3fUj0uUF
+- `quaternius_tree-spikes_a6vo.glb` — "Tree Spikes" — https://poly.pizza/m/a6Vo1seJw9
+- `quaternius_tree-spiral_pofj.glb` — "Tree Spiral" — https://poly.pizza/m/poFJzEWCk8
+- `quaternius_tv-tower_r8dt.glb` — "TV Tower" — https://poly.pizza/m/R8DtfW6Nx5
+
+## Zsky (via poly.pizza) | CC-BY 3.0
+
+- `zsky_hive-turret_l88q.glb` — "Hive Turret" — https://poly.pizza/m/l88QO02liG
+- `zsky_light-pole_uxe1.glb` — "Light Pole" — https://poly.pizza/m/UxE1NF0xrq
+- `zsky_light-post_7jug.glb` — "Light Post" — https://poly.pizza/m/7JUgLfLeEU
+
+
+授权链接：CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/ ；CC-BY 3.0 https://creativecommons.org/licenses/by/3.0/

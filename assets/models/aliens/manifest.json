@@ -1,0 +1,4924 @@
+[
+ {
+  "file": "swarm_alien_blob.glb",
+  "name": "Alien",
+  "source_url": "https://poly.pizza/m/sUTLXji0aL",
+  "download_url": "https://static.poly.pizza/0bb74be9-e9d1-4321-aedb-a9eccecb04a1.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "role": "1",
+  "animations": [
+   {
+    "name": "CharacterArmature|Bite_Front",
+    "duration": 0.375
+   },
+   {
+    "name": "CharacterArmature|Dance",
+    "duration": 0.667
+   },
+   {
+    "name": "CharacterArmature|Death",
+    "duration": 0.333
+   },
+   {
+    "name": "CharacterArmature|HitRecieve",
+    "duration": 0.292
+   },
+   {
+    "name": "CharacterArmature|Idle",
+    "duration": 2
+   },
+   {
+    "name": "CharacterArmature|Jump",
+    "duration": 0.417
+   },
+   {
+    "name": "CharacterArmature|No",
+    "duration": 1
+   },
+   {
+    "name": "CharacterArmature|Walk",
+    "duration": 0.417
+   },
+   {
+    "name": "CharacterArmature|Yes",
+    "duration": 0.958
+   }
+  ],
+  "skinned": true,
+  "joints": 8,
+  "triangles": 2616,
+  "vertices": 1430,
+  "meshes": 2,
+  "materials": 4,
+  "textures": 0,
+  "bbox": {
+   "raw_min": [
+    -0.019,
+    -0.007,
+    0
+   ],
+   "raw_max": [
+    0.019,
+    0.013,
+    0.033
+   ],
+   "raw_size": [
+    0.039,
+    0.019,
+    0.032
+   ],
+   "root_scale": 100.0,
+   "approx_size": [
+    3.9,
+    1.9,
+    3.2
+   ]
+  },
+  "size_kb": 122,
+  "suggested_use": "1 小型近战虫首选：四足圆头外星小怪，Walk/Bite_Front/Death 齐全"
+ },
+ {
+  "file": "swarm_slime_crawler.glb",
+  "name": "Slime Enemy",
+  "source_url": "https://poly.pizza/m/eSLKTsbl7F",
+  "download_url": "https://static.poly.pizza/93e6c3e3-75f8-441f-86d0-b223f7829005.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "role": "1",
+  "animations": [
+   {
+    "name": "MonsterArmature|Bite_Front",
+    "duration": 0.5
+   },
+   {
+    "name": "MonsterArmature|Bite_InPlace",
+    "duration": 0.667
+   },
+   {
+    "name": "MonsterArmature|Dance",
+    "duration": 0.833
+   },
+   {
+    "name": "MonsterArmature|Death",
+    "duration": 0.458
+   },
+   {
+    "name": "MonsterArmature|HitRecieve",
+    "duration": 0.375
+   },
+   {
+    "name": "MonsterArmature|Idle",
+    "duration": 2.5
+   },
+   {
+    "name": "MonsterArmature|Jump",
+    "duration": 0.542
+   },
+   {
+    "name": "MonsterArmature|No",
+    "duration": 0.5
+   },
+   {
+    "name": "MonsterArmature|Walk",
+    "duration": 0.542
+   },
+   {
+    "name": "MonsterArmature|Yes",
+    "duration": 0.5
+   }
+  ],
+  "skinned": true,
+  "joints": 21,
+  "triangles": 1968,
+  "vertices": 1454,
+  "meshes": 3,
+  "materials": 6,
+  "textures": 0,
+  "bbox": {
+   "raw_min": [
+    -0.01,
+    -0.007,
+    0
+   ],
+   "raw_max": [
+    0.01,
+    0.007,
+    0.016
+   ],
+   "raw_size": [
+    0.02,
+    0.014,
+    0.016
+   ],
+   "root_scale": 100.0,
+   "approx_size": [
+    2.0,
+    1.4,
+    1.6
+   ]
+  },
+  "size_kb": 156,
+  "suggested_use": "1 小型近战虫候选：带眼柄软体爬虫，Walk/Bite/Death"
+ },
+ {
+  "file": "swarm_goblin_runner.glb",
+  "name": "Goblin",
+  "source_url": "https://poly.pizza/m/OdCOFSmEhl",
+  "download_url": "https://static.poly.pizza/54e0fd61-6898-4b17-b039-8fa656d02954.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "role": "1",
+  "animations": [
+   {
+    "name": "EnemyArmature|EnemyArmature|EnemyArmature|Attack",
+    "duration": 0.5
+   },
+   {
+    "name": "EnemyArmature|EnemyArmature|EnemyArmature|Death",
+    "duration": 0.625
+   },
+   {
+    "name": "EnemyArmature|EnemyArmature|EnemyArmature|HitRecieve",
+    "duration": 0.208
+   },
+   {
+    "name": "EnemyArmature|EnemyArmature|EnemyArmature|Idle",
+    "duration": 3.333
+   },
+   {
+    "name": "EnemyArmature|EnemyArmature|EnemyArmature|Jump",
+    "duration": 0.25
+   },
+   {
+    "name": "EnemyArmature|EnemyArmature|EnemyArmature|Run",
+    "duration": 0.667
+   },
+   {
+    "name": "EnemyArmature|EnemyArmature|EnemyArmature|Walk",
+    "duration": 2
+   }
+  ],
+  "skinned": true,
+  "joints": 12,
+  "triangles": 2912,
+  "vertices": 2738,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "bbox": {
+   "raw_min": [
+    -0.011,
+    -0.004,
+    0
+   ],
+   "raw_max": [
+    0.011,
+    0.004,
+    0.02
+   ],
+   "raw_size": [
+    0.022,
+    0.008,
+    0.02
+   ],
+   "root_scale": 100.0,
+   "approx_size": [
+    2.2,
+    0.8,
+    2.0
+   ]
+  },
+  "size_kb": 210,
+  "suggested_use": "1 小型近战虫候选：两足小怪，有 Run/Attack/Death，换色后当跳虫"
+ },
+ {
+  "file": "swarm_raptor.glb",
+  "name": "Velociraptor",
+  "source_url": "https://poly.pizza/m/cnlGH2UcDd",
+  "download_url": "https://static.poly.pizza/c1f0c4cb-c84f-415c-8323-d8cb871a2126.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "role": "1",
+  "animations": [
+   {
+    "name": "Armature|Velociraptor_Attack",
+    "duration": 0.833
+   },
+   {
+    "name": "Armature|Velociraptor_Death",
+    "duration": 1.292
+   },
+   {
+    "name": "Armature|Velociraptor_Idle",
+    "duration": 2.5
+   },
+   {
+    "name": "Armature|Velociraptor_Jump",
+    "duration": 1.125
+   },
+   {
+    "name": "Armature|Velociraptor_Run",
+    "duration": 0.542
+   },
+   {
+    "name": "Armature|Velociraptor_Walk",
+    "duration": 2.417
+   }
+  ],
+  "skinned": true,
+  "joints": 29,
+  "triangles": 1248,
+  "vertices": 2576,
+  "meshes": 1,
+  "materials": 3,
+  "textures": 0,
+  "bbox": {
+   "raw_min": [
+    -0.004,
+    -0.015,
+    0
+   ],
+   "raw_max": [
+    0.004,
+    0.023,
+    0.016
+   ],
+   "raw_size": [
+    0.007,
+    0.038,
+    0.016
+   ],
+   "root_scale": 100.0,
+   "approx_size": [
+    0.7,
+    3.8,
+    1.6
+   ]
+  },
+  "size_kb": 279,
+  "suggested_use": "1 小型快速近战候选：迅猛龙体型(1248面)，Run/Attack/Death，染色当异形猎犬"
+ },
+ {
+  "file": "swarm_hound.glb",
+  "name": "Wolf",
+  "source_url": "https://poly.pizza/m/XU7oNeKShV",
+  "download_url": "https://static.poly.pizza/2cd00c92-295b-4652-b1a3-c3a1394e5d83.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "role": "1",
+  "animations": [
+   {
+    "name": "AnimalArmature|AnimalArmature|AnimalArmature|Death",
+    "duration": 0.875
+   },
+   {
+    "name": "AnimalArmature|AnimalArmature|AnimalArmature|Headbutt",
+    "duration": 0.625
+   },
+   {
+    "name": "AnimalArmature|AnimalArmature|AnimalArmature|Idle",
+    "duration": 6.667
+   },
+   {
+    "name": "AnimalArmature|AnimalArmature|AnimalArmature|Idle_Eating",
+    "duration": 3.333
+   },
+   {
+    "name": "AnimalArmature|AnimalArmature|AnimalArmature|Jump_Loop",
+    "duration": 1
+   },
+   {
+    "name": "AnimalArmature|AnimalArmature|AnimalArmature|Jump_Start",
+    "duration": 0.25
+   },
+   {
+    "name": "AnimalArmature|AnimalArmature|AnimalArmature|Run",
+    "duration": 0.5
+   },
+   {
+    "name": "AnimalArmature|AnimalArmature|AnimalArmature|Walk",
+    "duration": 0.708
+   }
+  ],
+  "skinned": true,
+  "joints": 16,
+  "triangles": 2740,
+  "vertices": 2470,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "bbox": {
+   "raw_min": [
+    -0.006,
+    -0.013,
+    0
+   ],
+   "raw_max": [
+    0.006,
+    0.01,
+    0.018
+   ],
+   "raw_size": [
+    0.011,
+    0.022,
+    0.018
+   ],
+   "root_scale": 100.0,
+   "approx_size": [
+    1.1,
+    2.2,
+    1.8
+   ]
+  },
+  "size_kb": 247,
+  "suggested_use": "1 小型快速四足候选：狼形，可染色当虫犬"
+ },
+ {
+  "file": "swarm_slime_basic.glb",
+  "name": "Slime",
+  "source_url": "https://poly.pizza/m/LyjSUKHKnh",
+  "download_url": "https://static.poly.pizza/195565b4-842a-44e9-a59a-5ebb1d133255.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "role": "1",
+  "animations": [
+   {
+    "name": "Armature|Slime_Attack",
+    "duration": 0.625
+   },
+   {
+    "name": "Armature|Slime_Death",
+    "duration": 0.417
+   },
+   {
+    "name": "Armature|Slime_Idle",
+    "duration": 2.5
+   },
+   {
+    "name": "Armature|Slime_Walk",
+    "duration": 0.833
+   }
+  ],
+  "skinned": true,
+  "joints": 12,
+  "triangles": 1440,
+  "vertices": 2912,
+  "meshes": 1,
+  "materials": 2,
+  "textures": 0,
+  "bbox": {
+   "raw_min": [
+    -0.013,
+    -0.015,
+    0
+   ],
+   "raw_max": [
+    0.013,
+    0.015,
+    0.019
+   ],
+   "raw_size": [
+    0.025,
+    0.031,
+    0.019
+   ],
+   "root_scale": 100.0,
+   "approx_size": [
+    2.5,
+    3.1,
+    1.9
+   ]
+  },
+  "size_kb": 170,
+  "suggested_use": "1 小型近战候选：史莱姆，Walk/Attack/Death，1440面"
+ },
+ {
+  "file": "swarm_pink_blob.glb",
+  "name": "Pink Slime",
+  "source_url": "https://poly.pizza/m/AyP8sQmDLh",
+  "download_url": "https://static.poly.pizza/3ddbff73-430c-4ca0-bb25-11211683fbb9.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "role": "1/4",
+  "animations": [
+   {
+    "name": "CharacterArmature|Bite_Front",
+    "duration": 0.375
+   },
+   {
+    "name": "CharacterArmature|Dance",
+    "duration": 0.667
+   },
+   {
+    "name": "CharacterArmature|Death",
+    "duration": 0.333
+   },
+   {
+    "name": "CharacterArmature|HitRecieve",
+    "duration": 0.292
+   },
+   {
+    "name": "CharacterArmature|Idle",
+    "duration": 2
+   },
+   {
+    "name": "CharacterArmature|Jump",
+    "duration": 0.417
+   },
+   {
+    "name": "CharacterArmature|No",
+    "duration": 1
+   },
+   {
+    "name": "CharacterArmature|Walk",
+    "duration": 0.417
+   },
+   {
+    "name": "CharacterArmature|Yes",
+    "duration": 0.958
+   }
+  ],
+  "skinned": true,
+  "joints": 8,
+  "triangles": 1030,
+  "vertices": 581,
+  "meshes": 2,
+  "materials": 4,
+  "textures": 0,
+  "bbox": {
+   "raw_min": [
+    -0.009,
+    -0.008,
+    -0.001
+   ],
+   "raw_max": [
+    0.009,
+    0.009,
+    0.019
+   ],
+   "raw_size": [
+    0.018,
+    0.017,
+    0.02
+   ],
+   "root_scale": 100.0,
+   "approx_size": [
+    1.8,
+    1.7,
+    2.0
+   ]
+  },
+  "size_kb": 61,
+  "suggested_use": "1/4 最低面数(1030)小虫；也可当自爆虫幼体"
+ },
+ {
+  "file": "swarm_mushnub.glb",
+  "name": "Mushnub",
+  "source_url": "https://poly.pizza/m/LWKmS30Xxl",
+  "download_url": "https://static.poly.pizza/55c64684-49a4-4fcc-b393-113126add89b.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "role": "1",
+  "animations": [
+   {
+    "name": "CharacterArmature|Bite_Front",
+    "duration": 0.375
+   },
+   {
+    "name": "CharacterArmature|Dance",
+    "duration": 0.667
+   },
+   {
+    "name": "CharacterArmature|Death",
+    "duration": 0.333
+   },
+   {
+    "name": "CharacterArmature|HitRecieve",
+    "duration": 0.292
+   },
+   {
+    "name": "CharacterArmature|Idle",
+    "duration": 2
+   },
+   {
+    "name": "CharacterArmature|Jump",
+    "duration": 0.417
+   },
+   {
+    "name": "CharacterArmature|No",
+    "duration": 1
+   },
+   {
+    "name": "CharacterArmature|Walk",
+    "duration": 0.417
+   },
+   {
+    "name": "CharacterArmature|Yes",
+    "duration": 0.958
+   }
+  ],
+  "skinned": true,
+  "joints": 4,
+  "triangles": 1248,
+  "vertices": 678,
+  "meshes": 1,
+  "materials": 4,
+  "textures": 0,
+  "bbox": {
+   "raw_min": [
+    -0.014,
+    -0.014,
+    -0.001
+   ],
+   "raw_max": [
+    0.014,
+    0.014,
+    0.032
+   ],
+   "raw_size": [
+    0.028,
+    0.028,
+    0.033
+   ],
+   "root_scale": 100.0,
+   "approx_size": [
+    2.8,
+    2.8,
+    3.3
+   ]
+  },
+  "size_kb": 66,
+  "suggested_use": "1 小型候选：蘑菇头小怪，1248面"
+ },
+ {
+  "file": "swarm_orc_blob.glb",
+  "name": "Orc Enemy",
+  "source_url": "https://poly.pizza/m/Q3z8ZX4kUy",
+  "download_url": "https://static.poly.pizza/3076c5f7-9bdf-4c27-8083-f280ee6cd64b.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "role": "1",
+  "animations": [
+   {
+    "name": "CharacterArmature|Bite_Front",
+    "duration": 0.375
+   },
+   {
+    "name": "CharacterArmature|Dance",
+    "duration": 0.667
+   },
+   {
+    "name": "CharacterArmature|Death",
+    "duration": 0.333
+   },
+   {
+    "name": "CharacterArmature|HitRecieve",
+    "duration": 0.292
+   },
+   {
+    "name": "CharacterArmature|Idle",
+    "duration": 2
+   },
+   {
+    "name": "CharacterArmature|Jump",
+    "duration": 0.417
+   },
+   {
+    "name": "CharacterArmature|No",
+    "duration": 1
+   },
+   {
+    "name": "CharacterArmature|Walk",
+    "duration": 0.417
+   },
+   {
+    "name": "CharacterArmature|Yes",
+    "duration": 0.958
+   }
+  ],
+  "skinned": true,
+  "joints": 4,
+  "triangles": 2296,
+  "vertices": 1771,
+  "meshes": 1,
+  "materials": 7,
+  "textures": 0,
+  "bbox": {
+   "raw_min": [
+    -0.008,
+    -0.005,
+    0
+   ],
+   "raw_max": [
+    0.009,
+    0.005,
+    0.015
+   ],
+   "raw_size": [
+    0.016,
+    0.01,
+    0.015
+   ],
+   "root_scale": 100.0,
+   "approx_size": [
+    1.6,
+    1.0,
+    1.5
+   ]
+  },
+  "size_kb": 143,
+  "suggested_use": "1 小型候选：圆球兽人，Walk/Bite/Death"
+ },
+ {
+  "file": "swarm_yeti_blob.glb",
+  "name": "Yeti",
+  "source_url": "https://poly.pizza/m/S1E7idPFhe",
+  "download_url": "https://static.poly.pizza/085b078d-b72a-4d8e-a030-000d36c58447.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "role": "1",
+  "animations": [
+   {
+    "name": "CharacterArmature|Bite_Front",
+    "duration": 0.375
+   },
+   {
+    "name": "CharacterArmature|Dance",
+    "duration": 0.667
+   },
+   {
+    "name": "CharacterArmature|Death",
+    "duration": 0.333
+   },
+   {
+    "name": "CharacterArmature|HitRecieve",
+    "duration": 0.292
+   },
+   {
+    "name": "CharacterArmature|Idle",
+    "duration": 2
+   },
+   {
+    "name": "CharacterArmature|Jump",
+    "duration": 0.417
+   },
+   {
+    "name": "CharacterArmature|No",
+    "duration": 1
+   },
+   {
+    "name": "CharacterArmature|Walk",
+    "duration": 0.417
+   },
+   {
+    "name": "CharacterArmature|Yes",
+    "duration": 0.958
+   }
+  ],
+  "skinned": true,
+  "joints": 4,
+  "triangles": 2136,
+  "vertices": 1410,
+  "meshes": 1,
+  "materials": 6,
+  "textures": 0,
+  "bbox": {
+   "raw_min": [
+    -0.013,
+    -0.013,
+    0
+   ],
+   "raw_max": [
+    0.013,
+    0.013,
+    0.024
+   ],
+   "raw_size": [
+    0.025,
+    0.026,
+    0.024
+   ],
+   "root_scale": 100.0,
+   "approx_size": [
+    2.5,
+    2.6,
+    2.4
+   ]
+  },
+  "size_kb": 109,
+  "suggested_use": "1 小型候选：毛球怪"
+ },
+ {
+  "file": "swarm_cactoro_blob.glb",
+  "name": "Cactoro",
+  "source_url": "https://poly.pizza/m/66CYX5UhRK",
+  "download_url": "https://static.poly.pizza/625862f9-590e-4fbd-88bc-9056047885dd.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "role": "1/4",
+  "animations": [
+   {
+    "name": "CharacterArmature|Bite_Front",
+    "duration": 0.375
+   },
+   {
+    "name": "CharacterArmature|Dance",
+    "duration": 0.667
+   },
+   {
+    "name": "CharacterArmature|Death",
+    "duration": 0.333
+   },
+   {
+    "name": "CharacterArmature|HitRecieve",
+    "duration": 0.292
+   },
+   {
+    "name": "CharacterArmature|Idle",
+    "duration": 2
+   },
+   {
+    "name": "CharacterArmature|Jump",
+    "duration": 0.417
+   },
+   {
+    "name": "CharacterArmature|No",
+    "duration": 1
+   },
+   {
+    "name": "CharacterArmature|Walk",
+    "duration": 0.417
+   },
+   {
+    "name": "CharacterArmature|Yes",
+    "duration": 0.958
+   }
+  ],
+  "skinned": true,
+  "joints": 8,
+  "triangles": 2388,
+  "vertices": 1657,
+  "meshes": 2,
+  "materials": 5,
+  "textures": 0,
+  "bbox": {
+   "raw_min": [
+    -0.021,
+    -0.019,
+    0
+   ],
+   "raw_max": [
+    0.02,
+    0.018,
+    0.036
+   ],
+   "raw_size": [
+    0.041,
+    0.037,
+    0.036
+   ],
+   "root_scale": 100.0,
+   "approx_size": [
+    4.1,
+    3.7,
+    3.6
+   ]
+  },
+  "size_kb": 137,
+  "suggested_use": "1/4 带刺小球怪，可当小型自爆虫"
+ },
+ {
+  "file": "ranged_snake.glb",
+  "name": "Snake",
+  "source_url": "https://poly.pizza/m/x9x0viZs8V",
+  "download_url": "https://static.poly.pizza/0f3a551e-743e-48f5-936f-804c6c3b88bd.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "role": "2",
+  "animations": [
+   {
+    "name": "SnakeArmature|Snake_Attack",
+    "duration": 0.667
+   },
+   {
+    "name": "SnakeArmature|Snake_Idle",
+    "duration": 2.083
+   },
+   {
+    "name": "SnakeArmature|Snake_Jump",
+    "duration": 0.958
+   },
+   {
+    "name": "SnakeArmature|Snake_Walk",
+    "duration": 0.833
+   }
+  ],
+  "skinned": true,
+  "joints": 15,
+  "triangles": 1618,
+  "vertices": 3258,
+  "meshes": 1,
+  "materials": 7,
+  "textures": 0,
+  "bbox": {
+   "raw_min": [
+    -0.005,
+    -0.016,
+    0
+   ],
+   "raw_max": [
+    0.005,
+    0.013,
+    0.03
+   ],
+   "raw_size": [
+    0.011,
+    0.029,
+    0.03
+   ],
+   "root_scale": 100.0,
+   "approx_size": [
+    1.1,
+    2.9,
+    3.0
+   ]
+  },
+  "size_kb": 212,
+  "suggested_use": "2 远程喷吐型首选：立起的蛇形，Attack 当喷吐；无 Death clip(用缩放/溶解代替)"
+ },
+ {
+  "file": "ranged_tentacle.glb",
+  "name": "Tentacle",
+  "source_url": "https://poly.pizza/m/BR1vpIvvvv",
+  "download_url": "https://static.poly.pizza/b39d86e5-e51f-4bd8-bc63-c7fc0cdea864.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "role": "2/9",
+  "animations": [
+   {
+    "name": "TentacleArmature|TentacleArmature|TentacleArmature|Tentacle_Attack2|TentacleArma",
+    "duration": 1
+   },
+   {
+    "name": "TentacleArmature|TentacleArmature|TentacleArmature|Tentacle_Attack|TentacleArmat",
+    "duration": 0.875
+   },
+   {
+    "name": "TentacleArmature|TentacleArmature|TentacleArmature|Tentacle_Idle|TentacleArmatur",
+    "duration": 3.333
+   },
+   {
+    "name": "TentacleArmature|TentacleArmature|TentacleArmature|Tentacle_Poke|TentacleArmatur",
+    "duration": 1.333
+   }
+  ],
+  "skinned": true,
+  "joints": 21,
+  "triangles": 3874,
+  "vertices": 3624,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "bbox": {
+   "raw_min": [
+    -0.014,
+    -0.01,
+    0
+   ],
+   "raw_max": [
+    0.014,
+    0.011,
+    0.197
+   ],
+   "raw_size": [
+    0.027,
+    0.022,
+    0.197
+   ],
+   "root_scale": 100.0,
+   "approx_size": [
+    2.7,
+    2.2,
+    19.7
+   ]
+  },
+  "size_kb": 297,
+  "suggested_use": "2/9 固定喷吐触手/场景触手，Attack/Attack2/Poke/Idle"
+ },
+ {
+  "file": "ranged_alien_standing.glb",
+  "name": "Alien",
+  "source_url": "https://poly.pizza/m/HYUUkdugoP",
+  "download_url": "https://static.poly.pizza/678f2de4-d13d-497e-b993-8debb95424a5.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "role": "2",
+  "animations": [
+   {
+    "name": "AlienArmature|Alien_Clapping",
+    "duration": 2.083
+   },
+   {
+    "name": "AlienArmature|Alien_Death",
+    "duration": 2.292
+   },
+   {
+    "name": "AlienArmature|Alien_Idle",
+    "duration": 4.167
+   },
+   {
+    "name": "AlienArmature|Alien_IdleHold",
+    "duration": 4.167
+   },
+   {
+    "name": "AlienArmature|Alien_Jump",
+    "duration": 1.042
+   },
+   {
+    "name": "AlienArmature|Alien_Punch",
+    "duration": 0.917
+   },
+   {
+    "name": "AlienArmature|Alien_Run",
+    "duration": 0.875
+   },
+   {
+    "name": "AlienArmature|Alien_RunHold",
+    "duration": 0.875
+   },
+   {
+    "name": "AlienArmature|Alien_RunningJump",
+    "duration": 1.25
+   },
+   {
+    "name": "AlienArmature|Alien_Sitting",
+    "duration": 1.083
+   },
+   {
+    "name": "AlienArmature|Alien_Standing",
+    "duration": 0.625
+   },
+   {
+    "name": "AlienArmature|Alien_Swimming",
+    "duration": 1.333
+   },
+   {
+    "name": "AlienArmature|Alien_SwordSlash",
+    "duration": 1.042
+   },
+   {
+    "name": "AlienArmature|Alien_Walk",
+    "duration": 1.042
+   }
+  ],
+  "skinned": true,
+  "joints": 45,
+  "triangles": 3774,
+  "vertices": 7642,
+  "meshes": 1,
+  "materials": 5,
+  "textures": 0,
+  "bbox": {
+   "raw_min": [
+    -0.017,
+    -0.006,
+    0
+   ],
+   "raw_max": [
+    0.017,
+    0.006,
+    0.029
+   ],
+   "raw_size": [
+    0.034,
+    0.012,
+    0.029
+   ],
+   "root_scale": 100.0,
+   "approx_size": [
+    3.4,
+    1.2,
+    2.9
+   ]
+  },
+  "size_kb": 734,
+  "suggested_use": "2 站立型远程外星人，Punch/SwordSlash 当投掷，有 Run/Walk/Death"
+ },
+ {
+  "file": "ranged_squidle.glb",
+  "name": "Squidle",
+  "source_url": "https://poly.pizza/m/54QyRcsogk",
+  "download_url": "https://static.poly.pizza/cbe8419d-59d4-4ee8-92f1-8bccb25af378.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "role": "2/7",
+  "animations": [
+   {
+    "name": "CharacterArmature|Death",
+    "duration": 0.667
+   },
+   {
+    "name": "CharacterArmature|Fast_Flying",
+    "duration": 0.833
+   },
+   {
+    "name": "CharacterArmature|Flying_Idle",
+    "duration": 1.167
+   },
+   {
+    "name": "CharacterArmature|Headbutt",
+    "duration": 1.167
+   },
+   {
+    "name": "CharacterArmature|HitReact",
+    "duration": 0.458
+   },
+   {
+    "name": "CharacterArmature|No",
+    "duration": 1.167
+   },
+   {
+    "name": "CharacterArmature|Punch",
+    "duration": 1.167
+   },
+   {
+    "name": "CharacterArmature|Yes",
+    "duration": 1.167
+   }
+  ],
+  "skinned": true,
+  "joints": 43,
+  "triangles": 4880,
+  "vertices": 2790,
+  "meshes": 1,
+  "materials": 6,
+  "textures": 0,
+  "bbox": {
+   "raw_min": [
+    -0.036,
+    -0.009,
+    0.013
+   ],
+   "raw_max": [
+    0.036,
+    0.019,
+    0.039
+   ],
+   "raw_size": [
+    0.072,
+    0.028,
+    0.026
+   ],
+   "root_scale": 100.0,
+   "approx_size": [
+    7.2,
+    2.8,
+    2.6
+   ]
+  },
+  "size_kb": 302,
+  "suggested_use": "2/7 悬浮乌贼型喷吐者，Punch/Headbutt 当喷吐"
+ },
+ {
+  "file": "ranged_glub_evolved.glb",
+  "name": "Glub Evolved",
+  "source_url": "https://poly.pizza/m/Z9lddNpM1M",
+  "download_url": "https://static.poly.pizza/27590c4e-41ee-41b5-aaaa-581de0031605.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "role": "2/7",
+  "animations": [
+   {
+    "name": "CharacterArmature|Death",
+    "duration": 0.667
+   },
+   {
+    "name": "CharacterArmature|Fast_Flying",
+    "duration": 0.833
+   },
+   {
+    "name": "CharacterArmature|Flying_Idle",
+    "duration": 1.167
+   },
+   {
+    "name": "CharacterArmature|Headbutt",
+    "duration": 1.167
+   },
+   {
+    "name": "CharacterArmature|HitReact",
+    "duration": 0.458
+   },
+   {
+    "name": "CharacterArmature|No",
+    "duration": 1.167
+   },
+   {
+    "name": "CharacterArmature|Punch",
+    "duration": 1.167
+   },
+   {
+    "name": "CharacterArmature|Yes",
+    "duration": 1.167
+   }
+  ],
+  "skinned": true,
+  "joints": 13,
+  "triangles": 4452,
+  "vertices": 2426,
+  "meshes": 1,
+  "materials": 4,
+  "textures": 0,
+  "bbox": {
+   "raw_min": [
+    -0.028,
+    -0.008,
+    0.007
+   ],
+   "raw_max": [
+    0.028,
+    0.018,
+    0.056
+   ],
+   "raw_size": [
+    0.057,
+    0.026,
+    0.049
+   ],
+   "root_scale": 100.0,
+   "approx_size": [
+    5.7,
+    2.6,
+    4.9
+   ]
+  },
+  "size_kb": 207,
+  "suggested_use": "2/7 悬浮触须怪，喷吐型候选"
+ },
+ {
+  "file": "armored_crab.glb",
+  "name": "Crab Enemy",
+  "source_url": "https://poly.pizza/m/Gs3yfsV5lB",
+  "download_url": "https://static.poly.pizza/b9bbf6bd-2b21-4013-bc38-0f5e524ac12c.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "role": "3",
+  "animations": [
+   {
+    "name": "MonsterArmature|Bite_Front",
+    "duration": 0.5
+   },
+   {
+    "name": "MonsterArmature|Bite_InPlace",
+    "duration": 0.667
+   },
+   {
+    "name": "MonsterArmature|Dance",
+    "duration": 0.833
+   },
+   {
+    "name": "MonsterArmature|Death",
+    "duration": 0.458
+   },
+   {
+    "name": "MonsterArmature|HitRecieve",
+    "duration": 0.375
+   },
+   {
+    "name": "MonsterArmature|Idle",
+    "duration": 2.5
+   },
+   {
+    "name": "MonsterArmature|Jump",
+    "duration": 0.542
+   },
+   {
+    "name": "MonsterArmature|No",
+    "duration": 0.5
+   },
+   {
+    "name": "MonsterArmature|Walk",
+    "duration": 0.542
+   },
+   {
+    "name": "MonsterArmature|Yes",
+    "duration": 0.5
+   }
+  ],
+  "skinned": true,
+  "joints": 7,
+  "triangles": 3624,
+  "vertices": 2455,
+  "meshes": 1,
+  "materials": 4,
+  "textures": 0,
+  "bbox": {
+   "raw_min": [
+    -0.013,
+    -0.007,
+    0
+   ],
+   "raw_max": [
+    0.013,
+    0.007,
+    0.015
+   ],
+   "raw_size": [
+    0.025,
+    0.014,
+    0.015
+   ],
+   "root_scale": 100.0,
+   "approx_size": [
+    2.5,
+    1.4,
+    1.5
+   ]
+  },
+  "size_kb": 214,
+  "suggested_use": "3 甲壳型中型虫首选：蟹形甲壳，Walk/Bite/Death"
+ },
+ {
+  "file": "armored_triceratops.glb",
+  "name": "Triceratops",
+  "source_url": "https://poly.pizza/m/IGvrUqGrRM",
+  "download_url": "https://static.poly.pizza/6aa1f3ff-b9b3-4bb5-9d85-b2ffa514f0cc.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "role": "3/6",
+  "animations": [
+   {
+    "name": "Armature|Triceratops_Attack",
+    "duration": 0.75
+   },
+   {
+    "name": "Armature|Triceratops_Death",
+    "duration": 1.792
+   },
+   {
+    "name": "Armature|Triceratops_Idle",
+    "duration": 2.542
+   },
+   {
+    "name": "Armature|Triceratops_Jump",
+    "duration": 1.667
+   },
+   {
+    "name": "Armature|Triceratops_Run",
+    "duration": 0.792
+   },
+   {
+    "name": "Armature|Triceratops_Walk",
+    "duration": 2.917
+   }
+  ],
+  "skinned": true,
+  "joints": 29,
+  "triangles": 1332,
+  "vertices": 2662,
+  "meshes": 1,
+  "materials": 3,
+  "textures": 0,
+  "bbox": {
+   "raw_min": [
+    -0.057,
+    -0.018,
+    -0.056
+   ],
+   "raw_max": [
+    0.01,
+    0.018,
+    0.069
+   ],
+   "raw_size": [
+    0.067,
+    0.036,
+    0.126
+   ],
+   "root_scale": 200.0,
+   "approx_size": [
+    13.4,
+    7.2,
+    25.2
+   ]
+  },
+  "size_kb": 302,
+  "suggested_use": "3/6 重甲四足冲撞兽(1332面)，Run/Attack/Death，也可放大当 Boss"
+ },
+ {
+  "file": "armored_armabee.glb",
+  "name": "Armabee",
+  "source_url": "https://poly.pizza/m/42djT5zJnx",
+  "download_url": "https://static.poly.pizza/de63aaf6-9170-47f7-933d-439af68826a6.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "role": "3/7",
+  "animations": [
+   {
+    "name": "CharacterArmature|Death",
+    "duration": 0.667
+   },
+   {
+    "name": "CharacterArmature|Fast_Flying",
+    "duration": 0.833
+   },
+   {
+    "name": "CharacterArmature|Flying_Idle",
+    "duration": 1.167
+   },
+   {
+    "name": "CharacterArmature|Headbutt",
+    "duration": 1.167
+   },
+   {
+    "name": "CharacterArmature|HitReact",
+    "duration": 0.458
+   },
+   {
+    "name": "CharacterArmature|No",
+    "duration": 1.167
+   },
+   {
+    "name": "CharacterArmature|Punch",
+    "duration": 1.167
+   },
+   {
+    "name": "CharacterArmature|Yes",
+    "duration": 1.167
+   }
+  ],
+  "skinned": true,
+  "joints": 13,
+  "triangles": 2280,
+  "vertices": 1256,
+  "meshes": 1,
+  "materials": 5,
+  "textures": 0,
+  "bbox": {
+   "raw_min": [
+    -0.022,
+    -0.007,
+    0.012
+   ],
+   "raw_max": [
+    0.022,
+    0.014,
+    0.031
+   ],
+   "raw_size": [
+    0.043,
+    0.021,
+    0.019
+   ],
+   "root_scale": 100.0,
+   "approx_size": [
+    4.3,
+    2.1,
+    1.9
+   ]
+  },
+  "size_kb": 140,
+  "suggested_use": "3/7 带甲壳的飞行虫"
+ },
+ {
+  "file": "armored_armabee_evolved.glb",
+  "name": "Armabee Evolved",
+  "source_url": "https://poly.pizza/m/GcttdvsqsQ",
+  "download_url": "https://static.poly.pizza/fb7d7a9e-5584-4e0b-a1bf-251fc9946696.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "role": "3/7",
+  "animations": [
+   {
+    "name": "CharacterArmature|Death",
+    "duration": 0.667
+   },
+   {
+    "name": "CharacterArmature|Fast_Flying",
+    "duration": 0.833
+   },
+   {
+    "name": "CharacterArmature|Flying_Idle",
+    "duration": 1.167
+   },
+   {
+    "name": "CharacterArmature|Headbutt",
+    "duration": 1.167
+   },
+   {
+    "name": "CharacterArmature|HitReact",
+    "duration": 0.458
+   },
+   {
+    "name": "CharacterArmature|No",
+    "duration": 1.167
+   },
+   {
+    "name": "CharacterArmature|Punch",
+    "duration": 1.167
+   },
+   {
+    "name": "CharacterArmature|Yes",
+    "duration": 1.167
+   }
+  ],
+  "skinned": true,
+  "joints": 13,
+  "triangles": 3200,
+  "vertices": 1916,
+  "meshes": 1,
+  "materials": 7,
+  "textures": 0,
+  "bbox": {
+   "raw_min": [
+    -0.022,
+    -0.007,
+    0.008
+   ],
+   "raw_max": [
+    0.022,
+    0.014,
+    0.03
+   ],
+   "raw_size": [
+    0.043,
+    0.02,
+    0.021
+   ],
+   "root_scale": 100.0,
+   "approx_size": [
+    4.3,
+    2.0,
+    2.1
+   ]
+  },
+  "size_kb": 180,
+  "suggested_use": "3/7 带甲壳的飞行虫进化版(精英)"
+ },
+ {
+  "file": "exploder_spiky_blob.glb",
+  "name": "Green Spiky Blob",
+  "source_url": "https://poly.pizza/m/IoWG5F9WUc",
+  "download_url": "https://static.poly.pizza/cd25a048-719e-4ec4-bbf5-a266776fe129.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "role": "4",
+  "animations": [
+   {
+    "name": "CharacterArmature|Bite_Front",
+    "duration": 0.375
+   },
+   {
+    "name": "CharacterArmature|Dance",
+    "duration": 0.667
+   },
+   {
+    "name": "CharacterArmature|Death",
+    "duration": 0.333
+   },
+   {
+    "name": "CharacterArmature|HitRecieve",
+    "duration": 0.292
+   },
+   {
+    "name": "CharacterArmature|Idle",
+    "duration": 2
+   },
+   {
+    "name": "CharacterArmature|Jump",
+    "duration": 0.417
+   },
+   {
+    "name": "CharacterArmature|No",
+    "duration": 1
+   },
+   {
+    "name": "CharacterArmature|Walk",
+    "duration": 0.417
+   },
+   {
+    "name": "CharacterArmature|Yes",
+    "duration": 0.958
+   }
+  ],
+  "skinned": true,
+  "joints": 8,
+  "triangles": 4888,
+  "vertices": 2671,
+  "meshes": 2,
+  "materials": 3,
+  "textures": 0,
+  "bbox": {
+   "raw_min": [
+    -0.018,
+    -0.019,
+    -0.001
+   ],
+   "raw_max": [
+    0.018,
+    0.023,
+    0.041
+   ],
+   "raw_size": [
+    0.035,
+    0.042,
+    0.041
+   ],
+   "root_scale": 100.0,
+   "approx_size": [
+    3.5,
+    4.2,
+    4.1
+   ]
+  },
+  "size_kb": 181,
+  "suggested_use": "4 自爆滚动虫首选：绿色带刺圆球，加自发光+滚动旋转，Walk/Jump/Death"
+ },
+ {
+  "file": "exploder_green_blob.glb",
+  "name": "Green Blob",
+  "source_url": "https://poly.pizza/m/y4kJh8EeYS",
+  "download_url": "https://static.poly.pizza/64ab590e-1f77-4678-b357-78c430fd73bf.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "role": "4",
+  "animations": [
+   {
+    "name": "CharacterArmature|Bite_Front",
+    "duration": 0.375
+   },
+   {
+    "name": "CharacterArmature|Dance",
+    "duration": 0.667
+   },
+   {
+    "name": "CharacterArmature|Death",
+    "duration": 0.333
+   },
+   {
+    "name": "CharacterArmature|HitRecieve",
+    "duration": 0.292
+   },
+   {
+    "name": "CharacterArmature|Idle",
+    "duration": 2
+   },
+   {
+    "name": "CharacterArmature|Jump",
+    "duration": 0.417
+   },
+   {
+    "name": "CharacterArmature|No",
+    "duration": 1
+   },
+   {
+    "name": "CharacterArmature|Walk",
+    "duration": 0.417
+   },
+   {
+    "name": "CharacterArmature|Yes",
+    "duration": 0.958
+   }
+  ],
+  "skinned": true,
+  "joints": 8,
+  "triangles": 1520,
+  "vertices": 803,
+  "meshes": 2,
+  "materials": 3,
+  "textures": 0,
+  "bbox": {
+   "raw_min": [
+    -0.01,
+    -0.011,
+    0
+   ],
+   "raw_max": [
+    0.012,
+    0.011,
+    0.018
+   ],
+   "raw_size": [
+    0.022,
+    0.022,
+    0.019
+   ],
+   "root_scale": 100.0,
+   "approx_size": [
+    2.2,
+    2.2,
+    1.9
+   ]
+  },
+  "size_kb": 73,
+  "suggested_use": "4 自爆虫候选：绿色圆球(1520面)，适合大量出现"
+ },
+ {
+  "file": "exploder_glub.glb",
+  "name": "Glub",
+  "source_url": "https://poly.pizza/m/x59pqJscry",
+  "download_url": "https://static.poly.pizza/f64d32a9-c1da-4978-8f83-158130703e6c.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "role": "4/7",
+  "animations": [
+   {
+    "name": "CharacterArmature|Death",
+    "duration": 0.667
+   },
+   {
+    "name": "CharacterArmature|Fast_Flying",
+    "duration": 0.833
+   },
+   {
+    "name": "CharacterArmature|Flying_Idle",
+    "duration": 1.167
+   },
+   {
+    "name": "CharacterArmature|Headbutt",
+    "duration": 1.167
+   },
+   {
+    "name": "CharacterArmature|HitReact",
+    "duration": 0.458
+   },
+   {
+    "name": "CharacterArmature|No",
+    "duration": 1.167
+   },
+   {
+    "name": "CharacterArmature|Punch",
+    "duration": 1.167
+   },
+   {
+    "name": "CharacterArmature|Yes",
+    "duration": 1.167
+   }
+  ],
+  "skinned": true,
+  "joints": 13,
+  "triangles": 2528,
+  "vertices": 1350,
+  "meshes": 1,
+  "materials": 4,
+  "textures": 0,
+  "bbox": {
+   "raw_min": [
+    -0.022,
+    -0.008,
+    0.014
+   ],
+   "raw_max": [
+    0.022,
+    0.014,
+    0.037
+   ],
+   "raw_size": [
+    0.043,
+    0.022,
+    0.024
+   ],
+   "root_scale": 100.0,
+   "approx_size": [
+    4.3,
+    2.2,
+    2.4
+   ]
+  },
+  "size_kb": 145,
+  "suggested_use": "4/7 圆滚悬浮怪，可当漂浮自爆虫"
+ },
+ {
+  "file": "brute_giant.glb",
+  "name": "Giant",
+  "source_url": "https://poly.pizza/m/BldaiPtyJa",
+  "download_url": "https://static.poly.pizza/260aff73-1409-4a45-9746-b078229d8cf3.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "role": "5",
+  "animations": [
+   {
+    "name": "EnemyArmature|EnemyArmature|EnemyArmature|Attack",
+    "duration": 0.667
+   },
+   {
+    "name": "EnemyArmature|EnemyArmature|EnemyArmature|Death",
+    "duration": 0.833
+   },
+   {
+    "name": "EnemyArmature|EnemyArmature|EnemyArmature|HitRecieve",
+    "duration": 0.208
+   },
+   {
+    "name": "EnemyArmature|EnemyArmature|EnemyArmature|Idle",
+    "duration": 3.333
+   },
+   {
+    "name": "EnemyArmature|EnemyArmature|EnemyArmature|Jump",
+    "duration": 0.25
+   },
+   {
+    "name": "EnemyArmature|EnemyArmature|EnemyArmature|Run",
+    "duration": 0.667
+   },
+   {
+    "name": "EnemyArmature|EnemyArmature|EnemyArmature|Walk",
+    "duration": 2
+   }
+  ],
+  "skinned": true,
+  "joints": 12,
+  "triangles": 3812,
+  "vertices": 3158,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "bbox": {
+   "raw_min": [
+    -0.032,
+    -0.016,
+    0
+   ],
+   "raw_max": [
+    0.032,
+    0.007,
+    0.046
+   ],
+   "raw_size": [
+    0.065,
+    0.023,
+    0.045
+   ],
+   "root_scale": 100.0,
+   "approx_size": [
+    6.5,
+    2.3,
+    4.5
+   ]
+  },
+  "size_kb": 240,
+  "suggested_use": "5 大型畸变巨怪首选：独眼巨人体型，Run/Walk/Attack/Death"
+ },
+ {
+  "file": "brute_yeti.glb",
+  "name": "Yeti",
+  "source_url": "https://poly.pizza/m/xtMYEVzyw0",
+  "download_url": "https://static.poly.pizza/7a576374-0dec-4bb4-aa70-24c57e5b52b5.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "role": "5",
+  "animations": [
+   {
+    "name": "EnemyArmature|EnemyArmature|EnemyArmature|Attack",
+    "duration": 0.667
+   },
+   {
+    "name": "EnemyArmature|EnemyArmature|EnemyArmature|Death",
+    "duration": 0.833
+   },
+   {
+    "name": "EnemyArmature|EnemyArmature|EnemyArmature|HitRecieve",
+    "duration": 0.208
+   },
+   {
+    "name": "EnemyArmature|EnemyArmature|EnemyArmature|Idle",
+    "duration": 3.333
+   },
+   {
+    "name": "EnemyArmature|EnemyArmature|EnemyArmature|Jump",
+    "duration": 0.25
+   },
+   {
+    "name": "EnemyArmature|EnemyArmature|EnemyArmature|Run",
+    "duration": 0.667
+   },
+   {
+    "name": "EnemyArmature|EnemyArmature|EnemyArmature|Walk",
+    "duration": 2
+   }
+  ],
+  "skinned": true,
+  "joints": 12,
+  "triangles": 3070,
+  "vertices": 2703,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "bbox": {
+   "raw_min": [
+    -0.026,
+    -0.016,
+    0
+   ],
+   "raw_max": [
+    0.026,
+    0.005,
+    0.032
+   ],
+   "raw_size": [
+    0.051,
+    0.021,
+    0.031
+   ],
+   "root_scale": 100.0,
+   "approx_size": [
+    5.1,
+    2.1,
+    3.1
+   ]
+  },
+  "size_kb": 210,
+  "suggested_use": "5 大型巨怪候选：Run/Attack/Death"
+ },
+ {
+  "file": "brute_demon.glb",
+  "name": "Demon",
+  "source_url": "https://poly.pizza/m/IkB63XOPvr",
+  "download_url": "https://static.poly.pizza/0a6480eb-dec2-4530-ae61-71893f2367a2.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "role": "5",
+  "animations": [
+   {
+    "name": "EnemyArmature|EnemyArmature|EnemyArmature|Attack",
+    "duration": 0.5
+   },
+   {
+    "name": "EnemyArmature|EnemyArmature|EnemyArmature|Death",
+    "duration": 0.625
+   },
+   {
+    "name": "EnemyArmature|EnemyArmature|EnemyArmature|HitRecieve",
+    "duration": 0.208
+   },
+   {
+    "name": "EnemyArmature|EnemyArmature|EnemyArmature|Idle",
+    "duration": 3.333
+   },
+   {
+    "name": "EnemyArmature|EnemyArmature|EnemyArmature|Jump",
+    "duration": 0.25
+   },
+   {
+    "name": "EnemyArmature|EnemyArmature|EnemyArmature|Run",
+    "duration": 0.667
+   },
+   {
+    "name": "EnemyArmature|EnemyArmature|EnemyArmature|Walk",
+    "duration": 2
+   }
+  ],
+  "skinned": true,
+  "joints": 12,
+  "triangles": 3292,
+  "vertices": 2802,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "bbox": {
+   "raw_min": [
+    -0.034,
+    -0.016,
+    0
+   ],
+   "raw_max": [
+    0.034,
+    0.007,
+    0.057
+   ],
+   "raw_size": [
+    0.068,
+    0.023,
+    0.057
+   ],
+   "root_scale": 100.0,
+   "approx_size": [
+    6.8,
+    2.3,
+    5.7
+   ]
+  },
+  "size_kb": 216,
+  "suggested_use": "5 大型巨怪候选：恶魔体型，Run/Attack/Death"
+ },
+ {
+  "file": "brute_enemy_large.glb",
+  "name": "Enemy Large",
+  "source_url": "https://poly.pizza/m/UgBmRVnQ9h",
+  "download_url": "https://static.poly.pizza/7a104a5a-9ff9-4e2e-889f-0de51d6d6195.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "role": "5",
+  "animations": [
+   {
+    "name": "CharacterArmature|Death",
+    "duration": 0.75
+   },
+   {
+    "name": "CharacterArmature|Duck",
+    "duration": 1.667
+   },
+   {
+    "name": "CharacterArmature|HitReact",
+    "duration": 0.583
+   },
+   {
+    "name": "CharacterArmature|Idle",
+    "duration": 1
+   },
+   {
+    "name": "CharacterArmature|Jump",
+    "duration": 0.333
+   },
+   {
+    "name": "CharacterArmature|Jump_Idle",
+    "duration": 0.5
+   },
+   {
+    "name": "CharacterArmature|Jump_Land",
+    "duration": 0.333
+   },
+   {
+    "name": "CharacterArmature|No",
+    "duration": 1.667
+   },
+   {
+    "name": "CharacterArmature|Punch",
+    "duration": 0.833
+   },
+   {
+    "name": "CharacterArmature|Run",
+    "duration": 0.542
+   },
+   {
+    "name": "CharacterArmature|Walk",
+    "duration": 1
+   },
+   {
+    "name": "CharacterArmature|Wave",
+    "duration": 1.667
+   },
+   {
+    "name": "CharacterArmature|Weapon",
+    "duration": 0.833
+   },
+   {
+    "name": "CharacterArmature|Yes",
+    "duration": 1.667
+   }
+  ],
+  "skinned": true,
+  "joints": 43,
+  "triangles": 4724,
+  "vertices": 3485,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "bbox": {
+   "raw_min": [
+    -0.023,
+    -0.006,
+    0
+   ],
+   "raw_max": [
+    0.023,
+    0.007,
+    0.038
+   ],
+   "raw_size": [
+    0.046,
+    0.013,
+    0.038
+   ],
+   "root_scale": 100.0,
+   "approx_size": [
+    4.6,
+    1.3,
+    3.8
+   ]
+  },
+  "size_kb": 429,
+  "suggested_use": "5 大型科幻外星敌人(Space Kit 风格)，Run/Punch/Death"
+ },
+ {
+  "file": "brute_alien_tall.glb",
+  "name": "Alien",
+  "source_url": "https://poly.pizza/m/RRliSQBP7r",
+  "download_url": "https://static.poly.pizza/b048d82a-7fc2-4631-b859-4bde0ed19b59.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "role": "5",
+  "animations": [
+   {
+    "name": "CharacterArmature|Death",
+    "duration": 0.75
+   },
+   {
+    "name": "CharacterArmature|Duck",
+    "duration": 1.667
+   },
+   {
+    "name": "CharacterArmature|HitReact",
+    "duration": 0.583
+   },
+   {
+    "name": "CharacterArmature|Idle",
+    "duration": 1
+   },
+   {
+    "name": "CharacterArmature|Jump",
+    "duration": 0.333
+   },
+   {
+    "name": "CharacterArmature|Jump_Idle",
+    "duration": 0.5
+   },
+   {
+    "name": "CharacterArmature|Jump_Land",
+    "duration": 0.333
+   },
+   {
+    "name": "CharacterArmature|No",
+    "duration": 1.667
+   },
+   {
+    "name": "CharacterArmature|Punch",
+    "duration": 0.833
+   },
+   {
+    "name": "CharacterArmature|Run",
+    "duration": 0.542
+   },
+   {
+    "name": "CharacterArmature|Walk",
+    "duration": 1
+   },
+   {
+    "name": "CharacterArmature|Wave",
+    "duration": 1.667
+   },
+   {
+    "name": "CharacterArmature|Weapon",
+    "duration": 0.833
+   },
+   {
+    "name": "CharacterArmature|Yes",
+    "duration": 1.667
+   }
+  ],
+  "skinned": true,
+  "joints": 43,
+  "triangles": 7676,
+  "vertices": 4227,
+  "meshes": 1,
+  "materials": 5,
+  "textures": 0,
+  "bbox": {
+   "raw_min": [
+    -0.023,
+    -0.008,
+    0
+   ],
+   "raw_max": [
+    0.023,
+    0.007,
+    0.035
+   ],
+   "raw_size": [
+    0.046,
+    0.015,
+    0.035
+   ],
+   "root_scale": 100.0,
+   "approx_size": [
+    4.6,
+    1.5,
+    3.5
+   ]
+  },
+  "size_kb": 470,
+  "suggested_use": "5 高大外星人，Run/Punch/Death"
+ },
+ {
+  "file": "brute_blue_demon.glb",
+  "name": "Blue Demon",
+  "source_url": "https://poly.pizza/m/S7jYW6Amye",
+  "download_url": "https://static.poly.pizza/6fbb8914-bd11-45e1-a906-51ace2ca5d2d.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "role": "5",
+  "animations": [
+   {
+    "name": "CharacterArmature|Death",
+    "duration": 0.75
+   },
+   {
+    "name": "CharacterArmature|Duck",
+    "duration": 1.667
+   },
+   {
+    "name": "CharacterArmature|HitReact",
+    "duration": 0.583
+   },
+   {
+    "name": "CharacterArmature|Idle",
+    "duration": 1
+   },
+   {
+    "name": "CharacterArmature|Jump",
+    "duration": 0.333
+   },
+   {
+    "name": "CharacterArmature|Jump_Idle",
+    "duration": 0.5
+   },
+   {
+    "name": "CharacterArmature|Jump_Land",
+    "duration": 0.333
+   },
+   {
+    "name": "CharacterArmature|No",
+    "duration": 1.667
+   },
+   {
+    "name": "CharacterArmature|Punch",
+    "duration": 0.833
+   },
+   {
+    "name": "CharacterArmature|Run",
+    "duration": 0.542
+   },
+   {
+    "name": "CharacterArmature|Run2",
+    "duration": 0.542
+   },
+   {
+    "name": "CharacterArmature|Walk",
+    "duration": 1
+   },
+   {
+    "name": "CharacterArmature|Wave",
+    "duration": 1.667
+   },
+   {
+    "name": "CharacterArmature|Weapon",
+    "duration": 0.833
+   },
+   {
+    "name": "CharacterArmature|Yes",
+    "duration": 1.667
+   }
+  ],
+  "skinned": true,
+  "joints": 43,
+  "triangles": 5800,
+  "vertices": 3221,
+  "meshes": 1,
+  "materials": 6,
+  "textures": 0,
+  "bbox": {
+   "raw_min": [
+    -0.043,
+    -0.028,
+    0
+   ],
+   "raw_max": [
+    0.043,
+    0.011,
+    0.052
+   ],
+   "raw_size": [
+    0.086,
+    0.04,
+    0.053
+   ],
+   "root_scale": 100.0,
+   "approx_size": [
+    8.6,
+    4.0,
+    5.3
+   ]
+  },
+  "size_kb": 429,
+  "suggested_use": "5 蓝色恶魔精英"
+ },
+ {
+  "file": "brute_mushroom_king.glb",
+  "name": "Mushroom King",
+  "source_url": "https://poly.pizza/m/grnFTziU8u",
+  "download_url": "https://static.poly.pizza/798301fb-b950-460c-9c67-526621ad8500.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "role": "5",
+  "animations": [
+   {
+    "name": "CharacterArmature|Death",
+    "duration": 0.75
+   },
+   {
+    "name": "CharacterArmature|Duck",
+    "duration": 1.667
+   },
+   {
+    "name": "CharacterArmature|HitReact",
+    "duration": 0.583
+   },
+   {
+    "name": "CharacterArmature|Idle",
+    "duration": 1
+   },
+   {
+    "name": "CharacterArmature|Jump",
+    "duration": 0.333
+   },
+   {
+    "name": "CharacterArmature|Jump_Idle",
+    "duration": 0.5
+   },
+   {
+    "name": "CharacterArmature|Jump_Land",
+    "duration": 0.333
+   },
+   {
+    "name": "CharacterArmature|No",
+    "duration": 1.667
+   },
+   {
+    "name": "CharacterArmature|Punch",
+    "duration": 0.833
+   },
+   {
+    "name": "CharacterArmature|Run",
+    "duration": 0.542
+   },
+   {
+    "name": "CharacterArmature|Walk",
+    "duration": 1
+   },
+   {
+    "name": "CharacterArmature|Wave",
+    "duration": 1.667
+   },
+   {
+    "name": "CharacterArmature|Weapon",
+    "duration": 0.833
+   },
+   {
+    "name": "CharacterArmature|Yes",
+    "duration": 1.667
+   }
+  ],
+  "skinned": true,
+  "joints": 86,
+  "triangles": 6044,
+  "vertices": 3369,
+  "meshes": 2,
+  "materials": 5,
+  "textures": 0,
+  "bbox": {
+   "raw_min": [
+    -0.023,
+    -0.013,
+    -0.004
+   ],
+   "raw_max": [
+    0.023,
+    0.009,
+    0.036
+   ],
+   "raw_size": [
+    0.046,
+    0.021,
+    0.04
+   ],
+   "root_scale": 100.0,
+   "approx_size": [
+    4.6,
+    2.1,
+    4.0
+   ]
+  },
+  "size_kb": 434,
+  "suggested_use": "5 菌类巨怪/精英"
+ },
+ {
+  "file": "brute_cactoro.glb",
+  "name": "Cactoro",
+  "source_url": "https://poly.pizza/m/IGn9lhdama",
+  "download_url": "https://static.poly.pizza/e88090e2-46af-430b-91e5-ad5520de4939.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "role": "5",
+  "animations": [
+   {
+    "name": "CharacterArmature|Death",
+    "duration": 0.75
+   },
+   {
+    "name": "CharacterArmature|Duck",
+    "duration": 1.667
+   },
+   {
+    "name": "CharacterArmature|HitReact",
+    "duration": 0.583
+   },
+   {
+    "name": "CharacterArmature|Idle",
+    "duration": 1
+   },
+   {
+    "name": "CharacterArmature|Jump",
+    "duration": 0.333
+   },
+   {
+    "name": "CharacterArmature|Jump_Idle",
+    "duration": 0.5
+   },
+   {
+    "name": "CharacterArmature|Jump_Land",
+    "duration": 0.333
+   },
+   {
+    "name": "CharacterArmature|No",
+    "duration": 1.667
+   },
+   {
+    "name": "CharacterArmature|Punch",
+    "duration": 0.833
+   },
+   {
+    "name": "CharacterArmature|Run",
+    "duration": 0.542
+   },
+   {
+    "name": "CharacterArmature|Walk",
+    "duration": 1
+   },
+   {
+    "name": "CharacterArmature|Wave",
+    "duration": 1.667
+   },
+   {
+    "name": "CharacterArmature|Weapon",
+    "duration": 0.833
+   },
+   {
+    "name": "CharacterArmature|Yes",
+    "duration": 1.667
+   }
+  ],
+  "skinned": true,
+  "joints": 43,
+  "triangles": 6398,
+  "vertices": 3830,
+  "meshes": 1,
+  "materials": 6,
+  "textures": 0,
+  "bbox": {
+   "raw_min": [
+    -0.043,
+    -0.024,
+    0
+   ],
+   "raw_max": [
+    0.043,
+    0.016,
+    0.073
+   ],
+   "raw_size": [
+    0.086,
+    0.04,
+    0.073
+   ],
+   "root_scale": 100.0,
+   "approx_size": [
+    8.6,
+    4.0,
+    7.3
+   ]
+  },
+  "size_kb": 461,
+  "suggested_use": "5 带刺巨怪"
+ },
+ {
+  "file": "boss_trex.glb",
+  "name": "T-Rex",
+  "source_url": "https://poly.pizza/m/UYtneO5FpF",
+  "download_url": "https://static.poly.pizza/34eed102-48f0-43dd-bc6f-ef7a6dfddfbb.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "role": "6",
+  "animations": [
+   {
+    "name": "Armature|TRex_Attack",
+    "duration": 1.167
+   },
+   {
+    "name": "Armature|TRex_Death",
+    "duration": 1.583
+   },
+   {
+    "name": "Armature|TRex_Idle",
+    "duration": 2.5
+   },
+   {
+    "name": "Armature|TRex_Jump",
+    "duration": 1.458
+   },
+   {
+    "name": "Armature|TRex_Run",
+    "duration": 0.917
+   },
+   {
+    "name": "Armature|TRex_Walk",
+    "duration": 1.375
+   }
+  ],
+  "skinned": true,
+  "joints": 29,
+  "triangles": 1820,
+  "vertices": 3496,
+  "meshes": 1,
+  "materials": 5,
+  "textures": 0,
+  "bbox": {
+   "raw_min": [
+    -0.04,
+    -0.144,
+    0
+   ],
+   "raw_max": [
+    0.04,
+    0.166,
+    0.152
+   ],
+   "raw_size": [
+    0.08,
+    0.31,
+    0.152
+   ],
+   "root_scale": 300.0,
+   "approx_size": [
+    24.0,
+    93.0,
+    45.6
+   ]
+  },
+  "size_kb": 329,
+  "suggested_use": "6 巨型 Boss 首选：两足巨兽(放大 3-5 倍+染色)，Run/Walk/Attack/Death"
+ },
+ {
+  "file": "boss_stegosaurus.glb",
+  "name": "Stegosaurus",
+  "source_url": "https://poly.pizza/m/eFcNbOlpvl",
+  "download_url": "https://static.poly.pizza/6f8f4ac6-f9e8-488d-97a8-220b9b2fd02a.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "role": "6",
+  "animations": [
+   {
+    "name": "Armature|Stegosaurus_Attack",
+    "duration": 1.875
+   },
+   {
+    "name": "Armature|Stegosaurus_Death",
+    "duration": 1.583
+   },
+   {
+    "name": "Armature|Stegosaurus_Idle",
+    "duration": 2.542
+   },
+   {
+    "name": "Armature|Stegosaurus_Jump",
+    "duration": 1.458
+   },
+   {
+    "name": "Armature|Stegosaurus_Run",
+    "duration": 0.792
+   },
+   {
+    "name": "Armature|Stegosaurus_Walk",
+    "duration": 2.917
+   }
+  ],
+  "skinned": true,
+  "joints": 29,
+  "triangles": 2282,
+  "vertices": 4590,
+  "meshes": 1,
+  "materials": 3,
+  "textures": 0,
+  "bbox": {
+   "raw_min": [
+    -0.024,
+    -0.077,
+    -0.001
+   ],
+   "raw_max": [
+    0.024,
+    0.154,
+    0.105
+   ],
+   "raw_size": [
+    0.047,
+    0.231,
+    0.106
+   ],
+   "root_scale": 200.0,
+   "approx_size": [
+    9.4,
+    46.2,
+    21.2
+   ]
+  },
+  "size_kb": 413,
+  "suggested_use": "6 四足巨兽 Boss：背刺，Run/Walk/Attack/Death"
+ },
+ {
+  "file": "boss_apatosaurus.glb",
+  "name": "Apatosaurus",
+  "source_url": "https://poly.pizza/m/fvo0x8Zk3z",
+  "download_url": "https://static.poly.pizza/7b873860-f23f-4266-b341-5c5e6770cfa0.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "role": "6",
+  "animations": [
+   {
+    "name": "Armature|Apatosaurus_Attack",
+    "duration": 1.875
+   },
+   {
+    "name": "Armature|Apatosaurus_Idle",
+    "duration": 4.25
+   },
+   {
+    "name": "Armature|Apatosaurus_Jump",
+    "duration": 1.833
+   },
+   {
+    "name": "Armature|Apatosaurus_Run",
+    "duration": 1.458
+   },
+   {
+    "name": "Armature|Apatosaurus_Walk",
+    "duration": 5.208
+   },
+   {
+    "name": "Armature|Stegosaurus_Death",
+    "duration": 1.583
+   }
+  ],
+  "skinned": true,
+  "joints": 29,
+  "triangles": 1438,
+  "vertices": 2870,
+  "meshes": 1,
+  "materials": 2,
+  "textures": 0,
+  "bbox": {
+   "raw_min": [
+    -0.028,
+    -0.221,
+    -0.019
+   ],
+   "raw_max": [
+    0.028,
+    0.276,
+    0.097
+   ],
+   "raw_size": [
+    0.056,
+    0.497,
+    0.117
+   ],
+   "root_scale": 300.0,
+   "approx_size": [
+    16.8,
+    149.1,
+    35.1
+   ]
+  },
+  "size_kb": 372,
+  "suggested_use": "6 超巨型四足 Boss(长颈)，Death clip 名为 Stegosaurus_Death"
+ },
+ {
+  "file": "boss_bull.glb",
+  "name": "Bull",
+  "source_url": "https://poly.pizza/m/a8PIIYwF7r",
+  "download_url": "https://static.poly.pizza/5704ef69-2c27-4de8-a942-70a29458af21.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "role": "6/3",
+  "animations": [
+   {
+    "name": "Attack_Headbutt",
+    "duration": 1
+   },
+   {
+    "name": "Attack_Kick",
+    "duration": 1
+   },
+   {
+    "name": "Death",
+    "duration": 1
+   },
+   {
+    "name": "Eating",
+    "duration": 6
+   },
+   {
+    "name": "Gallop",
+    "duration": 0.583
+   },
+   {
+    "name": "Gallop_Jump",
+    "duration": 2.042
+   },
+   {
+    "name": "Idle_HitReact_Left",
+    "duration": 0.667
+   },
+   {
+    "name": "Idle_HitReact_Right",
+    "duration": 0.667
+   },
+   {
+    "name": "Jump_toIdle",
+    "duration": 1.708
+   },
+   {
+    "name": "Walk",
+    "duration": 1.167
+   },
+   {
+    "name": "Idle_Headlow",
+    "duration": 3.333
+   },
+   {
+    "name": "Idle_2",
+    "duration": 3.333
+   },
+   {
+    "name": "Idle",
+    "duration": 3.333
+   },
+   {
+    "name": "AnimalArmature|Attack_Headbutt",
+    "duration": 1
+   },
+   {
+    "name": "AnimalArmature|Attack_Kick",
+    "duration": 1
+   },
+   {
+    "name": "AnimalArmature|Death",
+    "duration": 1
+   },
+   {
+    "name": "AnimalArmature|Eating",
+    "duration": 6
+   },
+   {
+    "name": "AnimalArmature|Gallop",
+    "duration": 0.583
+   },
+   {
+    "name": "AnimalArmature|Gallop_Jump",
+    "duration": 1.458
+   },
+   {
+    "name": "AnimalArmature|Idle",
+    "duration": 3.333
+   },
+   {
+    "name": "AnimalArmature|Idle_2",
+    "duration": 3.333
+   },
+   {
+    "name": "AnimalArmature|Idle_Headlow",
+    "duration": 3.333
+   },
+   {
+    "name": "AnimalArmature|Idle_HitReact_Left",
+    "duration": 0.667
+   },
+   {
+    "name": "AnimalArmature|Jump_toIdle",
+    "duration": 1.708
+   },
+   {
+    "name": "AnimalArmature|Walk",
+    "duration": 1.167
+   }
+  ],
+  "skinned": true,
+  "joints": 42,
+  "triangles": 2418,
+  "vertices": 4906,
+  "meshes": 1,
+  "materials": 7,
+  "textures": 0,
+  "bbox": {
+   "raw_min": [
+    -0.013,
+    -0.051,
+    -0.001
+   ],
+   "raw_max": [
+    0.013,
+    0.03,
+    0.045
+   ],
+   "raw_size": [
+    0.025,
+    0.081,
+    0.046
+   ],
+   "root_scale": 100.0,
+   "approx_size": [
+    2.5,
+    8.1,
+    4.6
+   ]
+  },
+  "size_kb": 1014,
+  "suggested_use": "6/3 四足冲撞兽，Gallop/Attack_Headbutt/Death"
+ },
+ {
+  "file": "boss_dragon_evolved.glb",
+  "name": "Dragon Evolved",
+  "source_url": "https://poly.pizza/m/LlwD0QNUPj",
+  "download_url": "https://static.poly.pizza/90ed3740-d8c4-4910-88ce-ac2ed426022d.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "role": "6/7",
+  "animations": [
+   {
+    "name": "CharacterArmature|Death",
+    "duration": 0.667
+   },
+   {
+    "name": "CharacterArmature|Fast_Flying",
+    "duration": 0.833
+   },
+   {
+    "name": "CharacterArmature|Flying_Idle",
+    "duration": 1.5
+   },
+   {
+    "name": "CharacterArmature|Headbutt",
+    "duration": 1.5
+   },
+   {
+    "name": "CharacterArmature|HitReact",
+    "duration": 0.667
+   },
+   {
+    "name": "CharacterArmature|No",
+    "duration": 1.167
+   },
+   {
+    "name": "CharacterArmature|Punch",
+    "duration": 1.333
+   },
+   {
+    "name": "CharacterArmature|Yes",
+    "duration": 1.167
+   }
+  ],
+  "skinned": true,
+  "joints": 46,
+  "triangles": 7438,
+  "vertices": 4350,
+  "meshes": 1,
+  "materials": 5,
+  "textures": 0,
+  "bbox": {
+   "raw_min": [
+    -0.027,
+    -0.01,
+    0.003
+   ],
+   "raw_max": [
+    0.027,
+    0.014,
+    0.032
+   ],
+   "raw_size": [
+    0.055,
+    0.024,
+    0.029
+   ],
+   "root_scale": 100.0,
+   "approx_size": [
+    5.5,
+    2.4,
+    2.9
+   ]
+  },
+  "size_kb": 426,
+  "suggested_use": "6/7 飞行 Boss：进化龙"
+ },
+ {
+  "file": "flyer_wasp.glb",
+  "name": "Wasp",
+  "source_url": "https://poly.pizza/m/3aQgc75sUR",
+  "download_url": "https://static.poly.pizza/71cadefd-8e65-423a-9a95-3cdf7e012586.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "role": "7",
+  "animations": [
+   {
+    "name": "WaspArmature|Wasp_Attack",
+    "duration": 0.75
+   },
+   {
+    "name": "WaspArmature|Wasp_Death",
+    "duration": 0.75
+   },
+   {
+    "name": "WaspArmature|Wasp_Flying",
+    "duration": 1.5
+   }
+  ],
+  "skinned": true,
+  "joints": 29,
+  "triangles": 3734,
+  "vertices": 7472,
+  "meshes": 1,
+  "materials": 4,
+  "textures": 0,
+  "bbox": {
+   "raw_min": [
+    -0.013,
+    -0.012,
+    0.002
+   ],
+   "raw_max": [
+    0.024,
+    0.012,
+    0.04
+   ],
+   "raw_size": [
+    0.036,
+    0.024,
+    0.038
+   ],
+   "root_scale": 100.0,
+   "approx_size": [
+    3.6,
+    2.4,
+    3.8
+   ]
+  },
+  "size_kb": 431,
+  "suggested_use": "7 飞行虫首选：黄蜂，Flying/Attack/Death"
+ },
+ {
+  "file": "flyer_bee_enemy.glb",
+  "name": "Bee Enemy",
+  "source_url": "https://poly.pizza/m/6HsU6GQt3a",
+  "download_url": "https://static.poly.pizza/19203489-125b-41f5-b9c9-801a522cb775.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "role": "7",
+  "animations": [
+   {
+    "name": "MonsterArmature|Bite_Front",
+    "duration": 1.125
+   },
+   {
+    "name": "MonsterArmature|Death",
+    "duration": 0.792
+   },
+   {
+    "name": "MonsterArmature|Flying",
+    "duration": 1.125
+   },
+   {
+    "name": "MonsterArmature|HitRecieve",
+    "duration": 0.625
+   }
+  ],
+  "skinned": true,
+  "joints": 9,
+  "triangles": 3040,
+  "vertices": 2581,
+  "meshes": 1,
+  "materials": 6,
+  "textures": 0,
+  "bbox": {
+   "raw_min": [
+    -0.014,
+    -0.008,
+    0
+   ],
+   "raw_max": [
+    0.014,
+    0.007,
+    0.019
+   ],
+   "raw_size": [
+    0.029,
+    0.015,
+    0.019
+   ],
+   "root_scale": 100.0,
+   "approx_size": [
+    2.9,
+    1.5,
+    1.9
+   ]
+  },
+  "size_kb": 189,
+  "suggested_use": "7 飞行虫候选：蜂型敌人，Flying/Bite_Front/Death"
+ },
+ {
+  "file": "flyer_enemy_flying.glb",
+  "name": "Enemy Flying",
+  "source_url": "https://poly.pizza/m/kzpT6fNmM5",
+  "download_url": "https://static.poly.pizza/45d716f2-a942-404f-82f6-73c24e013a27.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "role": "7",
+  "animations": [
+   {
+    "name": "CharacterArmature|Death",
+    "duration": 0.667
+   },
+   {
+    "name": "CharacterArmature|Fast_Flying",
+    "duration": 0.833
+   },
+   {
+    "name": "CharacterArmature|Flying_Idle",
+    "duration": 1.167
+   },
+   {
+    "name": "CharacterArmature|Headbutt",
+    "duration": 1.167
+   },
+   {
+    "name": "CharacterArmature|HitReact",
+    "duration": 0.458
+   },
+   {
+    "name": "CharacterArmature|No",
+    "duration": 1.167
+   },
+   {
+    "name": "CharacterArmature|Punch",
+    "duration": 1.167
+   },
+   {
+    "name": "CharacterArmature|Yes",
+    "duration": 1.167
+   }
+  ],
+  "skinned": true,
+  "joints": 4,
+  "triangles": 3820,
+  "vertices": 2847,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "bbox": {
+   "raw_min": [
+    -0.006,
+    -0.006,
+    0.005
+   ],
+   "raw_max": [
+    0.006,
+    0.006,
+    0.042
+   ],
+   "raw_size": [
+    0.013,
+    0.012,
+    0.037
+   ],
+   "root_scale": 100.0,
+   "approx_size": [
+    1.3,
+    1.2,
+    3.7
+   ]
+  },
+  "size_kb": 200,
+  "suggested_use": "7 科幻飞行外星敌人(Space Kit)"
+ },
+ {
+  "file": "flyer_enemy_small.glb",
+  "name": "Enemy Small",
+  "source_url": "https://poly.pizza/m/4LjT020LQh",
+  "download_url": "https://static.poly.pizza/4d23d8b4-4e88-4e88-9fd8-176e1abb66c0.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "role": "7/1",
+  "animations": [
+   {
+    "name": "CharacterArmature|Death",
+    "duration": 0.667
+   },
+   {
+    "name": "CharacterArmature|Fast_Flying",
+    "duration": 0.833
+   },
+   {
+    "name": "CharacterArmature|Flying_Idle",
+    "duration": 1.167
+   },
+   {
+    "name": "CharacterArmature|Headbutt",
+    "duration": 1.167
+   },
+   {
+    "name": "CharacterArmature|HitReact",
+    "duration": 0.458
+   },
+   {
+    "name": "CharacterArmature|No",
+    "duration": 1.167
+   },
+   {
+    "name": "CharacterArmature|Punch",
+    "duration": 1.167
+   },
+   {
+    "name": "CharacterArmature|Yes",
+    "duration": 1.167
+   }
+  ],
+  "skinned": true,
+  "joints": 5,
+  "triangles": 1572,
+  "vertices": 1128,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "bbox": {
+   "raw_min": [
+    -0.005,
+    -0.005,
+    0.015
+   ],
+   "raw_max": [
+    0.005,
+    0.004,
+    0.032
+   ],
+   "raw_size": [
+    0.009,
+    0.009,
+    0.017
+   ],
+   "root_scale": 100.0,
+   "approx_size": [
+    0.9,
+    0.9,
+    1.7
+   ]
+  },
+  "size_kb": 100,
+  "suggested_use": "7/1 科幻小型悬浮敌人(1572面)，可大量出现"
+ },
+ {
+  "file": "flyer_bat.glb",
+  "name": "Bat",
+  "source_url": "https://poly.pizza/m/hNO9XvjlKa",
+  "download_url": "https://static.poly.pizza/4ae13ae9-c257-41ed-86b5-1b4760924ebc.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "role": "7",
+  "animations": [
+   {
+    "name": "BatArmature|Bat_Attack",
+    "duration": 0.875
+   },
+   {
+    "name": "BatArmature|Bat_Attack2",
+    "duration": 1.25
+   },
+   {
+    "name": "BatArmature|Bat_Death",
+    "duration": 1.208
+   },
+   {
+    "name": "BatArmature|Bat_Flying",
+    "duration": 1.25
+   },
+   {
+    "name": "BatArmature|Bat_Hit",
+    "duration": 1.25
+   }
+  ],
+  "skinned": true,
+  "joints": 23,
+  "triangles": 1046,
+  "vertices": 2330,
+  "meshes": 2,
+  "materials": 6,
+  "textures": 0,
+  "bbox": {
+   "raw_min": [
+    -0.013,
+    -0.013,
+    -0.02
+   ],
+   "raw_max": [
+    0.014,
+    0.03,
+    0.021
+   ],
+   "raw_size": [
+    0.027,
+    0.043,
+    0.041
+   ],
+   "root_scale": 100.0,
+   "approx_size": [
+    2.7,
+    4.3,
+    4.1
+   ]
+  },
+  "size_kb": 226,
+  "suggested_use": "7 低面数(1046)蝙蝠，Flying/Attack/Death，染色当飞虫"
+ },
+ {
+  "file": "flyer_dragon_small.glb",
+  "name": "Dragon",
+  "source_url": "https://poly.pizza/m/VBvzjFIYws",
+  "download_url": "https://static.poly.pizza/9714f533-5d2d-4cfd-b8f1-c8dfff64a672.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "role": "7",
+  "animations": [
+   {
+    "name": "DragonArmature|Dragon_Attack",
+    "duration": 0.875
+   },
+   {
+    "name": "DragonArmature|Dragon_Attack2",
+    "duration": 1.667
+   },
+   {
+    "name": "DragonArmature|Dragon_Death",
+    "duration": 1.208
+   },
+   {
+    "name": "DragonArmature|Dragon_Flying",
+    "duration": 1.667
+   },
+   {
+    "name": "DragonArmature|Dragon_Hit",
+    "duration": 1.667
+   }
+  ],
+  "skinned": true,
+  "joints": 27,
+  "triangles": 1344,
+  "vertices": 2970,
+  "meshes": 2,
+  "materials": 6,
+  "textures": 0,
+  "bbox": {
+   "raw_min": [
+    -0.017,
+    -0.02,
+    -0.015
+   ],
+   "raw_max": [
+    0.017,
+    0.017,
+    0.024
+   ],
+   "raw_size": [
+    0.034,
+    0.037,
+    0.039
+   ],
+   "root_scale": 100.0,
+   "approx_size": [
+    3.4,
+    3.7,
+    3.9
+   ]
+  },
+  "size_kb": 263,
+  "suggested_use": "7 低面数(1344)小飞龙"
+ },
+ {
+  "file": "flyer_dragonfly.glb",
+  "name": "Dragon",
+  "source_url": "https://poly.pizza/m/3rUm1cN3yp",
+  "download_url": "https://static.poly.pizza/ae5b8510-1fa5-4d53-b943-a4f3b88fb629.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "role": "7",
+  "animations": [
+   {
+    "name": "CharacterArmature|Death",
+    "duration": 0.667
+   },
+   {
+    "name": "CharacterArmature|Fast_Flying",
+    "duration": 0.833
+   },
+   {
+    "name": "CharacterArmature|Flying_Idle",
+    "duration": 1.167
+   },
+   {
+    "name": "CharacterArmature|Headbutt",
+    "duration": 1.167
+   },
+   {
+    "name": "CharacterArmature|HitReact",
+    "duration": 0.458
+   },
+   {
+    "name": "CharacterArmature|No",
+    "duration": 1.167
+   },
+   {
+    "name": "CharacterArmature|Punch",
+    "duration": 1.167
+   },
+   {
+    "name": "CharacterArmature|Yes",
+    "duration": 1.167
+   }
+  ],
+  "skinned": true,
+  "joints": 13,
+  "triangles": 4562,
+  "vertices": 2740,
+  "meshes": 1,
+  "materials": 5,
+  "textures": 0,
+  "bbox": {
+   "raw_min": [
+    -0.022,
+    -0.01,
+    0.016
+   ],
+   "raw_max": [
+    0.022,
+    0.014,
+    0.031
+   ],
+   "raw_size": [
+    0.044,
+    0.024,
+    0.015
+   ],
+   "root_scale": 100.0,
+   "approx_size": [
+    4.4,
+    2.4,
+    1.5
+   ]
+  },
+  "size_kb": 246,
+  "suggested_use": "7 飞行小龙"
+ },
+ {
+  "file": "flyer_alpaking.glb",
+  "name": "Alpaking",
+  "source_url": "https://poly.pizza/m/AQ8zbFoDln",
+  "download_url": "https://static.poly.pizza/acb0f155-4a8a-4084-a2a8-9c17cbff7d21.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "role": "7",
+  "animations": [
+   {
+    "name": "CharacterArmature|Death",
+    "duration": 0.667
+   },
+   {
+    "name": "CharacterArmature|Fast_Flying",
+    "duration": 0.833
+   },
+   {
+    "name": "CharacterArmature|Flying_Idle",
+    "duration": 1.167
+   },
+   {
+    "name": "CharacterArmature|Headbutt",
+    "duration": 1.167
+   },
+   {
+    "name": "CharacterArmature|HitReact",
+    "duration": 0.458
+   },
+   {
+    "name": "CharacterArmature|No",
+    "duration": 1.167
+   },
+   {
+    "name": "CharacterArmature|Punch",
+    "duration": 1.167
+   },
+   {
+    "name": "CharacterArmature|Yes",
+    "duration": 1.167
+   }
+  ],
+  "skinned": true,
+  "joints": 13,
+  "triangles": 2508,
+  "vertices": 1308,
+  "meshes": 1,
+  "materials": 5,
+  "textures": 0,
+  "bbox": {
+   "raw_min": [
+    -0.022,
+    -0.003,
+    0.012
+   ],
+   "raw_max": [
+    0.022,
+    0.02,
+    0.033
+   ],
+   "raw_size": [
+    0.043,
+    0.022,
+    0.021
+   ],
+   "root_scale": 100.0,
+   "approx_size": [
+    4.3,
+    2.2,
+    2.1
+   ]
+  },
+  "size_kb": 144,
+  "suggested_use": "7 飞行怪候选"
+ },
+ {
+  "file": "flyer_demon.glb",
+  "name": "Demon",
+  "source_url": "https://poly.pizza/m/Mo2ky6vkf8",
+  "download_url": "https://static.poly.pizza/c2e39eb4-4b8e-4d31-b014-d637bf4e15c6.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "role": "7",
+  "animations": [
+   {
+    "name": "CharacterArmature|Death",
+    "duration": 0.667
+   },
+   {
+    "name": "CharacterArmature|Fast_Flying",
+    "duration": 0.833
+   },
+   {
+    "name": "CharacterArmature|Flying_Idle",
+    "duration": 1.167
+   },
+   {
+    "name": "CharacterArmature|Headbutt",
+    "duration": 1.167
+   },
+   {
+    "name": "CharacterArmature|HitReact",
+    "duration": 0.458
+   },
+   {
+    "name": "CharacterArmature|No",
+    "duration": 1.167
+   },
+   {
+    "name": "CharacterArmature|Punch",
+    "duration": 1.167
+   },
+   {
+    "name": "CharacterArmature|Yes",
+    "duration": 1.167
+   }
+  ],
+  "skinned": true,
+  "joints": 129,
+  "triangles": 4784,
+  "vertices": 2886,
+  "meshes": 3,
+  "materials": 4,
+  "textures": 0,
+  "bbox": {
+   "raw_min": [
+    -0.027,
+    -0.006,
+    0.011
+   ],
+   "raw_max": [
+    0.027,
+    0.014,
+    0.028
+   ],
+   "raw_size": [
+    0.055,
+    0.021,
+    0.017
+   ],
+   "root_scale": 100.0,
+   "approx_size": [
+    5.5,
+    2.1,
+    1.7
+   ]
+  },
+  "size_kb": 314,
+  "suggested_use": "7 飞行恶魔"
+ },
+ {
+  "file": "flyer_ghost_skull.glb",
+  "name": "Ghost Skull",
+  "source_url": "https://poly.pizza/m/TX8r9WBXpe",
+  "download_url": "https://static.poly.pizza/0716bf8e-1894-4a90-8d10-34868975a239.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "role": "7",
+  "animations": [
+   {
+    "name": "CharacterArmature|Death",
+    "duration": 0.667
+   },
+   {
+    "name": "CharacterArmature|Fast_Flying",
+    "duration": 0.833
+   },
+   {
+    "name": "CharacterArmature|Flying_Idle",
+    "duration": 1.167
+   },
+   {
+    "name": "CharacterArmature|Headbutt",
+    "duration": 1.167
+   },
+   {
+    "name": "CharacterArmature|HitReact",
+    "duration": 0.458
+   },
+   {
+    "name": "CharacterArmature|No",
+    "duration": 1.167
+   },
+   {
+    "name": "CharacterArmature|Punch",
+    "duration": 1.167
+   },
+   {
+    "name": "CharacterArmature|Yes",
+    "duration": 1.167
+   }
+  ],
+  "skinned": true,
+  "joints": 38,
+  "triangles": 3144,
+  "vertices": 2407,
+  "meshes": 1,
+  "materials": 2,
+  "textures": 0,
+  "bbox": {
+   "raw_min": [
+    -0.028,
+    -0.007,
+    0.003
+   ],
+   "raw_max": [
+    0.027,
+    0.008,
+    0.034
+   ],
+   "raw_size": [
+    0.055,
+    0.015,
+    0.031
+   ],
+   "root_scale": 100.0,
+   "approx_size": [
+    5.5,
+    1.5,
+    3.1
+   ]
+  },
+  "size_kb": 227,
+  "suggested_use": "7 悬浮骷髅幽灵(精英/诅咒型)"
+ },
+ {
+  "file": "flyer_hywirl.glb",
+  "name": "Hywirl",
+  "source_url": "https://poly.pizza/m/zjr7CmWGER",
+  "download_url": "https://static.poly.pizza/6500a805-0588-4823-bb8d-2f8ffdf338ab.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "role": "7",
+  "animations": [
+   {
+    "name": "CharacterArmature|Death",
+    "duration": 0.667
+   },
+   {
+    "name": "CharacterArmature|Fast_Flying",
+    "duration": 0.833
+   },
+   {
+    "name": "CharacterArmature|Flying_Idle",
+    "duration": 1.167
+   },
+   {
+    "name": "CharacterArmature|Headbutt",
+    "duration": 1.167
+   },
+   {
+    "name": "CharacterArmature|HitReact",
+    "duration": 0.458
+   },
+   {
+    "name": "CharacterArmature|No",
+    "duration": 1.167
+   },
+   {
+    "name": "CharacterArmature|Punch",
+    "duration": 1.167
+   },
+   {
+    "name": "CharacterArmature|Yes",
+    "duration": 1.167
+   }
+  ],
+  "skinned": true,
+  "joints": 38,
+  "triangles": 3296,
+  "vertices": 1704,
+  "meshes": 1,
+  "materials": 3,
+  "textures": 0,
+  "bbox": {
+   "raw_min": [
+    -0.028,
+    -0.008,
+    0
+   ],
+   "raw_max": [
+    0.028,
+    0.01,
+    0.028
+   ],
+   "raw_size": [
+    0.055,
+    0.018,
+    0.027
+   ],
+   "root_scale": 100.0,
+   "approx_size": [
+    5.5,
+    1.8,
+    2.7
+   ]
+  },
+  "size_kb": 196,
+  "suggested_use": "7 悬浮怪候选"
+ },
+ {
+  "file": "flyer_goleling.glb",
+  "name": "Goleling",
+  "source_url": "https://poly.pizza/m/71gomWolax",
+  "download_url": "https://static.poly.pizza/51bf31d7-1aee-4a51-acb1-d667843af205.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "role": "7",
+  "animations": [
+   {
+    "name": "CharacterArmature|Death",
+    "duration": 0.667
+   },
+   {
+    "name": "CharacterArmature|Fast_Flying",
+    "duration": 0.833
+   },
+   {
+    "name": "CharacterArmature|Flying_Idle",
+    "duration": 1.167
+   },
+   {
+    "name": "CharacterArmature|Headbutt",
+    "duration": 1.167
+   },
+   {
+    "name": "CharacterArmature|HitReact",
+    "duration": 0.458
+   },
+   {
+    "name": "CharacterArmature|No",
+    "duration": 1.167
+   },
+   {
+    "name": "CharacterArmature|Punch",
+    "duration": 1.167
+   },
+   {
+    "name": "CharacterArmature|Yes",
+    "duration": 1.167
+   }
+  ],
+  "skinned": true,
+  "joints": 13,
+  "triangles": 3696,
+  "vertices": 2250,
+  "meshes": 1,
+  "materials": 4,
+  "textures": 0,
+  "bbox": {
+   "raw_min": [
+    -0.022,
+    -0.005,
+    0.015
+   ],
+   "raw_max": [
+    0.022,
+    0.014,
+    0.03
+   ],
+   "raw_size": [
+    0.044,
+    0.019,
+    0.016
+   ],
+   "root_scale": 100.0,
+   "approx_size": [
+    4.4,
+    1.9,
+    1.6
+   ]
+  },
+  "size_kb": 212,
+  "suggested_use": "7 悬浮岩石怪"
+ },
+ {
+  "file": "flyer_anglerfish.glb",
+  "name": "Anglerfish",
+  "source_url": "https://poly.pizza/m/MRjSlwCjHM",
+  "download_url": "https://static.poly.pizza/0c4802f0-32f9-4a2a-90a5-56b94c33e37e.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "role": "7",
+  "animations": [
+   {
+    "name": "Fish_Armature|Attack",
+    "duration": 0.625
+   },
+   {
+    "name": "Fish_Armature|Death",
+    "duration": 3
+   },
+   {
+    "name": "Fish_Armature|Out_Of_Water",
+    "duration": 1.5
+   },
+   {
+    "name": "Fish_Armature|Swimming_Fast",
+    "duration": 1.042
+   },
+   {
+    "name": "Fish_Armature|Swimming_Impulse",
+    "duration": 1.167
+   },
+   {
+    "name": "Fish_Armature|Swimming_Normal",
+    "duration": 2.292
+   }
+  ],
+  "skinned": true,
+  "joints": 6,
+  "triangles": 1870,
+  "vertices": 2566,
+  "meshes": 1,
+  "materials": 6,
+  "textures": 0,
+  "bbox": {
+   "raw_min": [
+    -0.019,
+    -0.027,
+    -0.011
+   ],
+   "raw_max": [
+    0.019,
+    0.029,
+    0.023
+   ],
+   "raw_size": [
+    0.038,
+    0.055,
+    0.034
+   ],
+   "root_scale": 100.0,
+   "approx_size": [
+    3.8,
+    5.5,
+    3.4
+   ]
+  },
+  "size_kb": 178,
+  "suggested_use": "7 悬浮鮟鱇(带发光诱饵)，Swimming 当飞行，Attack/Death"
+ },
+ {
+  "file": "spider_animated.glb",
+  "name": "Spider",
+  "source_url": "https://poly.pizza/m/yRYJiAJyiM",
+  "download_url": "https://static.poly.pizza/4259fbdb-afb5-4d40-9108-363625dd6b6e.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "role": "8/1/6",
+  "animations": [
+   {
+    "name": "SpiderArmature|Spider_Attack",
+    "duration": 0.75
+   },
+   {
+    "name": "SpiderArmature|Spider_Death",
+    "duration": 1.042
+   },
+   {
+    "name": "SpiderArmature|Spider_Idle",
+    "duration": 4.167
+   },
+   {
+    "name": "SpiderArmature|Spider_Jump",
+    "duration": 0.708
+   },
+   {
+    "name": "SpiderArmature|Spider_Walk",
+    "duration": 0.833
+   }
+  ],
+  "skinned": true,
+  "joints": 39,
+  "triangles": 2712,
+  "vertices": 5461,
+  "meshes": 1,
+  "materials": 2,
+  "textures": 0,
+  "bbox": {
+   "raw_min": [
+    -0.03,
+    -0.027,
+    0
+   ],
+   "raw_max": [
+    0.03,
+    0.026,
+    0.019
+   ],
+   "raw_size": [
+    0.059,
+    0.053,
+    0.019
+   ],
+   "root_scale": 100.0,
+   "approx_size": [
+    5.9,
+    5.3,
+    1.9
+   ]
+  },
+  "size_kb": 438,
+  "suggested_use": "8/1/6 唯一带骨骼的蜘蛛(2712面)：小尺寸当虫群，放大 6 倍当巨型蜘蛛 Boss；Walk/Attack/Death/Jump"
+ },
+ {
+  "file": "prop_tentacle_static.glb",
+  "name": "Tentacle",
+  "source_url": "https://poly.pizza/m/8CPgEpyXo3",
+  "download_url": "https://static.poly.pizza/5babaca7-622c-4974-ba0b-e20f5a09e6ee.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "role": "9",
+  "animations": [],
+  "skinned": false,
+  "joints": 0,
+  "triangles": 612,
+  "vertices": 1194,
+  "meshes": 1,
+  "materials": 2,
+  "textures": 0,
+  "bbox": {
+   "raw_min": [
+    -0.003,
+    -0.001,
+    -0.002
+   ],
+   "raw_max": [
+    0.005,
+    0.001,
+    0.001
+   ],
+   "raw_size": [
+    0.008,
+    0.003,
+    0.003
+   ],
+   "root_scale": 100.0,
+   "approx_size": [
+    0.8,
+    0.3,
+    0.3
+   ]
+  },
+  "size_kb": 34,
+  "suggested_use": "9 静态触手道具"
+ },
+ {
+  "file": "prop_egg.glb",
+  "name": "Egg",
+  "source_url": "https://poly.pizza/m/ngjyRi84lk",
+  "download_url": "https://static.poly.pizza/b93932c4-96f0-45e7-bf05-fee371aaad09.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "role": "9",
+  "animations": [],
+  "skinned": false,
+  "joints": 0,
+  "triangles": 288,
+  "vertices": 576,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 0,
+  "bbox": {
+   "raw_min": [
+    -0.002,
+    -0.002,
+    0
+   ],
+   "raw_max": [
+    0.002,
+    0.002,
+    0.005
+   ],
+   "raw_size": [
+    0.004,
+    0.004,
+    0.005
+   ],
+   "root_scale": 100.0,
+   "approx_size": [
+    0.4,
+    0.4,
+    0.5
+   ]
+  },
+  "size_kb": 22,
+  "suggested_use": "9 虫卵(染色+自发光)"
+ },
+ {
+  "file": "prop_cobweb.glb",
+  "name": "Cobweb",
+  "source_url": "https://poly.pizza/m/EHYNWew6JK",
+  "download_url": "https://static.poly.pizza/51a602a6-76c9-4552-b48d-2950f91126d4.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "role": "9",
+  "animations": [],
+  "skinned": false,
+  "joints": 0,
+  "triangles": 1106,
+  "vertices": 2214,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 0,
+  "bbox": {
+   "raw_min": [
+    -0.006,
+    -0.008,
+    0
+   ],
+   "raw_max": [
+    0.006,
+    0.001,
+    0.007
+   ],
+   "raw_size": [
+    0.012,
+    0.009,
+    0.008
+   ],
+   "root_scale": 100.0,
+   "approx_size": [
+    1.2,
+    0.9,
+    0.8
+   ]
+  },
+  "size_kb": 60,
+  "suggested_use": "9 蛛网/菌毯装饰"
+ },
+ {
+  "file": "prop_worm_larva.glb",
+  "name": "Worm",
+  "source_url": "https://poly.pizza/m/KiNAaBa4cK",
+  "download_url": "https://static.poly.pizza/0d4fc83b-f3e5-42c9-a69d-90ebfef458f4.glb",
+  "author": "Quaternius",
+  "license": "CC0 1.0",
+  "role": "9",
+  "animations": [],
+  "skinned": false,
+  "joints": 0,
+  "triangles": 240,
+  "vertices": 516,
+  "meshes": 1,
+  "materials": 2,
+  "textures": 0,
+  "bbox": {
+   "raw_min": [
+    -0.001,
+    -0.001,
+    0
+   ],
+   "raw_max": [
+    0.001,
+    0.001,
+    0.002
+   ],
+   "raw_size": [
+    0.002,
+    0.002,
+    0.002
+   ],
+   "root_scale": 209.45,
+   "approx_size": [
+    0.42,
+    0.42,
+    0.42
+   ]
+  },
+  "size_kb": 16,
+  "suggested_use": "9 幼虫道具(240面)"
+ },
+ {
+  "file": "static_fly.glb",
+  "name": "Fly",
+  "source_url": "https://poly.pizza/m/kCLW4c0kGx",
+  "download_url": "https://static.poly.pizza/2eeae94c-7eae-452a-b0ea-838a37863498.glb",
+  "author": "Kohyzazi",
+  "license": "CC0 1.0",
+  "role": "7",
+  "animations": [],
+  "skinned": false,
+  "joints": 0,
+  "triangles": 1144,
+  "vertices": 2384,
+  "meshes": 1,
+  "materials": 3,
+  "textures": 0,
+  "bbox": {
+   "raw_min": [
+    -0.022,
+    -0.012,
+    -0.011
+   ],
+   "raw_max": [
+    0.023,
+    0.012,
+    0.022
+   ],
+   "raw_size": [
+    0.045,
+    0.024,
+    0.032
+   ],
+   "root_scale": 100.0,
+   "approx_size": [
+    4.5,
+    2.4,
+    3.2
+   ]
+  },
+  "size_kb": 85,
+  "suggested_use": "7 静态苍蝇(无动画，需程序化抖动)"
+ },
+ {
+  "file": "static_scorpion_a.glb",
+  "name": "Scorpion",
+  "source_url": "https://poly.pizza/m/6Bu7d_Pkm5o",
+  "download_url": "https://static.poly.pizza/0910d661-44e4-43d0-86d9-a55012e53949.glb",
+  "author": "Poly by Google",
+  "license": "CC-BY 3.0",
+  "role": "8",
+  "animations": [],
+  "skinned": false,
+  "joints": 0,
+  "triangles": 724,
+  "vertices": 1468,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "bbox": {
+   "raw_min": [
+    -35.067,
+    -18.93,
+    -57.872
+   ],
+   "raw_max": [
+    35.067,
+    18.93,
+    57.872
+   ],
+   "raw_size": [
+    70.134,
+    37.86,
+    115.744
+   ],
+   "root_scale": 1.0,
+   "approx_size": [
+    70.13,
+    37.86,
+    115.74
+   ]
+  },
+  "size_kb": 52,
+  "suggested_use": "8 静态蝎子(724面，带贴图)，无动画需程序化摆动"
+ },
+ {
+  "file": "static_scorpion_b.glb",
+  "name": "Scorpion",
+  "source_url": "https://poly.pizza/m/cJfrRPiSgA4",
+  "download_url": "https://static.poly.pizza/c1f59efd-5ba8-4259-9426-f9d1758b9313.glb",
+  "author": "jeremy",
+  "license": "CC-BY 3.0",
+  "role": "8",
+  "animations": [],
+  "skinned": false,
+  "joints": 0,
+  "triangles": 742,
+  "vertices": 1424,
+  "meshes": 1,
+  "materials": 2,
+  "textures": 0,
+  "bbox": {
+   "raw_min": [
+    -10.89,
+    -0.033,
+    -6.728
+   ],
+   "raw_max": [
+    14.763,
+    10.673,
+    6.728
+   ],
+   "raw_size": [
+    25.653,
+    10.706,
+    13.456
+   ],
+   "root_scale": 1.0,
+   "approx_size": [
+    25.65,
+    10.71,
+    13.46
+   ]
+  },
+  "size_kb": 40,
+  "suggested_use": "8 静态蝎子(742面)"
+ },
+ {
+  "file": "static_scorpion_hi.glb",
+  "name": "Scorpion",
+  "source_url": "https://poly.pizza/m/3_F1INBjger",
+  "download_url": "https://static.poly.pizza/3f6f9619-b49b-4bd7-8e34-bea5f3ac218a.glb",
+  "author": "Mik Byskov",
+  "license": "CC-BY 3.0",
+  "role": "8",
+  "animations": [],
+  "skinned": false,
+  "joints": 0,
+  "triangles": 9400,
+  "vertices": 19092,
+  "meshes": 1,
+  "materials": 3,
+  "textures": 0,
+  "bbox": {
+   "raw_min": [
+    -0.277,
+    -0.149,
+    -0.331
+   ],
+   "raw_max": [
+    0.272,
+    0.22,
+    0.235
+   ],
+   "raw_size": [
+    0.549,
+    0.369,
+    0.566
+   ],
+   "root_scale": 1.0,
+   "approx_size": [
+    0.55,
+    0.37,
+    0.57
+   ]
+  },
+  "size_kb": 506,
+  "suggested_use": "8 静态高模蝎子(9400面)，只适合少量精英"
+ },
+ {
+  "file": "static_beetle.glb",
+  "name": "Beetle",
+  "source_url": "https://poly.pizza/m/4yufxgZ1QQ2",
+  "download_url": "https://static.poly.pizza/3c130437-d1cb-48ee-86a6-0beeeb60f784.glb",
+  "author": "Poly by Google",
+  "license": "CC-BY 3.0",
+  "role": "3",
+  "animations": [],
+  "skinned": false,
+  "joints": 0,
+  "triangles": 904,
+  "vertices": 1776,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "bbox": {
+   "raw_min": [
+    -43.71,
+    -9.224,
+    -53.768
+   ],
+   "raw_max": [
+    43.71,
+    7.825,
+    53.879
+   ],
+   "raw_size": [
+    87.421,
+    17.05,
+    107.648
+   ],
+   "root_scale": 1.0,
+   "approx_size": [
+    87.42,
+    17.05,
+    107.65
+   ]
+  },
+  "size_kb": 63,
+  "suggested_use": "3 静态甲虫(904面)，程序化动画后可当甲壳虫群"
+ },
+ {
+  "file": "static_cockroach.glb",
+  "name": "Cockroach",
+  "source_url": "https://poly.pizza/m/eSCFQN_47V4",
+  "download_url": "https://static.poly.pizza/1a4aec55-200b-438c-90f2-293be4f0da09.glb",
+  "author": "Poly by Google",
+  "license": "CC-BY 3.0",
+  "role": "3/1",
+  "animations": [],
+  "skinned": false,
+  "joints": 0,
+  "triangles": 548,
+  "vertices": 1100,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "bbox": {
+   "raw_min": [
+    -48.335,
+    -5.926,
+    -36.126
+   ],
+   "raw_max": [
+    48.335,
+    4.921,
+    36.235
+   ],
+   "raw_size": [
+    96.671,
+    10.846,
+    72.361
+   ],
+   "root_scale": 1.0,
+   "approx_size": [
+    96.67,
+    10.85,
+    72.36
+   ]
+  },
+  "size_kb": 40,
+  "suggested_use": "3/1 静态蟑螂(548面)，极低面，适合实例化虫海"
+ },
+ {
+  "file": "static_centipede_a.glb",
+  "name": "Centipede",
+  "source_url": "https://poly.pizza/m/8C36B7L_2hR",
+  "download_url": "https://static.poly.pizza/9327363c-2475-4f8b-83fa-d131562a1f87.glb",
+  "author": "Poly by Google",
+  "license": "CC-BY 3.0",
+  "role": "8/2",
+  "animations": [],
+  "skinned": false,
+  "joints": 0,
+  "triangles": 1328,
+  "vertices": 2492,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "bbox": {
+   "raw_min": [
+    -11.932,
+    -1.043,
+    -32.263
+   ],
+   "raw_max": [
+    4.354,
+    1.096,
+    32.508
+   ],
+   "raw_size": [
+    16.285,
+    2.139,
+    64.772
+   ],
+   "root_scale": 1.0,
+   "approx_size": [
+    16.29,
+    2.14,
+    64.77
+   ]
+  },
+  "size_kb": 88,
+  "suggested_use": "8/2 静态蜈蚣"
+ },
+ {
+  "file": "static_centipede_b.glb",
+  "name": "Centipede",
+  "source_url": "https://poly.pizza/m/bH2awp4l6AE",
+  "download_url": "https://static.poly.pizza/2d6878f2-3e5f-435e-bc77-627cf4cffa25.glb",
+  "author": "Poly by Google",
+  "license": "CC-BY 3.0",
+  "role": "8/2",
+  "animations": [],
+  "skinned": false,
+  "joints": 0,
+  "triangles": 2556,
+  "vertices": 2127,
+  "meshes": 1,
+  "materials": 5,
+  "textures": 0,
+  "bbox": {
+   "raw_min": [
+    -297.959,
+    -12.675,
+    -47.19
+   ],
+   "raw_max": [
+    33.317,
+    13.69,
+    295.414
+   ],
+   "raw_size": [
+    331.276,
+    26.365,
+    342.604
+   ],
+   "root_scale": 1.0,
+   "approx_size": [
+    331.28,
+    26.36,
+    342.6
+   ]
+  },
+  "size_kb": 87,
+  "suggested_use": "8/2 静态蜈蚣"
+ },
+ {
+  "file": "static_ant.glb",
+  "name": "Ant",
+  "source_url": "https://poly.pizza/m/7v2EF8dZgtA",
+  "download_url": "https://static.poly.pizza/bcdd70c8-cd2c-4a23-869c-c625aa5be0db.glb",
+  "author": "Poly by Google",
+  "license": "CC-BY 3.0",
+  "role": "1",
+  "animations": [],
+  "skinned": false,
+  "joints": 0,
+  "triangles": 856,
+  "vertices": 1477,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "bbox": {
+   "raw_min": [
+    0.071,
+    0.001,
+    -0.358
+   ],
+   "raw_max": [
+    0.812,
+    0.46,
+    0.359
+   ],
+   "raw_size": [
+    0.741,
+    0.458,
+    0.717
+   ],
+   "root_scale": 1.0,
+   "approx_size": [
+    0.74,
+    0.46,
+    0.72
+   ]
+  },
+  "size_kb": 54,
+  "suggested_use": "1 静态蚂蚁(856面)，实例化虫海"
+ },
+ {
+  "file": "static_mantis.glb",
+  "name": "Praying Mantis",
+  "source_url": "https://poly.pizza/m/bm9Q0hKjcVC",
+  "download_url": "https://static.poly.pizza/0a5d1634-c36c-482d-8714-e59dd0a6d053.glb",
+  "author": "Lorenzo Cinalli",
+  "license": "CC-BY 3.0",
+  "role": "8",
+  "animations": [],
+  "skinned": false,
+  "joints": 0,
+  "triangles": 796,
+  "vertices": 2194,
+  "meshes": 1,
+  "materials": 3,
+  "textures": 0,
+  "bbox": {
+   "raw_min": [
+    -0.256,
+    -0.418,
+    -0.35
+   ],
+   "raw_max": [
+    0.37,
+    0.314,
+    0.473
+   ],
+   "raw_size": [
+    0.626,
+    0.733,
+    0.823
+   ],
+   "root_scale": 1.0,
+   "approx_size": [
+    0.63,
+    0.73,
+    0.82
+   ]
+  },
+  "size_kb": 59,
+  "suggested_use": "8 静态螳螂"
+ },
+ {
+  "file": "static_grasshopper.glb",
+  "name": "Grasshopper",
+  "source_url": "https://poly.pizza/m/3VFH5hQvI8R",
+  "download_url": "https://static.poly.pizza/44685ab8-7bc5-4d45-a1a1-3c3b9f0fe9b6.glb",
+  "author": "Poly by Google",
+  "license": "CC-BY 3.0",
+  "role": "1",
+  "animations": [],
+  "skinned": false,
+  "joints": 0,
+  "triangles": 2380,
+  "vertices": 2302,
+  "meshes": 1,
+  "materials": 9,
+  "textures": 0,
+  "bbox": {
+   "raw_min": [
+    -1.773,
+    -0.046,
+    -2.345
+   ],
+   "raw_max": [
+    1.773,
+    2.168,
+    3.043
+   ],
+   "raw_size": [
+    3.545,
+    2.214,
+    5.388
+   ],
+   "root_scale": 1.0,
+   "approx_size": [
+    3.54,
+    2.21,
+    5.39
+   ]
+  },
+  "size_kb": 67,
+  "suggested_use": "1 静态蚱蜢"
+ },
+ {
+  "file": "static_caterpillar.glb",
+  "name": "Caterpillar",
+  "source_url": "https://poly.pizza/m/64T47O5VHAB",
+  "download_url": "https://static.poly.pizza/47841971-357b-4532-af8e-ad367980ff16.glb",
+  "author": "Poly by Google",
+  "license": "CC-BY 3.0",
+  "role": "9",
+  "animations": [],
+  "skinned": false,
+  "joints": 0,
+  "triangles": 784,
+  "vertices": 432,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "bbox": {
+   "raw_min": [
+    -0.399,
+    -0.419,
+    -3.028
+   ],
+   "raw_max": [
+    0.399,
+    0.518,
+    0.494
+   ],
+   "raw_size": [
+    0.799,
+    0.937,
+    3.522
+   ],
+   "root_scale": 1.0,
+   "approx_size": [
+    0.8,
+    0.94,
+    3.52
+   ]
+  },
+  "size_kb": 1303,
+  "suggested_use": "9 静态毛虫/幼虫(贴图较大)"
+ },
+ {
+  "file": "static_wasp.glb",
+  "name": "Wasp",
+  "source_url": "https://poly.pizza/m/e-maR6CzcKc",
+  "download_url": "https://static.poly.pizza/a6206bac-5dc3-4474-94c2-5b29a870a062.glb",
+  "author": "Poly by Google",
+  "license": "CC-BY 3.0",
+  "role": "7",
+  "animations": [],
+  "skinned": false,
+  "joints": 0,
+  "triangles": 1680,
+  "vertices": 1525,
+  "meshes": 1,
+  "materials": 8,
+  "textures": 1,
+  "bbox": {
+   "raw_min": [
+    -1.397,
+    -1.285,
+    -4.621
+   ],
+   "raw_max": [
+    1.397,
+    1.215,
+    0.857
+   ],
+   "raw_size": [
+    2.794,
+    2.5,
+    5.478
+   ],
+   "root_scale": 1.0,
+   "approx_size": [
+    2.79,
+    2.5,
+    5.48
+   ]
+  },
+  "size_kb": 620,
+  "suggested_use": "7 静态黄蜂"
+ },
+ {
+  "file": "static_spider_small.glb",
+  "name": "Spider",
+  "source_url": "https://poly.pizza/m/7ky8XvFh9Wf",
+  "download_url": "https://static.poly.pizza/8275237b-360e-4c4e-97db-4cdf328a774e.glb",
+  "author": "jeremy",
+  "license": "CC-BY 3.0",
+  "role": "8",
+  "animations": [],
+  "skinned": false,
+  "joints": 0,
+  "triangles": 1080,
+  "vertices": 2248,
+  "meshes": 1,
+  "materials": 2,
+  "textures": 0,
+  "bbox": {
+   "raw_min": [
+    -163.833,
+    -0.577,
+    -207.058
+   ],
+   "raw_max": [
+    181.334,
+    191.818,
+    207.058
+   ],
+   "raw_size": [
+    345.167,
+    192.395,
+    414.116
+   ],
+   "root_scale": 1.0,
+   "approx_size": [
+    345.17,
+    192.4,
+    414.12
+   ]
+  },
+  "size_kb": 79,
+  "suggested_use": "8 静态低模蜘蛛(1080面)"
+ },
+ {
+  "file": "static_giant_spider_a.glb",
+  "name": "Giant Spider",
+  "source_url": "https://poly.pizza/m/cbFePDoI8yi",
+  "download_url": "https://static.poly.pizza/a7fb77a6-8425-4a68-8de1-c3b44ad2c281.glb",
+  "author": "Zane Brant",
+  "license": "CC-BY 3.0",
+  "role": "6/8",
+  "animations": [],
+  "skinned": false,
+  "joints": 0,
+  "triangles": 8128,
+  "vertices": 21388,
+  "meshes": 66,
+  "materials": 5,
+  "textures": 0,
+  "bbox": {
+   "raw_min": [
+    -1.395,
+    -0.352,
+    -1.239
+   ],
+   "raw_max": [
+    1.383,
+    0.3,
+    1.225
+   ],
+   "raw_size": [
+    2.778,
+    0.652,
+    2.463
+   ],
+   "root_scale": 1.0,
+   "approx_size": [
+    2.78,
+    0.65,
+    2.46
+   ]
+  },
+  "size_kb": 797,
+  "suggested_use": "6/8 静态巨型蜘蛛(8128面，66 个 mesh 需合并)，Boss 备选"
+ },
+ {
+  "file": "static_giant_spider_b.glb",
+  "name": "Giant Spider",
+  "source_url": "https://poly.pizza/m/9fqCbuOA75f",
+  "download_url": "https://static.poly.pizza/806dfcfa-600e-454d-ade6-2ae57b0ee15f.glb",
+  "author": "Thomas DR",
+  "license": "CC-BY 3.0",
+  "role": "6/8",
+  "animations": [],
+  "skinned": false,
+  "joints": 0,
+  "triangles": 15679,
+  "vertices": 32300,
+  "meshes": 49,
+  "materials": 7,
+  "textures": 0,
+  "bbox": {
+   "raw_min": [
+    -0.587,
+    -0.22,
+    -0.46
+   ],
+   "raw_max": [
+    0.659,
+    0.692,
+    0.641
+   ],
+   "raw_size": [
+    1.246,
+    0.912,
+    1.101
+   ],
+   "root_scale": 1.0,
+   "approx_size": [
+    1.25,
+    0.91,
+    1.1
+   ]
+  },
+  "size_kb": 1155,
+  "suggested_use": "6/8 静态巨型蜘蛛(15679面)"
+ },
+ {
+  "file": "static_boss_cthulhu_spider.glb",
+  "name": "Cthulhu Spider Guard",
+  "source_url": "https://poly.pizza/m/46w8bcXM21v",
+  "download_url": "https://static.poly.pizza/18c2f2e5-6623-4f61-8c75-e8ec16b00495.glb",
+  "author": "sirkitree",
+  "license": "CC-BY 3.0",
+  "role": "6",
+  "animations": [],
+  "skinned": false,
+  "joints": 0,
+  "triangles": 35392,
+  "vertices": 72830,
+  "meshes": 285,
+  "materials": 9,
+  "textures": 0,
+  "bbox": {
+   "raw_min": [
+    -2.164,
+    -1.204,
+    -1.036
+   ],
+   "raw_max": [
+    1.788,
+    1.186,
+    1.866
+   ],
+   "raw_size": [
+    3.952,
+    2.39,
+    2.902
+   ],
+   "root_scale": 1.0,
+   "approx_size": [
+    3.95,
+    2.39,
+    2.9
+   ]
+  },
+  "size_kb": 2909,
+  "suggested_use": "6 静态克苏鲁蜘蛛守卫(35392面/285 mesh/2.9MB，偏重，仅 Boss 备选)"
+ },
+ {
+  "file": "static_biomech_creature.glb",
+  "name": "Creature Bio-Mech - Base.1",
+  "source_url": "https://poly.pizza/m/9vAFsDAtFLm",
+  "download_url": "https://static.poly.pizza/d6a61b7c-cdd9-40ab-bc5c-de26e5b9afba.glb",
+  "author": "Yogoshimo 2.0",
+  "license": "CC-BY 3.0",
+  "role": "5",
+  "animations": [],
+  "skinned": false,
+  "joints": 0,
+  "triangles": 1418,
+  "vertices": 2912,
+  "meshes": 67,
+  "materials": 7,
+  "textures": 0,
+  "bbox": {
+   "raw_min": [
+    -0.138,
+    -0.157,
+    -0.622
+   ],
+   "raw_max": [
+    0.137,
+    0.214,
+    0.258
+   ],
+   "raw_size": [
+    0.276,
+    0.371,
+    0.88
+   ],
+   "root_scale": 1.0,
+   "approx_size": [
+    0.28,
+    0.37,
+    0.88
+   ]
+  },
+  "size_kb": 175,
+  "suggested_use": "5 静态生化机械生物"
+ },
+ {
+  "file": "prop_hive_turret.glb",
+  "name": "Hive Turret",
+  "source_url": "https://poly.pizza/m/l88QO02liG",
+  "download_url": "https://static.poly.pizza/1720a065-001e-4afe-817f-6f28b055e120.glb",
+  "author": "Zsky",
+  "license": "CC-BY 3.0",
+  "role": "9",
+  "animations": [],
+  "skinned": false,
+  "joints": 0,
+  "triangles": 664,
+  "vertices": 1906,
+  "meshes": 4,
+  "materials": 8,
+  "textures": 0,
+  "bbox": {
+   "raw_min": [
+    -0.011,
+    -0.011,
+    -0.007
+   ],
+   "raw_max": [
+    0.011,
+    0.011,
+    0.01
+   ],
+   "raw_size": [
+    0.023,
+    0.023,
+    0.018
+   ],
+   "root_scale": 100.0,
+   "approx_size": [
+    2.3,
+    2.3,
+    1.8
+   ]
+  },
+  "size_kb": 75,
+  "suggested_use": "9 虫巢炮塔/孢子塔道具"
+ },
+ {
+  "file": "prop_alien_plants.glb",
+  "name": "Alien Plants",
+  "source_url": "https://poly.pizza/m/9mt3W9nGky0",
+  "download_url": "https://static.poly.pizza/09501ad9-def8-4d58-93d2-d8eb2f8ec8cc.glb",
+  "author": "Alan Zimmerman",
+  "license": "CC-BY 3.0",
+  "role": "9",
+  "animations": [],
+  "skinned": false,
+  "joints": 0,
+  "triangles": 16232,
+  "vertices": 34827,
+  "meshes": 96,
+  "materials": 11,
+  "textures": 0,
+  "bbox": {
+   "raw_min": [
+    -0.927,
+    -0.739,
+    -0.995
+   ],
+   "raw_max": [
+    0.898,
+    2.331,
+    0.885
+   ],
+   "raw_size": [
+    1.824,
+    3.069,
+    1.88
+   ],
+   "root_scale": 1.0,
+   "approx_size": [
+    1.82,
+    3.07,
+    1.88
+   ]
+  },
+  "size_kb": 1289,
+  "suggested_use": "9 外星植物群(96 mesh)"
+ },
+ {
+  "file": "prop_tentacle_big.glb",
+  "name": "Tentacle",
+  "source_url": "https://poly.pizza/m/9m1NMRwGKPy",
+  "download_url": "https://static.poly.pizza/c5ee4dcc-e298-4084-8df9-e2630e8d73c8.glb",
+  "author": "Bill Baran (Sirkut)",
+  "license": "CC-BY 3.0",
+  "role": "9",
+  "animations": [],
+  "skinned": false,
+  "joints": 0,
+  "triangles": 12964,
+  "vertices": 25944,
+  "meshes": 45,
+  "materials": 3,
+  "textures": 0,
+  "bbox": {
+   "raw_min": [
+    -0.161,
+    -0.623,
+    -0.498
+   ],
+   "raw_max": [
+    0.246,
+    0.402,
+    0.521
+   ],
+   "raw_size": [
+    0.407,
+    1.024,
+    1.019
+   ],
+   "root_scale": 1.0,
+   "approx_size": [
+    0.41,
+    1.02,
+    1.02
+   ]
+  },
+  "size_kb": 953,
+  "suggested_use": "9 大触手雕塑(12964面)"
+ },
+ {
+  "file": "prop_egg_textured.glb",
+  "name": "Egg",
+  "source_url": "https://poly.pizza/m/6IlWtCejyrO",
+  "download_url": "https://static.poly.pizza/3877c9c8-ee78-42a6-be75-d80c15177a72.glb",
+  "author": "Poly by Google",
+  "license": "CC-BY 3.0",
+  "role": "9",
+  "animations": [],
+  "skinned": false,
+  "joints": 0,
+  "triangles": 528,
+  "vertices": 323,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "bbox": {
+   "raw_min": [
+    -46.109,
+    0,
+    -46.109
+   ],
+   "raw_max": [
+    46.109,
+    120.317,
+    46.109
+   ],
+   "raw_size": [
+    92.219,
+    120.317,
+    92.219
+   ],
+   "root_scale": 1.0,
+   "approx_size": [
+    92.22,
+    120.32,
+    92.22
+   ]
+  },
+  "size_kb": 12,
+  "suggested_use": "9 带贴图的卵"
+ }
+]

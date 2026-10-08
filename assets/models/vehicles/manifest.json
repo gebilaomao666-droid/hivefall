@@ -1,0 +1,5172 @@
+[
+ {
+  "file": "aaroncliffor_hover-battler-sparrow_egrz.glb",
+  "name": "Hover Battler: Sparrow",
+  "source_url": "https://poly.pizza/m/eGrzfhSGpOg",
+  "download_url": "https://static.poly.pizza/aba0f8db-b90d-4f01-bae0-b8dbbe3e81f1.glb",
+  "author": "Aaron Clifford (via poly.pizza)",
+  "license": "CC-BY 3.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.248,
+    -0.09,
+    -0.297
+   ],
+   "max": [
+    0.247,
+    0.116,
+    0.272
+   ],
+   "size": [
+    0.495,
+    0.206,
+    0.57
+   ]
+  },
+  "size_kb": 149,
+  "meshes": 1,
+  "materials": 6,
+  "textures": 0,
+  "triangles": 2664,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "Node"
+  ],
+  "suggested_use": "武装直升机/炮艇"
+ },
+ {
+  "file": "aaroncliffor_hover-fighter-beetle_9tea.glb",
+  "name": "Hover Fighter: Beetle",
+  "source_url": "https://poly.pizza/m/9teac58P9uv",
+  "download_url": "https://static.poly.pizza/ac2bbb0b-b29e-45a9-88aa-1db6e4d52278.glb",
+  "author": "Aaron Clifford (via poly.pizza)",
+  "license": "CC-BY 3.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.309,
+    -0.119,
+    -0.533
+   ],
+   "max": [
+    0.306,
+    0.195,
+    0.287
+   ],
+   "size": [
+    0.616,
+    0.314,
+    0.82
+   ]
+  },
+  "size_kb": 97,
+  "meshes": 1,
+  "materials": 4,
+  "textures": 0,
+  "triangles": 1716,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "Node"
+  ],
+  "suggested_use": "战斗机/空袭飞过"
+ },
+ {
+  "file": "aaroncliffor_hover-tank-2049_au53.glb",
+  "name": "Hover Tank 2049",
+  "source_url": "https://poly.pizza/m/aU53_s3KlI9",
+  "download_url": "https://static.poly.pizza/46b5550c-1daa-43d2-ada2-44d6c058a2ba.glb",
+  "author": "Aaron Clifford (via poly.pizza)",
+  "license": "CC-BY 3.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.254,
+    -0.285,
+    -0.646
+   ],
+   "max": [
+    0.261,
+    0.158,
+    0.211
+   ],
+   "size": [
+    0.515,
+    0.443,
+    0.858
+   ]
+  },
+  "size_kb": 116,
+  "meshes": 9,
+  "materials": 6,
+  "textures": 0,
+  "triangles": 1576,
+  "nodes": 9,
+  "skinned": false,
+  "node_names": [
+   "group1538145713",
+   "group164901870",
+   "group124758516",
+   "group129962282",
+   "group126274961",
+   "group1426099263",
+   "group1720164203",
+   "group714026519",
+   "group2122038685"
+  ],
+  "suggested_use": "坦克/重型地面单位增援"
+ },
+ {
+  "file": "aaroncliffor_raptor-heavy-planetary-crawler_7lan.glb",
+  "name": "Raptor Heavy Planetary Crawler",
+  "source_url": "https://poly.pizza/m/7LaNwmDsbUC",
+  "download_url": "https://static.poly.pizza/5e7aee0d-6be9-493d-815d-cbac47399809.glb",
+  "author": "Aaron Clifford (via poly.pizza)",
+  "license": "CC-BY 3.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.438,
+    -0.683,
+    -1.007
+   ],
+   "max": [
+    0.512,
+    0.607,
+    0.913
+   ],
+   "size": [
+    0.95,
+    1.29,
+    1.92
+   ]
+  },
+  "size_kb": 319,
+  "meshes": 41,
+  "materials": 11,
+  "textures": 0,
+  "triangles": 3754,
+  "nodes": 41,
+  "skinned": false,
+  "node_names": [
+   "group1612320968",
+   "group747399354",
+   "group1357657435",
+   "group1128767216",
+   "group1122719341",
+   "group1981983796",
+   "group158464971",
+   "group1697866698",
+   "group2040692919",
+   "group503614074",
+   "group1747796824",
+   "group1804931003"
+  ],
+  "suggested_use": "坦克/重型地面单位增援"
+ },
+ {
+  "file": "aaroncliffor_stinger-drone_6cuq.glb",
+  "name": "Stinger Drone",
+  "source_url": "https://poly.pizza/m/6CUQX98vha4",
+  "download_url": "https://static.poly.pizza/298bd901-cb15-4d7a-b73f-c4f669dd0204.glb",
+  "author": "Aaron Clifford (via poly.pizza)",
+  "license": "CC-BY 3.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.519,
+    -0.406,
+    -0.635
+   ],
+   "max": [
+    0.845,
+    0.282,
+    0.639
+   ],
+   "size": [
+    1.364,
+    0.688,
+    1.274
+   ]
+  },
+  "size_kb": 93,
+  "meshes": 7,
+  "materials": 6,
+  "textures": 0,
+  "triangles": 1132,
+  "nodes": 7,
+  "skinned": false,
+  "node_names": [
+   "group1129617186",
+   "group900292859",
+   "group1173527014",
+   "group1927891841",
+   "group964036273",
+   "group602833473",
+   "group1977848737"
+  ],
+  "suggested_use": "无人机/浮空单位"
+ },
+ {
+  "file": "hatmyguy_rocket_9aww.glb",
+  "name": "Rocket",
+  "source_url": "https://poly.pizza/m/9awwTQWYux",
+  "download_url": "https://static.poly.pizza/244c027c-40f0-45ca-a707-0f8e855c9831.glb",
+  "author": "hat_my_guy (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -2.537,
+    -9.209,
+    -2.529
+   ],
+   "max": [
+    2.324,
+    2.308,
+    2.365
+   ],
+   "size": [
+    4.862,
+    11.517,
+    4.894
+   ]
+  },
+  "size_kb": 62,
+  "meshes": 1,
+  "materials": 4,
+  "textures": 0,
+  "triangles": 842,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "Cone"
+  ],
+  "suggested_use": "导弹/炸弹/弹药"
+ },
+ {
+  "file": "jacquesfouri_colored-freighter_d0p6.glb",
+  "name": "Colored Freighter",
+  "source_url": "https://poly.pizza/m/d0P6-jqeIzK",
+  "download_url": "https://static.poly.pizza/1bc3121e-0af1-4d78-aa79-6b13efad3228.glb",
+  "author": "Jacques Fourie (via poly.pizza)",
+  "license": "CC-BY 3.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -1.085,
+    -0.732,
+    -2.139
+   ],
+   "max": [
+    1.094,
+    0.778,
+    1.509
+   ],
+   "size": [
+    2.179,
+    1.51,
+    3.648
+   ]
+  },
+  "size_kb": 2999,
+  "meshes": 1,
+  "materials": 11,
+  "textures": 0,
+  "triangles": 47206,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "group122676374"
+  ],
+  "suggested_use": "大型战舰/母舰候选（轨道战舰支援技能）"
+ },
+ {
+  "file": "jakersh_spaceship-warship_2le6.glb",
+  "name": "Spaceship - Warship",
+  "source_url": "https://poly.pizza/m/2lE6-8XYXDC",
+  "download_url": "https://static.poly.pizza/a8da587e-a7c9-4229-b5f5-d5857f6eefcd.glb",
+  "author": "Jakers_H (via poly.pizza)",
+  "license": "CC-BY 3.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -2.153,
+    -0.69,
+    -1.288
+   ],
+   "max": [
+    2.23,
+    2.26,
+    1.497
+   ],
+   "size": [
+    4.383,
+    2.95,
+    2.786
+   ]
+  },
+  "size_kb": 2221,
+  "meshes": 219,
+  "materials": 16,
+  "textures": 0,
+  "triangles": 26950,
+  "nodes": 219,
+  "skinned": false,
+  "node_names": [
+   "group478543259",
+   "group482358296",
+   "group1514928264",
+   "group391101196",
+   "group46044107",
+   "group37457039",
+   "group2054099699",
+   "group530513868",
+   "group1704934986",
+   "group1287906724",
+   "group703880086",
+   "group728703381"
+  ],
+  "suggested_use": "大型战舰/母舰候选（轨道战舰支援技能）"
+ },
+ {
+  "file": "jarlanperez_missile_1xid.glb",
+  "name": "Missile",
+  "source_url": "https://poly.pizza/m/1Xid2Qhqn2s",
+  "download_url": "https://static.poly.pizza/bae77cff-57c6-4cb4-8ccf-7bc61a9b1d20.glb",
+  "author": "Jarlan Perez (via poly.pizza)",
+  "license": "CC-BY 3.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.825,
+    -1.975,
+    -0.818
+   ],
+   "max": [
+    0.765,
+    2.995,
+    0.782
+   ],
+   "size": [
+    1.59,
+    4.97,
+    1.6
+   ]
+  },
+  "size_kb": 20,
+  "meshes": 1,
+  "materials": 4,
+  "textures": 0,
+  "triangles": 656,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "Node"
+  ],
+  "suggested_use": "导弹/炸弹/弹药"
+ },
+ {
+  "file": "kaylousberg_lander-a_tvas.glb",
+  "name": "Lander A",
+  "source_url": "https://poly.pizza/m/TVASj3JcDO",
+  "download_url": "https://static.poly.pizza/5379a0b6-95ee-40c8-8468-ce23bde03e68.glb",
+  "author": "Kay Lousberg (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.672,
+    0,
+    -0.672
+   ],
+   "max": [
+    0.7,
+    1.192,
+    0.75
+   ],
+   "size": [
+    1.372,
+    1.192,
+    1.422
+   ]
+  },
+  "size_kb": 106,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 1464,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "lander_A"
+  ],
+  "suggested_use": "运输船/运输车"
+ },
+ {
+  "file": "kaylousberg_lander-b_ypz2.glb",
+  "name": "Lander B",
+  "source_url": "https://poly.pizza/m/YPZ2B9ao7L",
+  "download_url": "https://static.poly.pizza/84d01227-6094-45ae-a77f-6ecb1995d86d.glb",
+  "author": "Kay Lousberg (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.672,
+    0,
+    -0.672
+   ],
+   "max": [
+    0.7,
+    1.095,
+    0.75
+   ],
+   "size": [
+    1.372,
+    1.095,
+    1.422
+   ]
+  },
+  "size_kb": 96,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 1208,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "lander_B"
+  ],
+  "suggested_use": "运输船/运输车"
+ },
+ {
+  "file": "kaylousberg_space-truck-trailer_cfea.glb",
+  "name": "Space Truck Trailer",
+  "source_url": "https://poly.pizza/m/CFEAQQPh54",
+  "download_url": "https://static.poly.pizza/1956e948-1549-4c03-acd7-7fa6d6c697ba.glb",
+  "author": "Kay Lousberg (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -4.24,
+    -0.143,
+    -0.5
+   ],
+   "max": [
+    -3.76,
+    0.195,
+    0.5
+   ],
+   "size": [
+    0.48,
+    0.338,
+    1
+   ]
+  },
+  "size_kb": 66,
+  "meshes": 5,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 824,
+  "nodes": 6,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "spacetruck_trailer",
+   "spacetruck_trailer_wheel_front_left",
+   "spacetruck_trailer_wheel_rear_left",
+   "spacetruck_trailer_wheel_front_right",
+   "spacetruck_trailer_wheel_rear_right"
+  ],
+  "suggested_use": "运输船/运输车"
+ },
+ {
+  "file": "kaylousberg_space-truck_jjka.glb",
+  "name": "Space Truck",
+  "source_url": "https://poly.pizza/m/JjkaDreRBc",
+  "download_url": "https://static.poly.pizza/2aa1ee49-eaad-41eb-a770-b3be28ffea1f.glb",
+  "author": "Kay Lousberg (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -2.245,
+    -0.078,
+    -0.446
+   ],
+   "max": [
+    -1.755,
+    0.488,
+    0.448
+   ],
+   "size": [
+    0.489,
+    0.566,
+    0.893
+   ]
+  },
+  "size_kb": 82,
+  "meshes": 5,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 1118,
+  "nodes": 6,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "spacetruck",
+   "spacetruck_wheel_front_left",
+   "spacetruck_wheel_rear_left",
+   "spacetruck_wheel_front_right",
+   "spacetruck_wheel_rear_right"
+  ],
+  "suggested_use": "运输船/运输车"
+ },
+ {
+  "file": "kenney-blaster_crate-medium.glb",
+  "name": "crate-medium",
+  "source_url": "https://kenney.nl/assets/blaster-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [
+   {
+    "name": "open",
+    "duration": 0.6
+   },
+   {
+    "name": "close",
+    "duration": 1
+   },
+   {
+    "name": "open-close",
+    "duration": 2
+   }
+  ],
+  "bbox": {
+   "min": [
+    -0.28,
+    -0.02,
+    -0.5
+   ],
+   "max": [
+    0.27,
+    0.35,
+    0.5
+   ],
+   "size": [
+    0.55,
+    0.37,
+    1
+   ]
+  },
+  "size_kb": 68,
+  "meshes": 2,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 628,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "crate-medium",
+   "lid"
+  ],
+  "suggested_use": "空投舱/补给箱/拾取物"
+ },
+ {
+  "file": "kenney-blaster_crate-small.glb",
+  "name": "crate-small",
+  "source_url": "https://kenney.nl/assets/blaster-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [
+   {
+    "name": "open",
+    "duration": 0.6
+   },
+   {
+    "name": "close",
+    "duration": 1
+   },
+   {
+    "name": "open-close",
+    "duration": 2
+   }
+  ],
+  "bbox": {
+   "min": [
+    -0.28,
+    -0.02,
+    -0.4
+   ],
+   "max": [
+    0.27,
+    0.35,
+    0.4
+   ],
+   "size": [
+    0.55,
+    0.37,
+    0.8
+   ]
+  },
+  "size_kb": 68,
+  "meshes": 2,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 628,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "crate-small",
+   "lid"
+  ],
+  "suggested_use": "空投舱/补给箱/拾取物"
+ },
+ {
+  "file": "kenney-blaster_crate-wide.glb",
+  "name": "crate-wide",
+  "source_url": "https://kenney.nl/assets/blaster-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [
+   {
+    "name": "open",
+    "duration": 0.6
+   },
+   {
+    "name": "close",
+    "duration": 1
+   },
+   {
+    "name": "open-close",
+    "duration": 2
+   }
+  ],
+  "bbox": {
+   "min": [
+    -0.28,
+    -0.02,
+    -0.6
+   ],
+   "max": [
+    0.27,
+    0.35,
+    0.6
+   ],
+   "size": [
+    0.55,
+    0.37,
+    1.2
+   ]
+  },
+  "size_kb": 68,
+  "meshes": 2,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 628,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "crate-wide",
+   "lid"
+  ],
+  "suggested_use": "空投舱/补给箱/拾取物"
+ },
+ {
+  "file": "kenney-blaster_grenade-a.glb",
+  "name": "grenade-a",
+  "source_url": "https://kenney.nl/assets/blaster-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.099,
+    0,
+    -0.09
+   ],
+   "max": [
+    0.07,
+    0.238,
+    0.07
+   ],
+   "size": [
+    0.169,
+    0.238,
+    0.16
+   ]
+  },
+  "size_kb": 29,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 200,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "grenade-a"
+  ],
+  "suggested_use": "导弹/炸弹/弹药"
+ },
+ {
+  "file": "kenney-blaster_grenade-b.glb",
+  "name": "grenade-b",
+  "source_url": "https://kenney.nl/assets/blaster-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.09,
+    0,
+    -0.113
+   ],
+   "max": [
+    0.09,
+    0.211,
+    0.09
+   ],
+   "size": [
+    0.18,
+    0.211,
+    0.203
+   ]
+  },
+  "size_kb": 26,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 154,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "grenade-b"
+  ],
+  "suggested_use": "导弹/炸弹/弹药"
+ },
+ {
+  "file": "kenney-space_craft-cargoa.glb",
+  "name": "craft_cargoA",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.2,
+    0,
+    0.275
+   ],
+   "max": [
+    2.8,
+    0.8,
+    2.725
+   ],
+   "size": [
+    1.6,
+    0.8,
+    2.45
+   ]
+  },
+  "size_kb": 19,
+  "meshes": 1,
+  "materials": 4,
+  "textures": 0,
+  "triangles": 264,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "craft_cargoA"
+  ],
+  "suggested_use": "运输船/运输车"
+ },
+ {
+  "file": "kenney-space_craft-cargob.glb",
+  "name": "craft_cargoB",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.25,
+    0,
+    0.25
+   ],
+   "max": [
+    2.75,
+    0.9,
+    2.75
+   ],
+   "size": [
+    1.5,
+    0.9,
+    2.5
+   ]
+  },
+  "size_kb": 26,
+  "meshes": 1,
+  "materials": 4,
+  "textures": 0,
+  "triangles": 380,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "craft_cargoB"
+  ],
+  "suggested_use": "运输船/运输车"
+ },
+ {
+  "file": "kenney-space_craft-miner.glb",
+  "name": "craft_miner",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.1,
+    0,
+    0.2
+   ],
+   "max": [
+    2.9,
+    0.7,
+    2.8
+   ],
+   "size": [
+    1.8,
+    0.7,
+    2.6
+   ]
+  },
+  "size_kb": 26,
+  "meshes": 1,
+  "materials": 4,
+  "textures": 0,
+  "triangles": 384,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "craft_miner"
+  ],
+  "suggested_use": "运输船/运输车"
+ },
+ {
+  "file": "kenney-space_craft-racer.glb",
+  "name": "craft_racer",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.4,
+    0,
+    0.487
+   ],
+   "max": [
+    2.6,
+    0.75,
+    2.513
+   ],
+   "size": [
+    1.2,
+    0.75,
+    2.026
+   ]
+  },
+  "size_kb": 19,
+  "meshes": 1,
+  "materials": 4,
+  "textures": 0,
+  "triangles": 280,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "craft_racer"
+  ],
+  "suggested_use": "战斗机/空袭飞过"
+ },
+ {
+  "file": "kenney-space_craft-speedera.glb",
+  "name": "craft_speederA",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1,
+    0,
+    0.45
+   ],
+   "max": [
+    3,
+    0.8,
+    2.55
+   ],
+   "size": [
+    2,
+    0.8,
+    2.1
+   ]
+  },
+  "size_kb": 20,
+  "meshes": 1,
+  "materials": 4,
+  "textures": 0,
+  "triangles": 280,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "craft_speederA"
+  ],
+  "suggested_use": "战斗机/空袭飞过"
+ },
+ {
+  "file": "kenney-space_craft-speederb.glb",
+  "name": "craft_speederB",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1,
+    0,
+    0.487
+   ],
+   "max": [
+    3,
+    0.6,
+    2.513
+   ],
+   "size": [
+    2,
+    0.6,
+    2.026
+   ]
+  },
+  "size_kb": 19,
+  "meshes": 1,
+  "materials": 4,
+  "textures": 0,
+  "triangles": 270,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "craft_speederB"
+  ],
+  "suggested_use": "战斗机/空袭飞过"
+ },
+ {
+  "file": "kenney-space_craft-speederc.glb",
+  "name": "craft_speederC",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    0.6,
+    0,
+    0.537
+   ],
+   "max": [
+    3.4,
+    0.6,
+    2.463
+   ],
+   "size": [
+    2.8,
+    0.6,
+    1.926
+   ]
+  },
+  "size_kb": 20,
+  "meshes": 1,
+  "materials": 4,
+  "textures": 0,
+  "triangles": 292,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "craft_speederC"
+  ],
+  "suggested_use": "战斗机/空袭飞过"
+ },
+ {
+  "file": "kenney-space_craft-speederd.glb",
+  "name": "craft_speederD",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    0.6,
+    0,
+    0.387
+   ],
+   "max": [
+    3.4,
+    0.9,
+    2.613
+   ],
+   "size": [
+    2.8,
+    0.9,
+    2.226
+   ]
+  },
+  "size_kb": 22,
+  "meshes": 1,
+  "materials": 4,
+  "textures": 0,
+  "triangles": 322,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "craft_speederD"
+  ],
+  "suggested_use": "战斗机/空袭飞过"
+ },
+ {
+  "file": "kenney-space_monorail-trainbox.glb",
+  "name": "monorail_trainBox",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.75,
+    0,
+    1
+   ],
+   "max": [
+    2.25,
+    0.8,
+    2
+   ],
+   "size": [
+    0.5,
+    0.8,
+    1
+   ]
+  },
+  "size_kb": 8,
+  "meshes": 1,
+  "materials": 3,
+  "textures": 0,
+  "triangles": 100,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "monorail_trainBox"
+  ],
+  "suggested_use": "空投舱/补给箱/拾取物"
+ },
+ {
+  "file": "kenney-space_monorail-traincargo.glb",
+  "name": "monorail_trainCargo",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.75,
+    0,
+    1
+   ],
+   "max": [
+    2.25,
+    0.64,
+    2
+   ],
+   "size": [
+    0.5,
+    0.64,
+    1
+   ]
+  },
+  "size_kb": 50,
+  "meshes": 2,
+  "materials": 5,
+  "textures": 0,
+  "triangles": 816,
+  "nodes": 3,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "monorail_trainCargo",
+   "load"
+  ],
+  "suggested_use": "运输船/运输车"
+ },
+ {
+  "file": "kenney-space_monorail-trainend.glb",
+  "name": "monorail_trainEnd",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.75,
+    0,
+    1
+   ],
+   "max": [
+    2.25,
+    0.8,
+    2
+   ],
+   "size": [
+    0.5,
+    0.8,
+    1
+   ]
+  },
+  "size_kb": 13,
+  "meshes": 1,
+  "materials": 4,
+  "textures": 0,
+  "triangles": 190,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "monorail_trainEnd"
+  ],
+  "suggested_use": "护栏/路障"
+ },
+ {
+  "file": "kenney-space_monorail-trainflat.glb",
+  "name": "monorail_trainFlat",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.75,
+    0,
+    1
+   ],
+   "max": [
+    2.25,
+    0.25,
+    2
+   ],
+   "size": [
+    0.5,
+    0.25,
+    1
+   ]
+  },
+  "size_kb": 7,
+  "meshes": 1,
+  "materials": 3,
+  "textures": 0,
+  "triangles": 84,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "monorail_trainFlat"
+  ],
+  "suggested_use": "护栏/路障"
+ },
+ {
+  "file": "kenney-space_monorail-trainfront.glb",
+  "name": "monorail_trainFront",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.7,
+    0,
+    0.95
+   ],
+   "max": [
+    2.3,
+    0.8,
+    2
+   ],
+   "size": [
+    0.6,
+    0.8,
+    1.05
+   ]
+  },
+  "size_kb": 17,
+  "meshes": 1,
+  "materials": 3,
+  "textures": 0,
+  "triangles": 242,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "monorail_trainFront"
+  ],
+  "suggested_use": "护栏/路障"
+ },
+ {
+  "file": "kenney-space_monorail-trainpassenger.glb",
+  "name": "monorail_trainPassenger",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.75,
+    0,
+    1
+   ],
+   "max": [
+    2.25,
+    0.8,
+    2
+   ],
+   "size": [
+    0.5,
+    0.8,
+    1
+   ]
+  },
+  "size_kb": 12,
+  "meshes": 1,
+  "materials": 4,
+  "textures": 0,
+  "triangles": 164,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "monorail_trainPassenger"
+  ],
+  "suggested_use": "护栏/路障"
+ },
+ {
+  "file": "kenney-space_rocket-basea.glb",
+  "name": "rocket_baseA",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.1,
+    0,
+    0.6
+   ],
+   "max": [
+    2.9,
+    1.6,
+    2.4
+   ],
+   "size": [
+    1.8,
+    1.6,
+    1.8
+   ]
+  },
+  "size_kb": 21,
+  "meshes": 1,
+  "materials": 3,
+  "textures": 0,
+  "triangles": 300,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "rocket_baseA"
+  ],
+  "suggested_use": "导弹/炸弹/弹药"
+ },
+ {
+  "file": "kenney-space_rocket-baseb.glb",
+  "name": "rocket_baseB",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.1,
+    0,
+    0.6
+   ],
+   "max": [
+    2.9,
+    1.3,
+    2.4
+   ],
+   "size": [
+    1.8,
+    1.3,
+    1.8
+   ]
+  },
+  "size_kb": 20,
+  "meshes": 1,
+  "materials": 3,
+  "textures": 0,
+  "triangles": 284,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "rocket_baseB"
+  ],
+  "suggested_use": "导弹/炸弹/弹药"
+ },
+ {
+  "file": "kenney-space_rocket-finsa.glb",
+  "name": "rocket_finsA",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.4,
+    0,
+    0.9
+   ],
+   "max": [
+    2.6,
+    0.7,
+    2.1
+   ],
+   "size": [
+    1.2,
+    0.7,
+    1.2
+   ]
+  },
+  "size_kb": 13,
+  "meshes": 1,
+  "materials": 3,
+  "textures": 0,
+  "triangles": 192,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "rocket_finsA"
+  ],
+  "suggested_use": "导弹/炸弹/弹药"
+ },
+ {
+  "file": "kenney-space_rocket-finsb.glb",
+  "name": "rocket_finsB",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.4,
+    0,
+    0.9
+   ],
+   "max": [
+    2.6,
+    0.7,
+    2.1
+   ],
+   "size": [
+    1.2,
+    0.7,
+    1.2
+   ]
+  },
+  "size_kb": 16,
+  "meshes": 1,
+  "materials": 3,
+  "textures": 0,
+  "triangles": 249,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "rocket_finsB"
+  ],
+  "suggested_use": "导弹/炸弹/弹药"
+ },
+ {
+  "file": "kenney-space_rocket-fuela.glb",
+  "name": "rocket_fuelA",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.5,
+    0,
+    1
+   ],
+   "max": [
+    2.5,
+    0.5,
+    2
+   ],
+   "size": [
+    1,
+    0.5,
+    1
+   ]
+  },
+  "size_kb": 7,
+  "meshes": 1,
+  "materials": 2,
+  "textures": 0,
+  "triangles": 94,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "rocket_fuelA"
+  ],
+  "suggested_use": "导弹/炸弹/弹药"
+ },
+ {
+  "file": "kenney-space_rocket-fuelb.glb",
+  "name": "rocket_fuelB",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.5,
+    0,
+    1
+   ],
+   "max": [
+    2.5,
+    1,
+    2
+   ],
+   "size": [
+    1,
+    1,
+    1
+   ]
+  },
+  "size_kb": 8,
+  "meshes": 1,
+  "materials": 2,
+  "textures": 0,
+  "triangles": 130,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "rocket_fuelB"
+  ],
+  "suggested_use": "导弹/炸弹/弹药"
+ },
+ {
+  "file": "kenney-space_rocket-sidesa.glb",
+  "name": "rocket_sidesA",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.5,
+    0,
+    1
+   ],
+   "max": [
+    2.5,
+    1,
+    2
+   ],
+   "size": [
+    1,
+    1,
+    1
+   ]
+  },
+  "size_kb": 14,
+  "meshes": 1,
+  "materials": 3,
+  "textures": 0,
+  "triangles": 222,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "rocket_sidesA"
+  ],
+  "suggested_use": "导弹/炸弹/弹药"
+ },
+ {
+  "file": "kenney-space_rocket-sidesb.glb",
+  "name": "rocket_sidesB",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.35,
+    0,
+    0.85
+   ],
+   "max": [
+    2.65,
+    1,
+    2.15
+   ],
+   "size": [
+    1.3,
+    1,
+    1.3
+   ]
+  },
+  "size_kb": 13,
+  "meshes": 1,
+  "materials": 3,
+  "textures": 0,
+  "triangles": 206,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "rocket_sidesB"
+  ],
+  "suggested_use": "导弹/炸弹/弹药"
+ },
+ {
+  "file": "kenney-space_rocket-topa.glb",
+  "name": "rocket_topA",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.5,
+    0,
+    1
+   ],
+   "max": [
+    2.5,
+    0.8,
+    2
+   ],
+   "size": [
+    1,
+    0.8,
+    1
+   ]
+  },
+  "size_kb": 6,
+  "meshes": 1,
+  "materials": 4,
+  "textures": 0,
+  "triangles": 50,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "rocket_topA"
+  ],
+  "suggested_use": "导弹/炸弹/弹药"
+ },
+ {
+  "file": "kenney-space_rocket-topb.glb",
+  "name": "rocket_topB",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.5,
+    0,
+    1
+   ],
+   "max": [
+    2.5,
+    1.1,
+    2
+   ],
+   "size": [
+    1,
+    1.1,
+    1
+   ]
+  },
+  "size_kb": 8,
+  "meshes": 1,
+  "materials": 3,
+  "textures": 0,
+  "triangles": 82,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "rocket_topB"
+  ],
+  "suggested_use": "导弹/炸弹/弹药"
+ },
+ {
+  "file": "kenney-space_rover.glb",
+  "name": "rover",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.85,
+    0.007,
+    1.325
+   ],
+   "max": [
+    2.15,
+    0.392,
+    1.675
+   ],
+   "size": [
+    0.3,
+    0.385,
+    0.35
+   ]
+  },
+  "size_kb": 13,
+  "meshes": 1,
+  "materials": 4,
+  "textures": 0,
+  "triangles": 172,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "rover"
+  ],
+  "suggested_use": "装甲车/轻型载具"
+ },
+ {
+  "file": "kenney-space_turret-double.glb",
+  "name": "turret_double",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.55,
+    0,
+    1.2
+   ],
+   "max": [
+    2.45,
+    0.7,
+    1.8
+   ],
+   "size": [
+    0.9,
+    0.7,
+    0.6
+   ]
+  },
+  "size_kb": 49,
+  "meshes": 2,
+  "materials": 4,
+  "textures": 0,
+  "triangles": 876,
+  "nodes": 3,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "turret_double",
+   "turret"
+  ],
+  "suggested_use": "炮塔/攻城炮/固定火力"
+ },
+ {
+  "file": "kenney-space_turret-single.glb",
+  "name": "turret_single",
+  "source_url": "https://kenney.nl/assets/space-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    1.7,
+    0,
+    1.128
+   ],
+   "max": [
+    2.3,
+    0.9,
+    1.85
+   ],
+   "size": [
+    0.6,
+    0.9,
+    0.722
+   ]
+  },
+  "size_kb": 38,
+  "meshes": 4,
+  "materials": 4,
+  "textures": 0,
+  "triangles": 576,
+  "nodes": 5,
+  "skinned": false,
+  "node_names": [
+   "tmpParent",
+   "turret_single",
+   "turret",
+   "Group",
+   "Group"
+  ],
+  "suggested_use": "炮塔/攻城炮/固定火力"
+ },
+ {
+  "file": "kenney-survival_box-large-open.glb",
+  "name": "box-large-open",
+  "source_url": "https://kenney.nl/assets/survival-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.125,
+    0,
+    -0.25
+   ],
+   "max": [
+    0.125,
+    0.306,
+    0.25
+   ],
+   "size": [
+    0.25,
+    0.306,
+    0.5
+   ]
+  },
+  "size_kb": 24,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 156,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "box-large-open"
+  ],
+  "suggested_use": "空投舱/补给箱/拾取物"
+ },
+ {
+  "file": "kenney-survival_box-large.glb",
+  "name": "box-large",
+  "source_url": "https://kenney.nl/assets/survival-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.125,
+    0,
+    -0.25
+   ],
+   "max": [
+    0.125,
+    0.25,
+    0.25
+   ],
+   "size": [
+    0.25,
+    0.25,
+    0.5
+   ]
+  },
+  "size_kb": 21,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 124,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "box-large"
+  ],
+  "suggested_use": "空投舱/补给箱/拾取物"
+ },
+ {
+  "file": "kenney-survival_box-open.glb",
+  "name": "box-open",
+  "source_url": "https://kenney.nl/assets/survival-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.125,
+    0,
+    -0.125
+   ],
+   "max": [
+    0.125,
+    0.306,
+    0.125
+   ],
+   "size": [
+    0.25,
+    0.306,
+    0.25
+   ]
+  },
+  "size_kb": 24,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 156,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "box-open"
+  ],
+  "suggested_use": "空投舱/补给箱/拾取物"
+ },
+ {
+  "file": "kenney-survival_box.glb",
+  "name": "box",
+  "source_url": "https://kenney.nl/assets/survival-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.125,
+    0,
+    -0.125
+   ],
+   "max": [
+    0.125,
+    0.25,
+    0.125
+   ],
+   "size": [
+    0.25,
+    0.25,
+    0.25
+   ]
+  },
+  "size_kb": 21,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 124,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "box"
+  ],
+  "suggested_use": "空投舱/补给箱/拾取物"
+ },
+ {
+  "file": "kenney-survival_chest.glb",
+  "name": "chest",
+  "source_url": "https://kenney.nl/assets/survival-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [
+   {
+    "name": "open",
+    "duration": 0.3
+   },
+   {
+    "name": "close",
+    "duration": 1
+   },
+   {
+    "name": "open-close",
+    "duration": 2
+   }
+  ],
+  "bbox": {
+   "min": [
+    -0.13,
+    0,
+    -0.142
+   ],
+   "max": [
+    0.13,
+    0.257,
+    0.13
+   ],
+   "size": [
+    0.26,
+    0.257,
+    0.272
+   ]
+  },
+  "size_kb": 42,
+  "meshes": 2,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 322,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "chest",
+   "lid"
+  ],
+  "suggested_use": "空投舱/补给箱/拾取物"
+ },
+ {
+  "file": "kenney-tower-defense_enemy-ufo-a-weapon.glb",
+  "name": "enemy-ufo-a-weapon",
+  "source_url": "https://kenney.nl/assets/tower-defense-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.5,
+    0,
+    -0.5
+   ],
+   "max": [
+    0.5,
+    0.747,
+    0.5
+   ],
+   "size": [
+    1,
+    0.747,
+    1
+   ]
+  },
+  "size_kb": 106,
+  "meshes": 2,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 1028,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "enemy-ufo-a-weapon",
+   "barrel"
+  ],
+  "suggested_use": "无人机/浮空单位"
+ },
+ {
+  "file": "kenney-tower-defense_enemy-ufo-a.glb",
+  "name": "enemy-ufo-a",
+  "source_url": "https://kenney.nl/assets/tower-defense-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.5,
+    0,
+    -0.5
+   ],
+   "max": [
+    0.5,
+    0.678,
+    0.5
+   ],
+   "size": [
+    1,
+    0.678,
+    1
+   ]
+  },
+  "size_kb": 53,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 520,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "enemy-ufo-a"
+  ],
+  "suggested_use": "无人机/浮空单位"
+ },
+ {
+  "file": "kenney-tower-defense_enemy-ufo-b-weapon.glb",
+  "name": "enemy-ufo-b-weapon",
+  "source_url": "https://kenney.nl/assets/tower-defense-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.5,
+    0,
+    -0.5
+   ],
+   "max": [
+    0.5,
+    0.626,
+    0.5
+   ],
+   "size": [
+    0.999,
+    0.626,
+    1
+   ]
+  },
+  "size_kb": 99,
+  "meshes": 2,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 988,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "enemy-ufo-b-weapon",
+   "catapult"
+  ],
+  "suggested_use": "无人机/浮空单位"
+ },
+ {
+  "file": "kenney-tower-defense_enemy-ufo-b.glb",
+  "name": "enemy-ufo-b",
+  "source_url": "https://kenney.nl/assets/tower-defense-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.5,
+    0,
+    -0.5
+   ],
+   "max": [
+    0.5,
+    0.575,
+    0.5
+   ],
+   "size": [
+    0.999,
+    0.575,
+    1
+   ]
+  },
+  "size_kb": 48,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 472,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "enemy-ufo-b"
+  ],
+  "suggested_use": "无人机/浮空单位"
+ },
+ {
+  "file": "kenney-tower-defense_enemy-ufo-beam-burst.glb",
+  "name": "enemy-ufo-beam-burst",
+  "source_url": "https://kenney.nl/assets/tower-defense-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.526,
+    0,
+    -0.526
+   ],
+   "max": [
+    0.526,
+    1,
+    0.526
+   ],
+   "size": [
+    1.052,
+    1,
+    1.052
+   ]
+  },
+  "size_kb": 20,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 72,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "enemy-ufo-beam-burst"
+  ],
+  "suggested_use": "无人机/浮空单位"
+ },
+ {
+  "file": "kenney-tower-defense_enemy-ufo-beam.glb",
+  "name": "enemy-ufo-beam",
+  "source_url": "https://kenney.nl/assets/tower-defense-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.4,
+    0,
+    -0.4
+   ],
+   "max": [
+    0.4,
+    1,
+    0.4
+   ],
+   "size": [
+    0.8,
+    1,
+    0.8
+   ]
+  },
+  "size_kb": 18,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 56,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "enemy-ufo-beam"
+  ],
+  "suggested_use": "无人机/浮空单位"
+ },
+ {
+  "file": "kenney-tower-defense_enemy-ufo-c-weapon.glb",
+  "name": "enemy-ufo-c-weapon",
+  "source_url": "https://kenney.nl/assets/tower-defense-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.502,
+    0,
+    -0.5
+   ],
+   "max": [
+    0.502,
+    0.678,
+    0.5
+   ],
+   "size": [
+    1.004,
+    0.678,
+    1
+   ]
+  },
+  "size_kb": 98,
+  "meshes": 2,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 972,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "enemy-ufo-c-weapon",
+   "barrel"
+  ],
+  "suggested_use": "无人机/浮空单位"
+ },
+ {
+  "file": "kenney-tower-defense_enemy-ufo-c.glb",
+  "name": "enemy-ufo-c",
+  "source_url": "https://kenney.nl/assets/tower-defense-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.502,
+    0,
+    -0.5
+   ],
+   "max": [
+    0.502,
+    0.525,
+    0.5
+   ],
+   "size": [
+    1.004,
+    0.525,
+    1
+   ]
+  },
+  "size_kb": 46,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 440,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "enemy-ufo-c"
+  ],
+  "suggested_use": "无人机/浮空单位"
+ },
+ {
+  "file": "kenney-tower-defense_enemy-ufo-d-weapon.glb",
+  "name": "enemy-ufo-d-weapon",
+  "source_url": "https://kenney.nl/assets/tower-defense-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.475,
+    0,
+    -0.475
+   ],
+   "max": [
+    0.475,
+    0.638,
+    0.475
+   ],
+   "size": [
+    0.949,
+    0.638,
+    0.95
+   ]
+  },
+  "size_kb": 100,
+  "meshes": 2,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 996,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "enemy-ufo-d-weapon",
+   "arrow"
+  ],
+  "suggested_use": "无人机/浮空单位"
+ },
+ {
+  "file": "kenney-tower-defense_enemy-ufo-d.glb",
+  "name": "enemy-ufo-d",
+  "source_url": "https://kenney.nl/assets/tower-defense-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.475,
+    0,
+    -0.475
+   ],
+   "max": [
+    0.475,
+    0.544,
+    0.475
+   ],
+   "size": [
+    0.949,
+    0.544,
+    0.95
+   ]
+  },
+  "size_kb": 56,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 584,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "enemy-ufo-d"
+  ],
+  "suggested_use": "无人机/浮空单位"
+ },
+ {
+  "file": "kenney-tower-defense_weapon-ammo-boulder.glb",
+  "name": "weapon-ammo-boulder",
+  "source_url": "https://kenney.nl/assets/tower-defense-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.16,
+    -0.12,
+    -0.139
+   ],
+   "max": [
+    0.16,
+    0.12,
+    0.139
+   ],
+   "size": [
+    0.32,
+    0.24,
+    0.277
+   ]
+  },
+  "size_kb": 21,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 88,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "weapon-ammo-boulder"
+  ],
+  "suggested_use": "导弹/炸弹/弹药"
+ },
+ {
+  "file": "kenney-tower-defense_weapon-ammo-bullet.glb",
+  "name": "weapon-ammo-bullet",
+  "source_url": "https://kenney.nl/assets/tower-defense-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.1,
+    -0.1,
+    -0.15
+   ],
+   "max": [
+    0.1,
+    0.1,
+    0.15
+   ],
+   "size": [
+    0.2,
+    0.2,
+    0.3
+   ]
+  },
+  "size_kb": 28,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 152,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "weapon-ammo-bullet"
+  ],
+  "suggested_use": "导弹/炸弹/弹药"
+ },
+ {
+  "file": "kenney-tower-defense_weapon-ammo-cannonball.glb",
+  "name": "weapon-ammo-cannonball",
+  "source_url": "https://kenney.nl/assets/tower-defense-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.14,
+    -0.14,
+    -0.14
+   ],
+   "max": [
+    0.14,
+    0.14,
+    0.14
+   ],
+   "size": [
+    0.28,
+    0.28,
+    0.28
+   ]
+  },
+  "size_kb": 31,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 160,
+  "nodes": 1,
+  "skinned": false,
+  "node_names": [
+   "weapon-ammo-cannonball"
+  ],
+  "suggested_use": "炮塔/攻城炮/固定火力"
+ },
+ {
+  "file": "kenney-tower-defense_weapon-ballista.glb",
+  "name": "weapon-ballista",
+  "source_url": "https://kenney.nl/assets/tower-defense-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.331,
+    0,
+    -0.3
+   ],
+   "max": [
+    0.331,
+    0.5,
+    0.478
+   ],
+   "size": [
+    0.663,
+    0.5,
+    0.778
+   ]
+  },
+  "size_kb": 69,
+  "meshes": 2,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 620,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "weapon-ballista",
+   "arrow"
+  ],
+  "suggested_use": "炮塔/攻城炮/固定火力"
+ },
+ {
+  "file": "kenney-tower-defense_weapon-cannon.glb",
+  "name": "weapon-cannon",
+  "source_url": "https://kenney.nl/assets/tower-defense-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.3,
+    0,
+    -0.3
+   ],
+   "max": [
+    0.3,
+    0.533,
+    0.3
+   ],
+   "size": [
+    0.6,
+    0.533,
+    0.6
+   ]
+  },
+  "size_kb": 69,
+  "meshes": 2,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 644,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "weapon-cannon",
+   "barrel"
+  ],
+  "suggested_use": "炮塔/攻城炮/固定火力"
+ },
+ {
+  "file": "kenney-tower-defense_weapon-catapult.glb",
+  "name": "weapon-catapult",
+  "source_url": "https://kenney.nl/assets/tower-defense-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.3,
+    0,
+    -0.487
+   ],
+   "max": [
+    0.3,
+    0.463,
+    0.35
+   ],
+   "size": [
+    0.6,
+    0.463,
+    0.837
+   ]
+  },
+  "size_kb": 68,
+  "meshes": 2,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 628,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "weapon-catapult",
+   "catapult"
+  ],
+  "suggested_use": "炮塔/攻城炮/固定火力"
+ },
+ {
+  "file": "kenney-tower-defense_weapon-turret.glb",
+  "name": "weapon-turret",
+  "source_url": "https://kenney.nl/assets/tower-defense-kit",
+  "author": "Kenney (kenney.nl)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.255,
+    0,
+    -0.31
+   ],
+   "max": [
+    0.255,
+    0.53,
+    0.307
+   ],
+   "size": [
+    0.511,
+    0.53,
+    0.617
+   ]
+  },
+  "size_kb": 70,
+  "meshes": 2,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 620,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "weapon-turret",
+   "barrel"
+  ],
+  "suggested_use": "炮塔/攻城炮/固定火力"
+ },
+ {
+  "file": "nategazzard_drone_dnbu.glb",
+  "name": "Drone",
+  "source_url": "https://poly.pizza/m/DNbUoMtG3H",
+  "download_url": "https://static.poly.pizza/4eb88feb-cb2d-46c3-980d-3e704868361c.glb",
+  "author": "NateGazzard (via poly.pizza)",
+  "license": "CC-BY 3.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.287,
+    -0.159,
+    -0.525
+   ],
+   "max": [
+    0.287,
+    0.048,
+    0.257
+   ],
+   "size": [
+    0.574,
+    0.208,
+    0.781
+   ]
+  },
+  "size_kb": 254,
+  "meshes": 6,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 4564,
+  "nodes": 6,
+  "skinned": false,
+  "node_names": [
+   "Body",
+   "Rotor_FL",
+   "Rotor_FR",
+   "Rotor_BL",
+   "Rotor_BR",
+   "Cube.002"
+  ],
+  "suggested_use": "无人机/浮空单位"
+ },
+ {
+  "file": "polybygoogle_missile_dpvc.glb",
+  "name": "Missile",
+  "source_url": "https://poly.pizza/m/dPVCvXP-S58",
+  "download_url": "https://static.poly.pizza/908a29de-a70c-467a-ad90-0348e0a5e1cb.glb",
+  "author": "Poly by Google (via poly.pizza)",
+  "license": "CC-BY 3.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -11.924,
+    -2.662,
+    -2.347
+   ],
+   "max": [
+    1,
+    2.662,
+    2.348
+   ],
+   "size": [
+    12.924,
+    5.324,
+    4.695
+   ]
+  },
+  "size_kb": 68,
+  "meshes": 2,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 1642,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "Missile_Q.001_Missile_Q.010",
+   "Missile_Q.008"
+  ],
+  "suggested_use": "导弹/炸弹/弹药"
+ },
+ {
+  "file": "quaternius_bomb_0onz.glb",
+  "name": "Bomb",
+  "source_url": "https://poly.pizza/m/0oNZ1y6ghg",
+  "download_url": "https://static.poly.pizza/104c956e-64cb-4f68-b0d7-eb4c64b42c4c.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.563,
+    -0.57,
+    -0.565
+   ],
+   "max": [
+    0.563,
+    1.182,
+    0.568
+   ],
+   "size": [
+    1.125,
+    1.753,
+    1.132
+   ]
+  },
+  "size_kb": 25,
+  "meshes": 1,
+  "materials": 3,
+  "textures": 0,
+  "triangles": 846,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "Bomb"
+  ],
+  "suggested_use": "导弹/炸弹/弹药"
+ },
+ {
+  "file": "quaternius_bomb_exla.glb",
+  "name": "Bomb",
+  "source_url": "https://poly.pizza/m/eXlaWiNM7z",
+  "download_url": "https://static.poly.pizza/2ba703fb-6c1c-406e-b31c-fa050e54c4b0.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.21,
+    -0.217,
+    -0.214
+   ],
+   "max": [
+    0.246,
+    0.478,
+    0.214
+   ],
+   "size": [
+    0.456,
+    0.695,
+    0.427
+   ]
+  },
+  "size_kb": 29,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 686,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "Prop_Bomb"
+  ],
+  "suggested_use": "导弹/炸弹/弹药"
+ },
+ {
+  "file": "quaternius_bomb_qgua.glb",
+  "name": "Bomb",
+  "source_url": "https://poly.pizza/m/qGUAks6IHQ",
+  "download_url": "https://static.poly.pizza/9d3bebc0-0b3d-4d7e-b860-a596d558f304.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.507,
+    -0.332,
+    -0.332
+   ],
+   "max": [
+    0.315,
+    0.41,
+    0.332
+   ],
+   "size": [
+    0.822,
+    0.741,
+    0.663
+   ]
+  },
+  "size_kb": 13,
+  "meshes": 1,
+  "materials": 2,
+  "textures": 0,
+  "triangles": 166,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "Bomb"
+  ],
+  "suggested_use": "导弹/炸弹/弹药"
+ },
+ {
+  "file": "quaternius_cannon_j15v.glb",
+  "name": "Cannon",
+  "source_url": "https://poly.pizza/m/J15vlPVvKK",
+  "download_url": "https://static.poly.pizza/6d76c733-c77c-46f5-9d4f-af847d4052b3.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.52,
+    -0.008,
+    -0.616
+   ],
+   "max": [
+    0.52,
+    1.122,
+    0.867
+   ],
+   "size": [
+    1.039,
+    1.13,
+    1.483
+   ]
+  },
+  "size_kb": 96,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 2362,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "Prop_Cannon"
+  ],
+  "suggested_use": "炮塔/攻城炮/固定火力"
+ },
+ {
+  "file": "quaternius_cannon_qiav.glb",
+  "name": "Cannon",
+  "source_url": "https://poly.pizza/m/qIAvoaawib",
+  "download_url": "https://static.poly.pizza/8054a1bd-2117-41cf-be71-31b6cb2d2ef2.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -1.116,
+    -0.937,
+    -1.66
+   ],
+   "max": [
+    2.258,
+    2.737,
+    1.66
+   ],
+   "size": [
+    3.375,
+    3.673,
+    3.321
+   ]
+  },
+  "size_kb": 56,
+  "meshes": 2,
+  "materials": 5,
+  "textures": 0,
+  "triangles": 1708,
+  "nodes": 3,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "Cannon",
+   "Cannon_Wheels"
+  ],
+  "suggested_use": "炮塔/攻城炮/固定火力"
+ },
+ {
+  "file": "quaternius_enemy-flying_kzpt.glb",
+  "name": "Enemy Flying",
+  "source_url": "https://poly.pizza/m/kzpT6fNmM5",
+  "download_url": "https://static.poly.pizza/45d716f2-a942-404f-82f6-73c24e013a27.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [
+   {
+    "name": "CharacterArmature|Death",
+    "duration": 0.667
+   },
+   {
+    "name": "CharacterArmature|Fast_Flying",
+    "duration": 0.833
+   },
+   {
+    "name": "CharacterArmature|Flying_Idle",
+    "duration": 1.167
+   },
+   {
+    "name": "CharacterArmature|Headbutt",
+    "duration": 1.167
+   },
+   {
+    "name": "CharacterArmature|HitReact",
+    "duration": 0.458
+   },
+   {
+    "name": "CharacterArmature|No",
+    "duration": 1.167
+   },
+   {
+    "name": "CharacterArmature|Punch",
+    "duration": 1.167
+   },
+   {
+    "name": "CharacterArmature|Yes",
+    "duration": 1.167
+   }
+  ],
+  "bbox": {
+   "min": [
+    -0.616,
+    0.524,
+    -0.607
+   ],
+   "max": [
+    0.641,
+    4.231,
+    0.63
+   ],
+   "size": [
+    1.257,
+    3.707,
+    1.237
+   ]
+  },
+  "size_kb": 200,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 3820,
+  "nodes": 8,
+  "skinned": true,
+  "node_names": [
+   "RootNode",
+   "CharacterArmature",
+   "Root",
+   "Torso",
+   "Neck",
+   "Head",
+   "Head_end",
+   "Enemy_Flying"
+  ],
+  "suggested_use": "无人机/浮空单位"
+ },
+ {
+  "file": "quaternius_lootbox_lnqw.glb",
+  "name": "Lootbox",
+  "source_url": "https://poly.pizza/m/LNQWE3LzNf",
+  "download_url": "https://static.poly.pizza/50fd1cd3-a351-4514-9ab7-55b713651d8b.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.296,
+    0,
+    -0.313
+   ],
+   "max": [
+    0.296,
+    0.512,
+    0.295
+   ],
+   "size": [
+    0.592,
+    0.512,
+    0.608
+   ]
+  },
+  "size_kb": 48,
+  "meshes": 2,
+  "materials": 3,
+  "textures": 0,
+  "triangles": 940,
+  "nodes": 3,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "Lootbox_Base",
+   "Lootbox_Top"
+  ],
+  "suggested_use": "空投舱/补给箱/拾取物"
+ },
+ {
+  "file": "quaternius_mech_4uvi.glb",
+  "name": "Mech",
+  "source_url": "https://poly.pizza/m/4UvIHxnoSR",
+  "download_url": "https://static.poly.pizza/dab7180d-5393-4cb1-aa8f-b56154b0d724.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [
+   {
+    "name": "RobotArmature|Dance",
+    "duration": 0.792
+   },
+   {
+    "name": "RobotArmature|Death",
+    "duration": 0.542
+   },
+   {
+    "name": "RobotArmature|Hello",
+    "duration": 1.5
+   },
+   {
+    "name": "RobotArmature|HitRecieve_1",
+    "duration": 0.5
+   },
+   {
+    "name": "RobotArmature|HitRecieve_2",
+    "duration": 0.667
+   },
+   {
+    "name": "RobotArmature|Idle",
+    "duration": 3.333
+   },
+   {
+    "name": "RobotArmature|Jump",
+    "duration": 0.833
+   },
+   {
+    "name": "RobotArmature|Jump_Landing",
+    "duration": 0.833
+   },
+   {
+    "name": "RobotArmature|Jump_NoHeight",
+    "duration": 0.583
+   },
+   {
+    "name": "RobotArmature|Kick",
+    "duration": 0.833
+   },
+   {
+    "name": "RobotArmature|No",
+    "duration": 1.375
+   },
+   {
+    "name": "RobotArmature|Pickup",
+    "duration": 1.375
+   },
+   {
+    "name": "RobotArmature|Run",
+    "duration": 0.833
+   },
+   {
+    "name": "RobotArmature|Shoot_Big",
+    "duration": 0.375
+   },
+   {
+    "name": "RobotArmature|Shoot_Small",
+    "duration": 0.208
+   },
+   {
+    "name": "RobotArmature|Walk",
+    "duration": 0.833
+   },
+   {
+    "name": "RobotArmature|Yes",
+    "duration": 1.375
+   }
+  ],
+  "bbox": {
+   "min": [
+    -1.457,
+    -0.001,
+    -0.71
+   ],
+   "max": [
+    1.457,
+    2.995,
+    1.344
+   ],
+   "size": [
+    2.914,
+    2.996,
+    2.055
+   ]
+  },
+  "size_kb": 489,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 6756,
+  "nodes": 23,
+  "skinned": true,
+  "node_names": [
+   "RootNode",
+   "RobotArmature",
+   "Body",
+   "Torso",
+   "Chest",
+   "Neck",
+   "Head",
+   "Head_end",
+   "UpperLeg.L",
+   "LowerLeg.L",
+   "LowerLeg.L_end",
+   "UpperLeg.R"
+  ],
+  "suggested_use": "机甲单位（增援候选）"
+ },
+ {
+  "file": "quaternius_mech_d5ww.glb",
+  "name": "Mech",
+  "source_url": "https://poly.pizza/m/D5wW2jDO42",
+  "download_url": "https://static.poly.pizza/750173d2-53aa-4318-95dc-5f8e6d2dcad2.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [
+   {
+    "name": "RobotArmature|Dance",
+    "duration": 0.792
+   },
+   {
+    "name": "RobotArmature|Death",
+    "duration": 0.542
+   },
+   {
+    "name": "RobotArmature|Hello",
+    "duration": 1.5
+   },
+   {
+    "name": "RobotArmature|HitRecieve_1",
+    "duration": 0.5
+   },
+   {
+    "name": "RobotArmature|HitRecieve_2",
+    "duration": 0.667
+   },
+   {
+    "name": "RobotArmature|Idle",
+    "duration": 3.333
+   },
+   {
+    "name": "RobotArmature|Jump",
+    "duration": 0.833
+   },
+   {
+    "name": "RobotArmature|Jump_Landing",
+    "duration": 0.833
+   },
+   {
+    "name": "RobotArmature|Jump_NoHeight",
+    "duration": 0.583
+   },
+   {
+    "name": "RobotArmature|Kick",
+    "duration": 0.833
+   },
+   {
+    "name": "RobotArmature|No",
+    "duration": 1.375
+   },
+   {
+    "name": "RobotArmature|Pickup",
+    "duration": 1.375
+   },
+   {
+    "name": "RobotArmature|Run",
+    "duration": 0.833
+   },
+   {
+    "name": "RobotArmature|Shoot_Big",
+    "duration": 0.375
+   },
+   {
+    "name": "RobotArmature|Shoot_Small",
+    "duration": 0.208
+   },
+   {
+    "name": "RobotArmature|Walk",
+    "duration": 0.833
+   },
+   {
+    "name": "RobotArmature|Yes",
+    "duration": 1.375
+   }
+  ],
+  "bbox": {
+   "min": [
+    -1.35,
+    -0.001,
+    -0.679
+   ],
+   "max": [
+    1.35,
+    3.094,
+    1.243
+   ],
+   "size": [
+    2.699,
+    3.095,
+    1.922
+   ]
+  },
+  "size_kb": 410,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 4008,
+  "nodes": 23,
+  "skinned": true,
+  "node_names": [
+   "RootNode",
+   "RobotArmature",
+   "Body",
+   "Torso",
+   "Chest",
+   "Neck",
+   "Head",
+   "Head_end",
+   "UpperLeg.L",
+   "LowerLeg.L",
+   "LowerLeg.L_end",
+   "UpperLeg.R"
+  ],
+  "suggested_use": "机甲单位（增援候选）"
+ },
+ {
+  "file": "quaternius_mech_o3ps.glb",
+  "name": "Mech",
+  "source_url": "https://poly.pizza/m/o3Ps8z8ByP",
+  "download_url": "https://static.poly.pizza/a242e73b-6a40-4bd9-bfa9-ed1d8e49ea21.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [
+   {
+    "name": "RobotArmature|Dance",
+    "duration": 0.792
+   },
+   {
+    "name": "RobotArmature|Death",
+    "duration": 0.542
+   },
+   {
+    "name": "RobotArmature|Hello",
+    "duration": 1.5
+   },
+   {
+    "name": "RobotArmature|HitRecieve_1",
+    "duration": 0.5
+   },
+   {
+    "name": "RobotArmature|HitRecieve_2",
+    "duration": 0.667
+   },
+   {
+    "name": "RobotArmature|Idle",
+    "duration": 3.333
+   },
+   {
+    "name": "RobotArmature|Jump",
+    "duration": 0.833
+   },
+   {
+    "name": "RobotArmature|Jump_Landing",
+    "duration": 0.833
+   },
+   {
+    "name": "RobotArmature|Jump_NoHeight",
+    "duration": 0.583
+   },
+   {
+    "name": "RobotArmature|Kick",
+    "duration": 0.833
+   },
+   {
+    "name": "RobotArmature|No",
+    "duration": 1.375
+   },
+   {
+    "name": "RobotArmature|Pickup",
+    "duration": 1.375
+   },
+   {
+    "name": "RobotArmature|Run",
+    "duration": 0.833
+   },
+   {
+    "name": "RobotArmature|Shoot_Big",
+    "duration": 0.375
+   },
+   {
+    "name": "RobotArmature|Shoot_Small",
+    "duration": 0.208
+   },
+   {
+    "name": "RobotArmature|Walk",
+    "duration": 0.833
+   },
+   {
+    "name": "RobotArmature|Yes",
+    "duration": 1.375
+   }
+  ],
+  "bbox": {
+   "min": [
+    -1.692,
+    -0.019,
+    -0.742
+   ],
+   "max": [
+    1.692,
+    3.044,
+    1.243
+   ],
+   "size": [
+    3.383,
+    3.063,
+    1.986
+   ]
+  },
+  "size_kb": 657,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 5846,
+  "nodes": 23,
+  "skinned": true,
+  "node_names": [
+   "RootNode",
+   "RobotArmature",
+   "Body",
+   "Torso",
+   "Chest",
+   "Neck",
+   "Head",
+   "Head_end",
+   "UpperLeg.L",
+   "LowerLeg.L",
+   "LowerLeg.L_end",
+   "UpperLeg.R"
+  ],
+  "suggested_use": "机甲单位（增援候选）"
+ },
+ {
+  "file": "quaternius_mech_tls9.glb",
+  "name": "Mech",
+  "source_url": "https://poly.pizza/m/tLs9mFVCSU",
+  "download_url": "https://static.poly.pizza/6f884100-f3e8-4302-b74a-10965c14956a.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [
+   {
+    "name": "RobotArmature|Dance",
+    "duration": 0.792
+   },
+   {
+    "name": "RobotArmature|Death",
+    "duration": 0.542
+   },
+   {
+    "name": "RobotArmature|Hello",
+    "duration": 1.5
+   },
+   {
+    "name": "RobotArmature|HitRecieve_1",
+    "duration": 0.5
+   },
+   {
+    "name": "RobotArmature|HitRecieve_2",
+    "duration": 0.667
+   },
+   {
+    "name": "RobotArmature|Idle",
+    "duration": 3.333
+   },
+   {
+    "name": "RobotArmature|Jump",
+    "duration": 0.833
+   },
+   {
+    "name": "RobotArmature|Jump_Landing",
+    "duration": 0.833
+   },
+   {
+    "name": "RobotArmature|Jump_NoHeight",
+    "duration": 0.583
+   },
+   {
+    "name": "RobotArmature|Kick",
+    "duration": 0.833
+   },
+   {
+    "name": "RobotArmature|No",
+    "duration": 1.375
+   },
+   {
+    "name": "RobotArmature|Pickup",
+    "duration": 1.375
+   },
+   {
+    "name": "RobotArmature|Run",
+    "duration": 0.833
+   },
+   {
+    "name": "RobotArmature|Shoot_Big",
+    "duration": 0.375
+   },
+   {
+    "name": "RobotArmature|Shoot_Small",
+    "duration": 0.208
+   },
+   {
+    "name": "RobotArmature|Walk",
+    "duration": 0.833
+   },
+   {
+    "name": "RobotArmature|Yes",
+    "duration": 1.375
+   }
+  ],
+  "bbox": {
+   "min": [
+    -1.35,
+    -0.001,
+    -0.819
+   ],
+   "max": [
+    1.35,
+    3.55,
+    1.243
+   ],
+   "size": [
+    2.699,
+    3.551,
+    2.063
+   ]
+  },
+  "size_kb": 417,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 4086,
+  "nodes": 23,
+  "skinned": true,
+  "node_names": [
+   "RootNode",
+   "RobotArmature",
+   "Body",
+   "Torso",
+   "Chest",
+   "Neck",
+   "Head",
+   "Head_end",
+   "UpperLeg.L",
+   "LowerLeg.L",
+   "LowerLeg.L_end",
+   "UpperLeg.R"
+  ],
+  "suggested_use": "机甲单位（增援候选）"
+ },
+ {
+  "file": "quaternius_pickup-crate_1dh0.glb",
+  "name": "Pickup Crate",
+  "source_url": "https://poly.pizza/m/1dh0EFL5gl",
+  "download_url": "https://static.poly.pizza/11ede42b-11d5-445f-a145-9c9f89ae9b3f.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.436,
+    -0.429,
+    -0.436
+   ],
+   "max": [
+    0.436,
+    0.429,
+    0.463
+   ],
+   "size": [
+    0.873,
+    0.858,
+    0.899
+   ]
+  },
+  "size_kb": 74,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 1348,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "Pickup_Crate"
+  ],
+  "suggested_use": "空投舱/补给箱/拾取物"
+ },
+ {
+  "file": "quaternius_pickup-truck-armored_ruwm.glb",
+  "name": "Pickup Truck Armored",
+  "source_url": "https://poly.pizza/m/RUwMItmU4B",
+  "download_url": "https://static.poly.pizza/cc992b7f-3e7f-474e-8e45-f80b72010669.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -1.325,
+    -0.006,
+    -2.597
+   ],
+   "max": [
+    1.325,
+    1.991,
+    2.908
+   ],
+   "size": [
+    2.65,
+    1.997,
+    5.505
+   ]
+  },
+  "size_kb": 589,
+  "meshes": 4,
+  "materials": 2,
+  "textures": 1,
+  "triangles": 13160,
+  "nodes": 5,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "Pickup_Armored",
+   "BackWheels",
+   "FrontWheel_R",
+   "FrontWheel_L"
+  ],
+  "suggested_use": "运输船/运输车"
+ },
+ {
+  "file": "quaternius_robot-enemy-flying-gun_udtm.glb",
+  "name": "Robot Enemy Flying Gun",
+  "source_url": "https://poly.pizza/m/UDTM6X1y9a",
+  "download_url": "https://static.poly.pizza/6d0889f1-0c3f-4f98-b011-fbcf6c79a93b.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [
+   {
+    "name": "CharacterArmature|Attack",
+    "duration": 0.75
+   },
+   {
+    "name": "CharacterArmature|Dead",
+    "duration": 0.333
+   },
+   {
+    "name": "CharacterArmature|Idle",
+    "duration": 1.5
+   },
+   {
+    "name": "CharacterArmature|Run",
+    "duration": 0.667
+   },
+   {
+    "name": "CharacterArmature|Shoot",
+    "duration": 0.25
+   },
+   {
+    "name": "CharacterArmature|Walk",
+    "duration": 1.167
+   }
+  ],
+  "bbox": {
+   "min": [
+    -1.135,
+    0.235,
+    -0.41
+   ],
+   "max": [
+    1.135,
+    0.932,
+    0.818
+   ],
+   "size": [
+    2.271,
+    0.696,
+    1.228
+   ]
+  },
+  "size_kb": 317,
+  "meshes": 2,
+  "materials": 10,
+  "textures": 0,
+  "triangles": 4582,
+  "nodes": 22,
+  "skinned": true,
+  "node_names": [
+   "RootNode",
+   "Sun.001",
+   "Sun",
+   "CharacterArmature",
+   "Root",
+   "Head",
+   "Shoulder.L",
+   "UpperArm.L",
+   "LowerArm.L",
+   "Hand.L",
+   "Hand.L_end",
+   "Shoulder.R"
+  ],
+  "suggested_use": "无人机/浮空单位"
+ },
+ {
+  "file": "quaternius_robot-enemy-flying_lf3j.glb",
+  "name": "Robot Enemy Flying",
+  "source_url": "https://poly.pizza/m/lF3jeRJwiH",
+  "download_url": "https://static.poly.pizza/abb31ff6-3e2d-43a6-bf13-dba39b0c596d.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [
+   {
+    "name": "CharacterArmature|Attack",
+    "duration": 0.75
+   },
+   {
+    "name": "CharacterArmature|Dead",
+    "duration": 0.333
+   },
+   {
+    "name": "CharacterArmature|Idle",
+    "duration": 1.5
+   },
+   {
+    "name": "CharacterArmature|Run",
+    "duration": 0.667
+   },
+   {
+    "name": "CharacterArmature|Shoot",
+    "duration": 0.25
+   },
+   {
+    "name": "CharacterArmature|Walk",
+    "duration": 1.167
+   }
+  ],
+  "bbox": {
+   "min": [
+    -1.135,
+    0.235,
+    -0.234
+   ],
+   "max": [
+    1.135,
+    0.878,
+    0.247
+   ],
+   "size": [
+    2.271,
+    0.643,
+    0.481
+   ]
+  },
+  "size_kb": 291,
+  "meshes": 2,
+  "materials": 8,
+  "textures": 0,
+  "triangles": 4544,
+  "nodes": 18,
+  "skinned": true,
+  "node_names": [
+   "RootNode",
+   "CharacterArmature",
+   "Root",
+   "Head",
+   "Shoulder.L",
+   "UpperArm.L",
+   "LowerArm.L",
+   "Hand.L",
+   "Hand.L_end",
+   "Shoulder.R",
+   "UpperArm.R",
+   "LowerArm.R"
+  ],
+  "suggested_use": "无人机/浮空单位"
+ },
+ {
+  "file": "quaternius_round-rover_ejdk.glb",
+  "name": "Round Rover",
+  "source_url": "https://poly.pizza/m/ejdkcNgMpr",
+  "download_url": "https://static.poly.pizza/0fb7588d-c494-49aa-b76f-84f31e45e028.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    5.726,
+    -0.15,
+    -1.845
+   ],
+   "max": [
+    11.514,
+    5.019,
+    1.845
+   ],
+   "size": [
+    5.788,
+    5.168,
+    3.691
+   ]
+  },
+  "size_kb": 300,
+  "meshes": 5,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 7052,
+  "nodes": 6,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "Wheel_1",
+   "Wheel_2",
+   "Wheel_3",
+   "Wheel_4",
+   "Rover_Round"
+  ],
+  "suggested_use": "装甲车/轻型载具"
+ },
+ {
+  "file": "quaternius_rover_tzol.glb",
+  "name": "Rover",
+  "source_url": "https://poly.pizza/m/tzOLXetacM",
+  "download_url": "https://static.poly.pizza/7992e6b4-8add-45a9-86fd-f208237d293c.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -2.291,
+    -0.15,
+    -2.58
+   ],
+   "max": [
+    2.291,
+    4.733,
+    2.58
+   ],
+   "size": [
+    4.582,
+    4.882,
+    5.159
+   ]
+  },
+  "size_kb": 324,
+  "meshes": 5,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 7346,
+  "nodes": 6,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "Wheel_4.001",
+   "Wheel_5",
+   "Wheel_1.002",
+   "Wheel_4.002",
+   "Rover_1"
+  ],
+  "suggested_use": "装甲车/轻型载具"
+ },
+ {
+  "file": "quaternius_rover_wrd1.glb",
+  "name": "Rover",
+  "source_url": "https://poly.pizza/m/WRd1piJOfh",
+  "download_url": "https://static.poly.pizza/d2dd449f-dd0b-440f-9c62-bfa7e6039a43.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -9.45,
+    -0.15,
+    -3.983
+   ],
+   "max": [
+    -4.868,
+    4.733,
+    2.58
+   ],
+   "size": [
+    4.582,
+    4.882,
+    6.562
+   ]
+  },
+  "size_kb": 353,
+  "meshes": 7,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 8032,
+  "nodes": 8,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "Wheel_1.001",
+   "Wheel_2.001",
+   "Wheel_3.001",
+   "Wheel_6",
+   "Rover_2",
+   "Wheel_2.002",
+   "Wheel_3.002"
+  ],
+  "suggested_use": "装甲车/轻型载具"
+ },
+ {
+  "file": "quaternius_scifi-crate_bpex.glb",
+  "name": "Scifi Crate",
+  "source_url": "https://poly.pizza/m/bPeXlVjwCH",
+  "download_url": "https://static.poly.pizza/027d2469-78ab-4500-a35c-1d6fde212526.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.399,
+    -0.003,
+    -0.399
+   ],
+   "max": [
+    0.399,
+    0.802,
+    0.399
+   ],
+   "size": [
+    0.797,
+    0.806,
+    0.797
+   ]
+  },
+  "size_kb": 135,
+  "meshes": 1,
+  "materials": 5,
+  "textures": 0,
+  "triangles": 2688,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "Props_Crate"
+  ],
+  "suggested_use": "空投舱/补给箱/拾取物"
+ },
+ {
+  "file": "quaternius_scifi-pod_heds.glb",
+  "name": "Scifi Pod",
+  "source_url": "https://poly.pizza/m/hedSWVZx9E",
+  "download_url": "https://static.poly.pizza/a6847307-5068-4c9c-b02c-bb18fd09d347.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.905,
+    0.002,
+    -0.905
+   ],
+   "max": [
+    0.905,
+    3.614,
+    0.905
+   ],
+   "size": [
+    1.81,
+    3.612,
+    1.81
+   ]
+  },
+  "size_kb": 112,
+  "meshes": 1,
+  "materials": 5,
+  "textures": 0,
+  "triangles": 2246,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "Props_Pod"
+  ],
+  "suggested_use": "空投舱/补给箱/拾取物"
+ },
+ {
+  "file": "quaternius_ship_meqj.glb",
+  "name": "Ship",
+  "source_url": "https://poly.pizza/m/mEQj2wZ3GC",
+  "download_url": "https://static.poly.pizza/e05fe724-a3b2-455d-a644-40cfb4bdd11e.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -9.517,
+    -1.611,
+    -2.65
+   ],
+   "max": [
+    5.916,
+    9.868,
+    2.65
+   ],
+   "size": [
+    15.433,
+    11.479,
+    5.301
+   ]
+  },
+  "size_kb": 906,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 20632,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "Ship_Large"
+  ],
+  "suggested_use": "运输船/运输车"
+ },
+ {
+  "file": "quaternius_small-ship_w2vm.glb",
+  "name": "Small Ship",
+  "source_url": "https://poly.pizza/m/W2vMzztgIi",
+  "download_url": "https://static.poly.pizza/2a2bdc9c-2123-4506-9847-330c734e79ac.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -2.875,
+    -0.012,
+    -1.801
+   ],
+   "max": [
+    2.274,
+    1.98,
+    1.801
+   ],
+   "size": [
+    5.149,
+    1.992,
+    3.601
+   ]
+  },
+  "size_kb": 238,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 5578,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "Ship_Small"
+  ],
+  "suggested_use": "运输船/运输车"
+ },
+ {
+  "file": "quaternius_spaceship_dbga.glb",
+  "name": "Spaceship",
+  "source_url": "https://poly.pizza/m/DbGajMHrvp",
+  "download_url": "https://static.poly.pizza/444c9c59-f4c0-4f04-b033-c29002d686cb.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -3.24,
+    -0.006,
+    -1.282
+   ],
+   "max": [
+    3.24,
+    1.168,
+    2.789
+   ],
+   "size": [
+    6.48,
+    1.174,
+    4.071
+   ]
+  },
+  "size_kb": 35,
+  "meshes": 1,
+  "materials": 2,
+  "textures": 0,
+  "triangles": 628,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "Spaceship2"
+  ],
+  "suggested_use": "战斗机/空袭飞过"
+ },
+ {
+  "file": "quaternius_spaceship_htfb.glb",
+  "name": "Spaceship",
+  "source_url": "https://poly.pizza/m/htfBk9vPfw",
+  "download_url": "https://static.poly.pizza/a6789133-a4b2-447b-9eda-4c44b84240ca.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -1.684,
+    -0.003,
+    -3.225
+   ],
+   "max": [
+    1.684,
+    1.065,
+    4.057
+   ],
+   "size": [
+    3.367,
+    1.067,
+    7.282
+   ]
+  },
+  "size_kb": 31,
+  "meshes": 1,
+  "materials": 2,
+  "textures": 0,
+  "triangles": 540,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "Spaceship"
+  ],
+  "suggested_use": "战斗机/空袭飞过"
+ },
+ {
+  "file": "quaternius_spaceship_jqfe.glb",
+  "name": "Spaceship",
+  "source_url": "https://poly.pizza/m/Jqfed124pQ",
+  "download_url": "https://static.poly.pizza/fb4a47c7-5453-433d-959d-0d3903b578e3.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -5.57,
+    -1.206,
+    -3.123
+   ],
+   "max": [
+    5.57,
+    1.321,
+    5.534
+   ],
+   "size": [
+    11.139,
+    2.527,
+    8.657
+   ]
+  },
+  "size_kb": 158,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 2814,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "Spaceship_FernandoTheFlamingo"
+  ],
+  "suggested_use": "战斗机/空袭飞过"
+ },
+ {
+  "file": "quaternius_spaceship_pqze.glb",
+  "name": "Spaceship",
+  "source_url": "https://poly.pizza/m/PQzePrvBCD",
+  "download_url": "https://static.poly.pizza/e2fa6756-de8d-43cf-bc7b-297d100ca5c4.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -5.191,
+    -0.145,
+    -3.051
+   ],
+   "max": [
+    5.191,
+    1.713,
+    6.158
+   ],
+   "size": [
+    10.382,
+    1.859,
+    9.209
+   ]
+  },
+  "size_kb": 61,
+  "meshes": 1,
+  "materials": 2,
+  "textures": 0,
+  "triangles": 1190,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "Spaceship3"
+  ],
+  "suggested_use": "战斗机/空袭飞过"
+ },
+ {
+  "file": "quaternius_spaceship_u105.glb",
+  "name": "Spaceship",
+  "source_url": "https://poly.pizza/m/u105mYHLHU",
+  "download_url": "https://static.poly.pizza/0843ab59-1800-4d96-9cc7-b4d6afbecf21.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -3.668,
+    -2.182,
+    -3.094
+   ],
+   "max": [
+    3.668,
+    3.522,
+    1.864
+   ],
+   "size": [
+    7.337,
+    5.703,
+    4.958
+   ]
+  },
+  "size_kb": 259,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 6208,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "Spaceship_BarbaraTheBee"
+  ],
+  "suggested_use": "战斗机/空袭飞过"
+ },
+ {
+  "file": "quaternius_spaceship_ucel.glb",
+  "name": "Spaceship",
+  "source_url": "https://poly.pizza/m/uCeLfsdmNP",
+  "download_url": "https://static.poly.pizza/e8817981-bfc4-448d-822f-5b76a5983675.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -4.974,
+    -0.413,
+    -4.122
+   ],
+   "max": [
+    4.974,
+    1.937,
+    7.044
+   ],
+   "size": [
+    9.949,
+    2.35,
+    11.166
+   ]
+  },
+  "size_kb": 105,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 1614,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "Spaceship_RaeTheRedPanda"
+  ],
+  "suggested_use": "战斗机/空袭飞过"
+ },
+ {
+  "file": "quaternius_spaceship_vsxu.glb",
+  "name": "Spaceship",
+  "source_url": "https://poly.pizza/m/VSxUAFhzbA",
+  "download_url": "https://static.poly.pizza/9dd50f84-345d-418f-bb58-0cb63fd091e6.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -5.811,
+    -1.206,
+    -2.128
+   ],
+   "max": [
+    5.811,
+    1.85,
+    1.981
+   ],
+   "size": [
+    11.621,
+    3.056,
+    4.109
+   ]
+  },
+  "size_kb": 184,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "triangles": 3376,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "Spaceship_FinnTheFrog"
+  ],
+  "suggested_use": "大型战舰/母舰候选（轨道战舰支援技能）"
+ },
+ {
+  "file": "quaternius_spaceship_xnbt.glb",
+  "name": "Spaceship",
+  "source_url": "https://poly.pizza/m/xNbtFQwirO",
+  "download_url": "https://static.poly.pizza/47bb1015-bbe6-4261-9857-40c9fe6c8048.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -5.312,
+    -0.006,
+    -2.769
+   ],
+   "max": [
+    5.312,
+    2.21,
+    4.792
+   ],
+   "size": [
+    10.624,
+    2.216,
+    7.561
+   ]
+  },
+  "size_kb": 32,
+  "meshes": 1,
+  "materials": 2,
+  "textures": 0,
+  "triangles": 590,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "Spaceship5"
+  ],
+  "suggested_use": "战斗机/空袭飞过"
+ },
+ {
+  "file": "quaternius_tank_cw3z.glb",
+  "name": "Tank",
+  "source_url": "https://poly.pizza/m/cW3zvvkMOM",
+  "download_url": "https://static.poly.pizza/58c387b2-636f-49dc-a900-13b0852717d6.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [
+   {
+    "name": "TankArmature|Tank_Backwards",
+    "duration": 0.792
+   },
+   {
+    "name": "TankArmature|Tank_Forward",
+    "duration": 0.792
+   },
+   {
+    "name": "TankArmature|Tank_TurningLeft",
+    "duration": 0.792
+   },
+   {
+    "name": "TankArmature|Tank_TurningRight",
+    "duration": 0.792
+   }
+  ],
+  "bbox": {
+   "min": [
+    -7.373,
+    -0.013,
+    -5.339
+   ],
+   "max": [
+    7.373,
+    6.737,
+    5.204
+   ],
+   "size": [
+    14.746,
+    6.75,
+    10.543
+   ]
+  },
+  "size_kb": 870,
+  "meshes": 5,
+  "materials": 7,
+  "textures": 0,
+  "triangles": 6544,
+  "nodes": 96,
+  "skinned": true,
+  "node_names": [
+   "RootNode",
+   "Tank_Gun",
+   "Tank_Turret",
+   "TankArmature",
+   "Root",
+   "TankTrack22.L",
+   "TankTrack22.L_end",
+   "TankTrack11.L",
+   "TankTrack11.L_end",
+   "TankTrack10.L",
+   "TankTrack10.L_end",
+   "TankTrack12.L"
+  ],
+  "suggested_use": "坦克/重型地面单位增援"
+ },
+ {
+  "file": "quaternius_tank_dc4k.glb",
+  "name": "Tank",
+  "source_url": "https://poly.pizza/m/Dc4k4CooN3",
+  "download_url": "https://static.poly.pizza/2568b2cb-58e0-49d8-9d3b-6f208ad281c7.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -1.186,
+    0.001,
+    -1.139
+   ],
+   "max": [
+    1.186,
+    2.145,
+    1.364
+   ],
+   "size": [
+    2.372,
+    2.143,
+    2.503
+   ]
+  },
+  "size_kb": 107,
+  "meshes": 1,
+  "materials": 4,
+  "textures": 0,
+  "triangles": 2800,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "Tank"
+  ],
+  "suggested_use": "坦克/重型地面单位增援"
+ },
+ {
+  "file": "quaternius_tank_fa5d.glb",
+  "name": "Tank",
+  "source_url": "https://poly.pizza/m/FA5daiyZQq",
+  "download_url": "https://static.poly.pizza/4a40c214-87f9-4cdb-bc72-003c96f49f76.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [
+   {
+    "name": "TankArmature|Tank_Backwards",
+    "duration": 0.792
+   },
+   {
+    "name": "TankArmature|Tank_Forward",
+    "duration": 0.792
+   },
+   {
+    "name": "TankArmature|Tank_TurningLeft",
+    "duration": 0.792
+   },
+   {
+    "name": "TankArmature|Tank_TurningRight",
+    "duration": 0.792
+   }
+  ],
+  "bbox": {
+   "min": [
+    -10.306,
+    -0.013,
+    -5.116
+   ],
+   "max": [
+    7.373,
+    4.607,
+    4.976
+   ],
+   "size": [
+    17.679,
+    4.62,
+    10.093
+   ]
+  },
+  "size_kb": 891,
+  "meshes": 5,
+  "materials": 8,
+  "textures": 0,
+  "triangles": 7222,
+  "nodes": 96,
+  "skinned": true,
+  "node_names": [
+   "RootNode",
+   "Tank_Turret",
+   "TankArmature",
+   "Root",
+   "TankTrack22.L",
+   "TankTrack22.L_end",
+   "TankTrack11.L",
+   "TankTrack11.L_end",
+   "TankTrack10.L",
+   "TankTrack10.L_end",
+   "TankTrack12.L",
+   "TankTrack12.L_end"
+  ],
+  "suggested_use": "坦克/重型地面单位增援"
+ },
+ {
+  "file": "quaternius_tank_j59k.glb",
+  "name": "Tank",
+  "source_url": "https://poly.pizza/m/j59k7ctnZM",
+  "download_url": "https://static.poly.pizza/ccb419f6-7dde-4b21-9421-7cb57898669f.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.284,
+    -0.415,
+    0
+   ],
+   "max": [
+    0.284,
+    0.415,
+    0.619
+   ],
+   "size": [
+    0.569,
+    0.831,
+    0.619
+   ]
+  },
+  "size_kb": 59,
+  "meshes": 1,
+  "materials": 3,
+  "textures": 0,
+  "triangles": 1392,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "Tank"
+  ],
+  "suggested_use": "坦克/重型地面单位增援"
+ },
+ {
+  "file": "quaternius_tank_jws1.glb",
+  "name": "Tank",
+  "source_url": "https://poly.pizza/m/jWS1CLA0RO",
+  "download_url": "https://static.poly.pizza/52977e64-f4b3-4845-9d44-fe50ec8154e3.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [
+   {
+    "name": "TankArmature|Tank_Backwards",
+    "duration": 0.792
+   },
+   {
+    "name": "TankArmature|Tank_Forward",
+    "duration": 0.792
+   },
+   {
+    "name": "TankArmature|Tank_TurningLeft",
+    "duration": 0.792
+   },
+   {
+    "name": "TankArmature|Tank_TurningRight",
+    "duration": 0.792
+   }
+  ],
+  "bbox": {
+   "min": [
+    -9.829,
+    -0.013,
+    -5.116
+   ],
+   "max": [
+    7.373,
+    7.465,
+    4.976
+   ],
+   "size": [
+    17.202,
+    7.478,
+    10.093
+   ]
+  },
+  "size_kb": 817,
+  "meshes": 5,
+  "materials": 9,
+  "textures": 0,
+  "triangles": 6064,
+  "nodes": 96,
+  "skinned": true,
+  "node_names": [
+   "RootNode",
+   "Tank_Gun",
+   "TankArmature",
+   "Root",
+   "TankTrack22.L",
+   "TankTrack22.L_end",
+   "TankTrack11.L",
+   "TankTrack11.L_end",
+   "TankTrack10.L",
+   "TankTrack10.L_end",
+   "TankTrack12.L",
+   "TankTrack12.L_end"
+  ],
+  "suggested_use": "坦克/重型地面单位增援"
+ },
+ {
+  "file": "quaternius_tank_uyhp.glb",
+  "name": "Tank",
+  "source_url": "https://poly.pizza/m/uYHpj7lz1J",
+  "download_url": "https://static.poly.pizza/c0135fb4-3307-4c0f-a439-86ceafedc4c7.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [
+   {
+    "name": "TankArmature|Tank_Backwards",
+    "duration": 0.792
+   },
+   {
+    "name": "TankArmature|Tank_Forward",
+    "duration": 0.792
+   },
+   {
+    "name": "TankArmature|Tank_TurningLeft",
+    "duration": 0.792
+   },
+   {
+    "name": "TankArmature|Tank_TurningRight",
+    "duration": 0.792
+   }
+  ],
+  "bbox": {
+   "min": [
+    -8.765,
+    -0.013,
+    -5.042
+   ],
+   "max": [
+    7.373,
+    5.965,
+    4.937
+   ],
+   "size": [
+    16.138,
+    5.978,
+    9.979
+   ]
+  },
+  "size_kb": 1075,
+  "meshes": 5,
+  "materials": 9,
+  "textures": 0,
+  "triangles": 11402,
+  "nodes": 96,
+  "skinned": true,
+  "node_names": [
+   "RootNode",
+   "Tank_Gun",
+   "Tank_Turret",
+   "TankArmature",
+   "Root",
+   "TankTrack22.L",
+   "TankTrack22.L_end",
+   "TankTrack11.L",
+   "TankTrack11.L_end",
+   "TankTrack10.L",
+   "TankTrack10.L_end",
+   "TankTrack12.L"
+  ],
+  "suggested_use": "坦克/重型地面单位增援"
+ },
+ {
+  "file": "quaternius_truck-armored_vvx8.glb",
+  "name": "Truck Armored",
+  "source_url": "https://poly.pizza/m/VvX8nmoCN5",
+  "download_url": "https://static.poly.pizza/55c7dea2-0251-457b-b8e3-8e9eb07aa4cc.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -1.488,
+    0.001,
+    -3.063
+   ],
+   "max": [
+    1.488,
+    2.904,
+    2.524
+   ],
+   "size": [
+    2.976,
+    2.904,
+    5.586
+   ]
+  },
+  "size_kb": 737,
+  "meshes": 4,
+  "materials": 3,
+  "textures": 1,
+  "triangles": 16132,
+  "nodes": 5,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "FrontWheel_R",
+   "BackWheels",
+   "FrontWheel_L",
+   "Truck_Armored"
+  ],
+  "suggested_use": "运输船/运输车"
+ },
+ {
+  "file": "quaternius_truck_cxw6.glb",
+  "name": "Truck",
+  "source_url": "https://poly.pizza/m/cXw6oiFtZ8",
+  "download_url": "https://static.poly.pizza/f4b28921-b45e-4653-b54c-c3976e4ea0fe.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -1.355,
+    0.001,
+    -3.063
+   ],
+   "max": [
+    1.355,
+    2.885,
+    2.193
+   ],
+   "size": [
+    2.709,
+    2.884,
+    5.256
+   ]
+  },
+  "size_kb": 319,
+  "meshes": 4,
+  "materials": 3,
+  "textures": 1,
+  "triangles": 7474,
+  "nodes": 5,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "Truck",
+   "FrontWheel_R",
+   "BackWheels",
+   "FrontWheel_L"
+  ],
+  "suggested_use": "运输船/运输车"
+ },
+ {
+  "file": "quaternius_turret-cannon_mnj6.glb",
+  "name": "Turret Cannon",
+  "source_url": "https://poly.pizza/m/mNJ6poH7Cp",
+  "download_url": "https://static.poly.pizza/5669a490-372e-41a6-ac5f-b8ca5b69e4a5.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.579,
+    -0.008,
+    -0.557
+   ],
+   "max": [
+    0.579,
+    0.639,
+    0.557
+   ],
+   "size": [
+    1.158,
+    0.647,
+    1.115
+   ]
+  },
+  "size_kb": 73,
+  "meshes": 2,
+  "materials": 4,
+  "textures": 0,
+  "triangles": 1318,
+  "nodes": 3,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "Turret_Cannon_Base",
+   "Turret_Cannon_Top"
+  ],
+  "suggested_use": "炮塔/攻城炮/固定火力"
+ },
+ {
+  "file": "quaternius_turret-gun_ektq.glb",
+  "name": "Turret Gun",
+  "source_url": "https://poly.pizza/m/ekTQhbJId7",
+  "download_url": "https://static.poly.pizza/58ce64fc-b698-4b78-af75-05bb2dfad2ed.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.579,
+    -0.008,
+    -0.557
+   ],
+   "max": [
+    0.579,
+    0.579,
+    0.607
+   ],
+   "size": [
+    1.158,
+    0.587,
+    1.164
+   ]
+  },
+  "size_kb": 67,
+  "meshes": 2,
+  "materials": 4,
+  "textures": 0,
+  "triangles": 1182,
+  "nodes": 3,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "Turret_Gun_Base",
+   "Turret_Gun_Top"
+  ],
+  "suggested_use": "炮塔/攻城炮/固定火力"
+ },
+ {
+  "file": "quaternius_turret-gun_hthp.glb",
+  "name": "Turret Gun",
+  "source_url": "https://poly.pizza/m/hThPXDCbwl",
+  "download_url": "https://static.poly.pizza/730a54af-3785-4d23-8efc-1560ed61e0d3.glb",
+  "author": "Quaternius (via poly.pizza)",
+  "license": "CC0 1.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.579,
+    -0.008,
+    -0.557
+   ],
+   "max": [
+    0.579,
+    0.579,
+    0.607
+   ],
+   "size": [
+    1.158,
+    0.587,
+    1.164
+   ]
+  },
+  "size_kb": 83,
+  "meshes": 2,
+  "materials": 4,
+  "textures": 0,
+  "triangles": 1504,
+  "nodes": 3,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "Turret_GunDouble_Base",
+   "Turret_GunDouble_Top"
+  ],
+  "suggested_use": "炮塔/攻城炮/固定火力"
+ },
+ {
+  "file": "zsky_flamethrower-turret_qnt5.glb",
+  "name": "Flamethrower Turret",
+  "source_url": "https://poly.pizza/m/qNt5FqDnK6",
+  "download_url": "https://static.poly.pizza/7e15e7f7-3f6b-44aa-a6d7-b2eeae93a887.glb",
+  "author": "Zsky (via poly.pizza)",
+  "license": "CC-BY 3.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -2.209,
+    -0.146,
+    -2.458
+   ],
+   "max": [
+    2.209,
+    2.663,
+    2.458
+   ],
+   "size": [
+    4.418,
+    2.809,
+    4.916
+   ]
+  },
+  "size_kb": 169,
+  "meshes": 4,
+  "materials": 10,
+  "textures": 0,
+  "triangles": 1744,
+  "nodes": 5,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "BaseFlamethrowerTurret1",
+   "MiddleFlamethrowerTurret1",
+   "HeadFlamethrowerTurret1",
+   "AmmoFlamethrowerTurret1"
+  ],
+  "suggested_use": "炮塔/攻城炮/固定火力"
+ },
+ {
+  "file": "zsky_gatelng-gun-turret_t8of.glb",
+  "name": "Gatelng Gun Turret",
+  "source_url": "https://poly.pizza/m/T8ofhRSenf",
+  "download_url": "https://static.poly.pizza/21bce03b-bebb-4ae5-a6e3-5bf41cf345a1.glb",
+  "author": "Zsky (via poly.pizza)",
+  "license": "CC-BY 3.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -1.627,
+    -0.228,
+    -1.627
+   ],
+   "max": [
+    1.627,
+    2.234,
+    2.03
+   ],
+   "size": [
+    3.255,
+    2.463,
+    3.658
+   ]
+  },
+  "size_kb": 524,
+  "meshes": 6,
+  "materials": 11,
+  "textures": 0,
+  "triangles": 5788,
+  "nodes": 7,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "LaserSightGatelingGunTurret",
+   "AmmoBox1GatelingGun",
+   "Base1GatelingGunTurret",
+   "Gun1GatelngGunTurret",
+   "MiddleGatelingGunTurret",
+   "PipesGatelngGunTurret"
+  ],
+  "suggested_use": "炮塔/攻城炮/固定火力"
+ },
+ {
+  "file": "zsky_gun-cannon-turret_rxga.glb",
+  "name": "Gun Cannon Turret",
+  "source_url": "https://poly.pizza/m/rxgAVyYKh6",
+  "download_url": "https://static.poly.pizza/07952e94-9623-406c-b8fe-1aca7b2829c1.glb",
+  "author": "Zsky (via poly.pizza)",
+  "license": "CC-BY 3.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -1.301,
+    -0.199,
+    -1.266
+   ],
+   "max": [
+    1.361,
+    3.298,
+    3.541
+   ],
+   "size": [
+    2.662,
+    3.497,
+    4.807
+   ]
+  },
+  "size_kb": 80,
+  "meshes": 3,
+  "materials": 7,
+  "textures": 0,
+  "triangles": 828,
+  "nodes": 4,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "BaseCannonTurret1",
+   "GunCannonTurret1",
+   "MiddleCannonTurret1"
+  ],
+  "suggested_use": "炮塔/攻城炮/固定火力"
+ },
+ {
+  "file": "zsky_helicopter_hg2q.glb",
+  "name": "Helicopter",
+  "source_url": "https://poly.pizza/m/hG2Qr0A3zR",
+  "download_url": "https://static.poly.pizza/6f3cef79-867c-4b3c-9d97-346e465e4079.glb",
+  "author": "Zsky (via poly.pizza)",
+  "license": "CC-BY 3.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -20.695,
+    -5.762,
+    -23.004
+   ],
+   "max": [
+    20.646,
+    5.652,
+    22.198
+   ],
+   "size": [
+    41.341,
+    11.415,
+    45.202
+   ]
+  },
+  "size_kb": 79,
+  "meshes": 1,
+  "materials": 7,
+  "textures": 0,
+  "triangles": 1088,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "AirCraft"
+  ],
+  "suggested_use": "武装直升机/炮艇"
+ },
+ {
+  "file": "zsky_light-tank_s1ju.glb",
+  "name": "Light Tank",
+  "source_url": "https://poly.pizza/m/S1jUTRmAjD",
+  "download_url": "https://static.poly.pizza/0b40b8f7-03c6-45bf-9adb-4e25a9a479d3.glb",
+  "author": "Zsky (via poly.pizza)",
+  "license": "CC-BY 3.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -1.029,
+    -0.674,
+    -2.343
+   ],
+   "max": [
+    1.027,
+    1.727,
+    2.267
+   ],
+   "size": [
+    2.056,
+    2.401,
+    4.61
+   ]
+  },
+  "size_kb": 206,
+  "meshes": 1,
+  "materials": 5,
+  "textures": 0,
+  "triangles": 3088,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "Light_Tank"
+  ],
+  "suggested_use": "坦克/重型地面单位增援"
+ },
+ {
+  "file": "zsky_missile-turret_rqna.glb",
+  "name": "Missile Turret",
+  "source_url": "https://poly.pizza/m/RqnAj5N9fL",
+  "download_url": "https://static.poly.pizza/79dee9d7-9e8a-4c86-afad-47bf293a0bbe.glb",
+  "author": "Zsky (via poly.pizza)",
+  "license": "CC-BY 3.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -1.668,
+    -0.364,
+    -1.436
+   ],
+   "max": [
+    1.932,
+    2.47,
+    1.523
+   ],
+   "size": [
+    3.6,
+    2.834,
+    2.959
+   ]
+  },
+  "size_kb": 128,
+  "meshes": 4,
+  "materials": 8,
+  "textures": 0,
+  "triangles": 1504,
+  "nodes": 5,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "BaseMissileTurret1",
+   "MiddleMissileTurret1",
+   "GunsMissileTurret1",
+   "HeadMissileTurret1"
+  ],
+  "suggested_use": "炮塔/攻城炮/固定火力"
+ },
+ {
+  "file": "zsky_plasma-turret_mmwi.glb",
+  "name": "Plasma Turret",
+  "source_url": "https://poly.pizza/m/mMWIyAyk3r",
+  "download_url": "https://static.poly.pizza/1a8070bd-875a-41ed-bf80-175b93af497b.glb",
+  "author": "Zsky (via poly.pizza)",
+  "license": "CC-BY 3.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -1.622,
+    -0.162,
+    -1.622
+   ],
+   "max": [
+    1.622,
+    2.678,
+    2.114
+   ],
+   "size": [
+    3.245,
+    2.84,
+    3.737
+   ]
+  },
+  "size_kb": 194,
+  "meshes": 6,
+  "materials": 12,
+  "textures": 0,
+  "triangles": 2248,
+  "nodes": 7,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "BasePlasmaTurret1",
+   "MiddlePlasmaTurret1",
+   "PlasmaAmmoPlasmaTurret1",
+   "StoragePlasmaTurret1",
+   "GunPlasmaTurret1",
+   "LaserSightPlasmaTurret1"
+  ],
+  "suggested_use": "炮塔/攻城炮/固定火力"
+ },
+ {
+  "file": "zsky_rail-gun-turret_dbgp.glb",
+  "name": "Rail Gun Turret",
+  "source_url": "https://poly.pizza/m/DBGpNVmh40",
+  "download_url": "https://static.poly.pizza/6b217365-f8c0-4c84-b8ea-285160a4f4aa.glb",
+  "author": "Zsky (via poly.pizza)",
+  "license": "CC-BY 3.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -1.398,
+    -0.337,
+    -1.432
+   ],
+   "max": [
+    1.398,
+    2.565,
+    3.118
+   ],
+   "size": [
+    2.796,
+    2.901,
+    4.55
+   ]
+  },
+  "size_kb": 81,
+  "meshes": 4,
+  "materials": 9,
+  "textures": 0,
+  "triangles": 802,
+  "nodes": 5,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "BaseRailGunTurret1",
+   "MidleRailGunTurret1",
+   "GunRailGunTurret1",
+   "StorageGunTurret1"
+  ],
+  "suggested_use": "炮塔/攻城炮/固定火力"
+ },
+ {
+  "file": "zsky_tank_7gg1.glb",
+  "name": "Tank",
+  "source_url": "https://poly.pizza/m/7GG1xDtc8l",
+  "download_url": "https://static.poly.pizza/a79322fd-93b8-42bf-a261-b4e639f6270d.glb",
+  "author": "Zsky (via poly.pizza)",
+  "license": "CC-BY 3.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.944,
+    -0.539,
+    -2.282
+   ],
+   "max": [
+    0.922,
+    1.071,
+    2.281
+   ],
+   "size": [
+    1.866,
+    1.61,
+    4.563
+   ]
+  },
+  "size_kb": 185,
+  "meshes": 1,
+  "materials": 7,
+  "textures": 0,
+  "triangles": 2796,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "Super_Tank"
+  ],
+  "suggested_use": "坦克/重型地面单位增援"
+ },
+ {
+  "file": "zsky_truck_ewp0.glb",
+  "name": "Truck",
+  "source_url": "https://poly.pizza/m/EWp0hGvZPV",
+  "download_url": "https://static.poly.pizza/4fc41081-2a2a-4b9e-9200-5111f5b40bf7.glb",
+  "author": "Zsky (via poly.pizza)",
+  "license": "CC-BY 3.0",
+  "animations": [],
+  "bbox": {
+   "min": [
+    -0.966,
+    -0.861,
+    -2.593
+   ],
+   "max": [
+    0.97,
+    1.367,
+    1.838
+   ],
+   "size": [
+    1.936,
+    2.228,
+    4.431
+   ]
+  },
+  "size_kb": 128,
+  "meshes": 1,
+  "materials": 7,
+  "textures": 0,
+  "triangles": 1820,
+  "nodes": 2,
+  "skinned": false,
+  "node_names": [
+   "RootNode",
+   "Scout_Car"
+  ],
+  "suggested_use": "运输船/运输车"
+ }
+]
